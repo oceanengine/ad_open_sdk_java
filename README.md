@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 0.0.1
-  - Build date: 2023-08-01T11:34:33.660+08:00[Asia/Shanghai]
+- API version: 0.0.6
+  - Build date: 2023-08-01T15:20:00.039+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -134,6 +134,7 @@ Class | Method | HTTP request | Description
 *PromotionDeleteV30Api* | [**openApiV30PromotionDeletePost**](docs/PromotionDeleteV30Api.md#openApiV30PromotionDeletePost) | **POST** /open_api/v3.0/promotion/delete/ | 
 *PromotionListV30Api* | [**openApiV30PromotionListGet**](docs/PromotionListV30Api.md#openApiV30PromotionListGet) | **GET** /open_api/v3.0/promotion/list/ | 
 *PromotionRejectReasonGetV30Api* | [**openApiV30PromotionRejectReasonGetGet**](docs/PromotionRejectReasonGetV30Api.md#openApiV30PromotionRejectReasonGetGet) | **GET** /open_api/v3.0/promotion/reject_reason/get/ | 
+*PromotionScheduleTimeUpdateV30Api* | [**openApiV30PromotionScheduleTimeUpdatePost**](docs/PromotionScheduleTimeUpdateV30Api.md#openApiV30PromotionScheduleTimeUpdatePost) | **POST** /open_api/v3.0/promotion/schedule_time/update/ | 
 *PromotionStatusUpdateV30Api* | [**openApiV30PromotionStatusUpdatePost**](docs/PromotionStatusUpdateV30Api.md#openApiV30PromotionStatusUpdatePost) | **POST** /open_api/v3.0/promotion/status/update/ | 
 *PromotionUpdateV30Api* | [**openApiV30PromotionUpdatePost**](docs/PromotionUpdateV30Api.md#openApiV30PromotionUpdatePost) | **POST** /open_api/v3.0/promotion/update/ | 
 *ReportCustomConfigGetV30Api* | [**openApiV30ReportCustomConfigGetGet**](docs/ReportCustomConfigGetV30Api.md#openApiV30ReportCustomConfigGetGet) | **GET** /open_api/v3.0/report/custom/config/get/ | 

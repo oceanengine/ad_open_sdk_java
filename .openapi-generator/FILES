@@ -1,6 +1,5 @@
 .github/workflows/maven.yml
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 LICENSE
 README.md
@@ -50,6 +49,7 @@ src/main/java/com/bytedance/ads/api/PromotionDeepbidUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/PromotionDeleteV30Api.java
 src/main/java/com/bytedance/ads/api/PromotionListV30Api.java
 src/main/java/com/bytedance/ads/api/PromotionRejectReasonGetV30Api.java
+src/main/java/com/bytedance/ads/api/PromotionScheduleTimeUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/PromotionStatusUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/PromotionUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/ReportCustomConfigGetV30Api.java
@@ -92,6 +92,7 @@ src/main/java/com/bytedance/ads/examples/PromotionDeepbidUpdateV30ApiExample.jav
 src/main/java/com/bytedance/ads/examples/PromotionDeleteV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/PromotionListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/PromotionRejectReasonGetV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/PromotionScheduleTimeUpdateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/PromotionStatusUpdateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/PromotionUpdateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ReportCustomConfigGetV30ApiExample.java
@@ -538,6 +539,10 @@ src/main/java/com/bytedance/ads/model/PromotionRejectReasonGetV30ResponseData.ja
 src/main/java/com/bytedance/ads/model/PromotionRejectReasonGetV30ResponseDataListInner.java
 src/main/java/com/bytedance/ads/model/PromotionRejectReasonGetV30ResponseDataListInnerMaterialRejectInner.java
 src/main/java/com/bytedance/ads/model/PromotionRejectReasonGetV30ResponseDataListInnerPromotionRejectInner.java
+src/main/java/com/bytedance/ads/model/PromotionScheduleTimeUpdateV30Request.java
+src/main/java/com/bytedance/ads/model/PromotionScheduleTimeUpdateV30RequestDataInner.java
+src/main/java/com/bytedance/ads/model/PromotionScheduleTimeUpdateV30Response.java
+src/main/java/com/bytedance/ads/model/PromotionScheduleTimeUpdateV30ResponseData.java
 src/main/java/com/bytedance/ads/model/PromotionStatusUpdateV30DataOptStatus.java
 src/main/java/com/bytedance/ads/model/PromotionStatusUpdateV30Request.java
 src/main/java/com/bytedance/ads/model/PromotionStatusUpdateV30RequestDataInner.java
