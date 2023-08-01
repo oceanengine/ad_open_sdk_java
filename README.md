@@ -2,14 +2,35 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 0.0.6
-  - Build date: 2023-08-01T15:20:00.039+08:00[Asia/Shanghai]
+- API version: 0.0.7
+  - Build date: 2023-08-01T18:09:26.254+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
 2. 使用SDK需要先拥有API的访问权限，所有SDK的使用与应用拥有的权限组相关联
 
 ## 安装
+
+> jar包所在的maven仓库：https://artifact.bytedance.com/repository/releases/
+
+在项目的pom文件添加如下代码，即可获取最新的jar包
+```
+<dependencies>
+    <dependency>
+        <groupId>org.openapitools</groupId>
+        <artifactId>oceanengine-mapi-java-client</artifactId>
+        <version>LATEST</version>
+    </dependency>
+</dependencies>
+<repositories>
+    <repository>
+        <id>OceanengineOpenApi</id>
+        <name>ad_open_sdk_java</name>
+        <layout>default</layout>
+        <url>https://artifact.bytedance.com/repository/releases/</url>
+    </repository>
+</repositories>
+```
 
 ## 使用
 > 目前SDK支持巨量广告升级版的创编、数据报表、dou+相关接口，如需其他接口支持，请联系运营同学or加入SDK使用沟通群
