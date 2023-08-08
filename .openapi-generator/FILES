@@ -449,6 +449,7 @@ src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestKeywordsInner.jav
 src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestNativeSetting.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterials.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterialsAnchorMaterialListInner.java
+src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterialsCarouselMaterialListInner.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterialsComponentMaterialListInner.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterialsDecorationMaterial.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterialsImageMaterialListInner.java
@@ -486,6 +487,7 @@ src/main/java/com/bytedance/ads/model/PromotionListV30DataListNativeSettingAncho
 src/main/java/com/bytedance/ads/model/PromotionListV30DataListNativeSettingIsFeedAndFavSee.java
 src/main/java/com/bytedance/ads/model/PromotionListV30DataListOptStatus.java
 src/main/java/com/bytedance/ads/model/PromotionListV30DataListPromotionMaterialsAnchorMaterialListAnchorType.java
+src/main/java/com/bytedance/ads/model/PromotionListV30DataListPromotionMaterialsCarouselMaterialListMaterialStatus.java
 src/main/java/com/bytedance/ads/model/PromotionListV30DataListPromotionMaterialsDecorationMaterialImageMode.java
 src/main/java/com/bytedance/ads/model/PromotionListV30DataListPromotionMaterialsDynamicCreativeSwitch.java
 src/main/java/com/bytedance/ads/model/PromotionListV30DataListPromotionMaterialsImageMaterialListImageMode.java
@@ -519,6 +521,8 @@ src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerMater
 src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerNativeSetting.java
 src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterials.java
 src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsAnchorMaterialListInner.java
+src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsCarouselMaterialListInner.java
+src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsCarouselMaterialListInnerImageSubjectsInner.java
 src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsComponentMaterialListInner.java
 src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsDecorationMaterial.java
 src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsImageMaterialListInner.java
