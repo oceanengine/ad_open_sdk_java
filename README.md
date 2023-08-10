@@ -19,7 +19,7 @@
     <dependency>
         <groupId>org.openapitools</groupId>
         <artifactId>oceanengine-mapi-java-client</artifactId>
-        <version>LATEST</version>
+        <version>[0.0.1,)</version>
     </dependency>
 </dependencies>
 <repositories>
