@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.0.0
-  - Build date: 2023-09-12T21:46:42.940450772+08:00[Asia/Shanghai]
+- API version: 1.0.1
+  - Build date: 2023-09-18T11:13:59.161423804+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -154,7 +154,6 @@ Class | Method | HTTP request | Description
 *AdvertiserDeliveryQualificationListV30Api* | [**openApiV30AdvertiserDeliveryQualificationListGet**](docs/AdvertiserDeliveryQualificationListV30Api.md#openApiV30AdvertiserDeliveryQualificationListGet) | **GET** /open_api/v3.0/advertiser/delivery_qualification/list/ | 
 *AdvertiserDeliveryQualificationSubmitV30Api* | [**openApiV30AdvertiserDeliveryQualificationSubmitPost**](docs/AdvertiserDeliveryQualificationSubmitV30Api.md#openApiV30AdvertiserDeliveryQualificationSubmitPost) | **POST** /open_api/v3.0/advertiser/delivery_qualification/submit/ | 
 *AdvertiserFundDailyStatV2Api* | [**openApi2AdvertiserFundDailyStatGet**](docs/AdvertiserFundDailyStatV2Api.md#openApi2AdvertiserFundDailyStatGet) | **GET** /open_api/2/advertiser/fund/daily_stat/ | 
-*AdvertiserFundGetV2Api* | [**openApi2AdvertiserFundGetGet**](docs/AdvertiserFundGetV2Api.md#openApi2AdvertiserFundGetGet) | **GET** /open_api/2/advertiser/fund/get/ | 
 *AdvertiserFundTransactionGetV2Api* | [**openApi2AdvertiserFundTransactionGetGet**](docs/AdvertiserFundTransactionGetV2Api.md#openApi2AdvertiserFundTransactionGetGet) | **GET** /open_api/2/advertiser/fund/transaction/get/ | 
 *AdvertiserInfoV2Api* | [**openApi2AdvertiserInfoGet**](docs/AdvertiserInfoV2Api.md#openApi2AdvertiserInfoGet) | **GET** /open_api/2/advertiser/info/ | 
 *AdvertiserPublicInfoV2Api* | [**openApi2AdvertiserPublicInfoGet**](docs/AdvertiserPublicInfoV2Api.md#openApi2AdvertiserPublicInfoGet) | **GET** /open_api/2/advertiser/public_info/ | 
@@ -178,7 +177,6 @@ Class | Method | HTTP request | Description
 *AsyncTaskCreateV2Api* | [**openApi2AsyncTaskCreatePost**](docs/AsyncTaskCreateV2Api.md#openApi2AsyncTaskCreatePost) | **POST** /open_api/2/async_task/create/ | 
 *AsyncTaskDownloadV2Api* | [**openApi2AsyncTaskDownloadGet**](docs/AsyncTaskDownloadV2Api.md#openApi2AsyncTaskDownloadGet) | **GET** /open_api/2/async_task/download/ | 
 *AsyncTaskGetV2Api* | [**openApi2AsyncTaskGetGet**](docs/AsyncTaskGetV2Api.md#openApi2AsyncTaskGetGet) | **GET** /open_api/2/async_task/get/ | 
-*AudiencePackageCreateV2Api* | [**openApi2AudiencePackageCreatePost**](docs/AudiencePackageCreateV2Api.md#openApi2AudiencePackageCreatePost) | **POST** /open_api/2/audience_package/create/ | 
 *AudiencePackageDeleteV2Api* | [**openApi2AudiencePackageDeletePost**](docs/AudiencePackageDeleteV2Api.md#openApi2AudiencePackageDeletePost) | **POST** /open_api/2/audience_package/delete/ | 
 *AudiencePackageUpdateV2Api* | [**openApi2AudiencePackageUpdatePost**](docs/AudiencePackageUpdateV2Api.md#openApi2AudiencePackageUpdatePost) | **POST** /open_api/2/audience_package/update/ | 
 *BusinessPlatformCompanyAccountGetV30Api* | [**openApiV30BusinessPlatformCompanyAccountGetGet**](docs/BusinessPlatformCompanyAccountGetV30Api.md#openApiV30BusinessPlatformCompanyAccountGetGet) | **GET** /open_api/v3.0/business_platform/company_account/get/ | 
@@ -208,7 +206,6 @@ Class | Method | HTTP request | Description
 *ClueWechatInstanceUpdateV2Api* | [**openApi2ClueWechatInstanceUpdatePost**](docs/ClueWechatInstanceUpdateV2Api.md#openApi2ClueWechatInstanceUpdatePost) | **POST** /open_api/2/clue/wechat_instance/update/ | 
 *ClueWechatPoolListV2Api* | [**openApi2ClueWechatPoolListGet**](docs/ClueWechatPoolListV2Api.md#openApi2ClueWechatPoolListGet) | **GET** /open_api/2/clue/wechat_pool/list/ | 
 *CreativeStrategyListV2Api* | [**openApi2CreativeStrategyListGet**](docs/CreativeStrategyListV2Api.md#openApi2CreativeStrategyListGet) | **GET** /open_api/2/creative/strategy/list/ | 
-*CustomerCenterAdvertiserListV2Api* | [**openApi2CustomerCenterAdvertiserListGet**](docs/CustomerCenterAdvertiserListV2Api.md#openApi2CustomerCenterAdvertiserListGet) | **GET** /open_api/2/customer_center/advertiser/list/ | 
 *CustomerCenterAdvertiserTransferableListV2Api* | [**openApi2CustomerCenterAdvertiserTransferableListGet**](docs/CustomerCenterAdvertiserTransferableListV2Api.md#openApi2CustomerCenterAdvertiserTransferableListGet) | **GET** /open_api/2/customer_center/advertiser/transferable/list/ | 
 *CustomerCenterFundTransferSeqCommitV2Api* | [**openApi2CustomerCenterFundTransferSeqCommitPost**](docs/CustomerCenterFundTransferSeqCommitV2Api.md#openApi2CustomerCenterFundTransferSeqCommitPost) | **POST** /open_api/2/customer_center/fund/transfer_seq/commit/ | 
 *DecorationCouponGetV30Api* | [**openApiV30DecorationCouponGetGet**](docs/DecorationCouponGetV30Api.md#openApiV30DecorationCouponGetGet) | **GET** /open_api/v3.0/decoration/coupon/get/ | 
@@ -219,7 +216,6 @@ Class | Method | HTTP request | Description
 *DmpCustomAudiencePushV2V2Api* | [**openApi2DmpCustomAudiencePushV2Post**](docs/DmpCustomAudiencePushV2V2Api.md#openApi2DmpCustomAudiencePushV2Post) | **POST** /open_api/2/dmp/custom_audience/push_v2/ | 
 *DmpCustomAudienceReadV2Api* | [**openApi2DmpCustomAudienceReadGet**](docs/DmpCustomAudienceReadV2Api.md#openApi2DmpCustomAudienceReadGet) | **GET** /open_api/2/dmp/custom_audience/read/ | 
 *DmpCustomAudienceSelectV2Api* | [**openApi2DmpCustomAudienceSelectGet**](docs/DmpCustomAudienceSelectV2Api.md#openApi2DmpCustomAudienceSelectGet) | **GET** /open_api/2/dmp/custom_audience/select/ | 
-*DmpDataSourceCreateV2Api* | [**openApi2DmpDataSourceCreatePost**](docs/DmpDataSourceCreateV2Api.md#openApi2DmpDataSourceCreatePost) | **POST** /open_api/2/dmp/data_source/create/ | 
 *DmpDataSourceReadV2Api* | [**openApi2DmpDataSourceReadGet**](docs/DmpDataSourceReadV2Api.md#openApi2DmpDataSourceReadGet) | **GET** /open_api/2/dmp/data_source/read/ | 
 *DmpDataSourceUpdateV2Api* | [**openApi2DmpDataSourceUpdatePost**](docs/DmpDataSourceUpdateV2Api.md#openApi2DmpDataSourceUpdatePost) | **POST** /open_api/2/dmp/data_source/update/ | 
 *DouplusOrderListV30Api* | [**openApiV30DouplusOrderListGet**](docs/DouplusOrderListV30Api.md#openApiV30DouplusOrderListGet) | **GET** /open_api/v3.0/douplus/order/list/ | 
@@ -240,14 +236,10 @@ Class | Method | HTTP request | Description
 *DpaVideoGetV2Api* | [**openApi2DpaVideoGetGet**](docs/DpaVideoGetV2Api.md#openApi2DpaVideoGetGet) | **GET** /open_api/2/dpa/video/get/ | 
 *EnterpriseBindListGetV10Api* | [**openApiV10EnterpriseBindListGetGet**](docs/EnterpriseBindListGetV10Api.md#openApiV10EnterpriseBindListGetGet) | **GET** /open_api/v1.0/enterprise/bind/list/get/ | 
 *EnterpriseCommentDetailV10Api* | [**openApiV10EnterpriseCommentDetailGet**](docs/EnterpriseCommentDetailV10Api.md#openApiV10EnterpriseCommentDetailGet) | **GET** /open_api/v1.0/enterprise/comment/detail/ | 
-*EnterpriseCommentListGetV10Api* | [**openApiV10EnterpriseCommentListGetGet**](docs/EnterpriseCommentListGetV10Api.md#openApiV10EnterpriseCommentListGetGet) | **GET** /open_api/v1.0/enterprise/comment/list/get/ | 
 *EnterpriseCommentReplyListV10Api* | [**openApiV10EnterpriseCommentReplyListGet**](docs/EnterpriseCommentReplyListV10Api.md#openApiV10EnterpriseCommentReplyListGet) | **GET** /open_api/v1.0/enterprise/comment/reply/list/ | 
 *EnterpriseCommentReplyV10Api* | [**openApiV10EnterpriseCommentReplyPost**](docs/EnterpriseCommentReplyV10Api.md#openApiV10EnterpriseCommentReplyPost) | **POST** /open_api/v1.0/enterprise/comment/reply/ | 
-*EnterpriseFlowCategoryGetV10Api* | [**openApiV10EnterpriseFlowCategoryGetGet**](docs/EnterpriseFlowCategoryGetV10Api.md#openApiV10EnterpriseFlowCategoryGetGet) | **GET** /open_api/v1.0/enterprise/flow/category/get/ | 
 *EnterpriseItemListV10Api* | [**openApiV10EnterpriseItemListGet**](docs/EnterpriseItemListV10Api.md#openApiV10EnterpriseItemListGet) | **GET** /open_api/v1.0/enterprise/item/list/ | 
 *EnterpriseOperationLogGetV10Api* | [**openApiV10EnterpriseOperationLogGetGet**](docs/EnterpriseOperationLogGetV10Api.md#openApiV10EnterpriseOperationLogGetGet) | **GET** /open_api/v1.0/enterprise/operation/log/get/ | 
-*EnterpriseOverviewDataGetV10Api* | [**openApiV10EnterpriseOverviewDataGetGet**](docs/EnterpriseOverviewDataGetV10Api.md#openApiV10EnterpriseOverviewDataGetGet) | **GET** /open_api/v1.0/enterprise/overview/data/get/ | 
-*EnterpriseVideoInfoGetV10Api* | [**openApiV10EnterpriseVideoInfoGetGet**](docs/EnterpriseVideoInfoGetV10Api.md#openApiV10EnterpriseVideoInfoGetGet) | **GET** /open_api/v1.0/enterprise/video/info/get/ | 
 *EventManagerAssetsCreateV2Api* | [**openApi2EventManagerAssetsCreatePost**](docs/EventManagerAssetsCreateV2Api.md#openApi2EventManagerAssetsCreatePost) | **POST** /open_api/2/event_manager/assets/create/ | 
 *EventManagerAvailableEventsGetV2Api* | [**openApi2EventManagerAvailableEventsGetGet**](docs/EventManagerAvailableEventsGetV2Api.md#openApi2EventManagerAvailableEventsGetGet) | **GET** /open_api/2/event_manager/available_events/get/ | 
 *EventManagerDeepBidTypeGetV30Api* | [**openApiV30EventManagerDeepBidTypeGetGet**](docs/EventManagerDeepBidTypeGetV30Api.md#openApiV30EventManagerDeepBidTypeGetGet) | **GET** /open_api/v3.0/event_manager/deep_bid_type/get/ | 
@@ -365,28 +357,18 @@ Class | Method | HTTP request | Description
 *QianchuanUniAwemeAuthorizedGetV10Api* | [**openApiV10QianchuanUniAwemeAuthorizedGetGet**](docs/QianchuanUniAwemeAuthorizedGetV10Api.md#openApiV10QianchuanUniAwemeAuthorizedGetGet) | **GET** /open_api/v1.0/qianchuan/uni_aweme/authorized/get/ | 
 *QianchuanUniPromotionListV10Api* | [**openApiV10QianchuanUniPromotionListGet**](docs/QianchuanUniPromotionListV10Api.md#openApiV10QianchuanUniPromotionListGet) | **GET** /open_api/v1.0/qianchuan/uni_promotion/list/ | 
 *QianchuanVideoGetV10Api* | [**openApiV10QianchuanVideoGetGet**](docs/QianchuanVideoGetV10Api.md#openApiV10QianchuanVideoGetGet) | **GET** /open_api/v1.0/qianchuan/video/get/ | 
-*ReportAdGetV2Api* | [**openApi2ReportAdGetGet**](docs/ReportAdGetV2Api.md#openApi2ReportAdGetGet) | **GET** /open_api/2/report/ad/get/ | 
-*ReportAdvertiserGetV2Api* | [**openApi2ReportAdvertiserGetGet**](docs/ReportAdvertiserGetV2Api.md#openApi2ReportAdvertiserGetGet) | **GET** /open_api/2/report/advertiser/get/ | 
 *ReportAgentGetV2V2Api* | [**openApi2ReportAgentGetV2Get**](docs/ReportAgentGetV2V2Api.md#openApi2ReportAgentGetV2Get) | **GET** /open_api/2/report/agent/get_v2/ | 
 *ReportAudienceAgeV2Api* | [**openApi2ReportAudienceAgeGet**](docs/ReportAudienceAgeV2Api.md#openApi2ReportAudienceAgeGet) | **GET** /open_api/2/report/audience/age/ | 
-*ReportAudienceAwemeListV2Api* | [**openApi2ReportAudienceAwemeListGet**](docs/ReportAudienceAwemeListV2Api.md#openApi2ReportAudienceAwemeListGet) | **GET** /open_api/2/report/audience/aweme/list/ | 
 *ReportAudienceCityV2Api* | [**openApi2ReportAudienceCityGet**](docs/ReportAudienceCityV2Api.md#openApi2ReportAudienceCityGet) | **GET** /open_api/2/report/audience/city/ | 
 *ReportAudienceGenderV2Api* | [**openApi2ReportAudienceGenderGet**](docs/ReportAudienceGenderV2Api.md#openApi2ReportAudienceGenderGet) | **GET** /open_api/2/report/audience/gender/ | 
-*ReportAudienceInterestActionListV2Api* | [**openApi2ReportAudienceInterestActionListGet**](docs/ReportAudienceInterestActionListV2Api.md#openApi2ReportAudienceInterestActionListGet) | **GET** /open_api/2/report/audience/interest_action/list/ | 
 *ReportAudienceProvinceV2Api* | [**openApi2ReportAudienceProvinceGet**](docs/ReportAudienceProvinceV2Api.md#openApi2ReportAudienceProvinceGet) | **GET** /open_api/2/report/audience/province/ | 
-*ReportCampaignGetV2Api* | [**openApi2ReportCampaignGetGet**](docs/ReportCampaignGetV2Api.md#openApi2ReportCampaignGetGet) | **GET** /open_api/2/report/campaign/get/ | 
-*ReportCreativeGetV2Api* | [**openApi2ReportCreativeGetGet**](docs/ReportCreativeGetV2Api.md#openApi2ReportCreativeGetGet) | **GET** /open_api/2/report/creative/get/ | 
 *ReportCustomConfigGetV30Api* | [**openApiV30ReportCustomConfigGetGet**](docs/ReportCustomConfigGetV30Api.md#openApiV30ReportCustomConfigGetGet) | **GET** /open_api/v3.0/report/custom/config/get/ | 
 *ReportCustomGetV30Api* | [**openApiV30ReportCustomGetGet**](docs/ReportCustomGetV30Api.md#openApiV30ReportCustomGetGet) | **GET** /open_api/v3.0/report/custom/get/ | 
-*ReportLiveRoomAnalysisGetV2Api* | [**openApi2ReportLiveRoomAnalysisGetGet**](docs/ReportLiveRoomAnalysisGetV2Api.md#openApi2ReportLiveRoomAnalysisGetGet) | **GET** /open_api/2/report/live_room/analysis/get/ | 
 *ReportLiveRoomAttributeGetV2Api* | [**openApi2ReportLiveRoomAttributeGetGet**](docs/ReportLiveRoomAttributeGetV2Api.md#openApi2ReportLiveRoomAttributeGetGet) | **GET** /open_api/2/report/live_room/attribute/get/ | 
 *ReportLiveRoomAudiencePortraitGetV2Api* | [**openApi2ReportLiveRoomAudiencePortraitGetGet**](docs/ReportLiveRoomAudiencePortraitGetV2Api.md#openApi2ReportLiveRoomAudiencePortraitGetGet) | **GET** /open_api/2/report/live_room/audience/portrait/get/ | 
-*ReportLiveRoomFlowCategoryGetV2Api* | [**openApi2ReportLiveRoomFlowCategoryGetGet**](docs/ReportLiveRoomFlowCategoryGetV2Api.md#openApi2ReportLiveRoomFlowCategoryGetGet) | **GET** /open_api/2/report/live_room/flow_category/get/ | 
-*ReportLiveRoomProductGetV2Api* | [**openApi2ReportLiveRoomProductGetGet**](docs/ReportLiveRoomProductGetV2Api.md#openApi2ReportLiveRoomProductGetGet) | **GET** /open_api/2/report/live_room/product/get/ | 
 *ReportRtaExpGetV2Api* | [**openApi2ReportRtaExpGetGet**](docs/ReportRtaExpGetV2Api.md#openApi2ReportRtaExpGetGet) | **GET** /open_api/2/report/rta_exp/get/ | 
 *ReportRtaExpLocalDailyGetV30Api* | [**openApiV30ReportRtaExpLocalDailyGetGet**](docs/ReportRtaExpLocalDailyGetV30Api.md#openApiV30ReportRtaExpLocalDailyGetGet) | **GET** /open_api/v3.0/report/rta_exp_local_daily/get/ | 
 *ReportRtaExpLocalHourlyGetV30Api* | [**openApiV30ReportRtaExpLocalHourlyGetGet**](docs/ReportRtaExpLocalHourlyGetV30Api.md#openApiV30ReportRtaExpLocalHourlyGetGet) | **GET** /open_api/v3.0/report/rta_exp_local_hourly/get/ | 
-*ReportRubeexGetV2Api* | [**openApi2ReportRubeexGetGet**](docs/ReportRubeexGetV2Api.md#openApi2ReportRubeexGetGet) | **GET** /open_api/2/report/rubeex/get/ | 
 *ReportSitePageV2Api* | [**openApi2ReportSitePageGet**](docs/ReportSitePageV2Api.md#openApi2ReportSitePageGet) | **GET** /open_api/2/report/site/page/ | 
 *ReportVideoFrameGetV2Api* | [**openApi2ReportVideoFrameGetGet**](docs/ReportVideoFrameGetV2Api.md#openApi2ReportVideoFrameGetGet) | **GET** /open_api/2/report/video/frame/get/ | 
 *SpiTaskGetV2Api* | [**openApi2SpiTaskGetGet**](docs/SpiTaskGetV2Api.md#openApi2SpiTaskGetGet) | **GET** /open_api/2/spi_task/get/ | 
@@ -409,7 +391,6 @@ Class | Method | HTTP request | Description
 *ToolsActionTextGetV2Api* | [**openApi2ToolsActionTextGetGet**](docs/ToolsActionTextGetV2Api.md#openApi2ToolsActionTextGetGet) | **GET** /open_api/2/tools/action_text/get/ | 
 *ToolsAdPreviewQrcodeGetV30Api* | [**openApiV30ToolsAdPreviewQrcodeGetGet**](docs/ToolsAdPreviewQrcodeGetV30Api.md#openApiV30ToolsAdPreviewQrcodeGetGet) | **GET** /open_api/v3.0/tools/ad_preview/qrcode_get/ | 
 *ToolsAdRaiseEstimateGetV2Api* | [**openApi2ToolsAdRaiseEstimateGetGet**](docs/ToolsAdRaiseEstimateGetV2Api.md#openApi2ToolsAdRaiseEstimateGetGet) | **GET** /open_api/2/tools/ad_raise_estimate/get/ | 
-*ToolsAdRaiseResultGetV2V2Api* | [**openApi2ToolsAdRaiseResultGetV2Get**](docs/ToolsAdRaiseResultGetV2V2Api.md#openApi2ToolsAdRaiseResultGetV2Get) | **GET** /open_api/2/tools/ad_raise_result/get_v2/ | 
 *ToolsAdRaiseStatusGetV2Api* | [**openApi2ToolsAdRaiseStatusGetGet**](docs/ToolsAdRaiseStatusGetV2Api.md#openApi2ToolsAdRaiseStatusGetGet) | **GET** /open_api/2/tools/ad_raise_status/get/ | 
 *ToolsAdRaiseVersionGetV2Api* | [**openApi2ToolsAdRaiseVersionGetGet**](docs/ToolsAdRaiseVersionGetV2Api.md#openApi2ToolsAdRaiseVersionGetGet) | **GET** /open_api/2/tools/ad_raise_version/get/ | 
 *ToolsAdStatExtraInfoGetV2Api* | [**openApi2ToolsAdStatExtraInfoGetGet**](docs/ToolsAdStatExtraInfoGetV2Api.md#openApi2ToolsAdStatExtraInfoGetGet) | **GET** /open_api/2/tools/ad_stat_extra_info/get/ | 
@@ -425,11 +406,9 @@ Class | Method | HTTP request | Description
 *ToolsAppManagementBpShareV2Api* | [**openApi2ToolsAppManagementBpSharePost**](docs/ToolsAppManagementBpShareV2Api.md#openApi2ToolsAppManagementBpSharePost) | **POST** /open_api/2/tools/app_management/bp_share/ | 
 *ToolsAppManagementExtendPackageCreateV2Api* | [**openApi2ToolsAppManagementExtendPackageCreatePost**](docs/ToolsAppManagementExtendPackageCreateV2Api.md#openApi2ToolsAppManagementExtendPackageCreatePost) | **POST** /open_api/2/tools/app_management/extend_package/create/ | 
 *ToolsAppManagementExtendPackageCreateV2V2Api* | [**openApi2ToolsAppManagementExtendPackageCreateV2Post**](docs/ToolsAppManagementExtendPackageCreateV2V2Api.md#openApi2ToolsAppManagementExtendPackageCreateV2Post) | **POST** /open_api/2/tools/app_management/extend_package/create_v2/ | 
-*ToolsAppManagementExtendPackageListV2Api* | [**openApi2ToolsAppManagementExtendPackageListGet**](docs/ToolsAppManagementExtendPackageListV2Api.md#openApi2ToolsAppManagementExtendPackageListGet) | **GET** /open_api/2/tools/app_management/extend_package/list/ | 
 *ToolsAppManagementExtendPackageListV2V2Api* | [**openApi2ToolsAppManagementExtendPackageListV2Get**](docs/ToolsAppManagementExtendPackageListV2V2Api.md#openApi2ToolsAppManagementExtendPackageListV2Get) | **GET** /open_api/2/tools/app_management/extend_package/list_v2/ | 
 *ToolsAppManagementExtendPackageUpdateV2Api* | [**openApi2ToolsAppManagementExtendPackageUpdatePost**](docs/ToolsAppManagementExtendPackageUpdateV2Api.md#openApi2ToolsAppManagementExtendPackageUpdatePost) | **POST** /open_api/2/tools/app_management/extend_package/update/ | 
 *ToolsAppManagementIndustryInfoListV2Api* | [**openApi2ToolsAppManagementIndustryInfoListGet**](docs/ToolsAppManagementIndustryInfoListV2Api.md#openApi2ToolsAppManagementIndustryInfoListGet) | **GET** /open_api/2/tools/app_management/industry_info/list/ | 
-*ToolsAppManagementShareAccountListV2Api* | [**openApi2ToolsAppManagementShareAccountListGet**](docs/ToolsAppManagementShareAccountListV2Api.md#openApi2ToolsAppManagementShareAccountListGet) | **GET** /open_api/2/tools/app_management/share_account/list/ | 
 *ToolsAppManagementUpdateAuthorizationV2Api* | [**openApi2ToolsAppManagementUpdateAuthorizationPost**](docs/ToolsAppManagementUpdateAuthorizationV2Api.md#openApi2ToolsAppManagementUpdateAuthorizationPost) | **POST** /open_api/2/tools/app_management/update/authorization/ | 
 *ToolsAppManagementUploadTaskCreateV2Api* | [**openApi2ToolsAppManagementUploadTaskCreatePost**](docs/ToolsAppManagementUploadTaskCreateV2Api.md#openApi2ToolsAppManagementUploadTaskCreatePost) | **POST** /open_api/2/tools/app_management/upload_task/create/ | 
 *ToolsAppManagementUploadTaskListV2Api* | [**openApi2ToolsAppManagementUploadTaskListGet**](docs/ToolsAppManagementUploadTaskListV2Api.md#openApi2ToolsAppManagementUploadTaskListGet) | **GET** /open_api/2/tools/app_management/upload_task/list/ | 
@@ -470,7 +449,6 @@ Class | Method | HTTP request | Description
 *ToolsEventAssetsGetV2Api* | [**openApi2ToolsEventAssetsGetGet**](docs/ToolsEventAssetsGetV2Api.md#openApi2ToolsEventAssetsGetGet) | **GET** /open_api/2/tools/event/assets/get/ | 
 *ToolsGrayGetV30Api* | [**openApiV30ToolsGrayGetGet**](docs/ToolsGrayGetV30Api.md#openApiV30ToolsGrayGetGet) | **GET** /open_api/v3.0/tools/gray/get/ | 
 *ToolsIesAccountSearchV2Api* | [**openApi2ToolsIesAccountSearchGet**](docs/ToolsIesAccountSearchV2Api.md#openApi2ToolsIesAccountSearchGet) | **GET** /open_api/2/tools/ies_account_search/ | 
-*ToolsIndustryGetV2Api* | [**openApi2ToolsIndustryGetGet**](docs/ToolsIndustryGetV2Api.md#openApi2ToolsIndustryGetGet) | **GET** /open_api/2/tools/industry/get/ | 
 *ToolsInterestActionActionCategoryV2Api* | [**openApi2ToolsInterestActionActionCategoryGet**](docs/ToolsInterestActionActionCategoryV2Api.md#openApi2ToolsInterestActionActionCategoryGet) | **GET** /open_api/2/tools/interest_action/action/category/ | 
 *ToolsInterestActionActionKeywordV2Api* | [**openApi2ToolsInterestActionActionKeywordGet**](docs/ToolsInterestActionActionKeywordV2Api.md#openApi2ToolsInterestActionActionKeywordGet) | **GET** /open_api/2/tools/interest_action/action/keyword/ | 
 *ToolsInterestActionId2wordV2Api* | [**openApi2ToolsInterestActionId2wordGet**](docs/ToolsInterestActionId2wordV2Api.md#openApi2ToolsInterestActionId2wordGet) | **GET** /open_api/2/tools/interest_action/id2word/ | 
@@ -500,7 +478,6 @@ Class | Method | HTTP request | Description
 *ToolsPrivativeWordPromotionAddV30Api* | [**openApiV30ToolsPrivativeWordPromotionAddPost**](docs/ToolsPrivativeWordPromotionAddV30Api.md#openApiV30ToolsPrivativeWordPromotionAddPost) | **POST** /open_api/v3.0/tools/privative_word/promotion/add/ | 
 *ToolsPrivativeWordPromotionUpdateV30Api* | [**openApiV30ToolsPrivativeWordPromotionUpdatePost**](docs/ToolsPrivativeWordPromotionUpdateV30Api.md#openApiV30ToolsPrivativeWordPromotionUpdatePost) | **POST** /open_api/v3.0/tools/privative_word/promotion/update/ | 
 *ToolsPromotionCardRecommendGetV2Api* | [**openApi2ToolsPromotionCardRecommendGetGet**](docs/ToolsPromotionCardRecommendGetV2Api.md#openApi2ToolsPromotionCardRecommendGetGet) | **GET** /open_api/2/tools/promotion_card/recommend/get/ | 
-*ToolsPromotionCardRecommendTitleGetV2Api* | [**openApi2ToolsPromotionCardRecommendTitleGetGet**](docs/ToolsPromotionCardRecommendTitleGetV2Api.md#openApi2ToolsPromotionCardRecommendTitleGetGet) | **GET** /open_api/2/tools/promotion_card/recommend_title/get/ | 
 *ToolsPromotionDiagnosisSuggestionAcceptV30Api* | [**openApiV30ToolsPromotionDiagnosisSuggestionAcceptPost**](docs/ToolsPromotionDiagnosisSuggestionAcceptV30Api.md#openApiV30ToolsPromotionDiagnosisSuggestionAcceptPost) | **POST** /open_api/v3.0/tools/promotion_diagnosis/suggestion/accept/ | 
 *ToolsPromotionDiagnosisSuggestionGetV30Api* | [**openApiV30ToolsPromotionDiagnosisSuggestionGetGet**](docs/ToolsPromotionDiagnosisSuggestionGetV30Api.md#openApiV30ToolsPromotionDiagnosisSuggestionGetGet) | **GET** /open_api/v3.0/tools/promotion_diagnosis/suggestion/get/ | 
 *ToolsPromotionRaiseSetV30Api* | [**openApiV30ToolsPromotionRaiseSetPost**](docs/ToolsPromotionRaiseSetV30Api.md#openApiV30ToolsPromotionRaiseSetPost) | **POST** /open_api/v3.0/tools/promotion_raise/set/ | 
