@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.0.1
-  - Build date: 2023-09-18T11:13:59.161423804+08:00[Asia/Shanghai]
+- API version: 1.0.2
+  - Build date: 2023-09-19T16:35:40.289311957+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -208,6 +208,7 @@ Class | Method | HTTP request | Description
 *CreativeStrategyListV2Api* | [**openApi2CreativeStrategyListGet**](docs/CreativeStrategyListV2Api.md#openApi2CreativeStrategyListGet) | **GET** /open_api/2/creative/strategy/list/ | 
 *CustomerCenterAdvertiserTransferableListV2Api* | [**openApi2CustomerCenterAdvertiserTransferableListGet**](docs/CustomerCenterAdvertiserTransferableListV2Api.md#openApi2CustomerCenterAdvertiserTransferableListGet) | **GET** /open_api/2/customer_center/advertiser/transferable/list/ | 
 *CustomerCenterFundTransferSeqCommitV2Api* | [**openApi2CustomerCenterFundTransferSeqCommitPost**](docs/CustomerCenterFundTransferSeqCommitV2Api.md#openApi2CustomerCenterFundTransferSeqCommitPost) | **POST** /open_api/2/customer_center/fund/transfer_seq/commit/ | 
+*CustomerCenterFundTransferSeqCreateV2Api* | [**openApi2CustomerCenterFundTransferSeqCreatePost**](docs/CustomerCenterFundTransferSeqCreateV2Api.md#openApi2CustomerCenterFundTransferSeqCreatePost) | **POST** /open_api/2/customer_center/fund/transfer_seq/create/ | 
 *DecorationCouponGetV30Api* | [**openApiV30DecorationCouponGetGet**](docs/DecorationCouponGetV30Api.md#openApiV30DecorationCouponGetGet) | **GET** /open_api/v3.0/decoration/coupon/get/ | 
 *DmpBrandGetV2Api* | [**openApi2DmpBrandGetGet**](docs/DmpBrandGetV2Api.md#openApi2DmpBrandGetGet) | **GET** /open_api/2/dmp/brand/get/ | 
 *DmpCustomAudienceCopyV2Api* | [**openApi2DmpCustomAudienceCopyPost**](docs/DmpCustomAudienceCopyV2Api.md#openApi2DmpCustomAudienceCopyPost) | **POST** /open_api/2/dmp/custom_audience/copy/ | 

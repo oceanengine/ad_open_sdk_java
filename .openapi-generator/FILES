@@ -90,6 +90,7 @@ src/main/java/com/bytedance/ads/api/CommonReqApi.java
 src/main/java/com/bytedance/ads/api/CreativeStrategyListV2Api.java
 src/main/java/com/bytedance/ads/api/CustomerCenterAdvertiserTransferableListV2Api.java
 src/main/java/com/bytedance/ads/api/CustomerCenterFundTransferSeqCommitV2Api.java
+src/main/java/com/bytedance/ads/api/CustomerCenterFundTransferSeqCreateV2Api.java
 src/main/java/com/bytedance/ads/api/DecorationCouponGetV30Api.java
 src/main/java/com/bytedance/ads/api/DmpBrandGetV2Api.java
 src/main/java/com/bytedance/ads/api/DmpCustomAudienceCopyV2Api.java
@@ -483,6 +484,7 @@ src/main/java/com/bytedance/ads/examples/CommonReqApiExample.java
 src/main/java/com/bytedance/ads/examples/CreativeStrategyListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/CustomerCenterAdvertiserTransferableListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/CustomerCenterFundTransferSeqCommitV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/CustomerCenterFundTransferSeqCreateV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DecorationCouponGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/DmpBrandGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DmpCustomAudienceCopyV2ApiExample.java
@@ -1179,6 +1181,9 @@ src/main/java/com/bytedance/ads/model/CustomerCenterAdvertiserTransferableListV2
 src/main/java/com/bytedance/ads/model/CustomerCenterFundTransferSeqCommitV2Request.java
 src/main/java/com/bytedance/ads/model/CustomerCenterFundTransferSeqCommitV2Response.java
 src/main/java/com/bytedance/ads/model/CustomerCenterFundTransferSeqCommitV2ResponseData.java
+src/main/java/com/bytedance/ads/model/CustomerCenterFundTransferSeqCreateV2Request.java
+src/main/java/com/bytedance/ads/model/CustomerCenterFundTransferSeqCreateV2Response.java
+src/main/java/com/bytedance/ads/model/CustomerCenterFundTransferSeqCreateV2ResponseData.java
 src/main/java/com/bytedance/ads/model/DecorationCouponGetV30Filtering.java
 src/main/java/com/bytedance/ads/model/DecorationCouponGetV30Response.java
 src/main/java/com/bytedance/ads/model/DecorationCouponGetV30ResponseData.java
@@ -1340,8 +1345,10 @@ src/main/java/com/bytedance/ads/model/EnterpriseOperationLogGetV10ResponseDataLi
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2AppAssetAppCreateType.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2AppAssetAppType.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2AssetType.java
+src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2MicroAppAssetMicroAppType.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2Request.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2RequestAppAsset.java
+src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2RequestMicroAppAsset.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2RequestQuickAppAsset.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2RequestSiteAsset.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2RequestThirdPartAsset.java
