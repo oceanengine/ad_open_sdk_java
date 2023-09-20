@@ -1596,10 +1596,10 @@ src/main/java/com/bytedance/ads/model/EnterpriseVideoInfoGetV10TimeDimension.jav
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2AppAssetAppCreateType.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2AppAssetAppType.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2AssetType.java
-src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2MicroAppAssetMicroAppType.java
+src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2MiniProgramAssetMiniProgramType.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2Request.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2RequestAppAsset.java
-src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2RequestMicroAppAsset.java
+src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2RequestMiniProgramAsset.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2RequestQuickAppAsset.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2RequestSiteAsset.java
 src/main/java/com/bytedance/ads/model/EventManagerAssetsCreateV2RequestThirdPartAsset.java
@@ -2391,6 +2391,7 @@ src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataLabAdType.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataMarketingGoal.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataMarketingScene.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataOptStatus.java
+src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataProductInfoChannelType.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataProgrammaticCreativeCardPromotionCardButtonSmartOptimization.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataProgrammaticCreativeMediaListImageMode.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataProgrammaticCreativeTitleListTitleType.java
@@ -3271,7 +3272,6 @@ src/main/java/com/bytedance/ads/model/ToolsAppManagementAppGetV2PublishTime.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementAppGetV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementAppGetV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementAppGetV2ResponseDataListInner.java
-src/main/java/com/bytedance/ads/model/ToolsAppManagementAppGetV2ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementAppGetV2SearchType.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementAppGetV2Status.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementBookingGetV2CreateTime.java
@@ -3360,6 +3360,7 @@ src/main/java/com/bytedance/ads/model/ToolsAppManagementExtendPackageListV2V2Fil
 src/main/java/com/bytedance/ads/model/ToolsAppManagementExtendPackageListV2V2Response.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementExtendPackageListV2V2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementExtendPackageListV2V2ResponseDataListInner.java
+src/main/java/com/bytedance/ads/model/ToolsAppManagementExtendPackageListV2V2ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementExtendPackageUpdateV2Mode.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementExtendPackageUpdateV2Request.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementExtendPackageUpdateV2Response.java
