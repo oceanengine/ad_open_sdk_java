@@ -56,7 +56,7 @@ import com.bytedance.ads.JSON;
 /**
  * QianchuanAdDetailGetV10ResponseDataCreativeListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class QianchuanAdDetailGetV10ResponseDataCreativeListInner {
   public static final String SERIALIZED_NAME_CREATIVE_CREATE_TIME = "creative_create_time";
   @SerializedName(SERIALIZED_NAME_CREATIVE_CREATE_TIME)

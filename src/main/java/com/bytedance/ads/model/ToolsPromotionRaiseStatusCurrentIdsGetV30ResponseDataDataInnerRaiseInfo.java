@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 当前的起量信息
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class ToolsPromotionRaiseStatusCurrentIdsGetV30ResponseDataDataInnerRaiseInfo {
   public static final String SERIALIZED_NAME_RAISE_BUDGET = "raise_budget";
   @SerializedName(SERIALIZED_NAME_RAISE_BUDGET)

@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * QianchuanToolsSmartBoostAdBoostVersionGetV10ResponseDataRaiseListInfosInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class QianchuanToolsSmartBoostAdBoostVersionGetV10ResponseDataRaiseListInfosInner {
   public static final String SERIALIZED_NAME_AD_RAISE_VERSION = "ad_raise_version";
   @SerializedName(SERIALIZED_NAME_AD_RAISE_VERSION)

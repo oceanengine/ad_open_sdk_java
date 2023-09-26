@@ -53,7 +53,7 @@ import com.bytedance.ads.JSON;
 /**
  * CreativeAutoGenerateConfigV2CreateV2RequestStrategyDataInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class CreativeAutoGenerateConfigV2CreateV2RequestStrategyDataInner {
   public static final String SERIALIZED_NAME_STRATEGY_ID = "strategy_id";
   @SerializedName(SERIALIZED_NAME_STRATEGY_ID)

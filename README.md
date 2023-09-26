@@ -3,7 +3,7 @@
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
 - API version: 1.0.7
-  - Build date: 2023-09-26T12:10:18.554407341+08:00[PRC]
+  - Build date: 2023-09-26T12:40:12.070229191+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -156,9 +156,6 @@ Class | Method | HTTP request | Description
 *AdvertiserAvatarGetV2Api* | [**openApi2AdvertiserAvatarGetGet**](docs/AdvertiserAvatarGetV2Api.md#openApi2AdvertiserAvatarGetGet) | **GET** /open_api/2/advertiser/avatar/get/ | 
 *AdvertiserAvatarSubmitV2Api* | [**openApi2AdvertiserAvatarSubmitPost**](docs/AdvertiserAvatarSubmitV2Api.md#openApi2AdvertiserAvatarSubmitPost) | **POST** /open_api/2/advertiser/avatar/submit/ | 
 *AdvertiserBudgetGetV2Api* | [**openApi2AdvertiserBudgetGetGet**](docs/AdvertiserBudgetGetV2Api.md#openApi2AdvertiserBudgetGetGet) | **GET** /open_api/2/advertiser/budget/get/ | 
-*AdvertiserDeliveryPkgConfigV30Api* | [**openApiV30AdvertiserDeliveryPkgConfigGet**](docs/AdvertiserDeliveryPkgConfigV30Api.md#openApiV30AdvertiserDeliveryPkgConfigGet) | **GET** /open_api/v3.0/advertiser/delivery_pkg_config/ | 
-*AdvertiserDeliveryPkgGetV30Api* | [**openApiV30AdvertiserDeliveryPkgGetGet**](docs/AdvertiserDeliveryPkgGetV30Api.md#openApiV30AdvertiserDeliveryPkgGetGet) | **GET** /open_api/v3.0/advertiser/delivery_pkg/get/ | 
-*AdvertiserDeliveryPkgSubmitV30Api* | [**openApiV30AdvertiserDeliveryPkgSubmitPost**](docs/AdvertiserDeliveryPkgSubmitV30Api.md#openApiV30AdvertiserDeliveryPkgSubmitPost) | **POST** /open_api/v3.0/advertiser/delivery_pkg/submit/ | 
 *AdvertiserDeliveryQualificationListV30Api* | [**openApiV30AdvertiserDeliveryQualificationListGet**](docs/AdvertiserDeliveryQualificationListV30Api.md#openApiV30AdvertiserDeliveryQualificationListGet) | **GET** /open_api/v3.0/advertiser/delivery_qualification/list/ | 
 *AdvertiserDeliveryQualificationSubmitV30Api* | [**openApiV30AdvertiserDeliveryQualificationSubmitPost**](docs/AdvertiserDeliveryQualificationSubmitV30Api.md#openApiV30AdvertiserDeliveryQualificationSubmitPost) | **POST** /open_api/v3.0/advertiser/delivery_qualification/submit/ | 
 *AdvertiserFundDailyStatV2Api* | [**openApi2AdvertiserFundDailyStatGet**](docs/AdvertiserFundDailyStatV2Api.md#openApi2AdvertiserFundDailyStatGet) | **GET** /open_api/2/advertiser/fund/daily_stat/ | 
@@ -342,8 +339,6 @@ Class | Method | HTTP request | Description
 *PromotionScheduleTimeUpdateV30Api* | [**openApiV30PromotionScheduleTimeUpdatePost**](docs/PromotionScheduleTimeUpdateV30Api.md#openApiV30PromotionScheduleTimeUpdatePost) | **POST** /open_api/v3.0/promotion/schedule_time/update/ | 
 *PromotionStatusUpdateV30Api* | [**openApiV30PromotionStatusUpdatePost**](docs/PromotionStatusUpdateV30Api.md#openApiV30PromotionStatusUpdatePost) | **POST** /open_api/v3.0/promotion/status/update/ | 
 *PromotionUpdateV30Api* | [**openApiV30PromotionUpdatePost**](docs/PromotionUpdateV30Api.md#openApiV30PromotionUpdatePost) | **POST** /open_api/v3.0/promotion/update/ | 
-*QianchuanAccountBudgetGetV10Api* | [**openApiV10QianchuanAccountBudgetGetGet**](docs/QianchuanAccountBudgetGetV10Api.md#openApiV10QianchuanAccountBudgetGetGet) | **GET** /open_api/v1.0/qianchuan/account/budget/get/ | 
-*QianchuanAccountBudgetUpdateV10Api* | [**openApiV10QianchuanAccountBudgetUpdatePost**](docs/QianchuanAccountBudgetUpdateV10Api.md#openApiV10QianchuanAccountBudgetUpdatePost) | **POST** /open_api/v1.0/qianchuan/account/budget/update/ | 
 *QianchuanAdBidUpdateV10Api* | [**openApiV10QianchuanAdBidUpdatePost**](docs/QianchuanAdBidUpdateV10Api.md#openApiV10QianchuanAdBidUpdatePost) | **POST** /open_api/v1.0/qianchuan/ad/bid/update/ | 
 *QianchuanAdBudgetUpdateV10Api* | [**openApiV10QianchuanAdBudgetUpdatePost**](docs/QianchuanAdBudgetUpdateV10Api.md#openApiV10QianchuanAdBudgetUpdatePost) | **POST** /open_api/v1.0/qianchuan/ad/budget/update/ | 
 *QianchuanAdCreateV10Api* | [**openApiV10QianchuanAdCreatePost**](docs/QianchuanAdCreateV10Api.md#openApiV10QianchuanAdCreatePost) | **POST** /open_api/v1.0/qianchuan/ad/create/ | 
@@ -384,7 +379,6 @@ Class | Method | HTTP request | Description
 *QianchuanAwemeSuggestRoiGoalV10Api* | [**openApiV10QianchuanAwemeSuggestRoiGoalGet**](docs/QianchuanAwemeSuggestRoiGoalV10Api.md#openApiV10QianchuanAwemeSuggestRoiGoalGet) | **GET** /open_api/v1.0/qianchuan/aweme/suggest/roi/goal/ | 
 *QianchuanAwemeVideoGetV10Api* | [**openApiV10QianchuanAwemeVideoGetGet**](docs/QianchuanAwemeVideoGetV10Api.md#openApiV10QianchuanAwemeVideoGetGet) | **GET** /open_api/v1.0/qianchuan/aweme/video/get/ | 
 *QianchuanBatchCampaignStatusUpdateV10Api* | [**openApiV10QianchuanBatchCampaignStatusUpdatePost**](docs/QianchuanBatchCampaignStatusUpdateV10Api.md#openApiV10QianchuanBatchCampaignStatusUpdatePost) | **POST** /open_api/v1.0/qianchuan/batch_campaign_status/update/ | 
-*QianchuanBrandAuthorizedGetV10Api* | [**openApiV10QianchuanBrandAuthorizedGetGet**](docs/QianchuanBrandAuthorizedGetV10Api.md#openApiV10QianchuanBrandAuthorizedGetGet) | **GET** /open_api/v1.0/qianchuan/brand/authorized/get/ | 
 *QianchuanCampaignCreateV10Api* | [**openApiV10QianchuanCampaignCreatePost**](docs/QianchuanCampaignCreateV10Api.md#openApiV10QianchuanCampaignCreatePost) | **POST** /open_api/v1.0/qianchuan/campaign/create/ | 
 *QianchuanCampaignListGetV10Api* | [**openApiV10QianchuanCampaignListGetGet**](docs/QianchuanCampaignListGetV10Api.md#openApiV10QianchuanCampaignListGetGet) | **GET** /open_api/v1.0/qianchuan/campaign_list/get/ | 
 *QianchuanCampaignUpdateV10Api* | [**openApiV10QianchuanCampaignUpdatePost**](docs/QianchuanCampaignUpdateV10Api.md#openApiV10QianchuanCampaignUpdatePost) | **POST** /open_api/v1.0/qianchuan/campaign/update/ | 
@@ -402,7 +396,6 @@ Class | Method | HTTP request | Description
 *QianchuanFinanceWalletGetV10Api* | [**openApiV10QianchuanFinanceWalletGetGet**](docs/QianchuanFinanceWalletGetV10Api.md#openApiV10QianchuanFinanceWalletGetGet) | **GET** /open_api/v1.0/qianchuan/finance/wallet/get/ | 
 *QianchuanImageGetV10Api* | [**openApiV10QianchuanImageGetGet**](docs/QianchuanImageGetV10Api.md#openApiV10QianchuanImageGetGet) | **GET** /open_api/v1.0/qianchuan/image/get/ | 
 *QianchuanKeywordCheckV10Api* | [**openApiV10QianchuanKeywordCheckPost**](docs/QianchuanKeywordCheckV10Api.md#openApiV10QianchuanKeywordCheckPost) | **POST** /open_api/v1.0/qianchuan/keyword/check/ | 
-*QianchuanKeywordPackageGetV10Api* | [**openApiV10QianchuanKeywordPackageGetGet**](docs/QianchuanKeywordPackageGetV10Api.md#openApiV10QianchuanKeywordPackageGetGet) | **GET** /open_api/v1.0/qianchuan/keyword_package/get/ | 
 *QianchuanLqAdGetV10Api* | [**openApiV10QianchuanLqAdGetGet**](docs/QianchuanLqAdGetV10Api.md#openApiV10QianchuanLqAdGetGet) | **GET** /open_api/v1.0/qianchuan/lq_ad/get/ | 
 *QianchuanOrientationPackageGetV10Api* | [**openApiV10QianchuanOrientationPackageGetGet**](docs/QianchuanOrientationPackageGetV10Api.md#openApiV10QianchuanOrientationPackageGetGet) | **GET** /open_api/v1.0/qianchuan/orientation_package/get/ | 
 *QianchuanProductAnalyseCompareCreativeV10Api* | [**openApiV10QianchuanProductAnalyseCompareCreativeGet**](docs/QianchuanProductAnalyseCompareCreativeV10Api.md#openApiV10QianchuanProductAnalyseCompareCreativeGet) | **GET** /open_api/v1.0/qianchuan/product/analyse/compare_creative/ | 
@@ -420,12 +413,10 @@ Class | Method | HTTP request | Description
 *QianchuanReportVideoUserLoseGetV10Api* | [**openApiV10QianchuanReportVideoUserLoseGetGet**](docs/QianchuanReportVideoUserLoseGetV10Api.md#openApiV10QianchuanReportVideoUserLoseGetGet) | **GET** /open_api/v1.0/qianchuan/report/video_user_lose/get/ | 
 *QianchuanRoiGoalUpdateV10Api* | [**openApiV10QianchuanRoiGoalUpdatePost**](docs/QianchuanRoiGoalUpdateV10Api.md#openApiV10QianchuanRoiGoalUpdatePost) | **POST** /open_api/v1.0/qianchuan/roi/goal/update | 
 *QianchuanShopAdvertiserListV10Api* | [**openApiV10QianchuanShopAdvertiserListGet**](docs/QianchuanShopAdvertiserListV10Api.md#openApiV10QianchuanShopAdvertiserListGet) | **GET** /open_api/v1.0/qianchuan/shop/advertiser/list/ | 
-*QianchuanShopAuthorizedGetV10Api* | [**openApiV10QianchuanShopAuthorizedGetGet**](docs/QianchuanShopAuthorizedGetV10Api.md#openApiV10QianchuanShopAuthorizedGetGet) | **GET** /open_api/v1.0/qianchuan/shop/authorized/get/ | 
 *QianchuanShopGetV10Api* | [**openApiV10QianchuanShopGetGet**](docs/QianchuanShopGetV10Api.md#openApiV10QianchuanShopGetGet) | **GET** /open_api/v1.0/qianchuan/shop/get/ | 
 *QianchuanSuggestBidV10Api* | [**openApiV10QianchuanSuggestBidGet**](docs/QianchuanSuggestBidV10Api.md#openApiV10QianchuanSuggestBidGet) | **GET** /open_api/v1.0/qianchuan/suggest_bid/ | 
 *QianchuanSuggestBudgetV10Api* | [**openApiV10QianchuanSuggestBudgetGet**](docs/QianchuanSuggestBudgetV10Api.md#openApiV10QianchuanSuggestBudgetGet) | **GET** /open_api/v1.0/qianchuan/suggest/budget/ | 
-*QianchuanSuggestRoiGoalV10Api* | [**openApiV10QianchuanSuggestRoiGoalGet**](docs/QianchuanSuggestRoiGoalV10Api.md#openApiV10QianchuanSuggestRoiGoalGet) | **GET** /open_api/v1.0/qianchuan/suggest/roi/goal | 
-*QianchuanSuggestRoiGoalV10Api* | [**openApiV10QianchuanSuggestRoiGoalGet_0**](docs/QianchuanSuggestRoiGoalV10Api.md#openApiV10QianchuanSuggestRoiGoalGet_0) | **GET** /open_api/v1.0/qianchuan/suggest/roi/goal/ | 
+*QianchuanSuggestRoiGoalV10Api* | [**openApiV10QianchuanSuggestRoiGoalGet**](docs/QianchuanSuggestRoiGoalV10Api.md#openApiV10QianchuanSuggestRoiGoalGet) | **GET** /open_api/v1.0/qianchuan/suggest/roi/goal/ | 
 *QianchuanTodayLiveRoomDetailGetV10Api* | [**openApiV10QianchuanTodayLiveRoomDetailGetGet**](docs/QianchuanTodayLiveRoomDetailGetV10Api.md#openApiV10QianchuanTodayLiveRoomDetailGetGet) | **GET** /open_api/v1.0/qianchuan/today_live/room/detail/get/ | 
 *QianchuanTodayLiveRoomFlowPerformanceGetV10Api* | [**openApiV10QianchuanTodayLiveRoomFlowPerformanceGetGet**](docs/QianchuanTodayLiveRoomFlowPerformanceGetV10Api.md#openApiV10QianchuanTodayLiveRoomFlowPerformanceGetGet) | **GET** /open_api/v1.0/qianchuan/today_live/room/flow_performance/get/ | 
 *QianchuanTodayLiveRoomGetV10Api* | [**openApiV10QianchuanTodayLiveRoomGetGet**](docs/QianchuanTodayLiveRoomGetV10Api.md#openApiV10QianchuanTodayLiveRoomGetGet) | **GET** /open_api/v1.0/qianchuan/today_live/room/get/ | 
@@ -435,7 +426,6 @@ Class | Method | HTTP request | Description
 *QianchuanToolsAwemeAuthV10Api* | [**openApiV10QianchuanToolsAwemeAuthPost**](docs/QianchuanToolsAwemeAuthV10Api.md#openApiV10QianchuanToolsAwemeAuthPost) | **POST** /open_api/v1.0/qianchuan/tools/aweme_auth/ | 
 *QianchuanToolsEstimateAudienceV10Api* | [**openApiV10QianchuanToolsEstimateAudienceGet**](docs/QianchuanToolsEstimateAudienceV10Api.md#openApiV10QianchuanToolsEstimateAudienceGet) | **GET** /open_api/v1.0/qianchuan/tools/estimate_audience/ | 
 *QianchuanToolsGrayV10Api* | [**openApiV10QianchuanToolsGrayGet**](docs/QianchuanToolsGrayV10Api.md#openApiV10QianchuanToolsGrayGet) | **GET** /open_api/v1.0/qianchuan/tools/gray/ | 
-*QianchuanToolsShopAuthV10Api* | [**openApiV10QianchuanToolsShopAuthPost**](docs/QianchuanToolsShopAuthV10Api.md#openApiV10QianchuanToolsShopAuthPost) | **POST** /open_api/v1.0/qianchuan/tools/shop_auth/ | 
 *QianchuanToolsSmartBoostAdBoostReportGetV10Api* | [**openApiV10QianchuanToolsSmartBoostAdBoostReportGetGet**](docs/QianchuanToolsSmartBoostAdBoostReportGetV10Api.md#openApiV10QianchuanToolsSmartBoostAdBoostReportGetGet) | **GET** /open_api/v1.0/qianchuan/tools/smart_boost/ad_boost/report/get/ | 
 *QianchuanToolsSmartBoostAdBoostSetV10Api* | [**openApiV10QianchuanToolsSmartBoostAdBoostSetPost**](docs/QianchuanToolsSmartBoostAdBoostSetV10Api.md#openApiV10QianchuanToolsSmartBoostAdBoostSetPost) | **POST** /open_api/v1.0/qianchuan/tools/smart_boost/ad_boost/set/ | 
 *QianchuanToolsSmartBoostAdBoostStatusGetV10Api* | [**openApiV10QianchuanToolsSmartBoostAdBoostStatusGetGet**](docs/QianchuanToolsSmartBoostAdBoostStatusGetV10Api.md#openApiV10QianchuanToolsSmartBoostAdBoostStatusGetGet) | **GET** /open_api/v1.0/qianchuan/tools/smart_boost/ad_boost/status/get/ | 

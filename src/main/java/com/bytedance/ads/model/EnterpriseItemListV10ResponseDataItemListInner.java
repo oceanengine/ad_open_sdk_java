@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * EnterpriseItemListV10ResponseDataItemListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class EnterpriseItemListV10ResponseDataItemListInner {
   public static final String SERIALIZED_NAME_COMMENT_COUNT = "comment_count";
   @SerializedName(SERIALIZED_NAME_COMMENT_COUNT)

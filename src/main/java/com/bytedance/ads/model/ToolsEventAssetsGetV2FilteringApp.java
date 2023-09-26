@@ -50,7 +50,7 @@ import com.bytedance.ads.JSON;
 /**
  * 应用数据
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class ToolsEventAssetsGetV2FilteringApp {
   public static final String SERIALIZED_NAME_APP_PACKAGE_NAME = "app_package_name";
   @SerializedName(SERIALIZED_NAME_APP_PACKAGE_NAME)

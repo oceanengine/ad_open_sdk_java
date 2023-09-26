@@ -23,29 +23,12 @@ import com.bytedance.ads.model.QianchuanSuggestRoiGoalV10ExternalAction;
 import com.bytedance.ads.model.QianchuanSuggestRoiGoalV10MarketingGoal;
 import com.bytedance.ads.model.QianchuanSuggestRoiGoalV10MarketingScene;
 import com.bytedance.ads.model.QianchuanSuggestRoiGoalV10Response;
-import com.bytedance.ads.model.QianchuanSuggestRoiGoalV10Response1;
 
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-// url: https://api.oceanengine.com/open_api/v1.0/qianchuan/suggest/roi/goal GET
-public class QianchuanSuggestRoiGoalV10ApiExample {
-
-    private static final QianchuanSuggestRoiGoalV10Api api = new QianchuanSuggestRoiGoalV10Api();
-
-    public static void main(String[] args) throws ApiException {
-        Long advertiserId = null;
-        Long awemeId = null;
-        ApiClient apiClient = api.getApiClient();
-        apiClient.addDefaultHeader("Access-Token", "");
-        apiClient.setDebugging(true);
-        api.setApiClient(apiClient);
-        QianchuanSuggestRoiGoalV10Response response = api.openApiV10QianchuanSuggestRoiGoalGet(advertiserId, awemeId);
-        System.out.println(response);
-    }
 
 // url: https://api.oceanengine.com/open_api/v1.0/qianchuan/suggest/roi/goal/ GET
 public class QianchuanSuggestRoiGoalV10ApiExample {
@@ -67,7 +50,7 @@ public class QianchuanSuggestRoiGoalV10ApiExample {
         apiClient.addDefaultHeader("Access-Token", "");
         apiClient.setDebugging(true);
         api.setApiClient(apiClient);
-        QianchuanSuggestRoiGoalV10Response1 response = api.openApiV10QianchuanSuggestRoiGoalGet_0(advertiserId, awemeId, marketingScene, marketingGoal, productId, productNewOpen, externalAction, campaignScene, deepExternalAction, deepBidType);
+        QianchuanSuggestRoiGoalV10Response response = api.openApiV10QianchuanSuggestRoiGoalGet(advertiserId, awemeId, marketingScene, marketingGoal, productId, productNewOpen, externalAction, campaignScene, deepExternalAction, deepBidType);
         System.out.println(response);
     }
 

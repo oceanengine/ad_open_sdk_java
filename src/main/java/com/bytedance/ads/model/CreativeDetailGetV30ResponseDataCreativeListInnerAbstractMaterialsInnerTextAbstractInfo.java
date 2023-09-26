@@ -55,7 +55,7 @@ import com.bytedance.ads.JSON;
 /**
  * 文本摘要信息
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class CreativeDetailGetV30ResponseDataCreativeListInnerAbstractMaterialsInnerTextAbstractInfo {
   public static final String SERIALIZED_NAME_ABSTRACT_TEXT = "abstract_text";
   @SerializedName(SERIALIZED_NAME_ABSTRACT_TEXT)

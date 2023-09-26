@@ -70,7 +70,7 @@ import com.bytedance.ads.JSON;
 /**
  * QianchuanAdCreateV10Request
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class QianchuanAdCreateV10Request {
   public static final String SERIALIZED_NAME_AD_KEYWORDS = "ad_keywords";
   @SerializedName(SERIALIZED_NAME_AD_KEYWORDS)

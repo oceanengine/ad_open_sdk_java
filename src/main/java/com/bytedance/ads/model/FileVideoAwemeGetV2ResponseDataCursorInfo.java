@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 游标查询返回值，游标查询场景下以该返回值为准
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class FileVideoAwemeGetV2ResponseDataCursorInfo {
   public static final String SERIALIZED_NAME_CURSOR = "cursor";
   @SerializedName(SERIALIZED_NAME_CURSOR)

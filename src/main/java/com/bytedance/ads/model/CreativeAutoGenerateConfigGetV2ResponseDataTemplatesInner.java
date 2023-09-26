@@ -56,7 +56,7 @@ import com.bytedance.ads.JSON;
 /**
  * CreativeAutoGenerateConfigGetV2ResponseDataTemplatesInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class CreativeAutoGenerateConfigGetV2ResponseDataTemplatesInner {
   public static final String SERIALIZED_NAME_TEMPLATE_ID = "template_id";
   @SerializedName(SERIALIZED_NAME_TEMPLATE_ID)

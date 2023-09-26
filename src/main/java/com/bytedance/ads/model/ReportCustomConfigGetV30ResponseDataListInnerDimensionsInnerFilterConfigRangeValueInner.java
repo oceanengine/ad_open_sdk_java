@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * ReportCustomConfigGetV30ResponseDataListInnerDimensionsInnerFilterConfigRangeValueInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class ReportCustomConfigGetV30ResponseDataListInnerDimensionsInnerFilterConfigRangeValueInner {
   public static final String SERIALIZED_NAME_LABEL = "label";
   @SerializedName(SERIALIZED_NAME_LABEL)

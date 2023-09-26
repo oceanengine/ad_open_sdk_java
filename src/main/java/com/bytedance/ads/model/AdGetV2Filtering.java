@@ -53,7 +53,7 @@ import com.bytedance.ads.JSON;
 /**
  * 
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class AdGetV2Filtering {
   public static final String SERIALIZED_NAME_AD_CREATE_TIME = "ad_create_time";
   @SerializedName(SERIALIZED_NAME_AD_CREATE_TIME)

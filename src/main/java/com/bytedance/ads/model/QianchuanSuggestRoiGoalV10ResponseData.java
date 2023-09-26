@@ -21,6 +21,7 @@ import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import java.io.IOException;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -50,11 +51,19 @@ import com.bytedance.ads.JSON;
 /**
  * 
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class QianchuanSuggestRoiGoalV10ResponseData {
   public static final String SERIALIZED_NAME_ECP_ROI_GOAL = "ecp_roi_goal";
   @SerializedName(SERIALIZED_NAME_ECP_ROI_GOAL)
   private Double ecpRoiGoal = null;
+
+  public static final String SERIALIZED_NAME_ROI_LOWER_BOUND = "roi_lower_bound";
+  @SerializedName(SERIALIZED_NAME_ROI_LOWER_BOUND)
+  private Double roiLowerBound = null;
+
+  public static final String SERIALIZED_NAME_ROI_UPPER_BOUND = "roi_upper_bound";
+  @SerializedName(SERIALIZED_NAME_ROI_UPPER_BOUND)
+  private Double roiUpperBound = null;
 
   public QianchuanSuggestRoiGoalV10ResponseData() {
   }
@@ -80,6 +89,48 @@ public class QianchuanSuggestRoiGoalV10ResponseData {
   }
 
 
+  public QianchuanSuggestRoiGoalV10ResponseData roiLowerBound(Double roiLowerBound) {
+    
+    this.roiLowerBound = roiLowerBound;
+    return this;
+  }
+
+   /**
+   * 
+   * @return roiLowerBound
+  **/
+  @javax.annotation.Nullable
+  public Double getRoiLowerBound() {
+    return roiLowerBound;
+  }
+
+
+  public void setRoiLowerBound(Double roiLowerBound) {
+    this.roiLowerBound = roiLowerBound;
+  }
+
+
+  public QianchuanSuggestRoiGoalV10ResponseData roiUpperBound(Double roiUpperBound) {
+    
+    this.roiUpperBound = roiUpperBound;
+    return this;
+  }
+
+   /**
+   * 
+   * @return roiUpperBound
+  **/
+  @javax.annotation.Nullable
+  public Double getRoiUpperBound() {
+    return roiUpperBound;
+  }
+
+
+  public void setRoiUpperBound(Double roiUpperBound) {
+    this.roiUpperBound = roiUpperBound;
+  }
+
+
 
   @Override
   public boolean equals(Object o) {
@@ -90,12 +141,25 @@ public class QianchuanSuggestRoiGoalV10ResponseData {
       return false;
     }
     QianchuanSuggestRoiGoalV10ResponseData qianchuanSuggestRoiGoalV10ResponseData = (QianchuanSuggestRoiGoalV10ResponseData) o;
-    return Objects.equals(this.ecpRoiGoal, qianchuanSuggestRoiGoalV10ResponseData.ecpRoiGoal);
+    return Objects.equals(this.ecpRoiGoal, qianchuanSuggestRoiGoalV10ResponseData.ecpRoiGoal) &&
+        Objects.equals(this.roiLowerBound, qianchuanSuggestRoiGoalV10ResponseData.roiLowerBound) &&
+        Objects.equals(this.roiUpperBound, qianchuanSuggestRoiGoalV10ResponseData.roiUpperBound);
+  }
+
+  private static <T> boolean equalsNullable(JsonNullable<T> a, JsonNullable<T> b) {
+    return a == b || (a != null && b != null && a.isPresent() && b.isPresent() && Objects.deepEquals(a.get(), b.get()));
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(ecpRoiGoal);
+    return Objects.hash(ecpRoiGoal, roiLowerBound, roiUpperBound);
+  }
+
+  private static <T> int hashCodeNullable(JsonNullable<T> a) {
+    if (a == null) {
+      return 1;
+    }
+    return a.isPresent() ? Arrays.deepHashCode(new Object[]{a.get()}) : 31;
   }
 
   @Override
@@ -103,6 +167,8 @@ public class QianchuanSuggestRoiGoalV10ResponseData {
     StringBuilder sb = new StringBuilder();
     sb.append("class QianchuanSuggestRoiGoalV10ResponseData {\n");
     sb.append("    ecpRoiGoal: ").append(toIndentedString(ecpRoiGoal)).append("\n");
+    sb.append("    roiLowerBound: ").append(toIndentedString(roiLowerBound)).append("\n");
+    sb.append("    roiUpperBound: ").append(toIndentedString(roiUpperBound)).append("\n");
     sb.append("}");
     return sb.toString();
   }
@@ -126,6 +192,8 @@ public class QianchuanSuggestRoiGoalV10ResponseData {
     // a set of all properties/fields (JSON key names)
     openapiFields = new HashSet<String>();
     openapiFields.add("ecp_roi_goal");
+    openapiFields.add("roi_lower_bound");
+    openapiFields.add("roi_upper_bound");
 
     // a set of required properties/fields (JSON key names)
     openapiRequiredFields = new HashSet<String>();

@@ -60,7 +60,7 @@ import com.bytedance.ads.JSON;
 /**
  * 程序化素材信息
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class CreativeDetailGetV30ResponseDataCreative {
   public static final String SERIALIZED_NAME_ABSTRACT_MATERIALS = "abstract_materials";
   @SerializedName(SERIALIZED_NAME_ABSTRACT_MATERIALS)

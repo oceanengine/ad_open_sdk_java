@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 策略基本信息
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class CreativeAutoGenerateConfigGetV2ResponseDataStrategyDataInnerInfo {
   public static final String SERIALIZED_NAME_COVER_URL = "cover_url";
   @SerializedName(SERIALIZED_NAME_COVER_URL)

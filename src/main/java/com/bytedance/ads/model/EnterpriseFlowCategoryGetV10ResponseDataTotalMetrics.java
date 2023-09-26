@@ -50,7 +50,7 @@ import com.bytedance.ads.JSON;
 /**
  * 
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:10:18.554407341+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2023-09-26T12:40:12.070229191+08:00[PRC]")
 public class EnterpriseFlowCategoryGetV10ResponseDataTotalMetrics {
   public static final String SERIALIZED_NAME_BUSINESS_PAGE_CHAT_BY_SHARE_VIDEO_CNT = "business_page_chat_by_share_video_cnt";
   @SerializedName(SERIALIZED_NAME_BUSINESS_PAGE_CHAT_BY_SHARE_VIDEO_CNT)
