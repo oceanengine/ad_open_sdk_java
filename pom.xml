@@ -5,7 +5,7 @@
     <artifactId>oceanengine-mapi-java-client</artifactId>
     <packaging>jar</packaging>
     <name>oceanengine-mapi-java-client</name>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <url>https://github.com/openapitools/openapi-generator</url>
     <description>OpenAPI Java</description>
     <scm>

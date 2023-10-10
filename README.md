@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.0.7
-  - Build date: 2023-09-26T12:40:12.070229191+08:00[PRC]
+- API version: 1.0.8
+  - Build date: 2023-10-10T16:52:14.774199450+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -246,7 +246,6 @@ Class | Method | HTTP request | Description
 *DmpCustomAudienceReadV2Api* | [**openApi2DmpCustomAudienceReadGet**](docs/DmpCustomAudienceReadV2Api.md#openApi2DmpCustomAudienceReadGet) | **GET** /open_api/2/dmp/custom_audience/read/ | 
 *DmpCustomAudienceSelectV2Api* | [**openApi2DmpCustomAudienceSelectGet**](docs/DmpCustomAudienceSelectV2Api.md#openApi2DmpCustomAudienceSelectGet) | **GET** /open_api/2/dmp/custom_audience/select/ | 
 *DmpDataSourceCreateV2Api* | [**openApi2DmpDataSourceCreatePost**](docs/DmpDataSourceCreateV2Api.md#openApi2DmpDataSourceCreatePost) | **POST** /open_api/2/dmp/data_source/create/ | 
-*DmpDataSourceFileUploadV2Api* | [**openApi2DmpDataSourceFileUploadPost**](docs/DmpDataSourceFileUploadV2Api.md#openApi2DmpDataSourceFileUploadPost) | **POST** /open_api/2/dmp/data_source/file/upload/ | 
 *DmpDataSourceReadV2Api* | [**openApi2DmpDataSourceReadGet**](docs/DmpDataSourceReadV2Api.md#openApi2DmpDataSourceReadGet) | **GET** /open_api/2/dmp/data_source/read/ | 
 *DmpDataSourceUpdateV2Api* | [**openApi2DmpDataSourceUpdatePost**](docs/DmpDataSourceUpdateV2Api.md#openApi2DmpDataSourceUpdatePost) | **POST** /open_api/2/dmp/data_source/update/ | 
 *DouplusOrderListV30Api* | [**openApiV30DouplusOrderListGet**](docs/DouplusOrderListV30Api.md#openApiV30DouplusOrderListGet) | **GET** /open_api/v3.0/douplus/order/list/ | 
@@ -360,8 +359,6 @@ Class | Method | HTTP request | Description
 *QianchuanAdvertiserTypeGetV10Api* | [**openApiV10QianchuanAdvertiserTypeGetGet**](docs/QianchuanAdvertiserTypeGetV10Api.md#openApiV10QianchuanAdvertiserTypeGetGet) | **GET** /open_api/v1.0/qianchuan/advertiser/type/get/ | 
 *QianchuanAudienceCreateByFileV10Api* | [**openApiV10QianchuanAudienceCreateByFilePost**](docs/QianchuanAudienceCreateByFileV10Api.md#openApiV10QianchuanAudienceCreateByFilePost) | **POST** /open_api/v1.0/qianchuan/audience/create_by_file/ | 
 *QianchuanAudienceDeleteV10Api* | [**openApiV10QianchuanAudienceDeletePost**](docs/QianchuanAudienceDeleteV10Api.md#openApiV10QianchuanAudienceDeletePost) | **POST** /open_api/v1.0/qianchuan/audience/delete/ | 
-*QianchuanAudienceFilePartUploadV10Api* | [**openApiV10QianchuanAudienceFilePartUploadPost**](docs/QianchuanAudienceFilePartUploadV10Api.md#openApiV10QianchuanAudienceFilePartUploadPost) | **POST** /open_api/v1.0/qianchuan/audience_file/part_upload/ | 
-*QianchuanAudienceFileUploadV10Api* | [**openApiV10QianchuanAudienceFileUploadPost**](docs/QianchuanAudienceFileUploadV10Api.md#openApiV10QianchuanAudienceFileUploadPost) | **POST** /open_api/v1.0/qianchuan/audience_file/upload/ | 
 *QianchuanAudienceGroupGetV10Api* | [**openApiV10QianchuanAudienceGroupGetGet**](docs/QianchuanAudienceGroupGetV10Api.md#openApiV10QianchuanAudienceGroupGetGet) | **GET** /open_api/v1.0/qianchuan/audience_group/get/ | 
 *QianchuanAudienceListGetV10Api* | [**openApiV10QianchuanAudienceListGetGet**](docs/QianchuanAudienceListGetV10Api.md#openApiV10QianchuanAudienceListGetGet) | **GET** /open_api/v1.0/qianchuan/audience_list/get/ | 
 *QianchuanAudiencePushV10Api* | [**openApiV10QianchuanAudiencePushPost**](docs/QianchuanAudiencePushV10Api.md#openApiV10QianchuanAudiencePushPost) | **POST** /open_api/v1.0/qianchuan/audience/push/ | 

@@ -128,7 +128,6 @@ src/main/java/com/bytedance/ads/api/DmpCustomAudiencePushV2V2Api.java
 src/main/java/com/bytedance/ads/api/DmpCustomAudienceReadV2Api.java
 src/main/java/com/bytedance/ads/api/DmpCustomAudienceSelectV2Api.java
 src/main/java/com/bytedance/ads/api/DmpDataSourceCreateV2Api.java
-src/main/java/com/bytedance/ads/api/DmpDataSourceFileUploadV2Api.java
 src/main/java/com/bytedance/ads/api/DmpDataSourceReadV2Api.java
 src/main/java/com/bytedance/ads/api/DmpDataSourceUpdateV2Api.java
 src/main/java/com/bytedance/ads/api/DouplusOrderListV30Api.java
@@ -242,8 +241,6 @@ src/main/java/com/bytedance/ads/api/QianchuanAdUpdateV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanAdvertiserTypeGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanAudienceCreateByFileV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanAudienceDeleteV10Api.java
-src/main/java/com/bytedance/ads/api/QianchuanAudienceFilePartUploadV10Api.java
-src/main/java/com/bytedance/ads/api/QianchuanAudienceFileUploadV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanAudienceGroupGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanAudienceListGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanAudiencePushV10Api.java
@@ -620,7 +617,6 @@ src/main/java/com/bytedance/ads/examples/DmpCustomAudiencePushV2V2ApiExample.jav
 src/main/java/com/bytedance/ads/examples/DmpCustomAudienceReadV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DmpCustomAudienceSelectV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DmpDataSourceCreateV2ApiExample.java
-src/main/java/com/bytedance/ads/examples/DmpDataSourceFileUploadV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DmpDataSourceReadV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DmpDataSourceUpdateV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DouplusOrderListV30ApiExample.java
@@ -734,8 +730,6 @@ src/main/java/com/bytedance/ads/examples/QianchuanAdUpdateV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanAdvertiserTypeGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanAudienceCreateByFileV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanAudienceDeleteV10ApiExample.java
-src/main/java/com/bytedance/ads/examples/QianchuanAudienceFilePartUploadV10ApiExample.java
-src/main/java/com/bytedance/ads/examples/QianchuanAudienceFileUploadV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanAudienceGroupGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanAudienceListGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanAudiencePushV10ApiExample.java
@@ -1846,9 +1840,6 @@ src/main/java/com/bytedance/ads/model/DmpDataSourceCreateV2FileStorageType.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceCreateV2Request.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceCreateV2Response.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceCreateV2ResponseData.java
-src/main/java/com/bytedance/ads/model/DmpDataSourceFileUploadV2Request.java
-src/main/java/com/bytedance/ads/model/DmpDataSourceFileUploadV2Response.java
-src/main/java/com/bytedance/ads/model/DmpDataSourceFileUploadV2ResponseData.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceReadV2DataDataListDataSourceType.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceReadV2DataDataListDefaultAudienceDeliveryStatus.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceReadV2Response.java
@@ -2220,6 +2211,7 @@ src/main/java/com/bytedance/ads/model/FundSharedWalletBalanceGetV2ResponseDataLi
 src/main/java/com/bytedance/ads/model/KeywordCreateV30DataSuccessListBidType.java
 src/main/java/com/bytedance/ads/model/KeywordCreateV30DataSuccessListMatchType.java
 src/main/java/com/bytedance/ads/model/KeywordCreateV30DataSuccessListStatus.java
+src/main/java/com/bytedance/ads/model/KeywordCreateV30KeywordsBidType.java
 src/main/java/com/bytedance/ads/model/KeywordCreateV30KeywordsMatchType.java
 src/main/java/com/bytedance/ads/model/KeywordCreateV30Request.java
 src/main/java/com/bytedance/ads/model/KeywordCreateV30RequestKeywordsInner.java
@@ -2250,6 +2242,7 @@ src/main/java/com/bytedance/ads/model/KeywordListV30ResponseData.java
 src/main/java/com/bytedance/ads/model/KeywordListV30ResponseDataListInner.java
 src/main/java/com/bytedance/ads/model/KeywordUpdateV30DataSuccessListBidType.java
 src/main/java/com/bytedance/ads/model/KeywordUpdateV30DataSuccessListMatchType.java
+src/main/java/com/bytedance/ads/model/KeywordUpdateV30KeywordsBidType.java
 src/main/java/com/bytedance/ads/model/KeywordUpdateV30KeywordsMatchType.java
 src/main/java/com/bytedance/ads/model/KeywordUpdateV30Request.java
 src/main/java/com/bytedance/ads/model/KeywordUpdateV30RequestKeywordsInner.java
@@ -2578,6 +2571,7 @@ src/main/java/com/bytedance/ads/model/PromotionCreateV30AutoExtendTraffic.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30BudgetMode.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30CreativeAutoGenerateSwitch.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30IsCommentDisable.java
+src/main/java/com/bytedance/ads/model/PromotionCreateV30KeywordsBidType.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30KeywordsMatchType.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30MaterialsType.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30NativeSettingAnchorRelatedType.java
@@ -2629,6 +2623,7 @@ src/main/java/com/bytedance/ads/model/PromotionListV30DataListAutoExtendTraffic.
 src/main/java/com/bytedance/ads/model/PromotionListV30DataListBudgetMode.java
 src/main/java/com/bytedance/ads/model/PromotionListV30DataListCreativeAutoGenerateSwitch.java
 src/main/java/com/bytedance/ads/model/PromotionListV30DataListIsCommentDisable.java
+src/main/java/com/bytedance/ads/model/PromotionListV30DataListKeywordsBidType.java
 src/main/java/com/bytedance/ads/model/PromotionListV30DataListKeywordsMatchType.java
 src/main/java/com/bytedance/ads/model/PromotionListV30DataListLearningPhase.java
 src/main/java/com/bytedance/ads/model/PromotionListV30DataListMaterialScoreInfoScoreNumOfMaterial.java
@@ -2707,6 +2702,7 @@ src/main/java/com/bytedance/ads/model/PromotionUpdateV30AutoExtendTraffic.java
 src/main/java/com/bytedance/ads/model/PromotionUpdateV30CreativeAutoGenerateSwitch.java
 src/main/java/com/bytedance/ads/model/PromotionUpdateV30DataErrorListObjectType.java
 src/main/java/com/bytedance/ads/model/PromotionUpdateV30IsCommentDisable.java
+src/main/java/com/bytedance/ads/model/PromotionUpdateV30KeywordsBidType.java
 src/main/java/com/bytedance/ads/model/PromotionUpdateV30KeywordsMatchType.java
 src/main/java/com/bytedance/ads/model/PromotionUpdateV30NativeSettingAnchorRelatedType.java
 src/main/java/com/bytedance/ads/model/PromotionUpdateV30NativeSettingIsFeedAndFavSee.java
@@ -2791,6 +2787,7 @@ src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10Request.java
 src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10RequestAudience.java
 src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10RequestChannelProductInfosInner.java
 src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10RequestCreativeListInner.java
+src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10RequestCreativeListInnerCarouselMaterial.java
 src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10RequestCreativeListInnerImageMaterial.java
 src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10RequestCreativeListInnerPromotionCardMaterial.java
 src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10RequestCreativeListInnerTitleMaterial.java
@@ -2859,6 +2856,7 @@ src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10ResponseDataAudienc
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10ResponseDataAwemeInfoInner.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10ResponseDataBrandInfo.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10ResponseDataCreativeListInner.java
+src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10ResponseDataCreativeListInnerCarouselMaterial.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10ResponseDataCreativeListInnerImageMaterial.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10ResponseDataCreativeListInnerPromotionCardMaterial.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10ResponseDataCreativeListInnerTitleMaterial.java
@@ -2998,6 +2996,7 @@ src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10ProgrammaticCreativeTi
 src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10Request.java
 src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10RequestAudience.java
 src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10RequestCreativeListInner.java
+src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10RequestCreativeListInnerCarouselMaterial.java
 src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10RequestCreativeListInnerImageMaterial.java
 src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10RequestCreativeListInnerPromotionCardMaterial.java
 src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10RequestCreativeListInnerTitleMaterial.java
@@ -3024,10 +3023,6 @@ src/main/java/com/bytedance/ads/model/QianchuanAudienceCreateByFileV10ResponseDa
 src/main/java/com/bytedance/ads/model/QianchuanAudienceDeleteV10Request.java
 src/main/java/com/bytedance/ads/model/QianchuanAudienceDeleteV10Response.java
 src/main/java/com/bytedance/ads/model/QianchuanAudienceDeleteV10ResponseData.java
-src/main/java/com/bytedance/ads/model/QianchuanAudienceFilePartUploadV10Response.java
-src/main/java/com/bytedance/ads/model/QianchuanAudienceFilePartUploadV10ResponseData.java
-src/main/java/com/bytedance/ads/model/QianchuanAudienceFileUploadV10Response.java
-src/main/java/com/bytedance/ads/model/QianchuanAudienceFileUploadV10ResponseData.java
 src/main/java/com/bytedance/ads/model/QianchuanAudienceGroupGetV10Filtering.java
 src/main/java/com/bytedance/ads/model/QianchuanAudienceGroupGetV10Response.java
 src/main/java/com/bytedance/ads/model/QianchuanAudienceGroupGetV10ResponseData.java
