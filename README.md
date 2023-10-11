@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.0.9
-  - Build date: 2023-10-10T17:16:22.625414977+08:00[PRC]
+- API version: 1.0.10
+  - Build date: 2023-10-11T18:54:06.224549627+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -316,6 +316,7 @@ Class | Method | HTTP request | Description
 *NativeAnchorCreateV30Api* | [**openApiV30NativeAnchorCreatePost**](docs/NativeAnchorCreateV30Api.md#openApiV30NativeAnchorCreatePost) | **POST** /open_api/v3.0/native_anchor/create/ | 
 *NativeAnchorGetV30Api* | [**openApiV30NativeAnchorGetGet**](docs/NativeAnchorGetV30Api.md#openApiV30NativeAnchorGetGet) | **GET** /open_api/v3.0/native_anchor/get/ | 
 *Oauth2AccessTokenApi* | [**openApiOauth2AccessTokenPost**](docs/Oauth2AccessTokenApi.md#openApiOauth2AccessTokenPost) | **POST** /open_api/oauth2/access_token/ | 
+*Oauth2AdvertiserGetApi* | [**openApiOauth2AdvertiserGetGet**](docs/Oauth2AdvertiserGetApi.md#openApiOauth2AdvertiserGetGet) | **GET** /open_api/oauth2/advertiser/get/ | 
 *Oauth2AppAccessTokenApi* | [**openApiOauth2AppAccessTokenPost**](docs/Oauth2AppAccessTokenApi.md#openApiOauth2AppAccessTokenPost) | **POST** /open_api/oauth2/app_access_token/ | 
 *Oauth2RefreshTokenApi* | [**openApiOauth2RefreshTokenPost**](docs/Oauth2RefreshTokenApi.md#openApiOauth2RefreshTokenPost) | **POST** /open_api/oauth2/refresh_token/ | 
 *ProjectBudgetUpdateV30Api* | [**openApiV30ProjectBudgetUpdatePost**](docs/ProjectBudgetUpdateV30Api.md#openApiV30ProjectBudgetUpdatePost) | **POST** /open_api/v3.0/project/budget/update/ | 

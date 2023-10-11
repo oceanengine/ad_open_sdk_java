@@ -198,6 +198,7 @@ src/main/java/com/bytedance/ads/api/MaterialStatusUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/NativeAnchorCreateV30Api.java
 src/main/java/com/bytedance/ads/api/NativeAnchorGetV30Api.java
 src/main/java/com/bytedance/ads/api/Oauth2AccessTokenApi.java
+src/main/java/com/bytedance/ads/api/Oauth2AdvertiserGetApi.java
 src/main/java/com/bytedance/ads/api/Oauth2AppAccessTokenApi.java
 src/main/java/com/bytedance/ads/api/Oauth2RefreshTokenApi.java
 src/main/java/com/bytedance/ads/api/ProjectBudgetUpdateV30Api.java
@@ -686,6 +687,7 @@ src/main/java/com/bytedance/ads/examples/MaterialStatusUpdateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/NativeAnchorCreateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/NativeAnchorGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/Oauth2AccessTokenApiExample.java
+src/main/java/com/bytedance/ads/examples/Oauth2AdvertiserGetApiExample.java
 src/main/java/com/bytedance/ads/examples/Oauth2AppAccessTokenApiExample.java
 src/main/java/com/bytedance/ads/examples/Oauth2RefreshTokenApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectBudgetUpdateV30ApiExample.java
@@ -2295,6 +2297,10 @@ src/main/java/com/bytedance/ads/model/NativeAnchorGetV30ResponseDataPageInfo.jav
 src/main/java/com/bytedance/ads/model/Oauth2AccessTokenRequest.java
 src/main/java/com/bytedance/ads/model/Oauth2AccessTokenResponse.java
 src/main/java/com/bytedance/ads/model/Oauth2AccessTokenResponseData.java
+src/main/java/com/bytedance/ads/model/Oauth2AdvertiserGetResponse.java
+src/main/java/com/bytedance/ads/model/Oauth2AdvertiserGetResponseData.java
+src/main/java/com/bytedance/ads/model/Oauth2AdvertiserGetResponseDataListInner.java
+src/main/java/com/bytedance/ads/model/Oauth2AdvertiserGetResponseDataListInnerCompanyListInner.java
 src/main/java/com/bytedance/ads/model/Oauth2AppAccessTokenRequest.java
 src/main/java/com/bytedance/ads/model/Oauth2AppAccessTokenResponse.java
 src/main/java/com/bytedance/ads/model/Oauth2AppAccessTokenResponseData.java
