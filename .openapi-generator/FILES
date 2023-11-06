@@ -1872,6 +1872,7 @@ src/main/java/com/bytedance/ads/model/DouplusOrderListV30ResponseDataOrderListIn
 src/main/java/com/bytedance/ads/model/DouplusOrderListV30ResponseDataOrderListInnerOrder.java
 src/main/java/com/bytedance/ads/model/DouplusOrderListV30ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/DouplusOrderReportV30Filter.java
+src/main/java/com/bytedance/ads/model/DouplusOrderReportV30FilterOrderCreateTime.java
 src/main/java/com/bytedance/ads/model/DouplusOrderReportV30GroupBy.java
 src/main/java/com/bytedance/ads/model/DouplusOrderReportV30Response.java
 src/main/java/com/bytedance/ads/model/DouplusOrderReportV30ResponseData.java
@@ -2260,8 +2261,11 @@ src/main/java/com/bytedance/ads/model/MaterialStatusUpdateV30Response.java
 src/main/java/com/bytedance/ads/model/MaterialStatusUpdateV30ResponseData.java
 src/main/java/com/bytedance/ads/model/MaterialStatusUpdateV30ResponseDataErrorsInner.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30AnchorInfoAnchorType.java
+src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30AnchorInfoGameAnchorGamePackageListGiftGiftUnit.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30AnchorInfoGameAnchorGameType.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30AnchorInfoNetServiceAnchorNetServiceType.java
+src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30AnchorInfoPrivateChatButton.java
+src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30AnchorInfoShoppingCartAnchorLinkType.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30DataAnchorType.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30Request.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfo.java
@@ -2273,11 +2277,14 @@ src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoAppE
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoAppEcommerceAnchorThirdSiteInfo.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoGameAnchor.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoGameAnchorAppImagesInner.java
+src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoGameAnchorGamePackageListInner.java
+src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoGameAnchorGamePackageListInnerGiftInner.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoGameAnchorHeadImageListInner.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoGameAnchorIconImagesInner.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoNetServiceAnchor.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoNetServiceAnchorAppImagesInner.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoNetServiceAnchorHeadImageListInner.java
+src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoPrivateChat.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30RequestAnchorInfoShoppingCartAnchor.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30Response.java
 src/main/java/com/bytedance/ads/model/NativeAnchorCreateV30ResponseData.java
@@ -3199,6 +3206,8 @@ src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10DataListMarketingSc
 src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10DataListOptStatus.java
 src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10DataListPromotionCardMaterialButtonSmartOptimization.java
 src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10DataListStatus.java
+src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10DataListTitleMaterialListTitleType.java
+src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10DataListTitleMaterialTitleType.java
 src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10DataListVideoMaterialListImageMode.java
 src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10Filtering.java
 src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10FilteringCreativeMaterialMode.java
@@ -3208,6 +3217,7 @@ src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10FilteringStatus.jav
 src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10Response.java
 src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10ResponseData.java
 src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10ResponseDataListInner.java
+src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10ResponseDataListInnerCarouselMaterialListInner.java
 src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10ResponseDataListInnerImageMaterial.java
 src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10ResponseDataListInnerImageMaterialListInner.java
 src/main/java/com/bytedance/ads/model/QianchuanCreativeGetV10ResponseDataListInnerPromotionCardMaterial.java
@@ -4677,9 +4687,12 @@ src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerRuleTex
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerSuccessLink.java
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2ResponseData.java
+src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2SiteType.java
 src/main/java/com/bytedance/ads/model/ToolsSiteFormsListV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsSiteFormsListV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsSiteFormsListV2ResponseDataListInner.java
+src/main/java/com/bytedance/ads/model/ToolsSiteGetV2DataListSiteType.java
+src/main/java/com/bytedance/ads/model/ToolsSiteGetV2DataListStatus.java
 src/main/java/com/bytedance/ads/model/ToolsSiteGetV2Filtering.java
 src/main/java/com/bytedance/ads/model/ToolsSiteGetV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsSiteGetV2ResponseData.java
