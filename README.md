@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.0.13
-  - Build date: 2023-11-06T20:56:39.959100519+08:00[PRC]
+- API version: 1.0.14
+  - Build date: 2023-11-07T15:15:45.195843649+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -540,10 +540,8 @@ Class | Method | HTTP request | Description
 *ToolsGrayGetV30Api* | [**openApiV30ToolsGrayGetGet**](docs/ToolsGrayGetV30Api.md#openApiV30ToolsGrayGetGet) | **GET** /open_api/v3.0/tools/gray/get/ | 
 *ToolsIesAccountSearchV2Api* | [**openApi2ToolsIesAccountSearchGet**](docs/ToolsIesAccountSearchV2Api.md#openApi2ToolsIesAccountSearchGet) | **GET** /open_api/2/tools/ies_account_search/ | 
 *ToolsIndustryGetV2Api* | [**openApi2ToolsIndustryGetGet**](docs/ToolsIndustryGetV2Api.md#openApi2ToolsIndustryGetGet) | **GET** /open_api/2/tools/industry/get/ | 
-*ToolsInterestActionActionCategoryV2Api* | [**openApi2ToolsInterestActionActionCategoryGet**](docs/ToolsInterestActionActionCategoryV2Api.md#openApi2ToolsInterestActionActionCategoryGet) | **GET** /open_api/2/tools/interest_action/action/category/ | 
 *ToolsInterestActionActionKeywordV2Api* | [**openApi2ToolsInterestActionActionKeywordGet**](docs/ToolsInterestActionActionKeywordV2Api.md#openApi2ToolsInterestActionActionKeywordGet) | **GET** /open_api/2/tools/interest_action/action/keyword/ | 
 *ToolsInterestActionId2wordV2Api* | [**openApi2ToolsInterestActionId2wordGet**](docs/ToolsInterestActionId2wordV2Api.md#openApi2ToolsInterestActionId2wordGet) | **GET** /open_api/2/tools/interest_action/id2word/ | 
-*ToolsInterestActionInterestCategoryV2Api* | [**openApi2ToolsInterestActionInterestCategoryGet**](docs/ToolsInterestActionInterestCategoryV2Api.md#openApi2ToolsInterestActionInterestCategoryGet) | **GET** /open_api/2/tools/interest_action/interest/category/ | 
 *ToolsInterestActionInterestKeywordV2Api* | [**openApi2ToolsInterestActionInterestKeywordGet**](docs/ToolsInterestActionInterestKeywordV2Api.md#openApi2ToolsInterestActionInterestKeywordGet) | **GET** /open_api/2/tools/interest_action/interest/keyword/ | 
 *ToolsInterestActionKeywordSuggestV2Api* | [**openApi2ToolsInterestActionKeywordSuggestGet**](docs/ToolsInterestActionKeywordSuggestV2Api.md#openApi2ToolsInterestActionKeywordSuggestGet) | **GET** /open_api/2/tools/interest_action/keyword/suggest/ | 
 *ToolsKeyActionGetV2Api* | [**openApi2ToolsKeyActionGetGet**](docs/ToolsKeyActionGetV2Api.md#openApi2ToolsKeyActionGetGet) | **GET** /open_api/2/tools/key_action/get/ | 
