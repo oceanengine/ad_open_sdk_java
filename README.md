@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.0.14
-  - Build date: 2023-11-07T15:15:45.195843649+08:00[PRC]
+- API version: 1.0.15
+  - Build date: 2023-12-26T11:52:44.116511995+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -187,6 +187,7 @@ Class | Method | HTTP request | Description
 *AsyncTaskGetV2Api* | [**openApi2AsyncTaskGetGet**](docs/AsyncTaskGetV2Api.md#openApi2AsyncTaskGetGet) | **GET** /open_api/2/async_task/get/ | 
 *AudiencePackageCreateV2Api* | [**openApi2AudiencePackageCreatePost**](docs/AudiencePackageCreateV2Api.md#openApi2AudiencePackageCreatePost) | **POST** /open_api/2/audience_package/create/ | 
 *AudiencePackageDeleteV2Api* | [**openApi2AudiencePackageDeletePost**](docs/AudiencePackageDeleteV2Api.md#openApi2AudiencePackageDeletePost) | **POST** /open_api/2/audience_package/delete/ | 
+*AudiencePackageGetV2Api* | [**openApi2AudiencePackageGetGet**](docs/AudiencePackageGetV2Api.md#openApi2AudiencePackageGetGet) | **GET** /open_api/2/audience_package/get/ | 
 *AudiencePackageUpdateV2Api* | [**openApi2AudiencePackageUpdatePost**](docs/AudiencePackageUpdateV2Api.md#openApi2AudiencePackageUpdatePost) | **POST** /open_api/2/audience_package/update/ | 
 *BusinessPlatformCompanyAccountGetV30Api* | [**openApiV30BusinessPlatformCompanyAccountGetGet**](docs/BusinessPlatformCompanyAccountGetV30Api.md#openApiV30BusinessPlatformCompanyAccountGetGet) | **GET** /open_api/v3.0/business_platform/company_account/get/ | 
 *BusinessPlatformCompanyInfoGetV30Api* | [**openApiV30BusinessPlatformCompanyInfoGetGet**](docs/BusinessPlatformCompanyInfoGetV30Api.md#openApiV30BusinessPlatformCompanyInfoGetGet) | **GET** /open_api/v3.0/business_platform/company_info/get/ | 
@@ -558,7 +559,11 @@ Class | Method | HTTP request | Description
 *ToolsLogSearchV2Api* | [**openApi2ToolsLogSearchGet**](docs/ToolsLogSearchV2Api.md#openApi2ToolsLogSearchGet) | **GET** /open_api/2/tools/log_search/ | 
 *ToolsOrangeSiteGetV30Api* | [**openApiV30ToolsOrangeSiteGetGet**](docs/ToolsOrangeSiteGetV30Api.md#openApiV30ToolsOrangeSiteGetGet) | **GET** /open_api/v3.0/tools/orange_site/get/ | 
 *ToolsPlayableCloudGameListV2Api* | [**openApi2ToolsPlayableCloudGameListGet**](docs/ToolsPlayableCloudGameListV2Api.md#openApi2ToolsPlayableCloudGameListGet) | **GET** /open_api/2/tools/playable/cloud_game/list/ | 
+*ToolsPlayableGrantResultV2Api* | [**openApi2ToolsPlayableGrantResultGet**](docs/ToolsPlayableGrantResultV2Api.md#openApi2ToolsPlayableGrantResultGet) | **GET** /open_api/2/tools/playable/grant/result/ | 
+*ToolsPlayableGrantV2Api* | [**openApi2ToolsPlayableGrantPost**](docs/ToolsPlayableGrantV2Api.md#openApi2ToolsPlayableGrantPost) | **POST** /open_api/2/tools/playable/grant/ | 
 *ToolsPlayableListGetV2Api* | [**openApi2ToolsPlayableListGetGet**](docs/ToolsPlayableListGetV2Api.md#openApi2ToolsPlayableListGetGet) | **GET** /open_api/2/tools/playable_list/get/ | 
+*ToolsPlayableSaveV2Api* | [**openApi2ToolsPlayableSavePost**](docs/ToolsPlayableSaveV2Api.md#openApi2ToolsPlayableSavePost) | **POST** /open_api/2/tools/playable/save/ | 
+*ToolsPlayableValidateV2Api* | [**openApi2ToolsPlayableValidateGet**](docs/ToolsPlayableValidateV2Api.md#openApi2ToolsPlayableValidateGet) | **GET** /open_api/2/tools/playable/validate/ | 
 *ToolsPreAuditGetV2Api* | [**openApi2ToolsPreAuditGetGet**](docs/ToolsPreAuditGetV2Api.md#openApi2ToolsPreAuditGetGet) | **GET** /open_api/2/tools/pre_audit/get/ | 
 *ToolsPreAuditSendV2Api* | [**openApi2ToolsPreAuditSendPost**](docs/ToolsPreAuditSendV2Api.md#openApi2ToolsPreAuditSendPost) | **POST** /open_api/2/tools/pre_audit/send/ | 
 *ToolsPrivativeWordBatchGetV30Api* | [**openApiV30ToolsPrivativeWordBatchGetPost**](docs/ToolsPrivativeWordBatchGetV30Api.md#openApiV30ToolsPrivativeWordBatchGetPost) | **POST** /open_api/v3.0/tools/privative_word/batch_get/ | 
