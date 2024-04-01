@@ -75,6 +75,7 @@ src/main/java/com/bytedance/ads/api/AgentChildAgentSelectV2Api.java
 src/main/java/com/bytedance/ads/api/AgentFundTransferSeqCommitV2Api.java
 src/main/java/com/bytedance/ads/api/AgentFundTransferSeqCreateV2Api.java
 src/main/java/com/bytedance/ads/api/AgentInfoV2Api.java
+src/main/java/com/bytedance/ads/api/AgentQueryRiskPromotionListV2Api.java
 src/main/java/com/bytedance/ads/api/AgentRefundTransferSeqCommitV2Api.java
 src/main/java/com/bytedance/ads/api/AgentRefundTransferSeqCreateV2Api.java
 src/main/java/com/bytedance/ads/api/AnalyticsAttributionV30Api.java
@@ -182,6 +183,8 @@ src/main/java/com/bytedance/ads/api/DmpDataSourceCreateV2Api.java
 src/main/java/com/bytedance/ads/api/DmpDataSourceFileUploadV2Api.java
 src/main/java/com/bytedance/ads/api/DmpDataSourceReadV2Api.java
 src/main/java/com/bytedance/ads/api/DmpDataSourceUpdateV2Api.java
+src/main/java/com/bytedance/ads/api/DouplusOrderCloseV30Api.java
+src/main/java/com/bytedance/ads/api/DouplusOrderCreateV30Api.java
 src/main/java/com/bytedance/ads/api/DouplusOrderListV30Api.java
 src/main/java/com/bytedance/ads/api/DouplusOrderReportV30Api.java
 src/main/java/com/bytedance/ads/api/DpaAssetV2DetailReadV2Api.java
@@ -479,6 +482,7 @@ src/main/java/com/bytedance/ads/api/StarComponentCreateLinkV2Api.java
 src/main/java/com/bytedance/ads/api/StarComponentQueryIndustryAnchorV2Api.java
 src/main/java/com/bytedance/ads/api/StarComponentQueryLinkV2Api.java
 src/main/java/com/bytedance/ads/api/StarComponentUpdateLinkV2Api.java
+src/main/java/com/bytedance/ads/api/StarDataTaskTimelineReportV2Api.java
 src/main/java/com/bytedance/ads/api/StarDemandCreateAssignV2Api.java
 src/main/java/com/bytedance/ads/api/StarDemandCreateChallengeV2Api.java
 src/main/java/com/bytedance/ads/api/StarDemandListV2Api.java
@@ -799,6 +803,7 @@ src/main/java/com/bytedance/ads/examples/AgentChildAgentSelectV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/AgentFundTransferSeqCommitV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/AgentFundTransferSeqCreateV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/AgentInfoV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/AgentQueryRiskPromotionListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/AgentRefundTransferSeqCommitV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/AgentRefundTransferSeqCreateV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/AnalyticsAttributionV30ApiExample.java
@@ -906,6 +911,8 @@ src/main/java/com/bytedance/ads/examples/DmpDataSourceCreateV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DmpDataSourceFileUploadV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DmpDataSourceReadV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DmpDataSourceUpdateV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/DouplusOrderCloseV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/DouplusOrderCreateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/DouplusOrderListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/DouplusOrderReportV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/DpaAssetV2DetailReadV2ApiExample.java
@@ -1203,6 +1210,7 @@ src/main/java/com/bytedance/ads/examples/StarComponentCreateLinkV2ApiExample.jav
 src/main/java/com/bytedance/ads/examples/StarComponentQueryIndustryAnchorV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarComponentQueryLinkV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarComponentUpdateLinkV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/StarDataTaskTimelineReportV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarDemandCreateAssignV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarDemandCreateChallengeV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarDemandListV2ApiExample.java
@@ -1976,6 +1984,19 @@ src/main/java/com/bytedance/ads/model/AgentInfoV2DataRole.java
 src/main/java/com/bytedance/ads/model/AgentInfoV2Fields.java
 src/main/java/com/bytedance/ads/model/AgentInfoV2Response.java
 src/main/java/com/bytedance/ads/model/AgentInfoV2ResponseData.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2BusinessType.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2DataDataBusinessType.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2DataDataFinalOperatorTag.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2DataDataMaterialListType.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2DataDataPromotionStatus.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2Filtering.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2FilteringFinalOperatorTag.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2FilteringPromotionStatus.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2Response.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2ResponseData.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2ResponseDataCursorInfo.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2ResponseDataDataInner.java
+src/main/java/com/bytedance/ads/model/AgentQueryRiskPromotionListV2ResponseDataDataInnerMaterialListInner.java
 src/main/java/com/bytedance/ads/model/AgentRefundTransferSeqCommitV2Request.java
 src/main/java/com/bytedance/ads/model/AgentRefundTransferSeqCommitV2Response.java
 src/main/java/com/bytedance/ads/model/AgentRefundTransferSeqCommitV2ResponseData.java
@@ -3033,7 +3054,6 @@ src/main/java/com/bytedance/ads/model/DmpCustomAudienceCopyV2Response.java
 src/main/java/com/bytedance/ads/model/DmpCustomAudienceCopyV2ResponseData.java
 src/main/java/com/bytedance/ads/model/DmpCustomAudienceDeleteV2Request.java
 src/main/java/com/bytedance/ads/model/DmpCustomAudienceDeleteV2Response.java
-src/main/java/com/bytedance/ads/model/DmpCustomAudienceDeleteV2ResponseData.java
 src/main/java/com/bytedance/ads/model/DmpCustomAudiencePublishV2Request.java
 src/main/java/com/bytedance/ads/model/DmpCustomAudiencePublishV2Response.java
 src/main/java/com/bytedance/ads/model/DmpCustomAudiencePushV2V2Request.java
@@ -3057,6 +3077,7 @@ src/main/java/com/bytedance/ads/model/DmpDataSourceCreateV2Response.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceCreateV2ResponseData.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceFileUploadV2Request.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceFileUploadV2Response.java
+src/main/java/com/bytedance/ads/model/DmpDataSourceFileUploadV2ResponseData.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceReadV2DataDataListDataSourceType.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceReadV2DataDataListDefaultAudienceDeliveryStatus.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceReadV2Response.java
@@ -3069,6 +3090,21 @@ src/main/java/com/bytedance/ads/model/DmpDataSourceUpdateV2FileStorageType.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceUpdateV2OperationType.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceUpdateV2Request.java
 src/main/java/com/bytedance/ads/model/DmpDataSourceUpdateV2Response.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCloseV30Request.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCloseV30Response.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCloseV30ResponseData.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCreateV30BidType.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCreateV30ExternalAction.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCreateV30LiveroomHeatMode.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCreateV30ObjectInfosMarketingGoal.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCreateV30Request.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCreateV30RequestObjectInfosInner.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCreateV30RequestTargeting.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCreateV30Response.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCreateV30ResponseData.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCreateV30TargetingAge.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCreateV30TargetingAudienceMode.java
+src/main/java/com/bytedance/ads/model/DouplusOrderCreateV30TargetingGender.java
 src/main/java/com/bytedance/ads/model/DouplusOrderListV30DataOrderListAdListAdStatus.java
 src/main/java/com/bytedance/ads/model/DouplusOrderListV30DataOrderListAdListAudienceDistrict.java
 src/main/java/com/bytedance/ads/model/DouplusOrderListV30DataOrderListAdListBidMode.java
@@ -3817,6 +3853,7 @@ src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceLocationType.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AudiencePlatform.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceRegionRecommend.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceSuperiorPopularityType.java
+src/main/java/com/bytedance/ads/model/ProjectCreateV30BlueFlowPackageBlueFlowPackageSetting.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30Classify.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30DeliveryMode.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30DeliveryRangeInventoryCatalog.java
@@ -3852,6 +3889,7 @@ src/main/java/com/bytedance/ads/model/ProjectCreateV30RelatedProductProductSetti
 src/main/java/com/bytedance/ads/model/ProjectCreateV30Request.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30RequestAudience.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30RequestAudienceGeolocationInner.java
+src/main/java/com/bytedance/ads/model/ProjectCreateV30RequestBlueFlowPackage.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30RequestDeliveryRange.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30RequestDeliverySetting.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30RequestDpaProductTargetInner.java
@@ -5674,6 +5712,10 @@ src/main/java/com/bytedance/ads/model/StarComponentUpdateLinkV2Request.java
 src/main/java/com/bytedance/ads/model/StarComponentUpdateLinkV2RequestLinkComponentInfo.java
 src/main/java/com/bytedance/ads/model/StarComponentUpdateLinkV2Response.java
 src/main/java/com/bytedance/ads/model/StarComponentUpdateLinkV2ResponseData.java
+src/main/java/com/bytedance/ads/model/StarDataTaskTimelineReportV2Response.java
+src/main/java/com/bytedance/ads/model/StarDataTaskTimelineReportV2ResponseData.java
+src/main/java/com/bytedance/ads/model/StarDataTaskTimelineReportV2ResponseDataProjectDataValue.java
+src/main/java/com/bytedance/ads/model/StarDataTaskTimelineReportV2ResponseDataTaskDataValue.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2Request.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestDemandInfo.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestDemandInfoAdSyncConf.java

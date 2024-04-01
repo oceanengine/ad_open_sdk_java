@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.0
-  - Build date: 2024-03-27T16:44:31.053125984+08:00[PRC]
+- API version: 1.1.1
+  - Build date: 2024-04-01T11:02:49.949526702+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -194,6 +194,7 @@ Class | Method | HTTP request
 *AgentFundTransferSeqCommitV2Api* | **openApi2AgentFundTransferSeqCommitPost** | **POST** /open_api/2/agent/fund/transfer_seq/commit/
 *AgentFundTransferSeqCreateV2Api* | **openApi2AgentFundTransferSeqCreatePost** | **POST** /open_api/2/agent/fund/transfer_seq/create/
 *AgentInfoV2Api* | **openApi2AgentInfoGet** | **GET** /open_api/2/agent/info/
+*AgentQueryRiskPromotionListV2Api* | **openApi2AgentQueryRiskPromotionListGet** | **GET** /open_api/2/agent/query/risk_promotion_list/
 *AgentRefundTransferSeqCommitV2Api* | **openApi2AgentRefundTransferSeqCommitPost** | **POST** /open_api/2/agent/refund/transfer_seq/commit/
 *AgentRefundTransferSeqCreateV2Api* | **openApi2AgentRefundTransferSeqCreatePost** | **POST** /open_api/2/agent/refund/transfer_seq/create/
 *AnalyticsAttributionV30Api* | **openApiV30AnalyticsAttributionPost** | **POST** /open_api/v3.0/analytics/attribution/
@@ -300,6 +301,8 @@ Class | Method | HTTP request
 *DmpDataSourceFileUploadV2Api* | **openApi2DmpDataSourceFileUploadPost** | **POST** /open_api/2/dmp/data_source/file/upload/
 *DmpDataSourceReadV2Api* | **openApi2DmpDataSourceReadGet** | **GET** /open_api/2/dmp/data_source/read/
 *DmpDataSourceUpdateV2Api* | **openApi2DmpDataSourceUpdatePost** | **POST** /open_api/2/dmp/data_source/update/
+*DouplusOrderCloseV30Api* | **openApiV30DouplusOrderClosePost** | **POST** /open_api/v3.0/douplus/order/close/
+*DouplusOrderCreateV30Api* | **openApiV30DouplusOrderCreatePost** | **POST** /open_api/v3.0/douplus/order/create/
 *DouplusOrderListV30Api* | **openApiV30DouplusOrderListGet** | **GET** /open_api/v3.0/douplus/order/list/
 *DouplusOrderReportV30Api* | **openApiV30DouplusOrderReportGet** | **GET** /open_api/v3.0/douplus/order/report/
 *DpaAssetV2DetailReadV2Api* | **openApi2DpaAssetV2DetailReadPost** | **POST** /open_api/2/dpa/asset_v2/detail/read/
@@ -597,6 +600,7 @@ Class | Method | HTTP request
 *StarComponentQueryIndustryAnchorV2Api* | **openApi2StarComponentQueryIndustryAnchorGet** | **GET** /open_api/2/star/component/query_industry_anchor/
 *StarComponentQueryLinkV2Api* | **openApi2StarComponentQueryLinkGet** | **GET** /open_api/2/star/component/query_link/
 *StarComponentUpdateLinkV2Api* | **openApi2StarComponentUpdateLinkPost** | **POST** /open_api/2/star/component/update_link/
+*StarDataTaskTimelineReportV2Api* | **openApi2StarDataTaskTimelineReportGet** | **GET** /open_api/2/star/data/task_timeline_report/
 *StarDemandCreateAssignV2Api* | **openApi2StarDemandCreateAssignPost** | **POST** /open_api/2/star/demand/create_assign/
 *StarDemandCreateChallengeV2Api* | **openApi2StarDemandCreateChallengePost** | **POST** /open_api/2/star/demand/create_challenge/
 *StarDemandListV2Api* | **openApi2StarDemandListGet** | **GET** /open_api/2/star/demand/list/
