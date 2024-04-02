@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.1
-  - Build date: 2024-04-01T11:02:49.949526702+08:00[PRC]
+- API version: 1.1.2
+  - Build date: 2024-04-02T10:29:10.457901230+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -197,6 +197,7 @@ Class | Method | HTTP request
 *AgentQueryRiskPromotionListV2Api* | **openApi2AgentQueryRiskPromotionListGet** | **GET** /open_api/2/agent/query/risk_promotion_list/
 *AgentRefundTransferSeqCommitV2Api* | **openApi2AgentRefundTransferSeqCommitPost** | **POST** /open_api/2/agent/refund/transfer_seq/commit/
 *AgentRefundTransferSeqCreateV2Api* | **openApi2AgentRefundTransferSeqCreatePost** | **POST** /open_api/2/agent/refund/transfer_seq/create/
+*AgentTransferTransactionRecordV2Api* | **openApi2AgentTransferTransactionRecordGet** | **GET** /open_api/2/agent/transfer/transaction_record/
 *AnalyticsAttributionV30Api* | **openApiV30AnalyticsAttributionPost** | **POST** /open_api/v3.0/analytics/attribution/
 *AssetsCreativeComponentCreateV2Api* | **openApi2AssetsCreativeComponentCreatePost** | **POST** /open_api/2/assets/creative_component/create/
 *AssetsCreativeComponentGetV2Api* | **openApi2AssetsCreativeComponentGetGet** | **GET** /open_api/2/assets/creative_component/get/
