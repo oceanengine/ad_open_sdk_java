@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.3
-  - Build date: 2024-04-29T14:08:00.024372024+08:00[PRC]
+- API version: 1.1.4
+  - Build date: 2024-05-10T19:28:16.178647353+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -145,6 +145,7 @@ public class DouplusOrderReportV30ApiExample {
 
 Class | Method | HTTP request
 ------------ | ------------- | -------------
+*AccountFundGetV30Api* | **openApiV30AccountFundGetGet** | **GET** /open_api/v3.0/account/fund/get/
 *AdConvertOptimizedTargetGetV30Api* | **openApiV30AdConvertOptimizedTargetGetGet** | **GET** /open_api/v3.0/ad_convert/optimized_target/get/
 *AdCostProtectStatusGetV2Api* | **openApi2AdCostProtectStatusGetGet** | **GET** /open_api/2/ad/cost_protect_status/get/
 *AdGetV2Api* | **openApi2AdGetGet** | **GET** /open_api/2/ad/get/
@@ -280,9 +281,6 @@ Class | Method | HTTP request
 *CreativeRejectReasonV2Api* | **openApi2CreativeRejectReasonGet** | **GET** /open_api/2/creative/reject_reason/
 *CreativeStatusUpdateV2V2Api* | **openApi2CreativeStatusUpdateV2Post** | **POST** /open_api/2/creative/status/update_v2/
 *CreativeStrategyListV2Api* | **openApi2CreativeStrategyListGet** | **GET** /open_api/2/creative/strategy/list/
-*CreativeTemplateDetailGetV2Api* | **openApi2CreativeTemplateDetailGetGet** | **GET** /open_api/2/creative/template/detail/get/
-*CreativeTemplateListGetV2Api* | **openApi2CreativeTemplateListGetGet** | **GET** /open_api/2/creative/template/list/get/
-*CreativeTemplateTagsGetV2Api* | **openApi2CreativeTemplateTagsGetGet** | **GET** /open_api/2/creative/template/tags/get/
 *CustomerCenterAdvertiserCopyV2Api* | **openApi2CustomerCenterAdvertiserCopyPost** | **POST** /open_api/2/customer_center/advertiser/copy/
 *CustomerCenterAdvertiserListV2Api* | **openApi2CustomerCenterAdvertiserListGet** | **GET** /open_api/2/customer_center/advertiser/list/
 *CustomerCenterAdvertiserTransferableListV2Api* | **openApi2CustomerCenterAdvertiserTransferableListGet** | **GET** /open_api/2/customer_center/advertiser/transferable/list/
@@ -348,6 +346,7 @@ Class | Method | HTTP request
 *EventManagerTrackUrlGetV2Api* | **openApi2EventManagerTrackUrlGetGet** | **GET** /open_api/2/event_manager/track_url/get/
 *EventManagerTrackUrlUpdateV2Api* | **openApi2EventManagerTrackUrlUpdatePost** | **POST** /open_api/2/event_manager/track_url/update/
 *FileAudioAdV2Api* | **openApi2FileAudioAdPost** | **POST** /open_api/2/file/audio/ad/
+*FileAudioGetV2Api* | **openApi2FileAudioGetGet** | **GET** /open_api/2/file/audio/get/
 *FileAutoGenerateSourceGetV2Api* | **openApi2FileAutoGenerateSourceGetGet** | **GET** /open_api/2/file/auto_generate_source/get/
 *FileImageAdGetV2Api* | **openApi2FileImageAdGetGet** | **GET** /open_api/2/file/image/ad/get/
 *FileImageAdV2Api* | **openApi2FileImageAdPost** | **POST** /open_api/2/file/image/ad/
@@ -582,6 +581,12 @@ Class | Method | HTTP request
 *ServeMarketActiveFuncGetV10Api* | **openApiV10ServeMarketActiveFuncGetGet** | **GET** /open_api/v1.0/serve_market/active_func/get/
 *ServeMarketCidVerifyTokenV10Api* | **openApiV10ServeMarketCidVerifyTokenGet** | **GET** /open_api/v1.0/serve_market/cid/verify_token/
 *ServeMarketOrderGetV10Api* | **openApiV10ServeMarketOrderGetGet** | **GET** /open_api/v1.0/serve_market/order/get/
+*SharedWalletDailyStatGetV30Api* | **openApiV30SharedWalletDailyStatGetGet** | **GET** /open_api/v3.0/shared_wallet/daily_stat/get/
+*SharedWalletMainWalletGetV30Api* | **openApiV30SharedWalletMainWalletGetGet** | **GET** /open_api/v3.0/shared_wallet/main_wallet/get/
+*SharedWalletTransactionDetailGetV30Api* | **openApiV30SharedWalletTransactionDetailGetGet** | **GET** /open_api/v3.0/shared_wallet/transaction_detail/get/
+*SharedWalletWalletBalanceGetV30Api* | **openApiV30SharedWalletWalletBalanceGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_balance/get/
+*SharedWalletWalletInfoGetV30Api* | **openApiV30SharedWalletWalletInfoGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_info/get/
+*SharedWalletWalletRelationGetV30Api* | **openApiV30SharedWalletWalletRelationGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_relation/get/
 *SpiTaskGetV2Api* | **openApi2SpiTaskGetGet** | **GET** /open_api/2/spi_task/get/
 *StarAttachmentUploadV2Api* | **openApi2StarAttachmentUploadPost** | **POST** /open_api/2/star/attachment/upload/
 *StarBillGetPendingV2Api* | **openApi2StarBillGetPendingGet** | **GET** /open_api/2/star/bill/get_pending/
