@@ -463,6 +463,7 @@ src/main/java/com/bytedance/ads/api/ReportVideoFrameGetV2Api.java
 src/main/java/com/bytedance/ads/api/ServeMarketActiveFuncGetV10Api.java
 src/main/java/com/bytedance/ads/api/ServeMarketCidVerifyTokenV10Api.java
 src/main/java/com/bytedance/ads/api/ServeMarketOrderGetV10Api.java
+src/main/java/com/bytedance/ads/api/SharedWalletAccountRelationGetV30Api.java
 src/main/java/com/bytedance/ads/api/SharedWalletDailyStatGetV30Api.java
 src/main/java/com/bytedance/ads/api/SharedWalletMainWalletGetV30Api.java
 src/main/java/com/bytedance/ads/api/SharedWalletTransactionDetailGetV30Api.java
@@ -1216,6 +1217,7 @@ src/main/java/com/bytedance/ads/examples/ReportVideoFrameGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ServeMarketActiveFuncGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/ServeMarketCidVerifyTokenV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/ServeMarketOrderGetV10ApiExample.java
+src/main/java/com/bytedance/ads/examples/SharedWalletAccountRelationGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SharedWalletDailyStatGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SharedWalletMainWalletGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SharedWalletTransactionDetailGetV30ApiExample.java
@@ -4417,6 +4419,7 @@ src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10AudienceLivePlatformTa
 src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10AudienceLocationType.java
 src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10AudienceNewCustomer.java
 src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10AudiencePlatform.java
+src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10AudienceSearchExtended.java
 src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10AudienceSmartInterestAction.java
 src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10CampaignScene.java
 src/main/java/com/bytedance/ads/model/QianchuanAdCreateV10ChannelProductInfosChannelType.java
@@ -4493,6 +4496,7 @@ src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataAudienceInactiv
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataAudienceLocationType.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataAudienceNewCustomer.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataAudiencePlatform.java
+src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataAudienceSearchExtended.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataAudienceSmartInterestAction.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataCampaignScene.java
 src/main/java/com/bytedance/ads/model/QianchuanAdDetailGetV10DataCreativeAutoGenerate.java
@@ -4682,6 +4686,7 @@ src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10AudienceLivePlatformTa
 src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10AudienceLocationType.java
 src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10AudienceNewCustomer.java
 src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10AudiencePlatform.java
+src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10AudienceSearchExtended.java
 src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10AudienceSmartInterestAction.java
 src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10CreativeAutoGenerate.java
 src/main/java/com/bytedance/ads/model/QianchuanAdUpdateV10CreativeListImageMode.java
@@ -5746,6 +5751,9 @@ src/main/java/com/bytedance/ads/model/ServeMarketOrderGetV10ResponseDataOrderLis
 src/main/java/com/bytedance/ads/model/ServeMarketOrderGetV10ResponseDataOrderListInnerFunction.java
 src/main/java/com/bytedance/ads/model/ServeMarketOrderGetV10ResponseDataOrderListInnerSpecsInner.java
 src/main/java/com/bytedance/ads/model/ServeMarketOrderGetV10ResponseDataPageInfo.java
+src/main/java/com/bytedance/ads/model/SharedWalletAccountRelationGetV30AccountType.java
+src/main/java/com/bytedance/ads/model/SharedWalletAccountRelationGetV30Response.java
+src/main/java/com/bytedance/ads/model/SharedWalletAccountRelationGetV30ResponseData.java
 src/main/java/com/bytedance/ads/model/SharedWalletDailyStatGetV30AccountType.java
 src/main/java/com/bytedance/ads/model/SharedWalletDailyStatGetV30DataResultsWalletType.java
 src/main/java/com/bytedance/ads/model/SharedWalletDailyStatGetV30Response.java

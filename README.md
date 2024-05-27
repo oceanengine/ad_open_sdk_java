@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.4
-  - Build date: 2024-05-10T19:28:16.178647353+08:00[PRC]
+- API version: 1.1.5
+  - Build date: 2024-05-27T11:08:36.266445256+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -581,6 +581,7 @@ Class | Method | HTTP request
 *ServeMarketActiveFuncGetV10Api* | **openApiV10ServeMarketActiveFuncGetGet** | **GET** /open_api/v1.0/serve_market/active_func/get/
 *ServeMarketCidVerifyTokenV10Api* | **openApiV10ServeMarketCidVerifyTokenGet** | **GET** /open_api/v1.0/serve_market/cid/verify_token/
 *ServeMarketOrderGetV10Api* | **openApiV10ServeMarketOrderGetGet** | **GET** /open_api/v1.0/serve_market/order/get/
+*SharedWalletAccountRelationGetV30Api* | **openApiV30SharedWalletAccountRelationGetGet** | **GET** /open_api/v3.0/shared_wallet/account_relation/get/
 *SharedWalletDailyStatGetV30Api* | **openApiV30SharedWalletDailyStatGetGet** | **GET** /open_api/v3.0/shared_wallet/daily_stat/get/
 *SharedWalletMainWalletGetV30Api* | **openApiV30SharedWalletMainWalletGetGet** | **GET** /open_api/v3.0/shared_wallet/main_wallet/get/
 *SharedWalletTransactionDetailGetV30Api* | **openApiV30SharedWalletTransactionDetailGetGet** | **GET** /open_api/v3.0/shared_wallet/transaction_detail/get/
