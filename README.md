@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.5
-  - Build date: 2024-05-27T11:08:36.266445256+08:00[PRC]
+- API version: 1.1.6
+  - Build date: 2024-06-14T16:48:32.970984024+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -244,6 +244,10 @@ Class | Method | HTTP request
 *CgTransferQueryCanTransferBalanceV30Api* | **openApiV30CgTransferQueryCanTransferBalanceGet** | **GET** /open_api/v3.0/cg_transfer/query_can_transfer_balance/
 *CgTransferQueryTransferBalanceV30Api* | **openApiV30CgTransferQueryTransferBalanceGet** | **GET** /open_api/v3.0/cg_transfer/query_transfer_balance/
 *CgTransferQueryTransferDetailV30Api* | **openApiV30CgTransferQueryTransferDetailGet** | **GET** /open_api/v3.0/cg_transfer/query_transfer_detail/
+*CgTransferWalletTransferCanTransferBalanceV30Api* | **openApiV30CgTransferWalletTransferCanTransferBalanceGet** | **GET** /open_api/v3.0/cg_transfer/wallet/transfer/can_transfer_balance/
+*CgTransferWalletTransferCreateV30Api* | **openApiV30CgTransferWalletTransferCreatePost** | **POST** /open_api/v3.0/cg_transfer/wallet/transfer/create/
+*CgTransferWalletTransferDetailV30Api* | **openApiV30CgTransferWalletTransferDetailGet** | **GET** /open_api/v3.0/cg_transfer/wallet/transfer/detail/
+*CgTransferWalletTransferListV30Api* | **openApiV30CgTransferWalletTransferListGet** | **GET** /open_api/v3.0/cg_transfer/wallet/transfer/list/
 *ClueCouponCodeConsumeV2Api* | **openApi2ClueCouponCodeConsumePost** | **POST** /open_api/2/clue/coupon/code/consume/
 *ClueCouponCodeGetV2Api* | **openApi2ClueCouponCodeGetGet** | **GET** /open_api/2/clue/coupon/code/get/
 *ClueCouponCreateV2Api* | **openApi2ClueCouponCreatePost** | **POST** /open_api/2/clue/coupon/create/
@@ -287,13 +291,15 @@ Class | Method | HTTP request
 *CustomerCenterFundTransferSeqCommitV2Api* | **openApi2CustomerCenterFundTransferSeqCommitPost** | **POST** /open_api/2/customer_center/fund/transfer_seq/commit/
 *CustomerCenterFundTransferSeqCreateV2Api* | **openApi2CustomerCenterFundTransferSeqCreatePost** | **POST** /open_api/2/customer_center/fund/transfer_seq/create/
 *DecorationCouponGetV30Api* | **openApiV30DecorationCouponGetGet** | **GET** /open_api/v3.0/decoration/coupon/get/
+*DiagnosisTaskAgentCreateV2Api* | **openApi2DiagnosisTaskAgentCreatePost** | **POST** /open_api/2/diagnosis_task/agent/create/
+*DiagnosisTaskAgentGetV2Api* | **openApi2DiagnosisTaskAgentGetGet** | **GET** /open_api/2/diagnosis_task/agent/get/
+*DiagnosisTaskAgentListV2Api* | **openApi2DiagnosisTaskAgentListGet** | **GET** /open_api/2/diagnosis_task/agent/list/
 *DmpBrandGetV2Api* | **openApi2DmpBrandGetGet** | **GET** /open_api/2/dmp/brand/get/
 *DmpCustomAudienceCopyV2Api* | **openApi2DmpCustomAudienceCopyPost** | **POST** /open_api/2/dmp/custom_audience/copy/
 *DmpCustomAudienceDeleteV2Api* | **openApi2DmpCustomAudienceDeletePost** | **POST** /open_api/2/dmp/custom_audience/delete/
 *DmpCustomAudiencePublishV2Api* | **openApi2DmpCustomAudiencePublishPost** | **POST** /open_api/2/dmp/custom_audience/publish/
 *DmpCustomAudiencePushV2V2Api* | **openApi2DmpCustomAudiencePushV2Post** | **POST** /open_api/2/dmp/custom_audience/push_v2/
 *DmpCustomAudienceReadV2Api* | **openApi2DmpCustomAudienceReadGet** | **GET** /open_api/2/dmp/custom_audience/read/
-*DmpCustomAudienceSelectV2Api* | **openApi2DmpCustomAudienceSelectGet** | **GET** /open_api/2/dmp/custom_audience/select/
 *DmpDataSourceCreateV2Api* | **openApi2DmpDataSourceCreatePost** | **POST** /open_api/2/dmp/data_source/create/
 *DmpDataSourceFileUploadV2Api* | **openApi2DmpDataSourceFileUploadPost** | **POST** /open_api/2/dmp/data_source/file/upload/
 *DmpDataSourceReadV2Api* | **openApi2DmpDataSourceReadGet** | **GET** /open_api/2/dmp/data_source/read/
@@ -350,6 +356,7 @@ Class | Method | HTTP request
 *FileAutoGenerateSourceGetV2Api* | **openApi2FileAutoGenerateSourceGetGet** | **GET** /open_api/2/file/auto_generate_source/get/
 *FileImageAdGetV2Api* | **openApi2FileImageAdGetGet** | **GET** /open_api/2/file/image/ad/get/
 *FileImageAdV2Api* | **openApi2FileImageAdPost** | **POST** /open_api/2/file/image/ad/
+*FileImageAdvertiserV2Api* | **openApi2FileImageAdvertiserPost** | **POST** /open_api/2/file/image/advertiser/
 *FileImageDeleteV30Api* | **openApiV30FileImageDeletePost** | **POST** /open_api/v3.0/file/image/delete/
 *FileImageGetV2Api* | **openApi2FileImageGetGet** | **GET** /open_api/2/file/image/get/
 *FileMaterialAttributesListV2Api* | **openApi2FileMaterialAttributesListGet** | **GET** /open_api/2/file/material_attributes/list/
@@ -357,13 +364,17 @@ Class | Method | HTTP request
 *FileMaterialBindV2Api* | **openApi2FileMaterialBindPost** | **POST** /open_api/2/file/material/bind/
 *FileMaterialDetailV2Api* | **openApi2FileMaterialDetailGet** | **GET** /open_api/2/file/material/detail/
 *FileMaterialListV2Api* | **openApi2FileMaterialListGet** | **GET** /open_api/2/file/material/list/
-*FileMediaGetV2Api* | **openApi2FileMediaGetGet** | **GET** /open_api/2/file/media/get/
 *FilePreauditGetV30Api* | **openApiV30FilePreauditGetGet** | **GET** /open_api/v3.0/file/preaudit/get/
 *FilePreauditSubmitV30Api* | **openApiV30FilePreauditSubmitPost** | **POST** /open_api/v3.0/file/preaudit/submit/
 *FileQualityGetV30Api* | **openApiV30FileQualityGetGet** | **GET** /open_api/v3.0/file/quality/get/
 *FileQualitySubmitV30Api* | **openApiV30FileQualitySubmitPost** | **POST** /open_api/v3.0/file/quality/submit/
+*FileRebateMaterialDownloadCreateTaskV2Api* | **openApi2FileRebateMaterialDownloadCreateTaskPost** | **POST** /open_api/2/file/rebate/material_download/create_task/
+*FileRebateMaterialDownloadDownloadFileV2Api* | **openApi2FileRebateMaterialDownloadDownloadFileGet** | **GET** /open_api/2/file/rebate/material_download/download_file/
+*FileRebateMaterialDownloadGetDownloadTaskListV2Api* | **openApi2FileRebateMaterialDownloadGetDownloadTaskListGet** | **GET** /open_api/2/file/rebate/material_download/get_download_task_list/
+*FileUploadTaskCreateV2Api* | **openApi2FileUploadTaskCreatePost** | **POST** /open_api/2/file/upload_task/create/
 *FileVideoAdGetV2Api* | **openApi2FileVideoAdGetGet** | **GET** /open_api/2/file/video/ad/get/
 *FileVideoAdV2Api* | **openApi2FileVideoAdPost** | **POST** /open_api/2/file/video/ad/
+*FileVideoAgentGetV2Api* | **openApi2FileVideoAgentGetGet** | **GET** /open_api/2/file/video/agent/get/
 *FileVideoAgentV2Api* | **openApi2FileVideoAgentPost** | **POST** /open_api/2/file/video/agent/
 *FileVideoAwemeGetV2Api* | **openApi2FileVideoAwemeGetGet** | **GET** /open_api/2/file/video/aweme/get/
 *FileVideoDeleteV2Api* | **openApi2FileVideoDeletePost** | **POST** /open_api/2/file/video/delete/
@@ -374,6 +385,7 @@ Class | Method | HTTP request
 *FileVideoMaterialClearTaskResultGetV2Api* | **openApi2FileVideoMaterialClearTaskResultGetGet** | **GET** /open_api/2/file/video/material/clear_task_result/get/
 *FileVideoPauseV2Api* | **openApi2FileVideoPausePost** | **POST** /open_api/2/file/video/pause/
 *FileVideoUpdateV2Api* | **openApi2FileVideoUpdatePost** | **POST** /open_api/2/file/video/update/
+*FileVideoUploadTaskListV2Api* | **openApi2FileVideoUploadTaskListGet** | **GET** /open_api/2/file/video/upload_task/list/
 *FundSharedWalletBalanceGetV2Api* | **openApi2FundSharedWalletBalanceGetGet** | **GET** /open_api/2/fund/shared_wallet_balance/get/
 *KeywordCreateV2V2Api* | **openApi2KeywordCreateV2Post** | **POST** /open_api/2/keyword/create_v2/
 *KeywordCreateV30Api* | **openApiV30KeywordCreatePost** | **POST** /open_api/v3.0/keyword/create/
@@ -479,7 +491,6 @@ Class | Method | HTTP request
 *QianchuanCreativeRejectReasonV10Api* | **openApiV10QianchuanCreativeRejectReasonGet** | **GET** /open_api/v1.0/qianchuan/creative/reject_reason/
 *QianchuanCreativeStatusUpdateV10Api* | **openApiV10QianchuanCreativeStatusUpdatePost** | **POST** /open_api/v1.0/qianchuan/creative/status/update/
 *QianchuanDmpAudiencesGetV10Api* | **openApiV10QianchuanDmpAudiencesGetGet** | **GET** /open_api/v1.0/qianchuan/dmp/audiences/get/
-*QianchuanEcpAwemeAdGetV10Api* | **openApiV10QianchuanEcpAwemeAdGetGet** | **GET** /open_api/v1.0/qianchuan/ecp_aweme_ad/get/
 *QianchuanEstimateEffectV10Api* | **openApiV10QianchuanEstimateEffectGet** | **GET** /open_api/v1.0/qianchuan/estimate/effect/
 *QianchuanFileImageDeleteV10Api* | **openApiV10QianchuanFileImageDeletePost** | **POST** /open_api/v1.0/qianchuan/file/image/delete/
 *QianchuanFileVideoAwemeGetV10Api* | **openApiV10QianchuanFileVideoAwemeGetGet** | **GET** /open_api/v1.0/qianchuan/file/video/aweme/get/
@@ -537,6 +548,8 @@ Class | Method | HTTP request
 *QianchuanVideoGetV10Api* | **openApiV10QianchuanVideoGetGet** | **GET** /open_api/v1.0/qianchuan/video/get/
 *QueryInvoiceV2Api* | **openApi2QueryInvoiceGet** | **GET** /open_api/2/query/invoice/
 *QueryProjectV2Api* | **openApi2QueryProjectGet** | **GET** /open_api/2/query/project/
+*QueryRebateAccountingInfoV2Api* | **openApi2QueryRebateAccountingInfoGet** | **GET** /open_api/2/query/rebate_accounting_info/
+*QueryRebateBalanceV2Api* | **openApi2QueryRebateBalanceGet** | **GET** /open_api/2/query/rebate_balance/
 *QueryStatementV2Api* | **openApi2QueryStatementGet** | **GET** /open_api/2/query/statement/
 *ReportAdGetV2Api* | **openApi2ReportAdGetGet** | **GET** /open_api/2/report/ad/get/
 *ReportAdvertiserGetV2Api* | **openApi2ReportAdvertiserGetGet** | **GET** /open_api/2/report/advertiser/get/
@@ -651,6 +664,14 @@ Class | Method | HTTP request
 *StarStarAdUniteTaskListV2Api* | **openApi2StarStarAdUniteTaskListGet** | **GET** /open_api/2/star/star_ad_unite_task/list/
 *StarUserGetAwemeAuthorIdV2Api* | **openApi2StarUserGetAwemeAuthorIdGet** | **GET** /open_api/2/star/user/get_aweme_author_id/
 *StarUserGetStarIdV2Api* | **openApi2StarUserGetStarIdGet** | **GET** /open_api/2/star/user/get_star_id/
+*StarVasAppendOrderToBoostItemGroupV2Api* | **openApi2StarVasAppendOrderToBoostItemGroupPost** | **POST** /open_api/2/star/vas/append_order_to_boost_item_group/
+*StarVasCancelBoostItemGroupV2Api* | **openApi2StarVasCancelBoostItemGroupPost** | **POST** /open_api/2/star/vas/cancel_boost_item_group/
+*StarVasCreateBoostItemGroupV2Api* | **openApi2StarVasCreateBoostItemGroupPost** | **POST** /open_api/2/star/vas/create_boost_item_group/
+*StarVasGetBoostGroupListV2Api* | **openApi2StarVasGetBoostGroupListGet** | **GET** /open_api/2/star/vas/get_boost_group_list/
+*StarVasGetBoostItemGroupDetailV2Api* | **openApi2StarVasGetBoostItemGroupDetailGet** | **GET** /open_api/2/star/vas/get_boost_item_group_detail/
+*StarVasGetCommonAuthorPackageListV2Api* | **openApi2StarVasGetCommonAuthorPackageListGet** | **GET** /open_api/2/star/vas/get_common_author_package_list/
+*StarVasGetExportBoostItemGroupResultV2Api* | **openApi2StarVasGetExportBoostItemGroupResultGet** | **GET** /open_api/2/star/vas/get_export_boost_item_group_result/
+*StarVasSubmitExportBoostItemGroupDataV2Api* | **openApi2StarVasSubmitExportBoostItemGroupDataPost** | **POST** /open_api/2/star/vas/submit_export_boost_item_group_data/
 *StardeliveryTaskAuthorDetailV30Api* | **openApiV30StardeliveryTaskAuthorDetailGet** | **GET** /open_api/v3.0/stardelivery/task_author/detail/
 *StardeliveryTaskAuthorVideoDetailV30Api* | **openApiV30StardeliveryTaskAuthorVideoDetailGet** | **GET** /open_api/v3.0/stardelivery/task_author_video/detail/
 *StardeliveryTaskBudgetUpdateV30Api* | **openApiV30StardeliveryTaskBudgetUpdatePost** | **POST** /open_api/v3.0/stardelivery/task/budget/update/
@@ -777,6 +798,8 @@ Class | Method | HTTP request
 *ToolsDownloadPackageParseV2Api* | **openApi2ToolsDownloadPackageParsePost** | **POST** /open_api/2/tools/download/package/parse/
 *ToolsEstimateAudienceV2Api* | **openApi2ToolsEstimateAudienceGet** | **GET** /open_api/2/tools/estimate_audience/
 *ToolsEstimatedPriceGetV2Api* | **openApi2ToolsEstimatedPriceGetGet** | **GET** /open_api/2/tools/estimated_price/get/
+*ToolsEventAllAssetsDetailV2Api* | **openApi2ToolsEventAllAssetsDetailGet** | **GET** /open_api/2/tools/event/all_assets/detail/
+*ToolsEventAllAssetsListV2Api* | **openApi2ToolsEventAllAssetsListGet** | **GET** /open_api/2/tools/event/all_assets/list/
 *ToolsEventAssetsGetV2Api* | **openApi2ToolsEventAssetsGetGet** | **GET** /open_api/2/tools/event/assets/get/
 *ToolsEventConvertOptimizedGoalGetV30Api* | **openApiV30ToolsEventConvertOptimizedGoalGetGet** | **GET** /open_api/v3.0/tools/event_convert/optimized_goal/get/
 *ToolsGrayGetV30Api* | **openApiV30ToolsGrayGetGet** | **GET** /open_api/v3.0/tools/gray/get/
