@@ -33,9 +33,9 @@ public enum ToolsEstimateAudienceV2ActivateType {
   
   THREE_MONTH_EAILIER("THREE_MONTH_EAILIER"),
   
-  ONE_MONTH_2_THREE_MONTH("ONE_MONTH_2_THREE_MONTH"),
+  WITH_IN_A_MONTH("WITH_IN_A_MONTH"),
   
-  WITH_IN_A_MONTH("WITH_IN_A_MONTH");
+  ONE_MONTH_2_THREE_MONTH("ONE_MONTH_2_THREE_MONTH");
 
   private String value;
 

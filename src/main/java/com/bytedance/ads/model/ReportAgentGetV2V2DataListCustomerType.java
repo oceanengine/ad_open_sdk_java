@@ -29,51 +29,51 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAgentGetV2V2DataListCustomerType.Adapter.class)
 public enum ReportAgentGetV2V2DataListCustomerType {
   
-  OVERSEA_VIRTUAL("OVERSEA_VIRTUAL"),
-  
   BRANCH("BRANCH"),
-  
-  INTERNAL("INTERNAL"),
-  
-  LA("LA"),
-  
-  EXCHANGE("EXCHANGE"),
-  
-  I18N_ADV("I18N_ADV"),
   
   VIRTUAL_LA("VIRTUAL_LA"),
   
+  INTERNAL("INTERNAL"),
+  
   I18N_AGENT("I18N_AGENT"),
+  
+  SELF_SERVICE("SELF_SERVICE"),
+  
+  OVERSEA_VIRTUAL("OVERSEA_VIRTUAL"),
+  
+  VERTICAL("VERTICAL"),
+  
+  VIRTUAL_CUS("VIRTUAL_CUS"),
+  
+  LOCAL("LOCAL"),
+  
+  SMB_AGENT("SMB_AGENT"),
   
   LA_AGENT("LA_AGENT"),
   
   KA_AGENT("KA_AGENT"),
   
-  REGION("REGION"),
+  LA("LA"),
   
-  INTERNET("INTERNET"),
-  
-  KA("KA"),
-  
-  VIRTUAL_KA("VIRTUAL_KA"),
-  
-  SELF_SERVICE("SELF_SERVICE"),
+  I18N_ADV("I18N_ADV"),
   
   GAME("GAME"),
   
+  VIRTUAL_SMB("VIRTUAL_SMB"),
+  
   DSP("DSP"),
   
-  VERTICAL("VERTICAL"),
+  INTERNET("INTERNET"),
+  
+  EXCHANGE("EXCHANGE"),
+  
+  REGION("REGION"),
+  
+  KA("KA"),
   
   SMB("SMB"),
   
-  VIRTUAL_SMB("VIRTUAL_SMB"),
-  
-  SMB_AGENT("SMB_AGENT"),
-  
-  LOCAL("LOCAL"),
-  
-  VIRTUAL_CUS("VIRTUAL_CUS");
+  VIRTUAL_KA("VIRTUAL_KA");
 
   private String value;
 

@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageCreateV2Platform.Adapter.class)
 public enum AudiencePackageCreateV2Platform {
   
-  ANDROID("ANDROID"),
-  
   PC("PC"),
-  
-  IOS("IOS"),
   
   IPAD("IPAD"),
   
-  WAP("WAP");
+  WAP("WAP"),
+  
+  IOS("IOS"),
+  
+  ANDROID("ANDROID");
 
   private String value;
 

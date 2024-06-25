@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAppManagementBpShareCancelV2DataErrorListShareMode.Adapter.class)
 public enum ToolsAppManagementBpShareCancelV2DataErrorListShareMode {
   
-  COMPANY("COMPANY"),
-  
   PART("PART"),
   
-  ALL("ALL");
+  ALL("ALL"),
+  
+  COMPANY("COMPANY");
 
   private String value;
 

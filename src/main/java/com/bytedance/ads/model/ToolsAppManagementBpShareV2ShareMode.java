@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAppManagementBpShareV2ShareMode.Adapter.class)
 public enum ToolsAppManagementBpShareV2ShareMode {
   
-  COMPANY("COMPANY"),
-  
   PART("PART"),
   
-  ALL("ALL");
+  ALL("ALL"),
+  
+  COMPANY("COMPANY");
 
   private String value;
 

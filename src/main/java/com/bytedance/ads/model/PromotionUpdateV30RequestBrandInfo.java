@@ -52,7 +52,7 @@ import com.bytedance.ads.JSON;
 /**
  * 品牌信息
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class PromotionUpdateV30RequestBrandInfo {
   public static final String SERIALIZED_NAME_BRAND_NAME_ID = "brand_name_id";
   @SerializedName(SERIALIZED_NAME_BRAND_NAME_ID)

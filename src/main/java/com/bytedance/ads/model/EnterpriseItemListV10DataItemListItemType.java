@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(EnterpriseItemListV10DataItemListItemType.Adapter.class)
 public enum EnterpriseItemListV10DataItemListItemType {
   
-  AD("ITEM_AD"),
+  CONTENT("ITEM_CONTENT"),
   
-  CONTENT("ITEM_CONTENT");
+  AD("ITEM_AD");
 
   private String value;
 

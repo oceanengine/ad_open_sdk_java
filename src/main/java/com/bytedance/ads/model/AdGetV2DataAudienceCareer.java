@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataAudienceCareer.Adapter.class)
 public enum AdGetV2DataAudienceCareer {
   
-  TEACHER("TEACHER"),
-  
-  COLLEGE_STUDENT("COLLEGE_STUDENT"),
-  
-  IT("IT"),
+  CIVIL_SERVANTS("CIVIL_SERVANTS"),
   
   FINANCIAL("FINANCIAL"),
   
-  CIVIL_SERVANTS("CIVIL_SERVANTS"),
+  IT("IT"),
   
-  MEDICAL_STAFF("MEDICAL_STAFF");
+  MEDICAL_STAFF("MEDICAL_STAFF"),
+  
+  TEACHER("TEACHER"),
+  
+  COLLEGE_STUDENT("COLLEGE_STUDENT");
 
   private String value;
 

@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsEstimateAudienceV2RetargetingType.Adapter.class)
 public enum ToolsEstimateAudienceV2RetargetingType {
   
-  RETARGETING_INCLUDE("RETARGETING_INCLUDE"),
-  
-  RETARGETING_NONE("RETARGETING_NONE"),
-  
   RETARGETING_EXCLUDE("RETARGETING_EXCLUDE"),
   
-  NONE("NONE");
+  RETARGETING_INCLUDE("RETARGETING_INCLUDE"),
+  
+  NONE("NONE"),
+  
+  RETARGETING_NONE("RETARGETING_NONE");
 
   private String value;
 

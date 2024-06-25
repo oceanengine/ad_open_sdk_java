@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class QianchuanReportMaterialGetV10ResponseDataListInnerFields {
   public static final String SERIALIZED_NAME_AD_ALL_ORDER_GMV_SETTLE_RATE14D = "ad_all_order_gmv_settle_rate_14d";
   @SerializedName(SERIALIZED_NAME_AD_ALL_ORDER_GMV_SETTLE_RATE14D)

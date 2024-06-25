@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdvertiserFundGetV2GrantTypeSplit.Adapter.class)
 public enum AdvertiserFundGetV2GrantTypeSplit {
   
-  OFF("OFF"),
+  ON("ON"),
   
-  ON("ON");
+  OFF("OFF");
 
   private String value;
 

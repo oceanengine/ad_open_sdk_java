@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignCreateV2CampaignBudgetOptimization.Adapter.class)
 public enum CampaignCreateV2CampaignBudgetOptimization {
   
-  OFF("OFF"),
+  ON("ON"),
   
-  ON("ON");
+  OFF("OFF");
 
   private String value;
 

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataIntelligentFlowSwitch.Adapter.class)
 public enum AdGetV2DataIntelligentFlowSwitch {
   
-  OFF("OFF"),
+  ON("ON"),
   
-  ON("ON");
+  OFF("OFF");
 
   private String value;
 

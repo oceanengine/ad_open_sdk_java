@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(EnterpriseCommentListGetV10FilterReplyStatusByEDouyin.Adapter.class)
 public enum EnterpriseCommentListGetV10FilterReplyStatusByEDouyin {
   
-  REPLY("REPLY"),
-  
   NO_REPLY("NO_REPLY"),
   
-  ALL("ALL");
+  ALL("ALL"),
+  
+  REPLY("REPLY");
 
   private String value;
 

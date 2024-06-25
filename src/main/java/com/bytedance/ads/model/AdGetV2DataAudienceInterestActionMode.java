@@ -31,9 +31,9 @@ public enum AdGetV2DataAudienceInterestActionMode {
   
   UNLIMITED("UNLIMITED"),
   
-  CUSTOM("CUSTOM"),
+  RECOMMEND("RECOMMEND"),
   
-  RECOMMEND("RECOMMEND");
+  CUSTOM("CUSTOM");
 
   private String value;
 

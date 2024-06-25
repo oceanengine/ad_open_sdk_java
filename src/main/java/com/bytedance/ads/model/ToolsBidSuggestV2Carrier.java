@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2Carrier.Adapter.class)
 public enum ToolsBidSuggestV2Carrier {
   
-  TELCOM("TELCOM"),
-  
   UNICOM("UNICOM"),
+  
+  TELCOM("TELCOM"),
   
   MOBILE("MOBILE");
 

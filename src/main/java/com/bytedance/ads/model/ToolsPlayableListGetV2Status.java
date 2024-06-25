@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsPlayableListGetV2Status.Adapter.class)
 public enum ToolsPlayableListGetV2Status {
   
+  VALIDATE_SUCCESS("VALIDATE_SUCCESS"),
+  
+  VALIDATE_FAIL("VALIDATE_FAIL"),
+  
   AUDIT_SUCCESS("AUDIT_SUCCESS"),
   
   AUDIT_FAIL("AUDIT_FAIL"),
   
-  VALIDATING("VALIDATING"),
-  
-  VALIDATE_FAIL("VALIDATE_FAIL"),
-  
-  VALIDATE_SUCCESS("VALIDATE_SUCCESS");
+  VALIDATING("VALIDATING");
 
   private String value;
 

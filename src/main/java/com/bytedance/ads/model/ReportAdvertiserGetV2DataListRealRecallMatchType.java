@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAdvertiserGetV2DataListRealRecallMatchType.Adapter.class)
 public enum ReportAdvertiserGetV2DataListRealRecallMatchType {
   
-  EXTENSIVE("EXTENSIVE"),
-  
   PHRASE("PHRASE"),
+  
+  EXTENSIVE("EXTENSIVE"),
   
   PRECISION("PRECISION");
 

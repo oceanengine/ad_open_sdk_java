@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignCreateV2DedicateType.Adapter.class)
 public enum CampaignCreateV2DedicateType {
   
-  DEDICATED("DEDICATED"),
+  UNSET("UNSET"),
   
-  UNSET("UNSET");
+  DEDICATED("DEDICATED");
 
   private String value;
 

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageCreateV2Carrier.Adapter.class)
 public enum AudiencePackageCreateV2Carrier {
   
-  TELCOM("TELCOM"),
-  
   UNICOM("UNICOM"),
+  
+  TELCOM("TELCOM"),
   
   MOBILE("MOBILE");
 

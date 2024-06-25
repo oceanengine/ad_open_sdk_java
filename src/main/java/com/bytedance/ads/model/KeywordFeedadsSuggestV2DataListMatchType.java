@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(KeywordFeedadsSuggestV2DataListMatchType.Adapter.class)
 public enum KeywordFeedadsSuggestV2DataListMatchType {
   
-  EXTENSIVE("EXTENSIVE"),
-  
   PHRASE("PHRASE"),
+  
+  EXTENSIVE("EXTENSIVE"),
   
   PRECISION("PRECISION");
 

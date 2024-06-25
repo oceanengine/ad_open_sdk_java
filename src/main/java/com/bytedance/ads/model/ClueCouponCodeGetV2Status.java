@@ -31,13 +31,13 @@ public enum ClueCouponCodeGetV2Status {
   
   INVALID("INVALID"),
   
-  USED("USED"),
-  
   EXPIRED("EXPIRED"),
   
-  VALID("VALID"),
+  ABANDONED("ABANDONED"),
   
-  ABANDONED("ABANDONED");
+  USED("USED"),
+  
+  VALID("VALID");
 
   private String value;
 

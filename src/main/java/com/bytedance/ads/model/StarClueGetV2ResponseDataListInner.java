@@ -22,6 +22,7 @@ import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import java.io.IOException;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -51,7 +52,7 @@ import com.bytedance.ads.JSON;
 /**
  * StarClueGetV2ResponseDataListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class StarClueGetV2ResponseDataListInner {
   public static final String SERIALIZED_NAME_ADDRESS = "address";
   @SerializedName(SERIALIZED_NAME_ADDRESS)
@@ -120,14 +121,6 @@ public class StarClueGetV2ResponseDataListInner {
   public StarClueGetV2ResponseDataListInner() {
   }
 
-  
-  public StarClueGetV2ResponseDataListInner(
-     String createTime
-  ) {
-    this();
-    this.createTime = createTime;
-  }
-
   public StarClueGetV2ResponseDataListInner address(String address) {
     
     this.address = address;
@@ -135,7 +128,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 地址
    * @return address
   **/
   @javax.annotation.Nullable
@@ -156,7 +149,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 组件名称
    * @return anchorName
   **/
   @javax.annotation.Nullable
@@ -177,7 +170,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 达人昵称
    * @return authorName
   **/
   @javax.annotation.Nullable
@@ -198,7 +191,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 达人抖音短号
    * @return authorUid
   **/
   @javax.annotation.Nullable
@@ -219,7 +212,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 车系
    * @return carSeries
   **/
   @javax.annotation.Nullable
@@ -240,7 +233,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 车型
    * @return carType
   **/
   @javax.annotation.Nullable
@@ -261,7 +254,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 城市
    * @return city
   **/
   @javax.annotation.Nullable
@@ -296,8 +289,14 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
 
+  public StarClueGetV2ResponseDataListInner createTime(String createTime) {
+    
+    this.createTime = createTime;
+    return this;
+  }
+
    /**
-   * 
+   * 创建时间
    * @return createTime
   **/
   @javax.annotation.Nullable
@@ -306,6 +305,9 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
 
+  public void setCreateTime(String createTime) {
+    this.createTime = createTime;
+  }
 
 
   public StarClueGetV2ResponseDataListInner demandId(Long demandId) {
@@ -315,7 +317,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 任务id
    * @return demandId
   **/
   @javax.annotation.Nullable
@@ -336,7 +338,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 视频id
    * @return itemId
   **/
   @javax.annotation.Nullable
@@ -357,7 +359,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 姓名
    * @return name
   **/
   @javax.annotation.Nullable
@@ -378,7 +380,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 订单id
    * @return orderId
   **/
   @javax.annotation.Nullable
@@ -399,7 +401,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 电话
    * @return phone
   **/
   @javax.annotation.Nullable
@@ -420,7 +422,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 省会
    * @return province
   **/
   @javax.annotation.Nullable
@@ -441,7 +443,7 @@ public class StarClueGetV2ResponseDataListInner {
   }
 
    /**
-   * 
+   * 客户id
    * @return starId
   **/
   @javax.annotation.Nullable
@@ -483,9 +485,20 @@ public class StarClueGetV2ResponseDataListInner {
         Objects.equals(this.starId, starClueGetV2ResponseDataListInner.starId);
   }
 
+  private static <T> boolean equalsNullable(JsonNullable<T> a, JsonNullable<T> b) {
+    return a == b || (a != null && b != null && a.isPresent() && b.isPresent() && Objects.deepEquals(a.get(), b.get()));
+  }
+
   @Override
   public int hashCode() {
     return Objects.hash(address, anchorName, authorName, authorUid, carSeries, carType, city, componentType, createTime, demandId, itemId, name, orderId, phone, province, starId);
+  }
+
+  private static <T> int hashCodeNullable(JsonNullable<T> a) {
+    if (a == null) {
+      return 1;
+    }
+    return a.isPresent() ? Arrays.deepHashCode(new Object[]{a.get()}) : 31;
   }
 
   @Override
@@ -549,6 +562,13 @@ public class StarClueGetV2ResponseDataListInner {
 
     // a set of required properties/fields (JSON key names)
     openapiRequiredFields = new HashSet<String>();
+    openapiRequiredFields.add("anchor_name");
+    openapiRequiredFields.add("component_type");
+    openapiRequiredFields.add("create_time");
+    openapiRequiredFields.add("demand_id");
+    openapiRequiredFields.add("item_id");
+    openapiRequiredFields.add("order_id");
+    openapiRequiredFields.add("star_id");
   }
 
 

@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsEstimateAudienceV2Age.Adapter.class)
 public enum ToolsEstimateAudienceV2Age {
   
+  BETWEEN_41_49("AGE_BETWEEN_41_49"),
+  
+  BELOW_18("AGE_BELOW_18"),
+  
   ABOVE_50("AGE_ABOVE_50"),
   
   BETWEEN_31_40("AGE_BETWEEN_31_40"),
   
-  BETWEEN_18_23("AGE_BETWEEN_18_23"),
-  
-  BETWEEN_41_49("AGE_BETWEEN_41_49"),
-  
   BETWEEN_24_30("AGE_BETWEEN_24_30"),
   
-  BELOW_18("AGE_BELOW_18");
+  BETWEEN_18_23("AGE_BETWEEN_18_23");
 
   private String value;
 

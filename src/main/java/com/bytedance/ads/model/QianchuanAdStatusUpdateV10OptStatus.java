@@ -31,11 +31,11 @@ public enum QianchuanAdStatusUpdateV10OptStatus {
   
   REVIVE("REVIVE"),
   
-  ENABLE("ENABLE"),
+  DISABLE("DISABLE"),
   
   DELETE("DELETE"),
   
-  DISABLE("DISABLE");
+  ENABLE("ENABLE");
 
   private String value;
 

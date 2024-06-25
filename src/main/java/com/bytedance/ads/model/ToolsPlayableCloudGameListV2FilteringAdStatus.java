@@ -31,9 +31,9 @@ public enum ToolsPlayableCloudGameListV2FilteringAdStatus {
   
   UNUSED("UNUSED"),
   
-  INUSE("INUSE"),
+  DELETE("DELETE"),
   
-  DELETE("DELETE");
+  INUSE("INUSE");
 
   private String value;
 

@@ -29,7 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueFormDetailV2DataFormElementsElementType.Adapter.class)
 public enum ClueFormDetailV2DataFormElementsElementType {
   
+  TELEPHONE("TELEPHONE"),
+  
   CITY("CITY"),
+  
+  TEXT("TEXT"),
   
   SELECT("SELECT"),
   
@@ -37,21 +41,17 @@ public enum ClueFormDetailV2DataFormElementsElementType {
   
   CALCULATOR("CALCULATOR"),
   
+  TEXTAREA("TEXTAREA"),
+  
   SEX("SEX"),
-  
-  NAME("NAME"),
-  
-  TELEPHONE("TELEPHONE"),
   
   NUMBER("NUMBER"),
   
+  DATE("DATE"),
+  
   RADIO("RADIO"),
   
-  TEXT("TEXT"),
-  
-  TEXTAREA("TEXTAREA"),
-  
-  DATE("DATE"),
+  NAME("NAME"),
   
   EMAIL("EMAIL");
 

@@ -16,7 +16,7 @@ package com.bytedance.ads;
 import java.util.Collection;
 import java.util.Iterator;
 
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class StringUtil {
   /**
    * Check if the given array contains the given value (with case-insensitive comparison).

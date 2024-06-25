@@ -33,11 +33,11 @@ public enum AgentAdvertiserSelectV2FilteringCostPeriod {
   
   YESTERDAY("YESTERDAY"),
   
-  LAST_7_DAYS("LAST_7_DAYS"),
+  TODAY("TODAY"),
   
   LAST_15_DAYS("LAST_15_DAYS"),
   
-  TODAY("TODAY");
+  LAST_7_DAYS("LAST_7_DAYS");
 
   private String value;
 

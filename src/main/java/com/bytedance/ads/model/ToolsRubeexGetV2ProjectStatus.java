@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsRubeexGetV2ProjectStatus.Adapter.class)
 public enum ToolsRubeexGetV2ProjectStatus {
   
-  DELETED("DELETED"),
-  
   ENABLED("ENABLED"),
   
-  INITAL("INITAL");
+  INITAL("INITAL"),
+  
+  DELETED("DELETED");
 
   private String value;
 

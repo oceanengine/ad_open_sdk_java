@@ -31,9 +31,9 @@ public enum ToolsPromotionCardRecommendTitleGetV2TextType {
   
   PROMOTION("PROMOTION"),
   
-  CALL_TO_ACTION("CALL_TO_ACTION"),
+  CARD_TITLE("CARD_TITLE"),
   
-  CARD_TITLE("CARD_TITLE");
+  CALL_TO_ACTION("CALL_TO_ACTION");
 
   private String value;
 

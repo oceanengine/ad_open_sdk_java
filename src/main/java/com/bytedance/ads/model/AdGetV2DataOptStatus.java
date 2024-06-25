@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataOptStatus.Adapter.class)
 public enum AdGetV2DataOptStatus {
   
-  DISABLE_BY_QUOTA("AD_STATUS_DISABLE_BY_QUOTA"),
+  ENABLE("AD_STATUS_ENABLE"),
   
   DISABLE("AD_STATUS_DISABLE"),
   
-  ENABLE("AD_STATUS_ENABLE"),
+  FROZEN("AD_STATUS_FROZEN"),
   
-  FROZEN("AD_STATUS_FROZEN");
+  DISABLE_BY_QUOTA("AD_STATUS_DISABLE_BY_QUOTA");
 
   private String value;
 

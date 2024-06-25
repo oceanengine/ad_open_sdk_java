@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(EnterpriseOperationLogGetV10DataListBusinessPageOperationType.Adapter.class)
 public enum EnterpriseOperationLogGetV10DataListBusinessPageOperationType {
   
-  LIVE("LIVE"),
+  AD("AD"),
   
   VIDEO("VIDEO"),
   
-  AD("AD"),
+  DOU("DOU"),
   
-  DOU("DOU");
+  LIVE("LIVE");
 
   private String value;
 

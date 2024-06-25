@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsLiveAuthorizeListV2DataListStatus.Adapter.class)
 public enum ToolsLiveAuthorizeListV2DataListStatus {
   
-  APPLYING("APPLYING"),
-  
   AUTHORIZE_OVERDUE("AUTHORIZE_OVERDUE"),
   
   AUTHORIZING("AUTHORIZING"),
+  
+  APPLYING("APPLYING"),
   
   APPLY_OVERDUE("APPLY_OVERDUE");
 

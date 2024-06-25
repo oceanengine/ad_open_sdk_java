@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(QianchuanCreativeRejectReasonV10DataListAuditRecordsAuditPlatform.Adapter.class)
 public enum QianchuanCreativeRejectReasonV10DataListAuditRecordsAuditPlatform {
   
-  CONTENT("CONTENT"),
-  
   UNKNOWN("UNKNOWN"),
   
-  AD("AD");
+  AD("AD"),
+  
+  CONTENT("CONTENT");
 
   private String value;
 

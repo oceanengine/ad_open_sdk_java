@@ -53,7 +53,7 @@ import com.bytedance.ads.JSON;
 /**
  * CgTransferQueryTransferDetailV30ResponseDataTransferTargetRecordListInnerTransferCapitalRecordListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class CgTransferQueryTransferDetailV30ResponseDataTransferTargetRecordListInnerTransferCapitalRecordListInner {
   public static final String SERIALIZED_NAME_CAPITAL_TYPE = "capital_type";
   @SerializedName(SERIALIZED_NAME_CAPITAL_TYPE)

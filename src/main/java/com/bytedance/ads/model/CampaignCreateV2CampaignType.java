@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignCreateV2CampaignType.Adapter.class)
 public enum CampaignCreateV2CampaignType {
   
+  FEED("FEED"),
+  
   SEARCH("SEARCH"),
   
-  CONTENT("CONTENT"),
-  
-  FEED("FEED");
+  CONTENT("CONTENT");
 
   private String value;
 

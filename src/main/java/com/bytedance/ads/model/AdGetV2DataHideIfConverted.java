@@ -29,19 +29,19 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataHideIfConverted.Adapter.class)
 public enum AdGetV2DataHideIfConverted {
   
-  CUSTOMER("CUSTOMER"),
+  ADVERTISER("ADVERTISER"),
   
   AD("AD"),
   
-  NO_EXCLUDE("NO_EXCLUDE"),
+  CUSTOMER("CUSTOMER"),
   
-  APP("APP"),
+  ORGANIZATION("ORGANIZATION"),
   
   CAMPAIGN("CAMPAIGN"),
   
-  ADVERTISER("ADVERTISER"),
+  APP("APP"),
   
-  ORGANIZATION("ORGANIZATION");
+  NO_EXCLUDE("NO_EXCLUDE");
 
   private String value;
 

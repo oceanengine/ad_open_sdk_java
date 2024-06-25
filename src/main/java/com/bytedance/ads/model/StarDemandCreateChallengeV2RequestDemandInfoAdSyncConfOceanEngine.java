@@ -50,7 +50,7 @@ import com.bytedance.ads.JSON;
 /**
  * 产出物推送巨量引擎配置信息
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class StarDemandCreateChallengeV2RequestDemandInfoAdSyncConfOceanEngine {
   public static final String SERIALIZED_NAME_SYNC_DURATION = "sync_duration";
   @SerializedName(SERIALIZED_NAME_SYNC_DURATION)

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CreativeCustomCreativeCreateV2AdDataSupplementsSupplementType.Adapter.class)
 public enum CreativeCustomCreativeCreateV2AdDataSupplementsSupplementType {
   
-  NORMAL("NORMAL"),
+  CLOUD_GAME("CLOUD_GAME"),
   
-  CLOUD_GAME("CLOUD_GAME");
+  NORMAL("NORMAL");
 
   private String value;
 

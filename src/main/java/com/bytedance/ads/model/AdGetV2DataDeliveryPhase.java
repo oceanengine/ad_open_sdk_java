@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataDeliveryPhase.Adapter.class)
 public enum AdGetV2DataDeliveryPhase {
   
-  FIRST_PHASE("FIRST_PHASE"),
+  SECOND_PHASE("SECOND_PHASE"),
   
-  SECOND_PHASE("SECOND_PHASE");
+  FIRST_PHASE("FIRST_PHASE");
 
   private String value;
 

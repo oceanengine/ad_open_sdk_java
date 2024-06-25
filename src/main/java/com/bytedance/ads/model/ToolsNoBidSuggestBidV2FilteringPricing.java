@@ -29,7 +29,7 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsNoBidSuggestBidV2FilteringPricing.Adapter.class)
 public enum ToolsNoBidSuggestBidV2FilteringPricing {
   
-  CPA("PRICING_CPA"),
+  OCPM("PRICING_OCPM"),
   
   CPC_OCPM("PRICING_CPC_OCPM"),
   
@@ -39,9 +39,9 @@ public enum ToolsNoBidSuggestBidV2FilteringPricing {
   
   OCPC("PRICING_OCPC"),
   
-  OCPM("PRICING_OCPM"),
+  CPM("PRICING_CPM"),
   
-  CPM("PRICING_CPM");
+  CPA("PRICING_CPA");
 
   private String value;
 

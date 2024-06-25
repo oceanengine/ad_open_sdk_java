@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageUpdateV2Ac.Adapter.class)
 public enum AudiencePackageUpdateV2Ac {
   
-  Enum_2G("2G"),
+  Enum_4G("4G"),
   
   WIFI("WIFI"),
   
   Enum_3G("3G"),
   
-  Enum_4G("4G");
+  Enum_2G("2G");
 
   private String value;
 

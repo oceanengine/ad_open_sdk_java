@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2AutoExtendTargets.Adapter.class)
 public enum ToolsBidSuggestV2AutoExtendTargets {
   
+  GENDER("GENDER"),
+  
   REGION("REGION"),
   
-  INTEREST_TAG("INTEREST_TAG"),
-  
-  AD_TAG("AD_TAG"),
-  
-  GENDER("GENDER"),
+  AGE("AGE"),
   
   CUSTOM_AUDIENCE("CUSTOM_AUDIENCE"),
   
-  AGE("AGE");
+  AD_TAG("AD_TAG"),
+  
+  INTEREST_TAG("INTEREST_TAG");
 
   private String value;
 

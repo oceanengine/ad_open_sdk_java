@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdConvertOptimizedTargetGetV2LaunchTargetType.Adapter.class)
 public enum ToolsAdConvertOptimizedTargetGetV2LaunchTargetType {
   
-  EXTERNAL("EXTERNAL"),
-  
   APP("APP"),
+  
+  EXTERNAL("EXTERNAL"),
   
   LIVE_CONVERT("LIVE_CONVERT");
 

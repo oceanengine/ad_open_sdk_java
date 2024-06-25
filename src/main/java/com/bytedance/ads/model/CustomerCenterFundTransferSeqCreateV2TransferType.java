@@ -29,19 +29,19 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CustomerCenterFundTransferSeqCreateV2TransferType.Adapter.class)
 public enum CustomerCenterFundTransferSeqCreateV2TransferType {
   
+  CREDIT_BRAND("CREDIT_BRAND"),
+  
   PREPAY_UNIVERSAL("PREPAY_UNIVERSAL"),
   
-  GRANT("GRANT"),
+  PREPAY_BID("PREPAY_BID"),
   
   CREDIT_BID("CREDIT_BID"),
   
-  CREDIT_UNIVERSAL("CREDIT_UNIVERSAL"),
-  
-  CREDIT_BRAND("CREDIT_BRAND"),
-  
   PREPAY_BRAND("PREPAY_BRAND"),
   
-  PREPAY_BID("PREPAY_BID");
+  CREDIT_UNIVERSAL("CREDIT_UNIVERSAL"),
+  
+  GRANT("GRANT");
 
   private String value;
 

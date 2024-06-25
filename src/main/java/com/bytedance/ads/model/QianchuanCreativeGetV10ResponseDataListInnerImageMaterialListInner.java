@@ -52,7 +52,7 @@ import com.bytedance.ads.JSON;
 /**
  * QianchuanCreativeGetV10ResponseDataListInnerImageMaterialListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class QianchuanCreativeGetV10ResponseDataListInnerImageMaterialListInner {
   public static final String SERIALIZED_NAME_IMAGE_ID = "image_id";
   @SerializedName(SERIALIZED_NAME_IMAGE_ID)

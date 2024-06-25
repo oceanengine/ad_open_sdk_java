@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAppManagementShareAccountListV2SearchType.Adapter.class)
 public enum ToolsAppManagementShareAccountListV2SearchType {
   
-  ORGANIZATION_SHARE("ORGANIZATION_SHARE"),
+  OTHER("OTHER"),
   
-  OTHER("OTHER");
+  ORGANIZATION_SHARE("ORGANIZATION_SHARE");
 
   private String value;
 

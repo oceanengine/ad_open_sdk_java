@@ -29,19 +29,19 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAppManagementExtendPackageListV2FilteringStatus.Adapter.class)
 public enum ToolsAppManagementExtendPackageListV2FilteringStatus {
   
-  UPDATE_FAILED("UPDATE_FAILED"),
-  
-  ALL("ALL"),
+  NOT_UPDATE("NOT_UPDATE"),
   
   PUBLISHED("PUBLISHED"),
   
-  UPDATING("UPDATING"),
-  
-  NOT_UPDATE("NOT_UPDATE"),
+  ALL("ALL"),
   
   CREATION_FAILED("CREATION_FAILED"),
   
-  CREATING("CREATING");
+  CREATING("CREATING"),
+  
+  UPDATING("UPDATING"),
+  
+  UPDATE_FAILED("UPDATE_FAILED");
 
   private String value;
 

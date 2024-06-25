@@ -56,7 +56,7 @@ import com.bytedance.ads.JSON;
 /**
  * 需求信息
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class StarDemandCreateAssignV2RequestDemandInfo {
   public static final String SERIALIZED_NAME_ACCEPT_EXPIRATION_DAY = "accept_expiration_day";
   @SerializedName(SERIALIZED_NAME_ACCEPT_EXPIRATION_DAY)
@@ -137,6 +137,10 @@ public class StarDemandCreateAssignV2RequestDemandInfo {
   public static final String SERIALIZED_NAME_PRODUCT_NAME = "product_name";
   @SerializedName(SERIALIZED_NAME_PRODUCT_NAME)
   private String productName = null;
+
+  public static final String SERIALIZED_NAME_XINGZHITOU_PRE_AUDIT = "xingzhitou_pre_audit";
+  @SerializedName(SERIALIZED_NAME_XINGZHITOU_PRE_AUDIT)
+  private Integer xingzhitouPreAudit = null;
 
   public StarDemandCreateAssignV2RequestDemandInfo() {
   }
@@ -585,6 +589,27 @@ public class StarDemandCreateAssignV2RequestDemandInfo {
   }
 
 
+  public StarDemandCreateAssignV2RequestDemandInfo xingzhitouPreAudit(Integer xingzhitouPreAudit) {
+    
+    this.xingzhitouPreAudit = xingzhitouPreAudit;
+    return this;
+  }
+
+   /**
+   * 星智投预审，0或不传为不开启，1为开启
+   * @return xingzhitouPreAudit
+  **/
+  @javax.annotation.Nullable
+  public Integer getXingzhitouPreAudit() {
+    return xingzhitouPreAudit;
+  }
+
+
+  public void setXingzhitouPreAudit(Integer xingzhitouPreAudit) {
+    this.xingzhitouPreAudit = xingzhitouPreAudit;
+  }
+
+
 
   @Override
   public boolean equals(Object o) {
@@ -614,7 +639,8 @@ public class StarDemandCreateAssignV2RequestDemandInfo {
         Objects.equals(this.productCategory, starDemandCreateAssignV2RequestDemandInfo.productCategory) &&
         Objects.equals(this.productIndustry, starDemandCreateAssignV2RequestDemandInfo.productIndustry) &&
         Objects.equals(this.productInformation, starDemandCreateAssignV2RequestDemandInfo.productInformation) &&
-        Objects.equals(this.productName, starDemandCreateAssignV2RequestDemandInfo.productName);
+        Objects.equals(this.productName, starDemandCreateAssignV2RequestDemandInfo.productName) &&
+        Objects.equals(this.xingzhitouPreAudit, starDemandCreateAssignV2RequestDemandInfo.xingzhitouPreAudit);
   }
 
   private static <T> boolean equalsNullable(JsonNullable<T> a, JsonNullable<T> b) {
@@ -623,7 +649,7 @@ public class StarDemandCreateAssignV2RequestDemandInfo {
 
   @Override
   public int hashCode() {
-    return Objects.hash(acceptExpirationDay, adSyncConf, attachmentText, attachments, brandName, componentClickMonitorUrl, componentInfo, contactName, contactPhone, demandName, demandRequirement, expectRemainTime, expirationTime, expirationTimeEnd, ignoreScript, itemShowMonitorUrl, productCategory, productIndustry, productInformation, productName);
+    return Objects.hash(acceptExpirationDay, adSyncConf, attachmentText, attachments, brandName, componentClickMonitorUrl, componentInfo, contactName, contactPhone, demandName, demandRequirement, expectRemainTime, expirationTime, expirationTimeEnd, ignoreScript, itemShowMonitorUrl, productCategory, productIndustry, productInformation, productName, xingzhitouPreAudit);
   }
 
   private static <T> int hashCodeNullable(JsonNullable<T> a) {
@@ -657,6 +683,7 @@ public class StarDemandCreateAssignV2RequestDemandInfo {
     sb.append("    productIndustry: ").append(toIndentedString(productIndustry)).append("\n");
     sb.append("    productInformation: ").append(toIndentedString(productInformation)).append("\n");
     sb.append("    productName: ").append(toIndentedString(productName)).append("\n");
+    sb.append("    xingzhitouPreAudit: ").append(toIndentedString(xingzhitouPreAudit)).append("\n");
     sb.append("}");
     return sb.toString();
   }
@@ -699,6 +726,7 @@ public class StarDemandCreateAssignV2RequestDemandInfo {
     openapiFields.add("product_industry");
     openapiFields.add("product_information");
     openapiFields.add("product_name");
+    openapiFields.add("xingzhitou_pre_audit");
 
     // a set of required properties/fields (JSON key names)
     openapiRequiredFields = new HashSet<String>();

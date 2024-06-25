@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAppManagementBpShareV2DataSuccessListAccountInfoAccountType.Adapter.class)
 public enum ToolsAppManagementBpShareV2DataSuccessListAccountInfoAccountType {
   
-  BP("BP"),
+  AD("AD"),
   
   STAR("STAR"),
   
-  AD("AD");
+  BP("BP");
 
   private String value;
 

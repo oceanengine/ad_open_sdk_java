@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueFormDetailV2DataFormFormType.Adapter.class)
 public enum ClueFormDetailV2DataFormFormType {
   
+  NATIVE_FORM("NATIVE_FORM"),
+  
   ADVANCED_CREATIVE_FORM("ADVANCED_CREATIVE_FORM"),
   
-  NORMAL_FORM("NORMAL_FORM"),
-  
-  NATIVE_FORM("NATIVE_FORM");
+  NORMAL_FORM("NORMAL_FORM");
 
   private String value;
 

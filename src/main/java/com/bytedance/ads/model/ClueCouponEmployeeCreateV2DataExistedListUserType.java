@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueCouponEmployeeCreateV2DataExistedListUserType.Adapter.class)
 public enum ClueCouponEmployeeCreateV2DataExistedListUserType {
   
-  DOUYIN("DOUYIN"),
+  TOUTIAO("TOUTIAO"),
   
-  TOUTIAO("TOUTIAO");
+  DOUYIN("DOUYIN");
 
   private String value;
 

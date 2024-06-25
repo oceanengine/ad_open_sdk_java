@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CreativeCustomCreativeUpdateV2AdDataAnchorRelatedType.Adapter.class)
 public enum CreativeCustomCreativeUpdateV2AdDataAnchorRelatedType {
   
+  AUTO("AUTO"),
+  
   OFF("OFF"),
   
-  SELECT("SELECT"),
-  
-  AUTO("AUTO");
+  SELECT("SELECT");
 
   private String value;
 

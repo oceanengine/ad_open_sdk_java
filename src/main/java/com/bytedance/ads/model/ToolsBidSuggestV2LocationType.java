@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2LocationType.Adapter.class)
 public enum ToolsBidSuggestV2LocationType {
   
-  CURRENT("CURRENT"),
+  TRAVEL("TRAVEL"),
   
   HOME("HOME"),
   
-  ALL("ALL"),
+  CURRENT("CURRENT"),
   
-  TRAVEL("TRAVEL");
+  ALL("ALL");
 
   private String value;
 

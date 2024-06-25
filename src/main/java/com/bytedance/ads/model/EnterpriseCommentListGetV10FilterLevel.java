@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(EnterpriseCommentListGetV10FilterLevel.Adapter.class)
 public enum EnterpriseCommentListGetV10FilterLevel {
   
+  TWO("LEVEL_TWO"),
+  
   ONE("LEVEL_ONE"),
   
-  ALL("LEVEL_ALL"),
-  
-  TWO("LEVEL_TWO");
+  ALL("LEVEL_ALL");
 
   private String value;
 

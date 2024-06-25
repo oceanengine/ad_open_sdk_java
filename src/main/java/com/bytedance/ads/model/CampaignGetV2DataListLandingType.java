@@ -29,27 +29,27 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignGetV2DataListLandingType.Adapter.class)
 public enum CampaignGetV2DataListLandingType {
   
-  SHOP("SHOP"),
-  
   LINK("LINK"),
-  
-  APP("APP"),
-  
-  BRAND_EXTERNAL("BRAND_EXTERNAL"),
-  
-  STORE("STORE"),
-  
-  QUICK_APP("QUICK_APP"),
   
   GOODS("GOODS"),
   
-  DPA("DPA"),
-  
-  LIVE("LIVE"),
-  
   AWEME("AWEME"),
   
-  ARTICLE("ARTICLE");
+  DPA("DPA"),
+  
+  BRAND_EXTERNAL("BRAND_EXTERNAL"),
+  
+  QUICK_APP("QUICK_APP"),
+  
+  SHOP("SHOP"),
+  
+  APP("APP"),
+  
+  STORE("STORE"),
+  
+  ARTICLE("ARTICLE"),
+  
+  LIVE("LIVE");
 
   private String value;
 

@@ -30,16 +30,16 @@ public class StarClueGetV2ApiExample {
     private static final StarClueGetV2Api api = new StarClueGetV2Api();
 
     public static void main(String[] args) throws ApiException {
+        Long starId = null;
         Long demandId = null;
         Long orderId = null;
-        Long page = null;
-        Long pageSize = null;
-        Long starId = null;
+        Integer page = null;
+        Integer pageSize = null;
         ApiClient apiClient = api.getApiClient();
         apiClient.addDefaultHeader("Access-Token", "");
         apiClient.setDebugging(true);
         api.setApiClient(apiClient);
-        StarClueGetV2Response response = api.openApi2StarClueGetGet(demandId, orderId, page, pageSize, starId);
+        StarClueGetV2Response response = api.openApi2StarClueGetGet(starId, demandId, orderId, page, pageSize);
         System.out.println(response);
     }
 

@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportLiveRoomAudiencePortraitGetV2Dimension.Adapter.class)
 public enum ReportLiveRoomAudiencePortraitGetV2Dimension {
   
+  GENDER("GENDER"),
+  
   CITY("CITY"),
   
   PLATFORM("PLATFORM"),
   
-  PROVINCE("PROVINCE"),
+  AGE("AGE"),
   
-  GENDER("GENDER"),
-  
-  AGE("AGE");
+  PROVINCE("PROVINCE");
 
   private String value;
 

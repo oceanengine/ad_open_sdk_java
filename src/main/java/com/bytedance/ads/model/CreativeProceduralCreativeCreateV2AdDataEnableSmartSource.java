@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CreativeProceduralCreativeCreateV2AdDataEnableSmartSource.Adapter.class)
 public enum CreativeProceduralCreativeCreateV2AdDataEnableSmartSource {
   
-  OFF("OFF"),
+  ON("ON"),
   
-  ON("ON");
+  OFF("OFF");
 
   private String value;
 

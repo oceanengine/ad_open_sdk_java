@@ -31,9 +31,9 @@ public enum AdGetV2DataUnionVideoType {
   
   REWARDED_VIDEO("REWARDED_VIDEO"),
   
-  ORIGINAL_VIDEO("ORIGINAL_VIDEO"),
+  SPLASH_VIDEO("SPLASH_VIDEO"),
   
-  SPLASH_VIDEO("SPLASH_VIDEO");
+  ORIGINAL_VIDEO("ORIGINAL_VIDEO");
 
   private String value;
 

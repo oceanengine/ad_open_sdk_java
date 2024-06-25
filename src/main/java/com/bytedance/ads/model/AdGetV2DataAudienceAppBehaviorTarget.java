@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataAudienceAppBehaviorTarget.Adapter.class)
 public enum AdGetV2DataAudienceAppBehaviorTarget {
   
-  NONE("NONE"),
+  APP("APP"),
   
   CATEGORY("CATEGORY"),
   
-  APP("APP");
+  NONE("NONE");
 
   private String value;
 

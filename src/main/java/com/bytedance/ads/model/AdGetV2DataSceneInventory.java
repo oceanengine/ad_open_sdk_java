@@ -31,11 +31,11 @@ public enum AdGetV2DataSceneInventory {
   
   TAIL_SCENE("TAIL_SCENE"),
   
-  FEED_SCENE("FEED_SCENE"),
+  NOT_SELECT("NOT_SELECT"),
   
   VIDEO_SCENE("VIDEO_SCENE"),
   
-  NOT_SELECT("NOT_SELECT");
+  FEED_SCENE("FEED_SCENE");
 
   private String value;
 

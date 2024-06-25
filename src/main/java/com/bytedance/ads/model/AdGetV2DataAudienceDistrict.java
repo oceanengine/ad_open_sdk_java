@@ -31,15 +31,15 @@ public enum AdGetV2DataAudienceDistrict {
   
   CITY("CITY"),
   
-  REGION("REGION"),
-  
   OVERSEA("OVERSEA"),
   
-  NONE("NONE"),
+  REGION("REGION"),
   
   COUNTY("COUNTY"),
   
-  BUSINESS_DISTRICT("BUSINESS_DISTRICT");
+  BUSINESS_DISTRICT("BUSINESS_DISTRICT"),
+  
+  NONE("NONE");
 
   private String value;
 

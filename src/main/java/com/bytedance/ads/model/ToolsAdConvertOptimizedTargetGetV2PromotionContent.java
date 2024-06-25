@@ -29,27 +29,27 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdConvertOptimizedTargetGetV2PromotionContent.Adapter.class)
 public enum ToolsAdConvertOptimizedTargetGetV2PromotionContent {
   
-  DOUYIN("DOUYIN"),
-  
-  MICRO_APP("MICRO_APP"),
-  
-  SHOP("SHOP"),
-  
-  DOWNLOAD_URL("DOWNLOAD_URL"),
-  
-  AWEME_HOME_PAGE("AWEME_HOME_PAGE"),
-  
-  EXTERNAL_URL("EXTERNAL_URL"),
-  
-  QUICK_APP_URL("QUICK_APP_URL"),
-  
   THIRD_PARTY("THIRD_PARTY"),
-  
-  NORMAL("NORMAL"),
   
   LIVE_ROOM("LIVE_ROOM"),
   
-  GOODS_LINK("GOODS_LINK");
+  NORMAL("NORMAL"),
+  
+  QUICK_APP_URL("QUICK_APP_URL"),
+  
+  SHOP("SHOP"),
+  
+  GOODS_LINK("GOODS_LINK"),
+  
+  EXTERNAL_URL("EXTERNAL_URL"),
+  
+  MICRO_APP("MICRO_APP"),
+  
+  AWEME_HOME_PAGE("AWEME_HOME_PAGE"),
+  
+  DOWNLOAD_URL("DOWNLOAD_URL"),
+  
+  DOUYIN("DOUYIN");
 
   private String value;
 

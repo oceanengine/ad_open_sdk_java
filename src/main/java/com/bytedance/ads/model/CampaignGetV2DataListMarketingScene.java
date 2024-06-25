@@ -29,25 +29,25 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignGetV2DataListMarketingScene.Adapter.class)
 public enum CampaignGetV2DataListMarketingScene {
   
-  VIDEO_INFO("VIDEO_INFO"),
-  
-  ECOMMERCE("ECOMMERCE"),
-  
-  CAR("CAR"),
-  
-  MERCHANTS("MERCHANTS"),
-  
-  GAME_SUBSCRIBE("GAME_SUBSCRIBE"),
-  
-  NOVEL("NOVEL"),
+  PROMOTION_PURPOSE("PROMOTION_PURPOSE"),
   
   EDUCATION("EDUCATION"),
   
+  GAME_SUBSCRIBE("GAME_SUBSCRIBE"),
+  
+  GAME_PROMOTION("GAME_PROMOTION"),
+  
+  MERCHANTS("MERCHANTS"),
+  
+  VIDEO_INFO("VIDEO_INFO"),
+  
+  CAR("CAR"),
+  
+  NOVEL("NOVEL"),
+  
   SOCIAL("SOCIAL"),
   
-  PROMOTION_PURPOSE("PROMOTION_PURPOSE"),
-  
-  GAME_PROMOTION("GAME_PROMOTION");
+  ECOMMERCE("ECOMMERCE");
 
   private String value;
 

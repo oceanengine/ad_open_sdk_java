@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataAudiencePlatform.Adapter.class)
 public enum AdGetV2DataAudiencePlatform {
   
-  ANDROID("ANDROID"),
-  
-  NONE("NONE"),
-  
   PC("PC"),
-  
-  IOS("IOS"),
   
   IPAD("IPAD"),
   
-  WAP("WAP");
+  WAP("WAP"),
+  
+  IOS("IOS"),
+  
+  ANDROID("ANDROID"),
+  
+  NONE("NONE");
 
   private String value;
 

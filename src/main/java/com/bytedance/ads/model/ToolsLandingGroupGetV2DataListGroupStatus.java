@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsLandingGroupGetV2DataListGroupStatus.Adapter.class)
 public enum ToolsLandingGroupGetV2DataListGroupStatus {
   
-  UNAVAILABLE("LANDING_GROUP_STATUS_UNAVAILABLE"),
+  AVAILABLE("LANDING_GROUP_STATUS_AVAILABLE"),
   
-  AVAILABLE("LANDING_GROUP_STATUS_AVAILABLE");
+  UNAVAILABLE("LANDING_GROUP_STATUS_UNAVAILABLE");
 
   private String value;
 

@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAgentGetV2V2FilteringActive.Adapter.class)
 public enum ReportAgentGetV2V2FilteringActive {
   
+  SILENT("SILENT"),
+  
   ACTIVE("ACTIVE"),
   
-  ALL("ALL"),
-  
-  SILENT("SILENT");
+  ALL("ALL");
 
   private String value;
 

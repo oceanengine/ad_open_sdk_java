@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2Gender.Adapter.class)
 public enum ToolsBidSuggestV2Gender {
   
+  GENDER_FEMALE("GENDER_FEMALE"),
+  
   GENDER_UNLIMITED("GENDER_UNLIMITED"),
   
   NONE("NONE"),
   
-  GENDER_MALE("GENDER_MALE"),
-  
-  GENDER_FEMALE("GENDER_FEMALE");
+  GENDER_MALE("GENDER_MALE");
 
   private String value;
 

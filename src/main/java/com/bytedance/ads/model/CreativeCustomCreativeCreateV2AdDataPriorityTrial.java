@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CreativeCustomCreativeCreateV2AdDataPriorityTrial.Adapter.class)
 public enum CreativeCustomCreativeCreateV2AdDataPriorityTrial {
   
-  OFF("OFF"),
+  ON("ON"),
   
-  ON("ON");
+  OFF("OFF");
 
   private String value;
 

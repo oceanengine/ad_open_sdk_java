@@ -50,7 +50,7 @@ import com.bytedance.ads.JSON;
 /**
  * phoneEvent事件行为描述
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class ToolsSiteTemplateCreateV2ResponseDataBricksInnerButtonPhoneEvent {
   public static final String SERIALIZED_NAME_INSTANCE_ID = "instance_id";
   @SerializedName(SERIALIZED_NAME_INSTANCE_ID)

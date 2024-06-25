@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataInventoryCatalog.Adapter.class)
 public enum AdGetV2DataInventoryCatalog {
   
-  SCENE("SCENE"),
+  SMART("SMART"),
+  
+  UNIVERSAL("UNIVERSAL"),
   
   UNIVERSAL_SMART("UNIVERSAL_SMART"),
   
-  MANUAL("MANUAL"),
+  SCENE("SCENE"),
   
-  SMART("SMART"),
-  
-  UNIVERSAL("UNIVERSAL");
+  MANUAL("MANUAL");
 
   private String value;
 

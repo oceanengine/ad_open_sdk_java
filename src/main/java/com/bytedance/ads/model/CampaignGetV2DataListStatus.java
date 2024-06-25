@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignGetV2DataListStatus.Adapter.class)
 public enum CampaignGetV2DataListStatus {
   
+  ENABLE("CAMPAIGN_STATUS_ENABLE"),
+  
   DISABLE("CAMPAIGN_STATUS_DISABLE"),
   
   ADVERTISER_BUDGET_EXCEED("CAMPAIGN_STATUS_ADVERTISER_BUDGET_EXCEED"),
-  
-  ENABLE("CAMPAIGN_STATUS_ENABLE"),
   
   DELETE("CAMPAIGN_STATUS_DELETE");
 

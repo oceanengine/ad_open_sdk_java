@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportLiveRoomAttributeGetV2DataListRoomStatus.Adapter.class)
 public enum ReportLiveRoomAttributeGetV2DataListRoomStatus {
   
-  PAUSE("PAUSE"),
-  
-  END("END"),
-  
   LIVING("LIVING"),
   
-  PREPARING("PREPARING");
+  PREPARING("PREPARING"),
+  
+  PAUSE("PAUSE"),
+  
+  END("END");
 
   private String value;
 

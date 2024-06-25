@@ -50,7 +50,7 @@ import com.bytedance.ads.JSON;
 /**
  * 
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class QianchuanAdKeywordsGetV10Filtering {
   public static final String SERIALIZED_NAME_AD_ID = "ad_id";
   @SerializedName(SERIALIZED_NAME_AD_ID)
@@ -68,7 +68,7 @@ public class QianchuanAdKeywordsGetV10Filtering {
    /**
    * 需要获取关键词的计划ID
    * minimum: 1
-   * maximum: 9223372036854775807
+   * maximum: -9223372036854775616
    * @return adId
   **/
   @javax.annotation.Nonnull

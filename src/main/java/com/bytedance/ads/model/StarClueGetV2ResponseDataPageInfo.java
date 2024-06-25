@@ -21,6 +21,7 @@ import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import java.io.IOException;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -48,9 +49,9 @@ import java.util.Set;
 import com.bytedance.ads.JSON;
 
 /**
- * 
+ * 分页信息
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class StarClueGetV2ResponseDataPageInfo {
   public static final String SERIALIZED_NAME_PAGE = "page";
   @SerializedName(SERIALIZED_NAME_PAGE)
@@ -78,7 +79,7 @@ public class StarClueGetV2ResponseDataPageInfo {
   }
 
    /**
-   * 
+   * 页码
    * @return page
   **/
   @javax.annotation.Nullable
@@ -99,7 +100,7 @@ public class StarClueGetV2ResponseDataPageInfo {
   }
 
    /**
-   * 
+   * 页面大小
    * @return pageSize
   **/
   @javax.annotation.Nullable
@@ -120,7 +121,7 @@ public class StarClueGetV2ResponseDataPageInfo {
   }
 
    /**
-   * 
+   * 总数
    * @return totalNumber
   **/
   @javax.annotation.Nullable
@@ -141,7 +142,7 @@ public class StarClueGetV2ResponseDataPageInfo {
   }
 
    /**
-   * 
+   * 总页数
    * @return totalPage
   **/
   @javax.annotation.Nullable
@@ -171,9 +172,20 @@ public class StarClueGetV2ResponseDataPageInfo {
         Objects.equals(this.totalPage, starClueGetV2ResponseDataPageInfo.totalPage);
   }
 
+  private static <T> boolean equalsNullable(JsonNullable<T> a, JsonNullable<T> b) {
+    return a == b || (a != null && b != null && a.isPresent() && b.isPresent() && Objects.deepEquals(a.get(), b.get()));
+  }
+
   @Override
   public int hashCode() {
     return Objects.hash(page, pageSize, totalNumber, totalPage);
+  }
+
+  private static <T> int hashCodeNullable(JsonNullable<T> a) {
+    if (a == null) {
+      return 1;
+    }
+    return a.isPresent() ? Arrays.deepHashCode(new Object[]{a.get()}) : 31;
   }
 
   @Override

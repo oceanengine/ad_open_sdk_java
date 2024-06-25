@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2BidMode.Adapter.class)
 public enum ToolsBidSuggestV2BidMode {
   
-  SUGGEST("SUGGEST"),
+  AUTO_BID("AUTO_BID"),
   
-  AUTO_BID("AUTO_BID");
+  SUGGEST("SUGGEST");
 
   private String value;
 

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueCouponCodeConsumeV2EmployeeUserType.Adapter.class)
 public enum ClueCouponCodeConsumeV2EmployeeUserType {
   
-  DOUYIN("DOUYIN"),
+  TOUTIAO("TOUTIAO"),
   
-  TOUTIAO("TOUTIAO");
+  DOUYIN("DOUYIN");
 
   private String value;
 

@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataStoreType.Adapter.class)
 public enum AdGetV2DataStoreType {
   
-  THIRT_PARTY("STORE_THIRT_PARTY"),
-  
-  NORMAL("STORE_NORMAL"),
+  DOUYIN("STORE_DOUYIN"),
   
   LANDING("STORE_LANDING"),
   
-  DOUYIN("STORE_DOUYIN");
+  NORMAL("STORE_NORMAL"),
+  
+  THIRT_PARTY("STORE_THIRT_PARTY");
 
   private String value;
 

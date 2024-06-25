@@ -54,7 +54,7 @@ import com.bytedance.ads.JSON;
 /**
  * ToolsPromotionRaiseStatusGetV30ResponseDataListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class ToolsPromotionRaiseStatusGetV30ResponseDataListInner {
   public static final String SERIALIZED_NAME_RAISE_INFO = "raise_info";
   @SerializedName(SERIALIZED_NAME_RAISE_INFO)

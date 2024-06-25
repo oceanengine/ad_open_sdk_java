@@ -58,7 +58,7 @@ import com.bytedance.ads.JSON;
 /**
  * 配置平台（1:不限,2:安卓,3:iOS）
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class NativeAnchorGetDetailV30ResponseDataListInnerGameAnchor {
   public static final String SERIALIZED_NAME_ANCHOR_IMAGE_MODE = "anchor_image_mode";
   @SerializedName(SERIALIZED_NAME_ANCHOR_IMAGE_MODE)

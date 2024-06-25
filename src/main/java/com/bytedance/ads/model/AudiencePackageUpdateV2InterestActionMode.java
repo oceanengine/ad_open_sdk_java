@@ -31,9 +31,9 @@ public enum AudiencePackageUpdateV2InterestActionMode {
   
   UNLIMITED("UNLIMITED"),
   
-  CUSTOM("CUSTOM"),
+  RECOMMEND("RECOMMEND"),
   
-  RECOMMEND("RECOMMEND");
+  CUSTOM("CUSTOM");
 
   private String value;
 

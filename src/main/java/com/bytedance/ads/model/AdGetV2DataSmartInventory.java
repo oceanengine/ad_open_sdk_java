@@ -31,11 +31,11 @@ public enum AdGetV2DataSmartInventory {
   
   SMART("SMART"),
   
-  NORMAL("NORMAL"),
-  
   UNIVERSAL("UNIVERSAL"),
   
-  UNIVERSAL_ALL("UNIVERSAL_ALL");
+  UNIVERSAL_ALL("UNIVERSAL_ALL"),
+  
+  NORMAL("NORMAL");
 
   private String value;
 

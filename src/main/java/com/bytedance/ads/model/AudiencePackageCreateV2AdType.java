@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageCreateV2AdType.Adapter.class)
 public enum AudiencePackageCreateV2AdType {
   
-  SEARCH("SEARCH"),
+  ALL("ALL"),
   
-  ALL("ALL");
+  SEARCH("SEARCH");
 
   private String value;
 

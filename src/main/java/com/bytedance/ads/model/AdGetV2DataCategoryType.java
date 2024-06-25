@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataCategoryType.Adapter.class)
 public enum AdGetV2DataCategoryType {
   
-  NONE("NONE"),
-  
   CATEGORY("CATEGORY"),
+  
+  NONE("NONE"),
   
   PRODUCT("PRODUCT");
 

@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 包含阶段开始时间，结束时间，展示变红的时间
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class ToolsClueRefundViewGetV2ResponseDataShowOuterStagesInnerShowInnerStagesInnerShowTimeDetails {
   public static final String SERIALIZED_NAME_BEGIN_TIME = "begin_time";
   @SerializedName(SERIALIZED_NAME_BEGIN_TIME)

@@ -31,9 +31,9 @@ public enum ToolsAdConvertOptimizedTargetGetV2DataListConvertsExternalActionsSou
   
   CONFIG("SOURCE_CONFIG"),
   
-  METEOR("SOURCE_METEOR"),
+  TETRIS("SOURCE_TETRIS"),
   
-  TETRIS("SOURCE_TETRIS");
+  METEOR("SOURCE_METEOR");
 
   private String value;
 

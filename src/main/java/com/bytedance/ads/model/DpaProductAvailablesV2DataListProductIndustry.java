@@ -29,57 +29,57 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(DpaProductAvailablesV2DataListProductIndustry.Adapter.class)
 public enum DpaProductAvailablesV2DataListProductIndustry {
   
-  MEDICINE("MEDICINE"),
-  
-  FURNITURE("FURNITURE"),
-  
-  ECOMMERCE("ECOMMERCE"),
+  TOUR_ROUTE("TOUR_ROUTE"),
   
   WEALTH("WEALTH"),
   
-  TRANSPORT_TICKET("TRANSPORT_TICKET"),
+  FURNITURE("FURNITURE"),
   
-  LIVE("LIVE"),
-  
-  GENERAL("GENERAL"),
-  
-  RECRUITMENT("RECRUITMENT"),
-  
-  TOUR_ROUTE("TOUR_ROUTE"),
-  
-  ECOMMERCE_V2("ECOMMERCE_V2"),
-  
-  MERCHANTS("MERCHANTS"),
-  
-  NOVEL("NOVEL"),
-  
-  AUTO_NEW("AUTO_NEW"),
-  
-  CREDIT("CREDIT"),
-  
-  OTHER("OTHER"),
-  
-  VIDEO("VIDEO"),
+  FINANCE("FINANCE"),
   
   COMMUNICATION("COMMUNICATION"),
   
-  EDUCATION("EDUCATION"),
+  LIVE("LIVE"),
   
-  TOUR_HOTEL("TOUR_HOTEL"),
+  RECRUITMENT("RECRUITMENT"),
+  
+  CREDIT("CREDIT"),
   
   AUTO_OLD("AUTO_OLD"),
   
-  TOUR_TICKET("TOUR_TICKET"),
+  TRANSPORT_TICKET("TRANSPORT_TICKET"),
+  
+  VIDEO("VIDEO"),
+  
+  ESTATE("ESTATE"),
+  
+  MERCHANTS("MERCHANTS"),
   
   GAME("GAME"),
   
   MEDICAL_SERVICE("MEDICAL_SERVICE"),
   
+  MEDICINE("MEDICINE"),
+  
+  EDUCATION("EDUCATION"),
+  
+  TOUR_HOTEL("TOUR_HOTEL"),
+  
+  ECOMMERCE("ECOMMERCE"),
+  
+  ECOMMERCE_V2("ECOMMERCE_V2"),
+  
   NEW_HOUSE("NEW_HOUSE"),
   
-  ESTATE("ESTATE"),
+  GENERAL("GENERAL"),
   
-  FINANCE("FINANCE");
+  NOVEL("NOVEL"),
+  
+  OTHER("OTHER"),
+  
+  TOUR_TICKET("TOUR_TICKET"),
+  
+  AUTO_NEW("AUTO_NEW");
 
   private String value;
 

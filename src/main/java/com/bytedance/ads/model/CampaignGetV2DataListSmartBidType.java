@@ -29,23 +29,23 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignGetV2DataListSmartBidType.Adapter.class)
 public enum CampaignGetV2DataListSmartBidType {
   
-  MAXCV("MAXCV"),
-  
-  JIJIN("JIJIN"),
-  
   CUSTOM("CUSTOM"),
   
-  AWEME_LITE_PACING("AWEME_LITE_PACING"),
-  
-  MAX_CONVERSION("MAX_CONVERSION"),
+  LITE_PACING("LITE_PACING"),
   
   SMART_BID_NO_BID("SMART_BID_NO_BID"),
   
   BAOSHOU("BAOSHOU"),
   
-  GD_PROMOTE("GD_PROMOTE"),
+  MAXCV("MAXCV"),
   
-  LITE_PACING("LITE_PACING"),
+  JIJIN("JIJIN"),
+  
+  AWEME_LITE_PACING("AWEME_LITE_PACING"),
+  
+  MAX_CONVERSION("MAX_CONVERSION"),
+  
+  GD_PROMOTE("GD_PROMOTE"),
   
   GUARANTEED_SHOW("GUARANTEED_SHOW");
 

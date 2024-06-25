@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageUpdateV2Gender.Adapter.class)
 public enum AudiencePackageUpdateV2Gender {
   
+  GENDER_FEMALE("GENDER_FEMALE"),
+  
   GENDER_UNLIMITED("GENDER_UNLIMITED"),
   
   NONE("NONE"),
   
-  GENDER_MALE("GENDER_MALE"),
-  
-  GENDER_FEMALE("GENDER_FEMALE");
+  GENDER_MALE("GENDER_MALE");
 
   private String value;
 

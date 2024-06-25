@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueFormCreateV2ValidateType.Adapter.class)
 public enum ClueFormCreateV2ValidateType {
   
-  VALIDITY_PRIORITY("VALIDITY_PRIORITY"),
-  
   NONE_VERIFICATION("NONE_VERIFICATION"),
   
-  ALL_VERIFICATION("ALL_VERIFICATION"),
+  AUTO_VERIFICATION("AUTO_VERIFICATION"),
   
   CLUE_PRIORITY("CLUE_PRIORITY"),
   
-  AUTO_VERIFICATION("AUTO_VERIFICATION");
+  ALL_VERIFICATION("ALL_VERIFICATION"),
+  
+  VALIDITY_PRIORITY("VALIDITY_PRIORITY");
 
   private String value;
 

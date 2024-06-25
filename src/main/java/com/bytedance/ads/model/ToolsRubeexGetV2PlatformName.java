@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsRubeexGetV2PlatformName.Adapter.class)
 public enum ToolsRubeexGetV2PlatformName {
   
-  CLAB_EDITOR("CLAB_EDITOR"),
-  
   RUBIX("RUBIX"),
-  
-  AD_PLATFORM("AD_PLATFORM"),
   
   LIGHT_PLAYABLE("LIGHT_PLAYABLE"),
   
+  AD_PLATFORM("AD_PLATFORM"),
+  
   POWERPLAYABLE("POWERPLAYABLE"),
   
-  PLAYABLE_TEMPLATE("PLAYABLE_TEMPLATE");
+  PLAYABLE_TEMPLATE("PLAYABLE_TEMPLATE"),
+  
+  CLAB_EDITOR("CLAB_EDITOR");
 
   private String value;
 

@@ -31,17 +31,17 @@ public enum AudiencePackageCreateV2ConvertedTimeDuration {
   
   SEVEN_DAY("SEVEN_DAY"),
   
-  SIX_MONTH("SIX_MONTH"),
-  
-  NONE("NONE"),
+  TODAY("TODAY"),
   
   THREE_MONTH("THREE_MONTH"),
   
-  TWELVE_MONTH("TWELVE_MONTH"),
-  
   ONE_MONTH("ONE_MONTH"),
   
-  TODAY("TODAY");
+  NONE("NONE"),
+  
+  TWELVE_MONTH("TWELVE_MONTH"),
+  
+  SIX_MONTH("SIX_MONTH");
 
   private String value;
 

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportCreativeGetV2DataListCampaignType.Adapter.class)
 public enum ReportCreativeGetV2DataListCampaignType {
   
-  SEARCH("SEARCH"),
+  FEED("FEED"),
   
-  FEED("FEED");
+  SEARCH("SEARCH");
 
   private String value;
 

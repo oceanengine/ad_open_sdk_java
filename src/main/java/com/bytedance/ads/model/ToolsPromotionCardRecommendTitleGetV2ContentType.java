@@ -29,25 +29,25 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsPromotionCardRecommendTitleGetV2ContentType.Adapter.class)
 public enum ToolsPromotionCardRecommendTitleGetV2ContentType {
   
-  GAME_PACKAGE("GAME_PACKAGE"),
+  GAME_FORM("GAME_FORM"),
   
   UNKNOWN("UNKNOWN"),
   
-  CONSULT("CONSULT"),
-  
-  CARD("CARD"),
-  
   TABLE("TABLE"),
-  
-  GAME_SUBSCRIBE("GAME_SUBSCRIBE"),
   
   DOWNLOAD("DOWNLOAD"),
   
-  PHONE("PHONE"),
+  CONSULT("CONSULT"),
+  
+  GAME_SUBSCRIBE("GAME_SUBSCRIBE"),
   
   LANDING("LANDING"),
   
-  GAME_FORM("GAME_FORM");
+  PHONE("PHONE"),
+  
+  CARD("CARD"),
+  
+  GAME_PACKAGE("GAME_PACKAGE");
 
   private String value;
 

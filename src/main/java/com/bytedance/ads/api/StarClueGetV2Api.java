@@ -71,11 +71,11 @@ public class StarClueGetV2Api {
 
     /**
      * Build call for openApi2StarClueGetGet
-     * @param demandId  (optional)
-     * @param orderId  (optional)
+     * @param starId  (required)
+     * @param demandId 任务id (optional)
+     * @param orderId 订单id (optional)
      * @param page  (optional, default to 1)
-     * @param pageSize  (optional, default to 10)
-     * @param starId  (optional)
+     * @param pageSize  (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
@@ -85,7 +85,7 @@ public class StarClueGetV2Api {
         <tr><td> 200 </td><td> OK </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call openApi2StarClueGetGetCall(Long demandId, Long orderId, Long page, Long pageSize, Long starId, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call openApi2StarClueGetGetCall(Long starId, Long demandId, Long orderId, Integer page, Integer pageSize, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -110,6 +110,10 @@ public class StarClueGetV2Api {
         Map<String, String> localVarCookieParams = new HashMap<String, String>();
         Map<String, Object> localVarFormParams = new HashMap<String, Object>();
 
+        if (starId != null) {
+            localVarQueryParams.addAll(localVarApiClient.parameterToPair("star_id", starId));
+        }
+
         if (demandId != null) {
             localVarQueryParams.addAll(localVarApiClient.parameterToPair("demand_id", demandId));
         }
@@ -124,10 +128,6 @@ public class StarClueGetV2Api {
 
         if (pageSize != null) {
             localVarQueryParams.addAll(localVarApiClient.parameterToPair("page_size", pageSize));
-        }
-
-        if (starId != null) {
-            localVarQueryParams.addAll(localVarApiClient.parameterToPair("star_id", starId));
         }
 
         final String[] localVarAccepts = {
@@ -150,19 +150,24 @@ public class StarClueGetV2Api {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call openApi2StarClueGetGetValidateBeforeCall(Long demandId, Long orderId, Long page, Long pageSize, Long starId, final ApiCallback _callback) throws ApiException {
-        return openApi2StarClueGetGetCall(demandId, orderId, page, pageSize, starId, _callback);
+    private okhttp3.Call openApi2StarClueGetGetValidateBeforeCall(Long starId, Long demandId, Long orderId, Integer page, Integer pageSize, final ApiCallback _callback) throws ApiException {
+        // verify the required parameter 'starId' is set
+        if (starId == null) {
+            throw new ApiException("Missing the required parameter 'starId' when calling openApi2StarClueGetGet(Async)");
+        }
+
+        return openApi2StarClueGetGetCall(starId, demandId, orderId, page, pageSize, _callback);
 
     }
 
     /**
      * 
      * 
-     * @param demandId  (optional)
-     * @param orderId  (optional)
+     * @param starId  (required)
+     * @param demandId 任务id (optional)
+     * @param orderId 订单id (optional)
      * @param page  (optional, default to 1)
-     * @param pageSize  (optional, default to 10)
-     * @param starId  (optional)
+     * @param pageSize  (optional)
      * @return StarClueGetV2Response
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -171,19 +176,19 @@ public class StarClueGetV2Api {
         <tr><td> 200 </td><td> OK </td><td>  -  </td></tr>
      </table>
      */
-    public StarClueGetV2Response openApi2StarClueGetGet(Long demandId, Long orderId, Long page, Long pageSize, Long starId) throws ApiException {
-        ApiResponse<StarClueGetV2Response> localVarResp = openApi2StarClueGetGetWithHttpInfo(demandId, orderId, page, pageSize, starId);
+    public StarClueGetV2Response openApi2StarClueGetGet(Long starId, Long demandId, Long orderId, Integer page, Integer pageSize) throws ApiException {
+        ApiResponse<StarClueGetV2Response> localVarResp = openApi2StarClueGetGetWithHttpInfo(starId, demandId, orderId, page, pageSize);
         return localVarResp.getData();
     }
 
     /**
      * 
      * 
-     * @param demandId  (optional)
-     * @param orderId  (optional)
+     * @param starId  (required)
+     * @param demandId 任务id (optional)
+     * @param orderId 订单id (optional)
      * @param page  (optional, default to 1)
-     * @param pageSize  (optional, default to 10)
-     * @param starId  (optional)
+     * @param pageSize  (optional)
      * @return ApiResponse&lt;StarClueGetV2Response&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -192,8 +197,8 @@ public class StarClueGetV2Api {
         <tr><td> 200 </td><td> OK </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<StarClueGetV2Response> openApi2StarClueGetGetWithHttpInfo(Long demandId, Long orderId, Long page, Long pageSize, Long starId) throws ApiException {
-        okhttp3.Call localVarCall = openApi2StarClueGetGetValidateBeforeCall(demandId, orderId, page, pageSize, starId, null);
+    public ApiResponse<StarClueGetV2Response> openApi2StarClueGetGetWithHttpInfo(Long starId, Long demandId, Long orderId, Integer page, Integer pageSize) throws ApiException {
+        okhttp3.Call localVarCall = openApi2StarClueGetGetValidateBeforeCall(starId, demandId, orderId, page, pageSize, null);
         Type localVarReturnType = new TypeToken<StarClueGetV2Response>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
     }
@@ -201,11 +206,11 @@ public class StarClueGetV2Api {
     /**
      *  (asynchronously)
      * 
-     * @param demandId  (optional)
-     * @param orderId  (optional)
+     * @param starId  (required)
+     * @param demandId 任务id (optional)
+     * @param orderId 订单id (optional)
      * @param page  (optional, default to 1)
-     * @param pageSize  (optional, default to 10)
-     * @param starId  (optional)
+     * @param pageSize  (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -215,9 +220,9 @@ public class StarClueGetV2Api {
         <tr><td> 200 </td><td> OK </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call openApi2StarClueGetGetAsync(Long demandId, Long orderId, Long page, Long pageSize, Long starId, final ApiCallback<StarClueGetV2Response> _callback) throws ApiException {
+    public okhttp3.Call openApi2StarClueGetGetAsync(Long starId, Long demandId, Long orderId, Integer page, Integer pageSize, final ApiCallback<StarClueGetV2Response> _callback) throws ApiException {
 
-        okhttp3.Call localVarCall = openApi2StarClueGetGetValidateBeforeCall(demandId, orderId, page, pageSize, starId, _callback);
+        okhttp3.Call localVarCall = openApi2StarClueGetGetValidateBeforeCall(starId, demandId, orderId, page, pageSize, _callback);
         Type localVarReturnType = new TypeToken<StarClueGetV2Response>(){}.getType();
         localVarApiClient.executeAsync(localVarCall, localVarReturnType, _callback);
         return localVarCall;

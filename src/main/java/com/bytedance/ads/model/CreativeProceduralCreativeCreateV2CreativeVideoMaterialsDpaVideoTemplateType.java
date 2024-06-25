@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CreativeProceduralCreativeCreateV2CreativeVideoMaterialsDpaVideoTemplateType.Adapter.class)
 public enum CreativeProceduralCreativeCreateV2CreativeVideoMaterialsDpaVideoTemplateType {
   
-  CUSTOM("DPA_VIDEO_TEMPLATE_CUSTOM"),
-  
   SMART("DPA_VIDEO_TEMPLATE_SMART"),
+  
+  CUSTOM("DPA_VIDEO_TEMPLATE_CUSTOM"),
   
   DEPRECATED("DPA_VIDEO_TEMPLATE_DEPRECATED");
 

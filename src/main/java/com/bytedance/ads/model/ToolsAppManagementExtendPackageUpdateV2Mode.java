@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAppManagementExtendPackageUpdateV2Mode.Adapter.class)
 public enum ToolsAppManagementExtendPackageUpdateV2Mode {
   
-  ALL("All"),
-  
   LIST("List"),
+  
+  ALL("All"),
   
   CUSTOMIZE("Customize");
 

@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAudienceGenderV2IdType.Adapter.class)
 public enum ReportAudienceGenderV2IdType {
   
-  CAMPAIGN("AUDIENCE_STAT_ID_TYPE_CAMPAIGN"),
-  
   ADVERTISER("AUDIENCE_STAT_ID_TYPE_ADVERTISER"),
   
-  AD("AUDIENCE_STAT_ID_TYPE_AD");
+  AD("AUDIENCE_STAT_ID_TYPE_AD"),
+  
+  CAMPAIGN("AUDIENCE_STAT_ID_TYPE_CAMPAIGN");
 
   private String value;
 

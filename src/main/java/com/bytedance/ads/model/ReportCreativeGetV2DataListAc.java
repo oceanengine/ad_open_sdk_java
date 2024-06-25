@@ -31,11 +31,11 @@ public enum ReportCreativeGetV2DataListAc {
   
   Enum_3G("3G"),
   
-  WIFI("WIFI"),
+  Enum_2G("2G"),
   
   Enum_5G("5G"),
   
-  Enum_2G("2G"),
+  WIFI("WIFI"),
   
   Enum_4G("4G"),
   

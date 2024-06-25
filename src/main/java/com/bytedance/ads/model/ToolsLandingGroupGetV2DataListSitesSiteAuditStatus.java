@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsLandingGroupGetV2DataListSitesSiteAuditStatus.Adapter.class)
 public enum ToolsLandingGroupGetV2DataListSitesSiteAuditStatus {
   
+  AUDITING("AUDITING"),
+  
+  BANNED("BANNED"),
+  
   UNKNOWN("UNKNOWN"),
   
   CREATED("CREATED"),
   
-  AUDITING("AUDITING"),
+  REJECTED("REJECTED"),
   
-  ACCEPTED("ACCEPTED"),
-  
-  BANNED("BANNED"),
-  
-  REJECTED("REJECTED");
+  ACCEPTED("ACCEPTED");
 
   private String value;
 

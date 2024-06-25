@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AssetsCreativeComponentGetV2FilteringStatus.Adapter.class)
 public enum AssetsCreativeComponentGetV2FilteringStatus {
   
-  PASS("PASS"),
-  
   REJECT("REJECT"),
   
-  UNDER("UNDER");
+  UNDER("UNDER"),
+  
+  PASS("PASS");
 
   private String value;
 

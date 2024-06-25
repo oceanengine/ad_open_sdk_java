@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdConvertDeepbidReadV2SmartBidType.Adapter.class)
 public enum ToolsAdConvertDeepbidReadV2SmartBidType {
   
-  RADICAL("SMART_BID_RADICAL"),
-  
-  CUSTOM("SMART_BID_CUSTOM"),
-  
   NO_BID("SMART_BID_NO_BID"),
   
-  CONSERVATIVE("SMART_BID_CONSERVATIVE");
+  RADICAL("SMART_BID_RADICAL"),
+  
+  CONSERVATIVE("SMART_BID_CONSERVATIVE"),
+  
+  CUSTOM("SMART_BID_CUSTOM");
 
   private String value;
 

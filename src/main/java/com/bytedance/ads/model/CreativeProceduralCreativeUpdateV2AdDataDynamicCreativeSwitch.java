@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CreativeProceduralCreativeUpdateV2AdDataDynamicCreativeSwitch.Adapter.class)
 public enum CreativeProceduralCreativeUpdateV2AdDataDynamicCreativeSwitch {
   
-  ABSTRACT("DYNAMIC_CREATIVE_ABSTRACT"),
-  
   SUBLINK("DYNAMIC_CREATIVE_SUBLINK"),
   
-  TITLE("DYNAMIC_CREATIVE_TITLE"),
+  ON("DYNAMIC_CREATIVE_ON"),
   
-  ON("DYNAMIC_CREATIVE_ON");
+  ABSTRACT("DYNAMIC_CREATIVE_ABSTRACT"),
+  
+  TITLE("DYNAMIC_CREATIVE_TITLE");
 
   private String value;
 

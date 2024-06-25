@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdStatExtraInfoGetV2DataLearningPhase.Adapter.class)
 public enum ToolsAdStatExtraInfoGetV2DataLearningPhase {
   
-  LEARNING("LEARNING"),
+  LEARNED("LEARNED"),
   
   DEFAULT("DEFAULT"),
   
-  LEARNED("LEARNED"),
+  LEARNING("LEARNING"),
   
   LEARN_FAILED("LEARN_FAILED");
 

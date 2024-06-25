@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdConvertDeepbidReadV2DeliveryRange.Adapter.class)
 public enum ToolsAdConvertDeepbidReadV2DeliveryRange {
   
-  DEFAULT("DEFAULT"),
-  
   UNIVERSAL("UNIVERSAL"),
+  
+  DEFAULT("DEFAULT"),
   
   UNION("UNION");
 

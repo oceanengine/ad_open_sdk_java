@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsUnionFlowPackageGetV2DataListStatus.Adapter.class)
 public enum ToolsUnionFlowPackageGetV2DataListStatus {
   
-  ENABLE("FLOW_PACKAGE_ENABLE"),
+  DISABLE("FLOW_PACKAGE_DISABLE"),
   
-  DISABLE("FLOW_PACKAGE_DISABLE");
+  ENABLE("FLOW_PACKAGE_ENABLE");
 
   private String value;
 

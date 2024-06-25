@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * StarChallengeExpandRangeV2Request
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class StarChallengeExpandRangeV2Request {
   public static final String SERIALIZED_NAME_CHALLENGE_END_TIME = "challenge_end_time";
   @SerializedName(SERIALIZED_NAME_CHALLENGE_END_TIME)

@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(KeywordUpdateV2V2DataErrorListBidType.Adapter.class)
 public enum KeywordUpdateV2V2DataErrorListBidType {
   
-  SUGGEST("SUGGEST"),
-  
-  WITH_AD("WITH_AD"),
-  
   CUSTOM("CUSTOM"),
   
+  SUGGEST("SUGGEST"),
+  
   BRAND_AD("BRAND_AD"),
+  
+  WITH_AD("WITH_AD"),
   
   FEED_TO_SEARCH("FEED_TO_SEARCH");
 

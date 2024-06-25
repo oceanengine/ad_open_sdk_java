@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsLandingGroupGetV2DataListGroupFlowType.Adapter.class)
 public enum ToolsLandingGroupGetV2DataListGroupFlowType {
   
-  AVERAGE("FLOW_DISTRIBUTION_TYPE_AVERAGE"),
+  INTELLIGENCE("FLOW_DISTRIBUTION_TYPE_INTELLIGENCE"),
   
-  INTELLIGENCE("FLOW_DISTRIBUTION_TYPE_INTELLIGENCE");
+  AVERAGE("FLOW_DISTRIBUTION_TYPE_AVERAGE");
 
   private String value;
 

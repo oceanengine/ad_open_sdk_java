@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsRegionGetV2RegionLevel.Adapter.class)
 public enum ToolsRegionGetV2RegionLevel {
   
-  DISTRICT("REGION_LEVEL_DISTRICT"),
-  
-  PROVINCE("REGION_LEVEL_PROVINCE"),
-  
   CITY("REGION_LEVEL_CITY"),
   
-  BUSINESS_DISTRICT("REGION_LEVEL_BUSINESS_DISTRICT");
+  DISTRICT("REGION_LEVEL_DISTRICT"),
+  
+  BUSINESS_DISTRICT("REGION_LEVEL_BUSINESS_DISTRICT"),
+  
+  PROVINCE("REGION_LEVEL_PROVINCE");
 
   private String value;
 

@@ -54,7 +54,7 @@ import com.bytedance.ads.JSON;
 /**
  * 购物车锚点，当anchor_type&#x3D;SHOPPING_CART：购物车锚点时必填
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class NativeAnchorUpdateV30RequestAnchorInfoShoppingCartAnchor {
   public static final String SERIALIZED_NAME_EXTERNAL_URL = "external_url";
   @SerializedName(SERIALIZED_NAME_EXTERNAL_URL)

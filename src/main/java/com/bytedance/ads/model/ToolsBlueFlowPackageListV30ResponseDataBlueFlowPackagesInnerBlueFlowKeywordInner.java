@@ -53,7 +53,7 @@ import com.bytedance.ads.JSON;
 /**
  * ToolsBlueFlowPackageListV30ResponseDataBlueFlowPackagesInnerBlueFlowKeywordInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-19T10:55:13.584702527+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:19:50.960035423+08:00[PRC]")
 public class ToolsBlueFlowPackageListV30ResponseDataBlueFlowPackagesInnerBlueFlowKeywordInner {
   public static final String SERIALIZED_NAME_BLUE_FLOW_KEYWORD_ESTIMATED_COST_RANGE = "blue_flow_keyword_estimated_cost_range";
   @SerializedName(SERIALIZED_NAME_BLUE_FLOW_KEYWORD_ESTIMATED_COST_RANGE)
