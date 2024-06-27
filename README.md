@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.9
-  - Build date: 2024-06-27T14:13:14.270404670+08:00[PRC]
+- API version: 1.1.10
+  - Build date: 2024-06-27T14:35:04.257236161+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -314,8 +314,10 @@ Class | Method | HTTP request
 *DpaAssetsListV2Api* | **openApi2DpaAssetsListGet** | **GET** /open_api/2/dpa/assets/list/
 *DpaCategoryGetV2Api* | **openApi2DpaCategoryGetGet** | **GET** /open_api/2/dpa/category/get/
 *DpaCheckIndexEntryProgressV2Api* | **openApi2DpaCheckIndexEntryProgressPost** | **POST** /open_api/2/dpa/check_index_entry_progress/
+*DpaClueProductDeleteV2Api* | **openApi2DpaClueProductDeletePost** | **POST** /open_api/2/dpa/clue_product/delete/
 *DpaClueProductDetailV2Api* | **openApi2DpaClueProductDetailGet** | **GET** /open_api/2/dpa/clue_product/detail/
 *DpaClueProductListV2Api* | **openApi2DpaClueProductListGet** | **GET** /open_api/2/dpa/clue_product/list/
+*DpaClueProductSaveV2Api* | **openApi2DpaClueProductSavePost** | **POST** /open_api/2/dpa/clue_product/save/
 *DpaDetailGetV2Api* | **openApi2DpaDetailGetGet** | **GET** /open_api/2/dpa/detail/get/
 *DpaDictGetV2Api* | **openApi2DpaDictGetGet** | **GET** /open_api/2/dpa/dict/get/
 *DpaMetaGetV2Api* | **openApi2DpaMetaGetGet** | **GET** /open_api/2/dpa/meta/get/
@@ -410,6 +412,7 @@ Class | Method | HTTP request
 *Oauth2RefreshTokenApi* | **openApiOauth2RefreshTokenPost** | **POST** /open_api/oauth2/refresh_token/
 *Oauth2RenewTokenApi* | **openApiOauth2RenewTokenPost** | **POST** /open_api/oauth2/renew_token/
 *ProjectBudgetUpdateV30Api* | **openApiV30ProjectBudgetUpdatePost** | **POST** /open_api/v3.0/project/budget/update/
+*ProjectCostProtectStatusGetV30Api* | **openApiV30ProjectCostProtectStatusGetGet** | **GET** /open_api/v3.0/project/cost_protect_status/get/
 *ProjectCreateV30Api* | **openApiV30ProjectCreatePost** | **POST** /open_api/v3.0/project/create/
 *ProjectDeleteV30Api* | **openApiV30ProjectDeletePost** | **POST** /open_api/v3.0/project/delete/
 *ProjectListV30Api* | **openApiV30ProjectListGet** | **GET** /open_api/v3.0/project/list/
@@ -634,6 +637,7 @@ Class | Method | HTTP request
 *StarGetCreateChallengeDataDictV2Api* | **openApi2StarGetCreateChallengeDataDictGet** | **GET** /open_api/2/star/get_create_challenge_data_dict/
 *StarInfoV2Api* | **openApi2StarInfoGet** | **GET** /open_api/2/star/info/
 *StarMcnContractChallengeV2Api* | **openApi2StarMcnContractChallengePost** | **POST** /open_api/2/star/mcn/contract_challenge/
+*StarMcnGetAuthorListV2Api* | **openApi2StarMcnGetAuthorListGet** | **GET** /open_api/2/star/mcn/get_author_list/
 *StarMcnGetContractChallengeAuthorItemListV2V2Api* | **openApi2StarMcnGetContractChallengeAuthorItemListV2Get** | **GET** /open_api/2/star/mcn/get_contract_challenge_author_item_list_v2/
 *StarMcnGetContractedChallengeListV2Api* | **openApi2StarMcnGetContractedChallengeListGet** | **GET** /open_api/2/star/mcn/get_contracted_challenge_list/
 *StarMcnGetContractedChallengeUrlV2Api* | **openApi2StarMcnGetContractedChallengeUrlGet** | **GET** /open_api/2/star/mcn/get_contracted_challenge_url/

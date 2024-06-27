@@ -196,8 +196,10 @@ src/main/java/com/bytedance/ads/api/DpaAssetsDetailReadV2Api.java
 src/main/java/com/bytedance/ads/api/DpaAssetsListV2Api.java
 src/main/java/com/bytedance/ads/api/DpaCategoryGetV2Api.java
 src/main/java/com/bytedance/ads/api/DpaCheckIndexEntryProgressV2Api.java
+src/main/java/com/bytedance/ads/api/DpaClueProductDeleteV2Api.java
 src/main/java/com/bytedance/ads/api/DpaClueProductDetailV2Api.java
 src/main/java/com/bytedance/ads/api/DpaClueProductListV2Api.java
+src/main/java/com/bytedance/ads/api/DpaClueProductSaveV2Api.java
 src/main/java/com/bytedance/ads/api/DpaDetailGetV2Api.java
 src/main/java/com/bytedance/ads/api/DpaDictGetV2Api.java
 src/main/java/com/bytedance/ads/api/DpaMetaGetV2Api.java
@@ -292,6 +294,7 @@ src/main/java/com/bytedance/ads/api/Oauth2AppAccessTokenApi.java
 src/main/java/com/bytedance/ads/api/Oauth2RefreshTokenApi.java
 src/main/java/com/bytedance/ads/api/Oauth2RenewTokenApi.java
 src/main/java/com/bytedance/ads/api/ProjectBudgetUpdateV30Api.java
+src/main/java/com/bytedance/ads/api/ProjectCostProtectStatusGetV30Api.java
 src/main/java/com/bytedance/ads/api/ProjectCreateV30Api.java
 src/main/java/com/bytedance/ads/api/ProjectDeleteV30Api.java
 src/main/java/com/bytedance/ads/api/ProjectListV30Api.java
@@ -516,6 +519,7 @@ src/main/java/com/bytedance/ads/api/StarDemandOrderListV2Api.java
 src/main/java/com/bytedance/ads/api/StarGetCreateChallengeDataDictV2Api.java
 src/main/java/com/bytedance/ads/api/StarInfoV2Api.java
 src/main/java/com/bytedance/ads/api/StarMcnContractChallengeV2Api.java
+src/main/java/com/bytedance/ads/api/StarMcnGetAuthorListV2Api.java
 src/main/java/com/bytedance/ads/api/StarMcnGetContractChallengeAuthorItemListV2V2Api.java
 src/main/java/com/bytedance/ads/api/StarMcnGetContractedChallengeListV2Api.java
 src/main/java/com/bytedance/ads/api/StarMcnGetContractedChallengeUrlV2Api.java
@@ -973,8 +977,10 @@ src/main/java/com/bytedance/ads/examples/DpaAssetsDetailReadV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DpaAssetsListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DpaCategoryGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DpaCheckIndexEntryProgressV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/DpaClueProductDeleteV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DpaClueProductDetailV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DpaClueProductListV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/DpaClueProductSaveV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DpaDetailGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DpaDictGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DpaMetaGetV2ApiExample.java
@@ -1069,6 +1075,7 @@ src/main/java/com/bytedance/ads/examples/Oauth2AppAccessTokenApiExample.java
 src/main/java/com/bytedance/ads/examples/Oauth2RefreshTokenApiExample.java
 src/main/java/com/bytedance/ads/examples/Oauth2RenewTokenApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectBudgetUpdateV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/ProjectCostProtectStatusGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectCreateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectDeleteV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectListV30ApiExample.java
@@ -1293,6 +1300,7 @@ src/main/java/com/bytedance/ads/examples/StarDemandOrderListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarGetCreateChallengeDataDictV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarInfoV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarMcnContractChallengeV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/StarMcnGetAuthorListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarMcnGetContractChallengeAuthorItemListV2V2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarMcnGetContractedChallengeListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarMcnGetContractedChallengeUrlV2ApiExample.java
@@ -3328,6 +3336,10 @@ src/main/java/com/bytedance/ads/model/DpaCategoryGetV2ResponseDataListInner.java
 src/main/java/com/bytedance/ads/model/DpaCheckIndexEntryProgressV2Request.java
 src/main/java/com/bytedance/ads/model/DpaCheckIndexEntryProgressV2Response.java
 src/main/java/com/bytedance/ads/model/DpaCheckIndexEntryProgressV2ResponseData.java
+src/main/java/com/bytedance/ads/model/DpaClueProductDeleteV2Request.java
+src/main/java/com/bytedance/ads/model/DpaClueProductDeleteV2RequestStoreIdAndOuterId.java
+src/main/java/com/bytedance/ads/model/DpaClueProductDeleteV2Response.java
+src/main/java/com/bytedance/ads/model/DpaClueProductDeleteV2ResponseData.java
 src/main/java/com/bytedance/ads/model/DpaClueProductDetailV2DataProductsAuditStatus.java
 src/main/java/com/bytedance/ads/model/DpaClueProductDetailV2DataProductsCompletionStatus.java
 src/main/java/com/bytedance/ads/model/DpaClueProductDetailV2DataProductsStatus.java
@@ -3360,6 +3372,17 @@ src/main/java/com/bytedance/ads/model/DpaClueProductListV2ResponseDataProductsIn
 src/main/java/com/bytedance/ads/model/DpaClueProductListV2ResponseDataProductsInnerPriceInfo.java
 src/main/java/com/bytedance/ads/model/DpaClueProductListV2ResponseDataProductsInnerShopKeeperInfo.java
 src/main/java/com/bytedance/ads/model/DpaClueProductListV2ResponseDataProductsInnerVideosInner.java
+src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2ProductStatus.java
+src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2Request.java
+src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProduct.java
+src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductBrandInfo.java
+src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductImagesUrlInner.java
+src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductLandingInfo.java
+src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductPriceInfo.java
+src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductShopKeeperInfo.java
+src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductVideosInner.java
+src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2Response.java
+src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2ResponseData.java
 src/main/java/com/bytedance/ads/model/DpaDetailGetV2Filtering.java
 src/main/java/com/bytedance/ads/model/DpaDetailGetV2FilteringIsRecommend.java
 src/main/java/com/bytedance/ads/model/DpaDetailGetV2FilteringStatus.java
@@ -4002,6 +4025,12 @@ src/main/java/com/bytedance/ads/model/ProjectBudgetUpdateV30RequestDataInner.jav
 src/main/java/com/bytedance/ads/model/ProjectBudgetUpdateV30Response.java
 src/main/java/com/bytedance/ads/model/ProjectBudgetUpdateV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ProjectBudgetUpdateV30ResponseDataErrorsInner.java
+src/main/java/com/bytedance/ads/model/ProjectCostProtectStatusGetV30DataCompensateStatusInfoListCompensateEndReasons.java
+src/main/java/com/bytedance/ads/model/ProjectCostProtectStatusGetV30DataCompensateStatusInfoListCompensateInvalidReasons.java
+src/main/java/com/bytedance/ads/model/ProjectCostProtectStatusGetV30DataCompensateStatusInfoListCompensateStatus.java
+src/main/java/com/bytedance/ads/model/ProjectCostProtectStatusGetV30Response.java
+src/main/java/com/bytedance/ads/model/ProjectCostProtectStatusGetV30ResponseData.java
+src/main/java/com/bytedance/ads/model/ProjectCostProtectStatusGetV30ResponseDataCompensateStatusInfoListInner.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AdType.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AppPromotionType.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AssetType.java
@@ -6179,6 +6208,10 @@ src/main/java/com/bytedance/ads/model/StarInfoV2ResponseDataInfoListInnerSecondI
 src/main/java/com/bytedance/ads/model/StarMcnContractChallengeV2Request.java
 src/main/java/com/bytedance/ads/model/StarMcnContractChallengeV2Response.java
 src/main/java/com/bytedance/ads/model/StarMcnContractChallengeV2ResponseData.java
+src/main/java/com/bytedance/ads/model/StarMcnGetAuthorListV2Response.java
+src/main/java/com/bytedance/ads/model/StarMcnGetAuthorListV2ResponseData.java
+src/main/java/com/bytedance/ads/model/StarMcnGetAuthorListV2ResponseDataDataInner.java
+src/main/java/com/bytedance/ads/model/StarMcnGetAuthorListV2ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/StarMcnGetContractChallengeAuthorItemListV2V2Response.java
 src/main/java/com/bytedance/ads/model/StarMcnGetContractChallengeAuthorItemListV2V2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.java
