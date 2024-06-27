@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAdvertiserGetV2OrderType.Adapter.class)
 public enum ReportAdvertiserGetV2OrderType {
   
-  DESC("DESC"),
+  ASC("ASC"),
   
-  ASC("ASC");
+  DESC("DESC");
 
   private String value;
 

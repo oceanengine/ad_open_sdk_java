@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAudienceProvinceV2IdType.Adapter.class)
 public enum ReportAudienceProvinceV2IdType {
   
-  ADVERTISER("AUDIENCE_STAT_ID_TYPE_ADVERTISER"),
-  
   AD("AUDIENCE_STAT_ID_TYPE_AD"),
+  
+  ADVERTISER("AUDIENCE_STAT_ID_TYPE_ADVERTISER"),
   
   CAMPAIGN("AUDIENCE_STAT_ID_TYPE_CAMPAIGN");
 

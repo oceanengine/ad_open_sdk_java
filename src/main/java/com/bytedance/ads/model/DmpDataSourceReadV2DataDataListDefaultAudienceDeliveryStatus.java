@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(DmpDataSourceReadV2DataDataListDefaultAudienceDeliveryStatus.Adapter.class)
 public enum DmpDataSourceReadV2DataDataListDefaultAudienceDeliveryStatus {
   
-  NEED_PUBLISH("CUSTOM_AUDIENCE_DELIVERY_STATUS_NEED_PUBLISH"),
-  
   AVAILABLE("CUSTOM_AUDIENCE_DELIVERY_STATUS_AVAILABLE"),
+  
+  NEED_PUBLISH("CUSTOM_AUDIENCE_DELIVERY_STATUS_NEED_PUBLISH"),
   
   UNAVAILABLE("CUSTOM_AUDIENCE_DELIVERY_STATUS_UNAVAILABLE"),
   

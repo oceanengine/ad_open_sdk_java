@@ -54,7 +54,7 @@ import com.bytedance.ads.JSON;
 /**
  * StarOrderGetComponentV2ResponseDataOrderComponentListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class StarOrderGetComponentV2ResponseDataOrderComponentListInner {
   public static final String SERIALIZED_NAME_COCREATE_DOUYIN_ID = "cocreate_douyin_id";
   @SerializedName(SERIALIZED_NAME_COCREATE_DOUYIN_ID)

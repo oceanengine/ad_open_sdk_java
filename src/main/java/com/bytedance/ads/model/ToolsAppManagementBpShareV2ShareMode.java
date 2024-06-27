@@ -31,9 +31,9 @@ public enum ToolsAppManagementBpShareV2ShareMode {
   
   PART("PART"),
   
-  COMPANY("COMPANY"),
+  ALL("ALL"),
   
-  ALL("ALL");
+  COMPANY("COMPANY");
 
   private String value;
 

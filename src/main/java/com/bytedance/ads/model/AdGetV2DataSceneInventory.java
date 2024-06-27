@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataSceneInventory.Adapter.class)
 public enum AdGetV2DataSceneInventory {
   
-  TAIL_SCENE("TAIL_SCENE"),
+  NOT_SELECT("NOT_SELECT"),
   
   FEED_SCENE("FEED_SCENE"),
   
-  NOT_SELECT("NOT_SELECT"),
+  TAIL_SCENE("TAIL_SCENE"),
   
   VIDEO_SCENE("VIDEO_SCENE");
 

@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageCreateV2AutoExtendTargets.Adapter.class)
 public enum AudiencePackageCreateV2AutoExtendTargets {
   
-  REGION("REGION"),
-  
-  CUSTOM_AUDIENCE("CUSTOM_AUDIENCE"),
-  
-  AGE("AGE"),
+  INTEREST_TAG("INTEREST_TAG"),
   
   GENDER("GENDER"),
   
-  INTEREST_TAG("INTEREST_TAG"),
+  AD_TAG("AD_TAG"),
   
-  AD_TAG("AD_TAG");
+  REGION("REGION"),
+  
+  AGE("AGE"),
+  
+  CUSTOM_AUDIENCE("CUSTOM_AUDIENCE");
 
   private String value;
 

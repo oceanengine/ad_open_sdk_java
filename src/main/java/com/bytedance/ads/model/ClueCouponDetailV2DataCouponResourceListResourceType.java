@@ -31,13 +31,13 @@ public enum ClueCouponDetailV2DataCouponResourceListResourceType {
   
   COMMON("COMMON"),
   
-  GAME("GAME"),
-  
   FULL("FULL"),
   
-  DISCOUNT("DISCOUNT"),
+  PHYSICAL("PHYSICAL"),
   
-  PHYSICAL("PHYSICAL");
+  GAME("GAME"),
+  
+  DISCOUNT("DISCOUNT");
 
   private String value;
 

@@ -54,7 +54,7 @@ import com.bytedance.ads.JSON;
 /**
  * ToolsAppManagementShareAccountListV2ResponseDataListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class ToolsAppManagementShareAccountListV2ResponseDataListInner {
   public static final String SERIALIZED_NAME_ACCOUNT_INFO = "account_info";
   @SerializedName(SERIALIZED_NAME_ACCOUNT_INFO)

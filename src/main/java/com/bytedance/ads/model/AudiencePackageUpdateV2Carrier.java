@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageUpdateV2Carrier.Adapter.class)
 public enum AudiencePackageUpdateV2Carrier {
   
-  MOBILE("MOBILE"),
-  
   UNICOM("UNICOM"),
   
-  TELCOM("TELCOM");
+  TELCOM("TELCOM"),
+  
+  MOBILE("MOBILE");
 
   private String value;
 

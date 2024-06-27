@@ -29,19 +29,19 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2HideIfConverted.Adapter.class)
 public enum ToolsBidSuggestV2HideIfConverted {
   
-  ADVERTISER("ADVERTISER"),
-  
-  APP("APP"),
-  
-  NO_EXCLUDE("NO_EXCLUDE"),
-  
   ORGANIZATION("ORGANIZATION"),
-  
-  CAMPAIGN("CAMPAIGN"),
   
   CUSTOMER("CUSTOMER"),
   
-  AD("AD");
+  APP("APP"),
+  
+  AD("AD"),
+  
+  CAMPAIGN("CAMPAIGN"),
+  
+  ADVERTISER("ADVERTISER"),
+  
+  NO_EXCLUDE("NO_EXCLUDE");
 
   private String value;
 

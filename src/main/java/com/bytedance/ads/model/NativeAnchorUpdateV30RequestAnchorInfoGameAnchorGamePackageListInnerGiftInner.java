@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * NativeAnchorUpdateV30RequestAnchorInfoGameAnchorGamePackageListInnerGiftInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class NativeAnchorUpdateV30RequestAnchorInfoGameAnchorGamePackageListInnerGiftInner {
   public static final String SERIALIZED_NAME_GIFT_AMOUNT = "gift_amount";
   @SerializedName(SERIALIZED_NAME_GIFT_AMOUNT)

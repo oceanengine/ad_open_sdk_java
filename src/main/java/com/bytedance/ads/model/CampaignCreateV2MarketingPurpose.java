@@ -31,11 +31,11 @@ public enum CampaignCreateV2MarketingPurpose {
   
   CONVERSION("CONVERSION"),
   
-  UNLIMITED("UNLIMITED"),
-  
   ACKNOWLEDGE("ACKNOWLEDGE"),
   
-  INTENTION("INTENTION");
+  INTENTION("INTENTION"),
+  
+  UNLIMITED("UNLIMITED");
 
   private String value;
 

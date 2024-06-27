@@ -29,27 +29,27 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdConvertOptimizedTargetGetV2LandingType.Adapter.class)
 public enum ToolsAdConvertOptimizedTargetGetV2LandingType {
   
-  APP("APP"),
-  
-  QUICK_APP("QUICK_APP"),
-  
-  LIVE("LIVE"),
-  
-  BRAND_EXTERNAL("BRAND_EXTERNAL"),
+  DPA("DPA"),
   
   SHOP("SHOP"),
   
-  DPA("DPA"),
+  STORE("STORE"),
+  
+  GOODS("GOODS"),
   
   AWEME("AWEME"),
   
-  LINK("LINK"),
+  LIVE("LIVE"),
   
-  STORE("STORE"),
+  QUICK_APP("QUICK_APP"),
+  
+  APP("APP"),
   
   ARTICLE("ARTICLE"),
   
-  GOODS("GOODS");
+  LINK("LINK"),
+  
+  BRAND_EXTERNAL("BRAND_EXTERNAL");
 
   private String value;
 

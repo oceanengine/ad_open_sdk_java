@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAppManagementExtendPackageCreateV2Mode.Adapter.class)
 public enum ToolsAppManagementExtendPackageCreateV2Mode {
   
-  MANUAL("Manual"),
-  
   AUTO("Auto"),
   
-  CUSTOMIZE("Customize");
+  CUSTOMIZE("Customize"),
+  
+  MANUAL("Manual");
 
   private String value;
 

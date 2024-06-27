@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2FlowControlMode.Adapter.class)
 public enum ToolsBidSuggestV2FlowControlMode {
   
+  SMOOTH("FLOW_CONTROL_MODE_SMOOTH"),
+  
+  TWO_PHASES("FLOW_CONTROL_MODE_TWO_PHASES"),
+  
   BALANCE("FLOW_CONTROL_MODE_BALANCE"),
   
   HOURLY("FLOW_CONTROL_MODE_HOURLY"),
   
-  TWO_PHASES("FLOW_CONTROL_MODE_TWO_PHASES"),
-  
-  FAST("FLOW_CONTROL_MODE_FAST"),
-  
-  SMOOTH("FLOW_CONTROL_MODE_SMOOTH");
+  FAST("FLOW_CONTROL_MODE_FAST");
 
   private String value;
 

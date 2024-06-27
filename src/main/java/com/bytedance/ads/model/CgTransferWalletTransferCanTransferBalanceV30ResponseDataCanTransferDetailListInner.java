@@ -55,7 +55,7 @@ import com.bytedance.ads.JSON;
 /**
  * CgTransferWalletTransferCanTransferBalanceV30ResponseDataCanTransferDetailListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class CgTransferWalletTransferCanTransferBalanceV30ResponseDataCanTransferDetailListInner {
   public static final String SERIALIZED_NAME_NON_BRAND_MAX_TRANSFER_BALANCE = "non_brand_max_transfer_balance";
   @SerializedName(SERIALIZED_NAME_NON_BRAND_MAX_TRANSFER_BALANCE)

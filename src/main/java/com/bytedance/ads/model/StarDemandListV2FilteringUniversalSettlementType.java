@@ -29,31 +29,31 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(StarDemandListV2FilteringUniversalSettlementType.Adapter.class)
 public enum StarDemandListV2FilteringUniversalSettlementType {
   
-  CPM("CPM"),
+  STAR_SUPPORT("STAR_SUPPORT"),
   
-  CUSTOMIZE("CUSTOMIZE"),
-  
-  RANK("RANK"),
-  
-  CPA("CPA"),
+  ALL("ALL"),
   
   GIFT("GIFT"),
-  
-  DOU_PLUS("DOU_PLUS"),
   
   FLOW_SHARE("FLOW_SHARE"),
   
   MONEY_SHARE("MONEY_SHARE"),
   
+  RANK("RANK"),
+  
+  DOU_PLUS("DOU_PLUS"),
+  
   EXCHANGE("EXCHANGE"),
   
-  STAR_SUPPORT("STAR_SUPPORT"),
+  CPA("CPA"),
   
   FIXED_PRICE("FIXED_PRICE"),
   
   EFFECT("EFFECT"),
   
-  ALL("ALL");
+  CUSTOMIZE("CUSTOMIZE"),
+  
+  CPM("CPM");
 
   private String value;
 

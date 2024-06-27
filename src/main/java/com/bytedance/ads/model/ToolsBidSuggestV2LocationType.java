@@ -31,11 +31,11 @@ public enum ToolsBidSuggestV2LocationType {
   
   HOME("HOME"),
   
-  CURRENT("CURRENT"),
-  
   TRAVEL("TRAVEL"),
   
-  ALL("ALL");
+  ALL("ALL"),
+  
+  CURRENT("CURRENT");
 
   private String value;
 

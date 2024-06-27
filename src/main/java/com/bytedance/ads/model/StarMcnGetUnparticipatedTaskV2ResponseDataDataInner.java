@@ -21,6 +21,10 @@ import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import org.openapitools.jackson.nullable.JsonNullable;
 
 import com.google.gson.Gson;
@@ -51,8 +55,16 @@ import com.bytedance.ads.JSON;
 /**
  * StarMcnGetUnparticipatedTaskV2ResponseDataDataInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
+  public static final String SERIALIZED_NAME_BRAND = "brand";
+  @SerializedName(SERIALIZED_NAME_BRAND)
+  private String brand = null;
+
+  public static final String SERIALIZED_NAME_CHALLENGE_STATUS = "challenge_status";
+  @SerializedName(SERIALIZED_NAME_CHALLENGE_STATUS)
+  private Long challengeStatus = null;
+
   public static final String SERIALIZED_NAME_COMMISSION_RATE = "commission_rate";
   @SerializedName(SERIALIZED_NAME_COMMISSION_RATE)
   private Long commissionRate = null;
@@ -89,6 +101,10 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
   @SerializedName(SERIALIZED_NAME_FIRST_CLASS_CATEGORY)
   private Long firstClassCategory = null;
 
+  public static final String SERIALIZED_NAME_HIGH_PROFIT_CHALLENGE = "high_profit_challenge";
+  @SerializedName(SERIALIZED_NAME_HIGH_PROFIT_CHALLENGE)
+  private Long highProfitChallenge = null;
+
   public static final String SERIALIZED_NAME_ITEM_COMPONENT_TYPE = "item_component_type";
   @SerializedName(SERIALIZED_NAME_ITEM_COMPONENT_TYPE)
   private Long itemComponentType = null;
@@ -101,9 +117,49 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
   @SerializedName(SERIALIZED_NAME_PAY_TYPE)
   private Long payType = null;
 
+  public static final String SERIALIZED_NAME_PLAYLET_CATEGORY = "playlet_category";
+  @SerializedName(SERIALIZED_NAME_PLAYLET_CATEGORY)
+  private Long playletCategory = null;
+
+  public static final String SERIALIZED_NAME_PLAYLET_FIRST_WEEK = "playlet_first_week";
+  @SerializedName(SERIALIZED_NAME_PLAYLET_FIRST_WEEK)
+  private Long playletFirstWeek = null;
+
+  public static final String SERIALIZED_NAME_PLAYLET_GENDER = "playlet_gender";
+  @SerializedName(SERIALIZED_NAME_PLAYLET_GENDER)
+  private List<Long> playletGender = null;
+
+  public static final String SERIALIZED_NAME_PLAYLET_HOT = "playlet_hot";
+  @SerializedName(SERIALIZED_NAME_PLAYLET_HOT)
+  private Long playletHot = null;
+
+  public static final String SERIALIZED_NAME_PLAYLET_SECOND_WEEK = "playlet_second_week";
+  @SerializedName(SERIALIZED_NAME_PLAYLET_SECOND_WEEK)
+  private Long playletSecondWeek = null;
+
+  public static final String SERIALIZED_NAME_PLAYLET_THEME = "playlet_theme";
+  @SerializedName(SERIALIZED_NAME_PLAYLET_THEME)
+  private List<Long> playletTheme = null;
+
   public static final String SERIALIZED_NAME_PRICE = "price";
   @SerializedName(SERIALIZED_NAME_PRICE)
   private Long price = null;
+
+  public static final String SERIALIZED_NAME_PRODUCT_CATEGORY = "product_category";
+  @SerializedName(SERIALIZED_NAME_PRODUCT_CATEGORY)
+  private Long productCategory = null;
+
+  public static final String SERIALIZED_NAME_PRODUCT_NAME = "product_name";
+  @SerializedName(SERIALIZED_NAME_PRODUCT_NAME)
+  private String productName = null;
+
+  public static final String SERIALIZED_NAME_PROFIT_RATE_CHANNEL = "profit_rate_channel";
+  @SerializedName(SERIALIZED_NAME_PROFIT_RATE_CHANNEL)
+  private Map<String, Long> profitRateChannel = null;
+
+  public static final String SERIALIZED_NAME_REAL_COST = "real_cost";
+  @SerializedName(SERIALIZED_NAME_REAL_COST)
+  private Long realCost = null;
 
   public static final String SERIALIZED_NAME_SECOND_CLASS_CATEGORY = "second_class_category";
   @SerializedName(SERIALIZED_NAME_SECOND_CLASS_CATEGORY)
@@ -119,6 +175,48 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
 
   public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner() {
   }
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner brand(String brand) {
+    
+    this.brand = brand;
+    return this;
+  }
+
+   /**
+   * 
+   * @return brand
+  **/
+  @javax.annotation.Nullable
+  public String getBrand() {
+    return brand;
+  }
+
+
+  public void setBrand(String brand) {
+    this.brand = brand;
+  }
+
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner challengeStatus(Long challengeStatus) {
+    
+    this.challengeStatus = challengeStatus;
+    return this;
+  }
+
+   /**
+   * 
+   * @return challengeStatus
+  **/
+  @javax.annotation.Nullable
+  public Long getChallengeStatus() {
+    return challengeStatus;
+  }
+
+
+  public void setChallengeStatus(Long challengeStatus) {
+    this.challengeStatus = challengeStatus;
+  }
+
 
   public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner commissionRate(Long commissionRate) {
     
@@ -309,6 +407,27 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
   }
 
 
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner highProfitChallenge(Long highProfitChallenge) {
+    
+    this.highProfitChallenge = highProfitChallenge;
+    return this;
+  }
+
+   /**
+   * 
+   * @return highProfitChallenge
+  **/
+  @javax.annotation.Nullable
+  public Long getHighProfitChallenge() {
+    return highProfitChallenge;
+  }
+
+
+  public void setHighProfitChallenge(Long highProfitChallenge) {
+    this.highProfitChallenge = highProfitChallenge;
+  }
+
+
   public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner itemComponentType(Long itemComponentType) {
     
     this.itemComponentType = itemComponentType;
@@ -372,6 +491,148 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
   }
 
 
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner playletCategory(Long playletCategory) {
+    
+    this.playletCategory = playletCategory;
+    return this;
+  }
+
+   /**
+   * 
+   * @return playletCategory
+  **/
+  @javax.annotation.Nullable
+  public Long getPlayletCategory() {
+    return playletCategory;
+  }
+
+
+  public void setPlayletCategory(Long playletCategory) {
+    this.playletCategory = playletCategory;
+  }
+
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner playletFirstWeek(Long playletFirstWeek) {
+    
+    this.playletFirstWeek = playletFirstWeek;
+    return this;
+  }
+
+   /**
+   * 
+   * @return playletFirstWeek
+  **/
+  @javax.annotation.Nullable
+  public Long getPlayletFirstWeek() {
+    return playletFirstWeek;
+  }
+
+
+  public void setPlayletFirstWeek(Long playletFirstWeek) {
+    this.playletFirstWeek = playletFirstWeek;
+  }
+
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner playletGender(List<Long> playletGender) {
+    
+    this.playletGender = playletGender;
+    return this;
+  }
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner addPlayletGenderItem(Long playletGenderItem) {
+    if (this.playletGender == null) {
+      this.playletGender = new ArrayList<>();
+    }
+    this.playletGender.add(playletGenderItem);
+    return this;
+  }
+
+   /**
+   * 
+   * @return playletGender
+  **/
+  @javax.annotation.Nullable
+  public List<Long> getPlayletGender() {
+    return playletGender;
+  }
+
+
+  public void setPlayletGender(List<Long> playletGender) {
+    this.playletGender = playletGender;
+  }
+
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner playletHot(Long playletHot) {
+    
+    this.playletHot = playletHot;
+    return this;
+  }
+
+   /**
+   * 
+   * @return playletHot
+  **/
+  @javax.annotation.Nullable
+  public Long getPlayletHot() {
+    return playletHot;
+  }
+
+
+  public void setPlayletHot(Long playletHot) {
+    this.playletHot = playletHot;
+  }
+
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner playletSecondWeek(Long playletSecondWeek) {
+    
+    this.playletSecondWeek = playletSecondWeek;
+    return this;
+  }
+
+   /**
+   * 
+   * @return playletSecondWeek
+  **/
+  @javax.annotation.Nullable
+  public Long getPlayletSecondWeek() {
+    return playletSecondWeek;
+  }
+
+
+  public void setPlayletSecondWeek(Long playletSecondWeek) {
+    this.playletSecondWeek = playletSecondWeek;
+  }
+
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner playletTheme(List<Long> playletTheme) {
+    
+    this.playletTheme = playletTheme;
+    return this;
+  }
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner addPlayletThemeItem(Long playletThemeItem) {
+    if (this.playletTheme == null) {
+      this.playletTheme = new ArrayList<>();
+    }
+    this.playletTheme.add(playletThemeItem);
+    return this;
+  }
+
+   /**
+   * 
+   * @return playletTheme
+  **/
+  @javax.annotation.Nullable
+  public List<Long> getPlayletTheme() {
+    return playletTheme;
+  }
+
+
+  public void setPlayletTheme(List<Long> playletTheme) {
+    this.playletTheme = playletTheme;
+  }
+
+
   public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner price(Long price) {
     
     this.price = price;
@@ -390,6 +651,98 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
 
   public void setPrice(Long price) {
     this.price = price;
+  }
+
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner productCategory(Long productCategory) {
+    
+    this.productCategory = productCategory;
+    return this;
+  }
+
+   /**
+   * 
+   * @return productCategory
+  **/
+  @javax.annotation.Nullable
+  public Long getProductCategory() {
+    return productCategory;
+  }
+
+
+  public void setProductCategory(Long productCategory) {
+    this.productCategory = productCategory;
+  }
+
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner productName(String productName) {
+    
+    this.productName = productName;
+    return this;
+  }
+
+   /**
+   * 
+   * @return productName
+  **/
+  @javax.annotation.Nullable
+  public String getProductName() {
+    return productName;
+  }
+
+
+  public void setProductName(String productName) {
+    this.productName = productName;
+  }
+
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner profitRateChannel(Map<String, Long> profitRateChannel) {
+    
+    this.profitRateChannel = profitRateChannel;
+    return this;
+  }
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner putProfitRateChannelItem(String key, Long profitRateChannelItem) {
+    if (this.profitRateChannel == null) {
+      this.profitRateChannel = new HashMap<>();
+    }
+    this.profitRateChannel.put(key, profitRateChannelItem);
+    return this;
+  }
+
+   /**
+   * 
+   * @return profitRateChannel
+  **/
+  @javax.annotation.Nullable
+  public Map<String, Long> getProfitRateChannel() {
+    return profitRateChannel;
+  }
+
+
+  public void setProfitRateChannel(Map<String, Long> profitRateChannel) {
+    this.profitRateChannel = profitRateChannel;
+  }
+
+
+  public StarMcnGetUnparticipatedTaskV2ResponseDataDataInner realCost(Long realCost) {
+    
+    this.realCost = realCost;
+    return this;
+  }
+
+   /**
+   * 
+   * @return realCost
+  **/
+  @javax.annotation.Nullable
+  public Long getRealCost() {
+    return realCost;
+  }
+
+
+  public void setRealCost(Long realCost) {
+    this.realCost = realCost;
   }
 
 
@@ -466,7 +819,9 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
       return false;
     }
     StarMcnGetUnparticipatedTaskV2ResponseDataDataInner starMcnGetUnparticipatedTaskV2ResponseDataDataInner = (StarMcnGetUnparticipatedTaskV2ResponseDataDataInner) o;
-    return Objects.equals(this.commissionRate, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.commissionRate) &&
+    return Objects.equals(this.brand, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.brand) &&
+        Objects.equals(this.challengeStatus, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.challengeStatus) &&
+        Objects.equals(this.commissionRate, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.commissionRate) &&
         Objects.equals(this.createTime, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.createTime) &&
         Objects.equals(this.demandIcon, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.demandIcon) &&
         Objects.equals(this.demandId, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.demandId) &&
@@ -475,10 +830,21 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
         Objects.equals(this.expirationTime, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.expirationTime) &&
         Objects.equals(this.expirationTimeEnd, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.expirationTimeEnd) &&
         Objects.equals(this.firstClassCategory, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.firstClassCategory) &&
+        Objects.equals(this.highProfitChallenge, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.highProfitChallenge) &&
         Objects.equals(this.itemComponentType, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.itemComponentType) &&
         Objects.equals(this.mcnProfitRate, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.mcnProfitRate) &&
         Objects.equals(this.payType, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.payType) &&
+        Objects.equals(this.playletCategory, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.playletCategory) &&
+        Objects.equals(this.playletFirstWeek, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.playletFirstWeek) &&
+        Objects.equals(this.playletGender, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.playletGender) &&
+        Objects.equals(this.playletHot, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.playletHot) &&
+        Objects.equals(this.playletSecondWeek, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.playletSecondWeek) &&
+        Objects.equals(this.playletTheme, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.playletTheme) &&
         Objects.equals(this.price, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.price) &&
+        Objects.equals(this.productCategory, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.productCategory) &&
+        Objects.equals(this.productName, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.productName) &&
+        Objects.equals(this.profitRateChannel, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.profitRateChannel) &&
+        Objects.equals(this.realCost, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.realCost) &&
         Objects.equals(this.secondClassCategory, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.secondClassCategory) &&
         Objects.equals(this.totalBudget, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.totalBudget) &&
         Objects.equals(this.videoType, starMcnGetUnparticipatedTaskV2ResponseDataDataInner.videoType);
@@ -490,7 +856,7 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
 
   @Override
   public int hashCode() {
-    return Objects.hash(commissionRate, createTime, demandIcon, demandId, demandName, evaluateType, expirationTime, expirationTimeEnd, firstClassCategory, itemComponentType, mcnProfitRate, payType, price, secondClassCategory, totalBudget, videoType);
+    return Objects.hash(brand, challengeStatus, commissionRate, createTime, demandIcon, demandId, demandName, evaluateType, expirationTime, expirationTimeEnd, firstClassCategory, highProfitChallenge, itemComponentType, mcnProfitRate, payType, playletCategory, playletFirstWeek, playletGender, playletHot, playletSecondWeek, playletTheme, price, productCategory, productName, profitRateChannel, realCost, secondClassCategory, totalBudget, videoType);
   }
 
   private static <T> int hashCodeNullable(JsonNullable<T> a) {
@@ -504,6 +870,8 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {\n");
+    sb.append("    brand: ").append(toIndentedString(brand)).append("\n");
+    sb.append("    challengeStatus: ").append(toIndentedString(challengeStatus)).append("\n");
     sb.append("    commissionRate: ").append(toIndentedString(commissionRate)).append("\n");
     sb.append("    createTime: ").append(toIndentedString(createTime)).append("\n");
     sb.append("    demandIcon: ").append(toIndentedString(demandIcon)).append("\n");
@@ -513,10 +881,21 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
     sb.append("    expirationTime: ").append(toIndentedString(expirationTime)).append("\n");
     sb.append("    expirationTimeEnd: ").append(toIndentedString(expirationTimeEnd)).append("\n");
     sb.append("    firstClassCategory: ").append(toIndentedString(firstClassCategory)).append("\n");
+    sb.append("    highProfitChallenge: ").append(toIndentedString(highProfitChallenge)).append("\n");
     sb.append("    itemComponentType: ").append(toIndentedString(itemComponentType)).append("\n");
     sb.append("    mcnProfitRate: ").append(toIndentedString(mcnProfitRate)).append("\n");
     sb.append("    payType: ").append(toIndentedString(payType)).append("\n");
+    sb.append("    playletCategory: ").append(toIndentedString(playletCategory)).append("\n");
+    sb.append("    playletFirstWeek: ").append(toIndentedString(playletFirstWeek)).append("\n");
+    sb.append("    playletGender: ").append(toIndentedString(playletGender)).append("\n");
+    sb.append("    playletHot: ").append(toIndentedString(playletHot)).append("\n");
+    sb.append("    playletSecondWeek: ").append(toIndentedString(playletSecondWeek)).append("\n");
+    sb.append("    playletTheme: ").append(toIndentedString(playletTheme)).append("\n");
     sb.append("    price: ").append(toIndentedString(price)).append("\n");
+    sb.append("    productCategory: ").append(toIndentedString(productCategory)).append("\n");
+    sb.append("    productName: ").append(toIndentedString(productName)).append("\n");
+    sb.append("    profitRateChannel: ").append(toIndentedString(profitRateChannel)).append("\n");
+    sb.append("    realCost: ").append(toIndentedString(realCost)).append("\n");
     sb.append("    secondClassCategory: ").append(toIndentedString(secondClassCategory)).append("\n");
     sb.append("    totalBudget: ").append(toIndentedString(totalBudget)).append("\n");
     sb.append("    videoType: ").append(toIndentedString(videoType)).append("\n");
@@ -542,6 +921,8 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
   static {
     // a set of all properties/fields (JSON key names)
     openapiFields = new HashSet<String>();
+    openapiFields.add("brand");
+    openapiFields.add("challenge_status");
     openapiFields.add("commission_rate");
     openapiFields.add("create_time");
     openapiFields.add("demand_icon");
@@ -551,10 +932,21 @@ public class StarMcnGetUnparticipatedTaskV2ResponseDataDataInner {
     openapiFields.add("expiration_time");
     openapiFields.add("expiration_time_end");
     openapiFields.add("first_class_category");
+    openapiFields.add("high_profit_challenge");
     openapiFields.add("item_component_type");
     openapiFields.add("mcn_profit_rate");
     openapiFields.add("pay_type");
+    openapiFields.add("playlet_category");
+    openapiFields.add("playlet_first_week");
+    openapiFields.add("playlet_gender");
+    openapiFields.add("playlet_hot");
+    openapiFields.add("playlet_second_week");
+    openapiFields.add("playlet_theme");
     openapiFields.add("price");
+    openapiFields.add("product_category");
+    openapiFields.add("product_name");
+    openapiFields.add("profit_rate_channel");
+    openapiFields.add("real_cost");
     openapiFields.add("second_class_category");
     openapiFields.add("total_budget");
     openapiFields.add("video_type");

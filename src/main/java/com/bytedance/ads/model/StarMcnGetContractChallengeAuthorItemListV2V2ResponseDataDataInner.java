@@ -15,12 +15,15 @@ package com.bytedance.ads.model;
 
 import java.util.Objects;
 import java.util.Arrays;
+import com.bytedance.ads.model.StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInnerItemInfoDailyListInner;
 import com.google.gson.TypeAdapter;
 import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import org.openapitools.jackson.nullable.JsonNullable;
 
 import com.google.gson.Gson;
@@ -51,7 +54,7 @@ import com.bytedance.ads.JSON;
 /**
  * StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner {
   public static final String SERIALIZED_NAME_ANDROID_CONVERT_COUNT = "android_convert_count";
   @SerializedName(SERIALIZED_NAME_ANDROID_CONVERT_COUNT)
@@ -85,6 +88,10 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
   @SerializedName(SERIALIZED_NAME_DEMAND_NAME)
   private String demandName = null;
 
+  public static final String SERIALIZED_NAME_DOUYIN_ID = "douyin_id";
+  @SerializedName(SERIALIZED_NAME_DOUYIN_ID)
+  private String douyinId = null;
+
   public static final String SERIALIZED_NAME_INSTALL_FINISH_CNT = "install_finish_cnt";
   @SerializedName(SERIALIZED_NAME_INSTALL_FINISH_CNT)
   private Long installFinishCnt = null;
@@ -97,13 +104,45 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
   @SerializedName(SERIALIZED_NAME_IS_OWN)
   private Boolean isOwn = null;
 
+  public static final String SERIALIZED_NAME_ITEM_CLICK_RATE = "item_click_rate";
+  @SerializedName(SERIALIZED_NAME_ITEM_CLICK_RATE)
+  private Long itemClickRate = null;
+
+  public static final String SERIALIZED_NAME_ITEM_COMMENT = "item_comment";
+  @SerializedName(SERIALIZED_NAME_ITEM_COMMENT)
+  private Long itemComment = null;
+
+  public static final String SERIALIZED_NAME_ITEM_FEEL_GOOD = "item_feel_good";
+  @SerializedName(SERIALIZED_NAME_ITEM_FEEL_GOOD)
+  private Long itemFeelGood = null;
+
+  public static final String SERIALIZED_NAME_ITEM_FORWARD = "item_forward";
+  @SerializedName(SERIALIZED_NAME_ITEM_FORWARD)
+  private Long itemForward = null;
+
   public static final String SERIALIZED_NAME_ITEM_ID = "item_id";
   @SerializedName(SERIALIZED_NAME_ITEM_ID)
   private Long itemId = null;
 
+  public static final String SERIALIZED_NAME_ITEM_INFO_DAILY_LIST = "item_info_daily_list";
+  @SerializedName(SERIALIZED_NAME_ITEM_INFO_DAILY_LIST)
+  private List<StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInnerItemInfoDailyListInner> itemInfoDailyList = null;
+
+  public static final String SERIALIZED_NAME_ITEM_INTERACT_RATE = "item_interact_rate";
+  @SerializedName(SERIALIZED_NAME_ITEM_INTERACT_RATE)
+  private Double itemInteractRate = null;
+
+  public static final String SERIALIZED_NAME_ITEM_VIEW = "item_view";
+  @SerializedName(SERIALIZED_NAME_ITEM_VIEW)
+  private Long itemView = null;
+
   public static final String SERIALIZED_NAME_MCN_AMOUNT = "mcn_amount";
   @SerializedName(SERIALIZED_NAME_MCN_AMOUNT)
   private Long mcnAmount = null;
+
+  public static final String SERIALIZED_NAME_OPEN_STATE = "open_state";
+  @SerializedName(SERIALIZED_NAME_OPEN_STATE)
+  private Long openState = null;
 
   public static final String SERIALIZED_NAME_PLAY = "play";
   @SerializedName(SERIALIZED_NAME_PLAY)
@@ -121,9 +160,17 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
   @SerializedName(SERIALIZED_NAME_SHARE_PRICE)
   private Long sharePrice = null;
 
+  public static final String SERIALIZED_NAME_SHARE_PRICE_HOUR = "share_price_hour";
+  @SerializedName(SERIALIZED_NAME_SHARE_PRICE_HOUR)
+  private Long sharePriceHour = null;
+
   public static final String SERIALIZED_NAME_SHARE_PRICE_TOTAL = "share_price_total";
   @SerializedName(SERIALIZED_NAME_SHARE_PRICE_TOTAL)
   private Long sharePriceTotal = null;
+
+  public static final String SERIALIZED_NAME_SHARE_PRICE_TOTAL_HOUR = "share_price_total_hour";
+  @SerializedName(SERIALIZED_NAME_SHARE_PRICE_TOTAL_HOUR)
+  private Long sharePriceTotalHour = null;
 
   public static final String SERIALIZED_NAME_SHARE_VV = "share_vv";
   @SerializedName(SERIALIZED_NAME_SHARE_VV)
@@ -304,6 +351,27 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
   }
 
 
+  public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner douyinId(String douyinId) {
+    
+    this.douyinId = douyinId;
+    return this;
+  }
+
+   /**
+   * 
+   * @return douyinId
+  **/
+  @javax.annotation.Nullable
+  public String getDouyinId() {
+    return douyinId;
+  }
+
+
+  public void setDouyinId(String douyinId) {
+    this.douyinId = douyinId;
+  }
+
+
   public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner installFinishCnt(Long installFinishCnt) {
     
     this.installFinishCnt = installFinishCnt;
@@ -367,6 +435,90 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
   }
 
 
+  public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner itemClickRate(Long itemClickRate) {
+    
+    this.itemClickRate = itemClickRate;
+    return this;
+  }
+
+   /**
+   * 
+   * @return itemClickRate
+  **/
+  @javax.annotation.Nullable
+  public Long getItemClickRate() {
+    return itemClickRate;
+  }
+
+
+  public void setItemClickRate(Long itemClickRate) {
+    this.itemClickRate = itemClickRate;
+  }
+
+
+  public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner itemComment(Long itemComment) {
+    
+    this.itemComment = itemComment;
+    return this;
+  }
+
+   /**
+   * 
+   * @return itemComment
+  **/
+  @javax.annotation.Nullable
+  public Long getItemComment() {
+    return itemComment;
+  }
+
+
+  public void setItemComment(Long itemComment) {
+    this.itemComment = itemComment;
+  }
+
+
+  public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner itemFeelGood(Long itemFeelGood) {
+    
+    this.itemFeelGood = itemFeelGood;
+    return this;
+  }
+
+   /**
+   * 
+   * @return itemFeelGood
+  **/
+  @javax.annotation.Nullable
+  public Long getItemFeelGood() {
+    return itemFeelGood;
+  }
+
+
+  public void setItemFeelGood(Long itemFeelGood) {
+    this.itemFeelGood = itemFeelGood;
+  }
+
+
+  public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner itemForward(Long itemForward) {
+    
+    this.itemForward = itemForward;
+    return this;
+  }
+
+   /**
+   * 
+   * @return itemForward
+  **/
+  @javax.annotation.Nullable
+  public Long getItemForward() {
+    return itemForward;
+  }
+
+
+  public void setItemForward(Long itemForward) {
+    this.itemForward = itemForward;
+  }
+
+
   public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner itemId(Long itemId) {
     
     this.itemId = itemId;
@@ -388,6 +540,77 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
   }
 
 
+  public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner itemInfoDailyList(List<StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInnerItemInfoDailyListInner> itemInfoDailyList) {
+    
+    this.itemInfoDailyList = itemInfoDailyList;
+    return this;
+  }
+
+  public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner addItemInfoDailyListItem(StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInnerItemInfoDailyListInner itemInfoDailyListItem) {
+    if (this.itemInfoDailyList == null) {
+      this.itemInfoDailyList = new ArrayList<>();
+    }
+    this.itemInfoDailyList.add(itemInfoDailyListItem);
+    return this;
+  }
+
+   /**
+   * 
+   * @return itemInfoDailyList
+  **/
+  @javax.annotation.Nullable
+  public List<StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInnerItemInfoDailyListInner> getItemInfoDailyList() {
+    return itemInfoDailyList;
+  }
+
+
+  public void setItemInfoDailyList(List<StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInnerItemInfoDailyListInner> itemInfoDailyList) {
+    this.itemInfoDailyList = itemInfoDailyList;
+  }
+
+
+  public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner itemInteractRate(Double itemInteractRate) {
+    
+    this.itemInteractRate = itemInteractRate;
+    return this;
+  }
+
+   /**
+   * 
+   * @return itemInteractRate
+  **/
+  @javax.annotation.Nullable
+  public Double getItemInteractRate() {
+    return itemInteractRate;
+  }
+
+
+  public void setItemInteractRate(Double itemInteractRate) {
+    this.itemInteractRate = itemInteractRate;
+  }
+
+
+  public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner itemView(Long itemView) {
+    
+    this.itemView = itemView;
+    return this;
+  }
+
+   /**
+   * 
+   * @return itemView
+  **/
+  @javax.annotation.Nullable
+  public Long getItemView() {
+    return itemView;
+  }
+
+
+  public void setItemView(Long itemView) {
+    this.itemView = itemView;
+  }
+
+
   public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner mcnAmount(Long mcnAmount) {
     
     this.mcnAmount = mcnAmount;
@@ -406,6 +629,27 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
 
   public void setMcnAmount(Long mcnAmount) {
     this.mcnAmount = mcnAmount;
+  }
+
+
+  public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner openState(Long openState) {
+    
+    this.openState = openState;
+    return this;
+  }
+
+   /**
+   * 
+   * @return openState
+  **/
+  @javax.annotation.Nullable
+  public Long getOpenState() {
+    return openState;
+  }
+
+
+  public void setOpenState(Long openState) {
+    this.openState = openState;
   }
 
 
@@ -493,6 +737,27 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
   }
 
 
+  public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner sharePriceHour(Long sharePriceHour) {
+    
+    this.sharePriceHour = sharePriceHour;
+    return this;
+  }
+
+   /**
+   * 
+   * @return sharePriceHour
+  **/
+  @javax.annotation.Nullable
+  public Long getSharePriceHour() {
+    return sharePriceHour;
+  }
+
+
+  public void setSharePriceHour(Long sharePriceHour) {
+    this.sharePriceHour = sharePriceHour;
+  }
+
+
   public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner sharePriceTotal(Long sharePriceTotal) {
     
     this.sharePriceTotal = sharePriceTotal;
@@ -511,6 +776,27 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
 
   public void setSharePriceTotal(Long sharePriceTotal) {
     this.sharePriceTotal = sharePriceTotal;
+  }
+
+
+  public StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner sharePriceTotalHour(Long sharePriceTotalHour) {
+    
+    this.sharePriceTotalHour = sharePriceTotalHour;
+    return this;
+  }
+
+   /**
+   * 
+   * @return sharePriceTotalHour
+  **/
+  @javax.annotation.Nullable
+  public Long getSharePriceTotalHour() {
+    return sharePriceTotalHour;
+  }
+
+
+  public void setSharePriceTotalHour(Long sharePriceTotalHour) {
+    this.sharePriceTotalHour = sharePriceTotalHour;
   }
 
 
@@ -574,16 +860,27 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
         Objects.equals(this.clueCnt, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.clueCnt) &&
         Objects.equals(this.demandId, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.demandId) &&
         Objects.equals(this.demandName, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.demandName) &&
+        Objects.equals(this.douyinId, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.douyinId) &&
         Objects.equals(this.installFinishCnt, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.installFinishCnt) &&
         Objects.equals(this.iosConvertCount, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.iosConvertCount) &&
         Objects.equals(this.isOwn, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.isOwn) &&
+        Objects.equals(this.itemClickRate, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.itemClickRate) &&
+        Objects.equals(this.itemComment, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.itemComment) &&
+        Objects.equals(this.itemFeelGood, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.itemFeelGood) &&
+        Objects.equals(this.itemForward, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.itemForward) &&
         Objects.equals(this.itemId, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.itemId) &&
+        Objects.equals(this.itemInfoDailyList, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.itemInfoDailyList) &&
+        Objects.equals(this.itemInteractRate, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.itemInteractRate) &&
+        Objects.equals(this.itemView, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.itemView) &&
         Objects.equals(this.mcnAmount, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.mcnAmount) &&
+        Objects.equals(this.openState, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.openState) &&
         Objects.equals(this.play, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.play) &&
         Objects.equals(this.publishTime, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.publishTime) &&
         Objects.equals(this.serviceProviderAmount, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.serviceProviderAmount) &&
         Objects.equals(this.sharePrice, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.sharePrice) &&
+        Objects.equals(this.sharePriceHour, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.sharePriceHour) &&
         Objects.equals(this.sharePriceTotal, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.sharePriceTotal) &&
+        Objects.equals(this.sharePriceTotalHour, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.sharePriceTotalHour) &&
         Objects.equals(this.shareVv, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.shareVv) &&
         Objects.equals(this.uncorrelated, starMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.uncorrelated);
   }
@@ -594,7 +891,7 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
 
   @Override
   public int hashCode() {
-    return Objects.hash(androidConvertCount, authorAmount, authorId, authorName, channelId, clueCnt, demandId, demandName, installFinishCnt, iosConvertCount, isOwn, itemId, mcnAmount, play, publishTime, serviceProviderAmount, sharePrice, sharePriceTotal, shareVv, uncorrelated);
+    return Objects.hash(androidConvertCount, authorAmount, authorId, authorName, channelId, clueCnt, demandId, demandName, douyinId, installFinishCnt, iosConvertCount, isOwn, itemClickRate, itemComment, itemFeelGood, itemForward, itemId, itemInfoDailyList, itemInteractRate, itemView, mcnAmount, openState, play, publishTime, serviceProviderAmount, sharePrice, sharePriceHour, sharePriceTotal, sharePriceTotalHour, shareVv, uncorrelated);
   }
 
   private static <T> int hashCodeNullable(JsonNullable<T> a) {
@@ -616,16 +913,27 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
     sb.append("    clueCnt: ").append(toIndentedString(clueCnt)).append("\n");
     sb.append("    demandId: ").append(toIndentedString(demandId)).append("\n");
     sb.append("    demandName: ").append(toIndentedString(demandName)).append("\n");
+    sb.append("    douyinId: ").append(toIndentedString(douyinId)).append("\n");
     sb.append("    installFinishCnt: ").append(toIndentedString(installFinishCnt)).append("\n");
     sb.append("    iosConvertCount: ").append(toIndentedString(iosConvertCount)).append("\n");
     sb.append("    isOwn: ").append(toIndentedString(isOwn)).append("\n");
+    sb.append("    itemClickRate: ").append(toIndentedString(itemClickRate)).append("\n");
+    sb.append("    itemComment: ").append(toIndentedString(itemComment)).append("\n");
+    sb.append("    itemFeelGood: ").append(toIndentedString(itemFeelGood)).append("\n");
+    sb.append("    itemForward: ").append(toIndentedString(itemForward)).append("\n");
     sb.append("    itemId: ").append(toIndentedString(itemId)).append("\n");
+    sb.append("    itemInfoDailyList: ").append(toIndentedString(itemInfoDailyList)).append("\n");
+    sb.append("    itemInteractRate: ").append(toIndentedString(itemInteractRate)).append("\n");
+    sb.append("    itemView: ").append(toIndentedString(itemView)).append("\n");
     sb.append("    mcnAmount: ").append(toIndentedString(mcnAmount)).append("\n");
+    sb.append("    openState: ").append(toIndentedString(openState)).append("\n");
     sb.append("    play: ").append(toIndentedString(play)).append("\n");
     sb.append("    publishTime: ").append(toIndentedString(publishTime)).append("\n");
     sb.append("    serviceProviderAmount: ").append(toIndentedString(serviceProviderAmount)).append("\n");
     sb.append("    sharePrice: ").append(toIndentedString(sharePrice)).append("\n");
+    sb.append("    sharePriceHour: ").append(toIndentedString(sharePriceHour)).append("\n");
     sb.append("    sharePriceTotal: ").append(toIndentedString(sharePriceTotal)).append("\n");
+    sb.append("    sharePriceTotalHour: ").append(toIndentedString(sharePriceTotalHour)).append("\n");
     sb.append("    shareVv: ").append(toIndentedString(shareVv)).append("\n");
     sb.append("    uncorrelated: ").append(toIndentedString(uncorrelated)).append("\n");
     sb.append("}");
@@ -658,16 +966,27 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner 
     openapiFields.add("clue_cnt");
     openapiFields.add("demand_id");
     openapiFields.add("demand_name");
+    openapiFields.add("douyin_id");
     openapiFields.add("install_finish_cnt");
     openapiFields.add("ios_convert_count");
     openapiFields.add("is_own");
+    openapiFields.add("item_click_rate");
+    openapiFields.add("item_comment");
+    openapiFields.add("item_feel_good");
+    openapiFields.add("item_forward");
     openapiFields.add("item_id");
+    openapiFields.add("item_info_daily_list");
+    openapiFields.add("item_interact_rate");
+    openapiFields.add("item_view");
     openapiFields.add("mcn_amount");
+    openapiFields.add("open_state");
     openapiFields.add("play");
     openapiFields.add("publish_time");
     openapiFields.add("service_provider_amount");
     openapiFields.add("share_price");
+    openapiFields.add("share_price_hour");
     openapiFields.add("share_price_total");
+    openapiFields.add("share_price_total_hour");
     openapiFields.add("share_vv");
     openapiFields.add("uncorrelated");
 

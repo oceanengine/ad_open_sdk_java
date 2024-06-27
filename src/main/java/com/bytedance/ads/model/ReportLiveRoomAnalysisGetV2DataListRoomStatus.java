@@ -31,11 +31,11 @@ public enum ReportLiveRoomAnalysisGetV2DataListRoomStatus {
   
   LIVING("LIVING"),
   
-  END("END"),
+  PAUSE("PAUSE"),
   
   PREPARING("PREPARING"),
   
-  PAUSE("PAUSE");
+  END("END");
 
   private String value;
 

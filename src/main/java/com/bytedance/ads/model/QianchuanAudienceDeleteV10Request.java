@@ -50,7 +50,7 @@ import com.bytedance.ads.JSON;
 /**
  * QianchuanAudienceDeleteV10Request
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class QianchuanAudienceDeleteV10Request {
   public static final String SERIALIZED_NAME_ADVERTISER_ID = "advertiser_id";
   @SerializedName(SERIALIZED_NAME_ADVERTISER_ID)

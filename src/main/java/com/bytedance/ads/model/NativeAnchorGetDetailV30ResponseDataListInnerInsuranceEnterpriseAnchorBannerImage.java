@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 详情介绍banner,大小不超过10M的图片，尺寸1032*360px
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class NativeAnchorGetDetailV30ResponseDataListInnerInsuranceEnterpriseAnchorBannerImage {
   public static final String SERIALIZED_NAME_HEIGHT = "height";
   @SerializedName(SERIALIZED_NAME_HEIGHT)

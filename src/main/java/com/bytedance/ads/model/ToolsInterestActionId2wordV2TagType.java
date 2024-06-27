@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsInterestActionId2wordV2TagType.Adapter.class)
 public enum ToolsInterestActionId2wordV2TagType {
   
-  CATEGORY("CATEGORY"),
+  KEYWORD("KEYWORD"),
   
-  KEYWORD("KEYWORD");
+  CATEGORY("CATEGORY");
 
   private String value;
 

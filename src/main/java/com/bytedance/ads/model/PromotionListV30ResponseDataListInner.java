@@ -72,7 +72,7 @@ import com.bytedance.ads.JSON;
 /**
  * PromotionListV30ResponseDataListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class PromotionListV30ResponseDataListInner {
   public static final String SERIALIZED_NAME_7D_RETENTION = "7d_retention";
   @SerializedName(SERIALIZED_NAME_7D_RETENTION)

@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * ToolsLandingGroupUpdateV2ResponseDataSitesInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class ToolsLandingGroupUpdateV2ResponseDataSitesInner {
   public static final String SERIALIZED_NAME_MEMBER_ID = "member_id";
   @SerializedName(SERIALIZED_NAME_MEMBER_ID)

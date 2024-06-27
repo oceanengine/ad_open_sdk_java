@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdConvertOptimizedTargetGetV2DataListConvertsExternalActionsSource.Adapter.class)
 public enum ToolsAdConvertOptimizedTargetGetV2DataListConvertsExternalActionsSource {
   
-  METEOR("SOURCE_METEOR"),
+  TETRIS("SOURCE_TETRIS"),
   
   CONFIG("SOURCE_CONFIG"),
   
-  TETRIS("SOURCE_TETRIS");
+  METEOR("SOURCE_METEOR");
 
   private String value;
 

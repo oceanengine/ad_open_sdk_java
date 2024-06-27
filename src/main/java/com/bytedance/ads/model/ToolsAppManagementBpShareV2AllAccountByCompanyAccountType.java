@@ -31,9 +31,9 @@ public enum ToolsAppManagementBpShareV2AllAccountByCompanyAccountType {
   
   BP("BP"),
   
-  AD("AD"),
+  STAR("STAR"),
   
-  STAR("STAR");
+  AD("AD");
 
   private String value;
 

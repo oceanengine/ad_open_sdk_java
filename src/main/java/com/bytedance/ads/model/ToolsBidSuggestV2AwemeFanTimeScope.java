@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2AwemeFanTimeScope.Adapter.class)
 public enum ToolsBidSuggestV2AwemeFanTimeScope {
   
-  SIXTY_DAYS("SIXTY_DAYS"),
-  
   FIFTEEN_DAYS("FIFTEEN_DAYS"),
   
-  THIRTY_DAYS("THIRTY_DAYS");
+  THIRTY_DAYS("THIRTY_DAYS"),
+  
+  SIXTY_DAYS("SIXTY_DAYS");
 
   private String value;
 

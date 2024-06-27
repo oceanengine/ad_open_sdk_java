@@ -53,7 +53,7 @@ import com.bytedance.ads.JSON;
 /**
  * 产出物同步抖店商家后台配置
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class StarDemandCreateAssignV2RequestDemandInfoAdSyncConfEcomShop {
   public static final String SERIALIZED_NAME_AD_SYNC = "ad_sync";
   @SerializedName(SERIALIZED_NAME_AD_SYNC)

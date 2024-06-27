@@ -2788,6 +2788,7 @@ public class JSON {
         gsonBuilder.registerTypeAdapterFactory(new com.bytedance.ads.model.StarMcnGetContractChallengeAuthorItemListV2V2Response.CustomTypeAdapterFactory());
         gsonBuilder.registerTypeAdapterFactory(new com.bytedance.ads.model.StarMcnGetContractChallengeAuthorItemListV2V2ResponseData.CustomTypeAdapterFactory());
         gsonBuilder.registerTypeAdapterFactory(new com.bytedance.ads.model.StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.CustomTypeAdapterFactory());
+        gsonBuilder.registerTypeAdapterFactory(new com.bytedance.ads.model.StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInnerItemInfoDailyListInner.CustomTypeAdapterFactory());
         gsonBuilder.registerTypeAdapterFactory(new com.bytedance.ads.model.StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataPageInfo.CustomTypeAdapterFactory());
         gsonBuilder.registerTypeAdapterFactory(new com.bytedance.ads.model.StarMcnGetContractedChallengeListV2Response.CustomTypeAdapterFactory());
         gsonBuilder.registerTypeAdapterFactory(new com.bytedance.ads.model.StarMcnGetContractedChallengeListV2ResponseData.CustomTypeAdapterFactory());

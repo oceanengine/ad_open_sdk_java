@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(EnterpriseCommentReplyListV10DataReplyListReplyStatus.Adapter.class)
 public enum EnterpriseCommentReplyListV10DataReplyListReplyStatus {
   
-  REPLY_AUDIT_FAIL("REPLY_AUDIT_FAIL"),
-  
   REPLY_TO_AUDIT("REPLY_TO_AUDIT"),
   
   REPLY_AUDIT_SUCCESS("REPLY_AUDIT_SUCCESS"),
+  
+  REPLY_AUDIT_FAIL("REPLY_AUDIT_FAIL"),
   
   NO_REPLY("NO_REPLY");
 

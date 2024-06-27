@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataPromotionType.Adapter.class)
 public enum AdGetV2DataPromotionType {
   
-  AWEME_HOME_PAGE("AWEME_HOME_PAGE"),
-  
   LIVE("LIVE"),
+  
+  AWEME_HOME_PAGE("AWEME_HOME_PAGE"),
   
   GOODS("GOODS"),
   

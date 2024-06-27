@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdRaiseResultGetV2V2TimeDimension.Adapter.class)
 public enum ToolsAdRaiseResultGetV2V2TimeDimension {
   
-  SUM("SUM"),
+  HOURLY("HOURLY"),
   
-  HOURLY("HOURLY");
+  SUM("SUM");
 
   private String value;
 

@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 巨量AD/千川/本地推业务线余额信息
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class SharedWalletWalletBalanceGetV30ResponseDataSharedWalletBalanceInfoValueGeneralBalanceInfoAdSharedBalanceInfo {
   public static final String SERIALIZED_NAME_PREPAY_BIDDING_VALID_BALANCE = "prepay_bidding_valid_balance";
   @SerializedName(SERIALIZED_NAME_PREPAY_BIDDING_VALID_BALANCE)

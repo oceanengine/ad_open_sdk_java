@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdRaiseSetV2OptType.Adapter.class)
 public enum ToolsAdRaiseSetV2OptType {
   
-  STOP_RAISE("STOP_RAISE"),
+  CLICK_RAISE("CLICK_RAISE"),
   
-  CLICK_RAISE("CLICK_RAISE");
+  STOP_RAISE("STOP_RAISE");
 
   private String value;
 

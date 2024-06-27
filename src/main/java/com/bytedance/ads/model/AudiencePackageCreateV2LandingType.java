@@ -29,27 +29,27 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageCreateV2LandingType.Adapter.class)
 public enum AudiencePackageCreateV2LandingType {
   
-  APP_IOS("APP_IOS"),
-  
-  QUICK_APP("QUICK_APP"),
-  
-  LIVE("LIVE"),
+  DPA("DPA"),
   
   SHOP("SHOP"),
   
-  DPA("DPA"),
-  
-  AWEME("AWEME"),
-  
   STORE("STORE"),
-  
-  ARTICLE("ARTICLE"),
-  
-  EXTERNAL("EXTERNAL"),
   
   GOODS("GOODS"),
   
+  APP_IOS("APP_IOS"),
+  
+  EXTERNAL("EXTERNAL"),
+  
   MICRO_GAME("MICRO_GAME"),
+  
+  AWEME("AWEME"),
+  
+  LIVE("LIVE"),
+  
+  QUICK_APP("QUICK_APP"),
+  
+  ARTICLE("ARTICLE"),
   
   APP_ANDROID("APP_ANDROID");
 

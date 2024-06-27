@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataUnionVideoType.Adapter.class)
 public enum AdGetV2DataUnionVideoType {
   
-  SPLASH_VIDEO("SPLASH_VIDEO"),
-  
   REWARDED_VIDEO("REWARDED_VIDEO"),
   
-  ORIGINAL_VIDEO("ORIGINAL_VIDEO");
+  ORIGINAL_VIDEO("ORIGINAL_VIDEO"),
+  
+  SPLASH_VIDEO("SPLASH_VIDEO");
 
   private String value;
 

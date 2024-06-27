@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueCouponDetailV2DataCouponResourceListIndustryType.Adapter.class)
 public enum ClueCouponDetailV2DataCouponResourceListIndustryType {
   
-  FINANCIAL("FINANCIAL"),
+  ENTERTAINMENT("ENTERTAINMENT"),
   
-  GAME("GAME"),
+  FOOD("FOOD"),
   
   OTHER("OTHER"),
   
   TICKET("TICKET"),
   
-  FOOD("FOOD"),
+  GAME("GAME"),
   
-  ENTERTAINMENT("ENTERTAINMENT");
+  FINANCIAL("FINANCIAL");
 
   private String value;
 

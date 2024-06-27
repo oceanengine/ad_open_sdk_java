@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsNoBidSuggestBidV2BudgetMode.Adapter.class)
 public enum ToolsNoBidSuggestBidV2BudgetMode {
   
-  DAY("BUDGET_MODE_DAY"),
+  INFINITE("BUDGET_MODE_INFINITE"),
   
   TOTAL("BUDGET_MODE_TOTAL"),
   
-  INFINITE("BUDGET_MODE_INFINITE");
+  DAY("BUDGET_MODE_DAY");
 
   private String value;
 

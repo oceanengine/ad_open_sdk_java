@@ -53,7 +53,7 @@ import com.bytedance.ads.JSON;
 /**
  * FileMaterialDetailV2ResponseDataMaterialsInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class FileMaterialDetailV2ResponseDataMaterialsInner {
   public static final String SERIALIZED_NAME_IS_AD_HIGH_QUALITY = "is_ad_high_quality";
   @SerializedName(SERIALIZED_NAME_IS_AD_HIGH_QUALITY)

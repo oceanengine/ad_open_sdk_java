@@ -31,11 +31,11 @@ public enum ClueCouponDetailV2DataCouponResourceListCodeType {
   
   COMMON("COMMON"),
   
-  MERCHANT("MERCHANT"),
+  API("API"),
   
   PLATFORM("PLATFORM"),
   
-  API("API");
+  MERCHANT("MERCHANT");
 
   private String value;
 

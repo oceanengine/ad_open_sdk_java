@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(KeywordGetV2DataListBidType.Adapter.class)
 public enum KeywordGetV2DataListBidType {
   
-  SUGGEST("SUGGEST"),
+  CUSTOM("CUSTOM"),
   
   FEED_TO_SEARCH("FEED_TO_SEARCH"),
   
-  BRAND_AD("BRAND_AD"),
-  
   WITH_AD("WITH_AD"),
   
-  CUSTOM("CUSTOM");
+  BRAND_AD("BRAND_AD"),
+  
+  SUGGEST("SUGGEST");
 
   private String value;
 

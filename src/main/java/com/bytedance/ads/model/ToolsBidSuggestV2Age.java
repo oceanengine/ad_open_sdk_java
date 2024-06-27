@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2Age.Adapter.class)
 public enum ToolsBidSuggestV2Age {
   
+  BETWEEN_18_23("AGE_BETWEEN_18_23"),
+  
+  BELOW_18("AGE_BELOW_18"),
+  
+  BETWEEN_41_49("AGE_BETWEEN_41_49"),
+  
   BETWEEN_24_30("AGE_BETWEEN_24_30"),
   
   ABOVE_50("AGE_ABOVE_50"),
   
-  BETWEEN_18_23("AGE_BETWEEN_18_23"),
-  
-  BETWEEN_41_49("AGE_BETWEEN_41_49"),
-  
-  BETWEEN_31_40("AGE_BETWEEN_31_40"),
-  
-  BELOW_18("AGE_BELOW_18");
+  BETWEEN_31_40("AGE_BETWEEN_31_40");
 
   private String value;
 

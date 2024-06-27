@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(QianchuanAdRejectReasonV10DataListAuditRecordsAuditPlatform.Adapter.class)
 public enum QianchuanAdRejectReasonV10DataListAuditRecordsAuditPlatform {
   
-  UNKNOWN("UNKNOWN"),
-  
   CONTENT("CONTENT"),
+  
+  UNKNOWN("UNKNOWN"),
   
   AD("AD");
 

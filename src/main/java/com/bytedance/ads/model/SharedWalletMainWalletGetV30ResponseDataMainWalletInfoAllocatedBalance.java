@@ -55,7 +55,7 @@ import com.bytedance.ads.JSON;
 /**
  * 钱包已分配余额(单位元)
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class SharedWalletMainWalletGetV30ResponseDataMainWalletInfoAllocatedBalance {
   public static final String SERIALIZED_NAME_AD_ONLY_ALLOCATED_BALANCE = "ad_only_allocated_balance";
   @SerializedName(SERIALIZED_NAME_AD_ONLY_ALLOCATED_BALANCE)

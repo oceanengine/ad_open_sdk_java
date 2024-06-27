@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsPromotionCardRecommendGetV2DownloadType.Adapter.class)
 public enum ToolsPromotionCardRecommendGetV2DownloadType {
   
-  QUICK_APP_URL("QUICK_APP_URL"),
-  
   EXTERNAL_URL("EXTERNAL_URL"),
+  
+  QUICK_APP_URL("QUICK_APP_URL"),
   
   DOWNLOAD_URL("DOWNLOAD_URL");
 

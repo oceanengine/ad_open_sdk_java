@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 私信锚点，当anchor_type&#x3D;PRIVATE_CHAT必填
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class NativeAnchorCreateV30RequestAnchorInfoPrivateChat {
   public static final String SERIALIZED_NAME_BUTTON = "button";
   @SerializedName(SERIALIZED_NAME_BUTTON)

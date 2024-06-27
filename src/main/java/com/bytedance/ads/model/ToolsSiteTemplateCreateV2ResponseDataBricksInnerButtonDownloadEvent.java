@@ -53,7 +53,7 @@ import com.bytedance.ads.JSON;
 /**
  * downloadEvent事件行为描述
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class ToolsSiteTemplateCreateV2ResponseDataBricksInnerButtonDownloadEvent {
   public static final String SERIALIZED_NAME_ANDROID_LINK = "android_link";
   @SerializedName(SERIALIZED_NAME_ANDROID_LINK)

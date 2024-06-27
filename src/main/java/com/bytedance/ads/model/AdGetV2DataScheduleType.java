@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataScheduleType.Adapter.class)
 public enum AdGetV2DataScheduleType {
   
-  START_END("SCHEDULE_START_END"),
+  FROM_NOW("SCHEDULE_FROM_NOW"),
   
-  FROM_NOW("SCHEDULE_FROM_NOW");
+  START_END("SCHEDULE_START_END");
 
   private String value;
 

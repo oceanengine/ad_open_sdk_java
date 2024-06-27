@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageCreateV2DeliveryRange.Adapter.class)
 public enum AudiencePackageCreateV2DeliveryRange {
   
-  UNION("UNION"),
-  
   UNIVERSAL("UNIVERSAL"),
+  
+  UNION("UNION"),
   
   DEFAULT("DEFAULT");
 

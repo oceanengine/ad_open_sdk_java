@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignUpdateStatusV2OptStatus.Adapter.class)
 public enum CampaignUpdateStatusV2OptStatus {
   
-  DISABLE("disable"),
-  
   ENABLE("enable"),
+  
+  DISABLE("disable"),
   
   DELETE("delete");
 

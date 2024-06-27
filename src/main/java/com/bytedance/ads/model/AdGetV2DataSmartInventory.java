@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataSmartInventory.Adapter.class)
 public enum AdGetV2DataSmartInventory {
   
-  SMART("SMART"),
+  UNIVERSAL("UNIVERSAL"),
   
-  NORMAL("NORMAL"),
+  SMART("SMART"),
   
   UNIVERSAL_ALL("UNIVERSAL_ALL"),
   
-  UNIVERSAL("UNIVERSAL");
+  NORMAL("NORMAL");
 
   private String value;
 

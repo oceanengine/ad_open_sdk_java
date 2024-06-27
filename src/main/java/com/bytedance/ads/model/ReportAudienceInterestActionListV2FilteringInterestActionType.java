@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAudienceInterestActionListV2FilteringInterestActionType.Adapter.class)
 public enum ReportAudienceInterestActionListV2FilteringInterestActionType {
   
-  INTEREST("INTEREST"),
+  ACTION("ACTION"),
   
-  ACTION("ACTION");
+  INTEREST("INTEREST");
 
   private String value;
 

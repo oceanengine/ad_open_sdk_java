@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageCreateV2InterestActionMode.Adapter.class)
 public enum AudiencePackageCreateV2InterestActionMode {
   
-  CUSTOM("CUSTOM"),
-  
   RECOMMEND("RECOMMEND"),
   
-  UNLIMITED("UNLIMITED");
+  UNLIMITED("UNLIMITED"),
+  
+  CUSTOM("CUSTOM");
 
   private String value;
 

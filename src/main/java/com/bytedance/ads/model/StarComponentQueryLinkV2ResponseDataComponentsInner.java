@@ -52,11 +52,15 @@ import com.bytedance.ads.JSON;
 /**
  * StarComponentQueryLinkV2ResponseDataComponentsInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class StarComponentQueryLinkV2ResponseDataComponentsInner {
   public static final String SERIALIZED_NAME_AUDIT_BAN_REASON = "audit_ban_reason";
   @SerializedName(SERIALIZED_NAME_AUDIT_BAN_REASON)
   private String auditBanReason = null;
+
+  public static final String SERIALIZED_NAME_COMPONENT_ID = "component_id";
+  @SerializedName(SERIALIZED_NAME_COMPONENT_ID)
+  private Long componentId = null;
 
   public static final String SERIALIZED_NAME_LINK_ANDROID = "link_android";
   @SerializedName(SERIALIZED_NAME_LINK_ANDROID)
@@ -127,6 +131,27 @@ public class StarComponentQueryLinkV2ResponseDataComponentsInner {
 
   public void setAuditBanReason(String auditBanReason) {
     this.auditBanReason = auditBanReason;
+  }
+
+
+  public StarComponentQueryLinkV2ResponseDataComponentsInner componentId(Long componentId) {
+    
+    this.componentId = componentId;
+    return this;
+  }
+
+   /**
+   * 
+   * @return componentId
+  **/
+  @javax.annotation.Nullable
+  public Long getComponentId() {
+    return componentId;
+  }
+
+
+  public void setComponentId(Long componentId) {
+    this.componentId = componentId;
   }
 
 
@@ -393,6 +418,7 @@ public class StarComponentQueryLinkV2ResponseDataComponentsInner {
     }
     StarComponentQueryLinkV2ResponseDataComponentsInner starComponentQueryLinkV2ResponseDataComponentsInner = (StarComponentQueryLinkV2ResponseDataComponentsInner) o;
     return Objects.equals(this.auditBanReason, starComponentQueryLinkV2ResponseDataComponentsInner.auditBanReason) &&
+        Objects.equals(this.componentId, starComponentQueryLinkV2ResponseDataComponentsInner.componentId) &&
         Objects.equals(this.linkAndroid, starComponentQueryLinkV2ResponseDataComponentsInner.linkAndroid) &&
         Objects.equals(this.linkAndroidDownload, starComponentQueryLinkV2ResponseDataComponentsInner.linkAndroidDownload) &&
         Objects.equals(this.linkIos, starComponentQueryLinkV2ResponseDataComponentsInner.linkIos) &&
@@ -413,7 +439,7 @@ public class StarComponentQueryLinkV2ResponseDataComponentsInner {
 
   @Override
   public int hashCode() {
-    return Objects.hash(auditBanReason, linkAndroid, linkAndroidDownload, linkIos, linkIosDownload, linkName, linkPageTarget, linkPlatform, linkPlatformSource, linkStatus, linkTitle, linkType, liveAttractComponent);
+    return Objects.hash(auditBanReason, componentId, linkAndroid, linkAndroidDownload, linkIos, linkIosDownload, linkName, linkPageTarget, linkPlatform, linkPlatformSource, linkStatus, linkTitle, linkType, liveAttractComponent);
   }
 
   private static <T> int hashCodeNullable(JsonNullable<T> a) {
@@ -428,6 +454,7 @@ public class StarComponentQueryLinkV2ResponseDataComponentsInner {
     StringBuilder sb = new StringBuilder();
     sb.append("class StarComponentQueryLinkV2ResponseDataComponentsInner {\n");
     sb.append("    auditBanReason: ").append(toIndentedString(auditBanReason)).append("\n");
+    sb.append("    componentId: ").append(toIndentedString(componentId)).append("\n");
     sb.append("    linkAndroid: ").append(toIndentedString(linkAndroid)).append("\n");
     sb.append("    linkAndroidDownload: ").append(toIndentedString(linkAndroidDownload)).append("\n");
     sb.append("    linkIos: ").append(toIndentedString(linkIos)).append("\n");
@@ -463,6 +490,7 @@ public class StarComponentQueryLinkV2ResponseDataComponentsInner {
     // a set of all properties/fields (JSON key names)
     openapiFields = new HashSet<String>();
     openapiFields.add("audit_ban_reason");
+    openapiFields.add("component_id");
     openapiFields.add("link_android");
     openapiFields.add("link_android_download");
     openapiFields.add("link_ios");

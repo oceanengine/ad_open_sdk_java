@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdvertiserStoreSearchV2Type.Adapter.class)
 public enum ToolsAdvertiserStoreSearchV2Type {
   
-  LANDING("STORE_LANDING"),
-  
-  NORMAL("STORE_NORMAL"),
+  THIRT_PARTY("STORE_THIRT_PARTY"),
   
   DOUYIN("STORE_DOUYIN"),
   
-  THIRT_PARTY("STORE_THIRT_PARTY");
+  LANDING("STORE_LANDING"),
+  
+  NORMAL("STORE_NORMAL");
 
   private String value;
 

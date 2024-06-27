@@ -31,9 +31,9 @@ public enum ToolsAppManagementShareAccountListV2DataListShareMode {
   
   PART("PART"),
   
-  COMPANY("COMPANY"),
+  ALL("ALL"),
   
-  ALL("ALL");
+  COMPANY("COMPANY");
 
   private String value;
 

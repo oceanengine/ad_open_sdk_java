@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(EnterpriseFlowCategoryGetV10OrderType.Adapter.class)
 public enum EnterpriseFlowCategoryGetV10OrderType {
   
-  DESC("DESC"),
+  ASC("ASC"),
   
-  ASC("ASC");
+  DESC("DESC");
 
   private String value;
 

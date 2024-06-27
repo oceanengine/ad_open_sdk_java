@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(EnterpriseCommentListGetV10FilterReplyStatusByEDouyin.Adapter.class)
 public enum EnterpriseCommentListGetV10FilterReplyStatusByEDouyin {
   
-  REPLY("REPLY"),
-  
   ALL("ALL"),
+  
+  REPLY("REPLY"),
   
   NO_REPLY("NO_REPLY");
 

@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * ReportRtaExpLocalDailyGetV30ResponseDataDataInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class ReportRtaExpLocalDailyGetV30ResponseDataDataInner {
   public static final String SERIALIZED_NAME_BID_COEF = "bid_coef";
   @SerializedName(SERIALIZED_NAME_BID_COEF)

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportCampaignGetV2DataListCampaignType.Adapter.class)
 public enum ReportCampaignGetV2DataListCampaignType {
   
-  FEED("FEED"),
+  SEARCH("SEARCH"),
   
-  SEARCH("SEARCH");
+  FEED("FEED");
 
   private String value;
 

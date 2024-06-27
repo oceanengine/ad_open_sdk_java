@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataAudienceDistrict.Adapter.class)
 public enum AdGetV2DataAudienceDistrict {
   
-  OVERSEA("OVERSEA"),
-  
-  REGION("REGION"),
-  
-  CITY("CITY"),
+  COUNTY("COUNTY"),
   
   NONE("NONE"),
   
-  COUNTY("COUNTY"),
+  CITY("CITY"),
   
-  BUSINESS_DISTRICT("BUSINESS_DISTRICT");
+  REGION("REGION"),
+  
+  BUSINESS_DISTRICT("BUSINESS_DISTRICT"),
+  
+  OVERSEA("OVERSEA");
 
   private String value;
 

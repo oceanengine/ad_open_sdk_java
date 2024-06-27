@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportCreativeGetV2FilteringCampaignTypes.Adapter.class)
 public enum ReportCreativeGetV2FilteringCampaignTypes {
   
-  CONTENT("CONTENT"),
+  SEARCH("SEARCH"),
   
   FEED("FEED"),
   
-  SEARCH("SEARCH");
+  CONTENT("CONTENT");
 
   private String value;
 

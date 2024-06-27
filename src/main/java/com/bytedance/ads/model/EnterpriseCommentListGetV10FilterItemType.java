@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(EnterpriseCommentListGetV10FilterItemType.Adapter.class)
 public enum EnterpriseCommentListGetV10FilterItemType {
   
-  CONTENT("ITEM_CONTENT"),
+  AD("ITEM_AD"),
   
-  AD("ITEM_AD");
+  CONTENT("ITEM_CONTENT");
 
   private String value;
 

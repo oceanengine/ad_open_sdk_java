@@ -33,9 +33,9 @@ public enum ReportCampaignGetV2DataListGender {
   
   GENDER_FEMALE("GENDER_FEMALE"),
   
-  GENDER_UNLIMITED("GENDER_UNLIMITED"),
+  NONE("NONE"),
   
-  NONE("NONE");
+  GENDER_UNLIMITED("GENDER_UNLIMITED");
 
   private String value;
 

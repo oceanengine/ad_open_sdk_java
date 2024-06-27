@@ -50,7 +50,7 @@ import com.bytedance.ads.JSON;
 /**
  * 联系人姓名及手机号，请传入可接通的手机号 达人接单后，您可以通过虚拟电话与达人沟通
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class StardeliveryTaskCreateV30RequestTaskContactInfo {
   public static final String SERIALIZED_NAME_CONTACT_ID = "contact_id";
   @SerializedName(SERIALIZED_NAME_CONTACT_ID)

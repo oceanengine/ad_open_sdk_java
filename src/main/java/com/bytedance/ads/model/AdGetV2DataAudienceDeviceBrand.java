@@ -31,59 +31,59 @@ public enum AdGetV2DataAudienceDeviceBrand {
   
   NUBIA("NUBIA"),
   
-  ZTE("ZTE"),
+  VIVO("VIVO"),
   
-  QIKU("QIKU"),
+  MEIZU("MEIZU"),
+  
+  LENOVO("LENOVO"),
+  
+  HTC("HTC"),
+  
+  HONOR("HONOR"),
+  
+  GIONEE("GIONEE"),
+  
+  CHINAMOBILE("CHINAMOBILE"),
+  
+  Enum_360("360"),
+  
+  COOLPAD("COOLPAD"),
+  
+  PEPPER("PEPPER"),
+  
+  SAMSUNG("SAMSUNG"),
   
   SMARTISAN("SMARTISAN"),
   
-  SAMSUNG("SAMSUNG"),
+  HUAWEI("HUAWEI"),
+  
+  HISENSE("HISENSE"),
+  
+  APPLE("APPLE"),
+  
+  OPPO("OPPO"),
   
   ONEPLUS("ONEPLUS"),
   
   SONY("SONY"),
   
-  TCL("TCL"),
-  
-  GIONEE("GIONEE"),
-  
-  HISENSE("HISENSE"),
-  
-  LG("LG"),
-  
-  LENOVO("LENOVO"),
+  QIKU("QIKU"),
   
   NOKIA("NOKIA"),
   
-  GOOGLE("GOOGLE"),
-  
-  PEPPER("PEPPER"),
-  
-  APPLE("APPLE"),
-  
-  XIAOMI("XIAOMI"),
-  
-  OPPO("OPPO"),
-  
-  VIVO("VIVO"),
-  
-  Enum_360("360"),
-  
-  MOTO("MOTO"),
-  
-  HTC("HTC"),
-  
-  MEIZU("MEIZU"),
-  
-  COOLPAD("COOLPAD"),
+  ZTE("ZTE"),
   
   LETV("LETV"),
   
-  CHINAMOBILE("CHINAMOBILE"),
+  GOOGLE("GOOGLE"),
   
-  HONOR("HONOR"),
+  TCL("TCL"),
   
-  HUAWEI("HUAWEI");
+  MOTO("MOTO"),
+  
+  LG("LG"),
+  
+  XIAOMI("XIAOMI");
 
   private String value;
 

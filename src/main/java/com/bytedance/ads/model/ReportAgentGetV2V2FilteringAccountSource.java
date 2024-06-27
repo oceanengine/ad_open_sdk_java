@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAgentGetV2V2FilteringAccountSource.Adapter.class)
 public enum ReportAgentGetV2V2FilteringAccountSource {
   
-  LUBAN_ACCOUNT("LUBAN_ACCOUNT"),
+  NORMAL_ADVERTISER("NORMAL_ADVERTISER"),
   
-  NORMAL_ADVERTISER("NORMAL_ADVERTISER");
+  LUBAN_ACCOUNT("LUBAN_ACCOUNT");
 
   private String value;
 

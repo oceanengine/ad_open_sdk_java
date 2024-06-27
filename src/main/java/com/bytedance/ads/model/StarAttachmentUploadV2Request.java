@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * StarAttachmentUploadV2Request
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class StarAttachmentUploadV2Request {
   public static final String SERIALIZED_NAME_FILE = "file";
   @SerializedName(SERIALIZED_NAME_FILE)
@@ -59,7 +59,7 @@ public class StarAttachmentUploadV2Request {
 
   public static final String SERIALIZED_NAME_FILE_NAME = "file_name";
   @SerializedName(SERIALIZED_NAME_FILE_NAME)
-  private File fileName = null;
+  private String fileName = null;
 
   public static final String SERIALIZED_NAME_STAR_ID = "star_id";
   @SerializedName(SERIALIZED_NAME_STAR_ID)
@@ -89,7 +89,7 @@ public class StarAttachmentUploadV2Request {
   }
 
 
-  public StarAttachmentUploadV2Request fileName(File fileName) {
+  public StarAttachmentUploadV2Request fileName(String fileName) {
     
     this.fileName = fileName;
     return this;
@@ -100,12 +100,12 @@ public class StarAttachmentUploadV2Request {
    * @return fileName
   **/
   @javax.annotation.Nullable
-  public File getFileName() {
+  public String getFileName() {
     return fileName;
   }
 
 
-  public void setFileName(File fileName) {
+  public void setFileName(String fileName) {
     this.fileName = fileName;
   }
 

@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAudienceAwemeListV2FilteringAudienceLevel.Adapter.class)
 public enum ReportAudienceAwemeListV2FilteringAudienceLevel {
   
-  THIRD_LEVEL("THIRD_LEVEL"),
+  FIRST_LEVEL("FIRST_LEVEL"),
   
   SECOND_LEVEL("SECOND_LEVEL"),
   
-  FIRST_LEVEL("FIRST_LEVEL"),
+  FOURTH_LEVEL("FOURTH_LEVEL"),
   
-  KEYWORD_AWEME("KEYWORD_AWEME"),
+  THIRD_LEVEL("THIRD_LEVEL"),
   
-  FOURTH_LEVEL("FOURTH_LEVEL");
+  KEYWORD_AWEME("KEYWORD_AWEME");
 
   private String value;
 

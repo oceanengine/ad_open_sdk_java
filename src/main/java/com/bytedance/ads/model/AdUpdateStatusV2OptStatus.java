@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdUpdateStatusV2OptStatus.Adapter.class)
 public enum AdUpdateStatusV2OptStatus {
   
-  DISABLE("disable"),
-  
   ENABLE("enable"),
+  
+  DISABLE("disable"),
   
   DELETE("delete");
 

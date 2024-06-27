@@ -29,31 +29,31 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueFormDetailV2DataFormElementsElementType.Adapter.class)
 public enum ClueFormDetailV2DataFormElementsElementType {
   
-  NUMBER("NUMBER"),
-  
-  EMAIL("EMAIL"),
+  CHECKBOX("CHECKBOX"),
   
   SEX("SEX"),
   
-  RADIO("RADIO"),
-  
-  CITY("CITY"),
+  TELEPHONE("TELEPHONE"),
   
   TEXT("TEXT"),
   
-  TELEPHONE("TELEPHONE"),
-  
-  SELECT("SELECT"),
-  
-  DATE("DATE"),
-  
-  CHECKBOX("CHECKBOX"),
+  RADIO("RADIO"),
   
   TEXTAREA("TEXTAREA"),
   
+  EMAIL("EMAIL"),
+  
+  NUMBER("NUMBER"),
+  
+  CITY("CITY"),
+  
   CALCULATOR("CALCULATOR"),
   
-  NAME("NAME");
+  NAME("NAME"),
+  
+  SELECT("SELECT"),
+  
+  DATE("DATE");
 
   private String value;
 

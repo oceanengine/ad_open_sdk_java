@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsEstimateAudienceV2AppBehaviorTarget.Adapter.class)
 public enum ToolsEstimateAudienceV2AppBehaviorTarget {
   
+  NONE("NONE"),
+  
   APP("APP"),
   
-  CATEGORY("CATEGORY"),
-  
-  NONE("NONE");
+  CATEGORY("CATEGORY");
 
   private String value;
 

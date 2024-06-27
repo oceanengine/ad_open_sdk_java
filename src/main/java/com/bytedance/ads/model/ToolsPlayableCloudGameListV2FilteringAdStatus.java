@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsPlayableCloudGameListV2FilteringAdStatus.Adapter.class)
 public enum ToolsPlayableCloudGameListV2FilteringAdStatus {
   
-  DELETE("DELETE"),
+  UNUSED("UNUSED"),
   
   INUSE("INUSE"),
   
-  UNUSED("UNUSED");
+  DELETE("DELETE");
 
   private String value;
 

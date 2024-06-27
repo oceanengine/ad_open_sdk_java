@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportSitePageV2InventoryType.Adapter.class)
 public enum ReportSitePageV2InventoryType {
   
-  TOUTIAO("TOUTIAO"),
-  
-  UNION_SLOT("UNION_SLOT"),
-  
   AWEME("AWEME"),
   
   HOTSOON("HOTSOON"),
   
-  WATERMELON("WATERMELON");
+  WATERMELON("WATERMELON"),
+  
+  UNION_SLOT("UNION_SLOT"),
+  
+  TOUTIAO("TOUTIAO");
 
   private String value;
 

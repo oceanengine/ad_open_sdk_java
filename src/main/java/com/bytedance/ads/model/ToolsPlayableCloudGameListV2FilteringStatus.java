@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsPlayableCloudGameListV2FilteringStatus.Adapter.class)
 public enum ToolsPlayableCloudGameListV2FilteringStatus {
   
-  UPLOAD_STATUS("UPLOAD_STATUS"),
+  AUDIT_FAIL("AUDIT_FAIL"),
   
   OFF_SHELF("OFF_SHELF"),
   
-  AUDIT_FAIL("AUDIT_FAIL"),
+  AUDIT_SUCCESS("AUDIT_SUCCESS"),
   
   ON_SHELF("ON_SHELF"),
   
-  AUDIT_SUCCESS("AUDIT_SUCCESS");
+  UPLOAD_STATUS("UPLOAD_STATUS");
 
   private String value;
 

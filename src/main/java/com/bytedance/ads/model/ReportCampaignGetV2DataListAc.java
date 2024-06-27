@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportCampaignGetV2DataListAc.Adapter.class)
 public enum ReportCampaignGetV2DataListAc {
   
-  Enum_5G("5G"),
-  
   WIFI("WIFI"),
+  
+  UNKNOWN("unknown"),
   
   Enum_3G("3G"),
   
+  Enum_5G("5G"),
+  
   Enum_2G("2G"),
   
-  Enum_4G("4G"),
-  
-  UNKNOWN("unknown");
+  Enum_4G("4G");
 
   private String value;
 

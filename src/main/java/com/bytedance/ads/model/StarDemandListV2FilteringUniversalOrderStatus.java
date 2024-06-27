@@ -29,19 +29,19 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(StarDemandListV2FilteringUniversalOrderStatus.Adapter.class)
 public enum StarDemandListV2FilteringUniversalOrderStatus {
   
-  FINISHED("FINISHED"),
-  
-  CANCELED("CANCELED"),
-  
-  RECEIVEING("RECEIVEING"),
-  
-  WAIT_EVALUATE("WAIT_EVALUATE"),
-  
   WAIT_PAYMENT("WAIT_PAYMENT"),
+  
+  ALL("ALL"),
   
   ONGOING("ONGOING"),
   
-  ALL("ALL");
+  RECEIVEING("RECEIVEING"),
+  
+  FINISHED("FINISHED"),
+  
+  WAIT_EVALUATE("WAIT_EVALUATE"),
+  
+  CANCELED("CANCELED");
 
   private String value;
 

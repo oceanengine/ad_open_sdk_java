@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAppIosListV2FilteringStatus.Adapter.class)
 public enum ToolsAppIosListV2FilteringStatus {
   
-  AUDIT_REJECTED("AUDIT_REJECTED"),
-  
   AUDIT_DOING("AUDIT_DOING"),
+  
+  ALL("ALL"),
   
   AUDIT_ACCEPTED("AUDIT_ACCEPTED"),
   
   ENABLE("ENABLE"),
   
-  ALL("ALL");
+  AUDIT_REJECTED("AUDIT_REJECTED");
 
   private String value;
 

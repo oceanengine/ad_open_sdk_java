@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsEstimateAudienceV2Ac.Adapter.class)
 public enum ToolsEstimateAudienceV2Ac {
   
-  Enum_5G("5G"),
-  
   WIFI("WIFI"),
   
   Enum_3G("3G"),
+  
+  Enum_5G("5G"),
   
   Enum_2G("2G"),
   

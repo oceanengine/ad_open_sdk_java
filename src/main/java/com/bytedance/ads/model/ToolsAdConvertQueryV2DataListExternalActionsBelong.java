@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdConvertQueryV2DataListExternalActionsBelong.Adapter.class)
 public enum ToolsAdConvertQueryV2DataListExternalActionsBelong {
   
-  MICRO_APP("BELONG_MICRO_APP"),
-  
   EXTERNAL_URL("BELONG_EXTERNAL_URL"),
+  
+  MICRO_APP("BELONG_MICRO_APP"),
   
   ADVANCED_CREATIVE("BELONG_ADVANCED_CREATIVE");
 

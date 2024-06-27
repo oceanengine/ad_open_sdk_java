@@ -84,7 +84,7 @@ public class StarAttachmentUploadV2Api {
         <tr><td> 200 </td><td> OK </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call openApi2StarAttachmentUploadPostCall(File _file, File fileName, Long starId, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call openApi2StarAttachmentUploadPostCall(File _file, String fileName, Long starId, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -142,7 +142,7 @@ public class StarAttachmentUploadV2Api {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call openApi2StarAttachmentUploadPostValidateBeforeCall(File _file, File fileName, Long starId, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call openApi2StarAttachmentUploadPostValidateBeforeCall(File _file, String fileName, Long starId, final ApiCallback _callback) throws ApiException {
         // verify the required parameter '_file' is set
         if (_file == null) {
             throw new ApiException("Missing the required parameter '_file' when calling openApi2StarAttachmentUploadPost(Async)");
@@ -176,7 +176,7 @@ public class StarAttachmentUploadV2Api {
         <tr><td> 200 </td><td> OK </td><td>  -  </td></tr>
      </table>
      */
-    public StarAttachmentUploadV2Response openApi2StarAttachmentUploadPost(File _file, File fileName, Long starId) throws ApiException {
+    public StarAttachmentUploadV2Response openApi2StarAttachmentUploadPost(File _file, String fileName, Long starId) throws ApiException {
         ApiResponse<StarAttachmentUploadV2Response> localVarResp = openApi2StarAttachmentUploadPostWithHttpInfo(_file, fileName, starId);
         return localVarResp.getData();
     }
@@ -195,7 +195,7 @@ public class StarAttachmentUploadV2Api {
         <tr><td> 200 </td><td> OK </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<StarAttachmentUploadV2Response> openApi2StarAttachmentUploadPostWithHttpInfo(File _file, File fileName, Long starId) throws ApiException {
+    public ApiResponse<StarAttachmentUploadV2Response> openApi2StarAttachmentUploadPostWithHttpInfo(File _file, String fileName, Long starId) throws ApiException {
         okhttp3.Call localVarCall = openApi2StarAttachmentUploadPostValidateBeforeCall(_file, fileName, starId, null);
         Type localVarReturnType = new TypeToken<StarAttachmentUploadV2Response>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -216,7 +216,7 @@ public class StarAttachmentUploadV2Api {
         <tr><td> 200 </td><td> OK </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call openApi2StarAttachmentUploadPostAsync(File _file, File fileName, Long starId, final ApiCallback<StarAttachmentUploadV2Response> _callback) throws ApiException {
+    public okhttp3.Call openApi2StarAttachmentUploadPostAsync(File _file, String fileName, Long starId, final ApiCallback<StarAttachmentUploadV2Response> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = openApi2StarAttachmentUploadPostValidateBeforeCall(_file, fileName, starId, _callback);
         Type localVarReturnType = new TypeToken<StarAttachmentUploadV2Response>(){}.getType();

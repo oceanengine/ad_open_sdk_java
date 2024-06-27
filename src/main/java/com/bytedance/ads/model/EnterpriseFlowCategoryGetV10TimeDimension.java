@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(EnterpriseFlowCategoryGetV10TimeDimension.Adapter.class)
 public enum EnterpriseFlowCategoryGetV10TimeDimension {
   
-  SUM("SUM"),
+  DAILY("DAILY"),
   
-  DAILY("DAILY");
+  SUM("SUM");
 
   private String value;
 

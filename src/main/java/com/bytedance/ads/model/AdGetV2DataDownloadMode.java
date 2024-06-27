@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataDownloadMode.Adapter.class)
 public enum AdGetV2DataDownloadMode {
   
-  APP_STORE_DELIVERY("APP_STORE_DELIVERY"),
+  DEFAULT("DEFAULT"),
   
-  DEFAULT("DEFAULT");
+  APP_STORE_DELIVERY("APP_STORE_DELIVERY");
 
   private String value;
 

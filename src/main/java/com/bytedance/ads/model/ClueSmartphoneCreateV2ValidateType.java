@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueSmartphoneCreateV2ValidateType.Adapter.class)
 public enum ClueSmartphoneCreateV2ValidateType {
   
-  AUTO_VERIFICATION("AUTO_VERIFICATION"),
+  VALIDITY_PRIORITY("VALIDITY_PRIORITY"),
   
   NONE_VERIFICATION("NONE_VERIFICATION"),
   
-  VALIDITY_PRIORITY("VALIDITY_PRIORITY"),
+  AUTO_VERIFICATION("AUTO_VERIFICATION"),
   
-  CLUE_PRIORITY("CLUE_PRIORITY"),
+  ALL_VERIFICATION("ALL_VERIFICATION"),
   
-  ALL_VERIFICATION("ALL_VERIFICATION");
+  CLUE_PRIORITY("CLUE_PRIORITY");
 
   private String value;
 

@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageUpdateV2District.Adapter.class)
 public enum AudiencePackageUpdateV2District {
   
-  BUSINESS_DISTRICT("BUSINESS_DISTRICT"),
-  
-  OVERSEA("OVERSEA"),
-  
   REGION("REGION"),
   
-  NONE("NONE");
+  BUSINESS_DISTRICT("BUSINESS_DISTRICT"),
+  
+  NONE("NONE"),
+  
+  OVERSEA("OVERSEA");
 
   private String value;
 

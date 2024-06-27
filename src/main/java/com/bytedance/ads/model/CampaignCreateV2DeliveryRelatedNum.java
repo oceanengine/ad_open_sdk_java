@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignCreateV2DeliveryRelatedNum.Adapter.class)
 public enum CampaignCreateV2DeliveryRelatedNum {
   
-  DEFAULT_NOT("CAMPAIGN_DPA_DEFAULT_NOT"),
+  SINGLE_DELIVERY("CAMPAIGN_DPA_SINGLE_DELIVERY"),
   
   MULTI_DELIVERY("CAMPAIGN_DPA_MULTI_DELIVERY"),
   
-  SINGLE_DELIVERY("CAMPAIGN_DPA_SINGLE_DELIVERY");
+  DEFAULT_NOT("CAMPAIGN_DPA_DEFAULT_NOT");
 
   private String value;
 

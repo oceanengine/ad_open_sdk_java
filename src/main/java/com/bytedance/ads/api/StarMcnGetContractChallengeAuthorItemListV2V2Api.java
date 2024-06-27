@@ -73,8 +73,8 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2Api {
      * Build call for openApi2StarMcnGetContractChallengeAuthorItemListV2Get
      * @param starId  (required)
      * @param demandId  (required)
-     * @param page  (optional, default to 1)
-     * @param pageSize  (optional, default to 10)
+     * @param page  (required)
+     * @param pageSize  (required)
      * @param developerId  (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
@@ -161,6 +161,16 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2Api {
             throw new ApiException("Missing the required parameter 'demandId' when calling openApi2StarMcnGetContractChallengeAuthorItemListV2Get(Async)");
         }
 
+        // verify the required parameter 'page' is set
+        if (page == null) {
+            throw new ApiException("Missing the required parameter 'page' when calling openApi2StarMcnGetContractChallengeAuthorItemListV2Get(Async)");
+        }
+
+        // verify the required parameter 'pageSize' is set
+        if (pageSize == null) {
+            throw new ApiException("Missing the required parameter 'pageSize' when calling openApi2StarMcnGetContractChallengeAuthorItemListV2Get(Async)");
+        }
+
         return openApi2StarMcnGetContractChallengeAuthorItemListV2GetCall(starId, demandId, page, pageSize, developerId, _callback);
 
     }
@@ -170,8 +180,8 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2Api {
      * 
      * @param starId  (required)
      * @param demandId  (required)
-     * @param page  (optional, default to 1)
-     * @param pageSize  (optional, default to 10)
+     * @param page  (required)
+     * @param pageSize  (required)
      * @param developerId  (optional)
      * @return StarMcnGetContractChallengeAuthorItemListV2V2Response
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -191,8 +201,8 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2Api {
      * 
      * @param starId  (required)
      * @param demandId  (required)
-     * @param page  (optional, default to 1)
-     * @param pageSize  (optional, default to 10)
+     * @param page  (required)
+     * @param pageSize  (required)
      * @param developerId  (optional)
      * @return ApiResponse&lt;StarMcnGetContractChallengeAuthorItemListV2V2Response&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -213,8 +223,8 @@ public class StarMcnGetContractChallengeAuthorItemListV2V2Api {
      * 
      * @param starId  (required)
      * @param demandId  (required)
-     * @param page  (optional, default to 1)
-     * @param pageSize  (optional, default to 10)
+     * @param page  (required)
+     * @param pageSize  (required)
      * @param developerId  (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call

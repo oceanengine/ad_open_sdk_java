@@ -31,9 +31,9 @@ public enum AdGetV2DataDpaOpenUrlType {
   
   DPA("DPA"),
   
-  CUSTOM("CUSTOM"),
+  NONE("NONE"),
   
-  NONE("NONE");
+  CUSTOM("CUSTOM");
 
   private String value;
 

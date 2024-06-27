@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2ActionScene.Adapter.class)
 public enum ToolsBidSuggestV2ActionScene {
   
-  APP("APP"),
-  
   NEWS("NEWS"),
   
-  E_COMMERCE("E-COMMERCE"),
+  APP("APP"),
   
   AD("AD"),
+  
+  E_COMMERCE("E-COMMERCE"),
   
   SEARCH("SEARCH");
 

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2SuperiorPopularityType.Adapter.class)
 public enum ToolsBidSuggestV2SuperiorPopularityType {
   
-  GAME("GAME"),
+  NONE("NONE"),
   
-  NONE("NONE");
+  GAME("GAME");
 
   private String value;
 

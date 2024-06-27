@@ -31,11 +31,11 @@ public enum AdGetV2DataAudienceLocationType {
   
   HOME("HOME"),
   
-  CURRENT("CURRENT"),
-  
   TRAVEL("TRAVEL"),
   
-  ALL("ALL");
+  ALL("ALL"),
+  
+  CURRENT("CURRENT");
 
   private String value;
 

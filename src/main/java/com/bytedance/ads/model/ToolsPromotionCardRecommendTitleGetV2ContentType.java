@@ -31,23 +31,23 @@ public enum ToolsPromotionCardRecommendTitleGetV2ContentType {
   
   GAME_SUBSCRIBE("GAME_SUBSCRIBE"),
   
-  GAME_FORM("GAME_FORM"),
-  
-  PHONE("PHONE"),
-  
-  DOWNLOAD("DOWNLOAD"),
-  
-  LANDING("LANDING"),
-  
-  TABLE("TABLE"),
+  CONSULT("CONSULT"),
   
   CARD("CARD"),
   
+  GAME_PACKAGE("GAME_PACKAGE"),
+  
+  PHONE("PHONE"),
+  
+  GAME_FORM("GAME_FORM"),
+  
+  TABLE("TABLE"),
+  
+  LANDING("LANDING"),
+  
   UNKNOWN("UNKNOWN"),
   
-  CONSULT("CONSULT"),
-  
-  GAME_PACKAGE("GAME_PACKAGE");
+  DOWNLOAD("DOWNLOAD");
 
   private String value;
 

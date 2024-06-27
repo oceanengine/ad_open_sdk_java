@@ -29,25 +29,25 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdConvertQueryV2LandingType.Adapter.class)
 public enum ToolsAdConvertQueryV2LandingType {
   
-  APP("APP"),
+  DPA("DPA"),
+  
+  SHOP("SHOP"),
+  
+  STORE("STORE"),
+  
+  GOODS("GOODS"),
+  
+  AWEME("AWEME"),
   
   QUICK_APP("QUICK_APP"),
   
   LIVE("LIVE"),
   
-  SHOP("SHOP"),
-  
-  DPA("DPA"),
-  
-  AWEME("AWEME"),
-  
-  LINK("LINK"),
-  
-  STORE("STORE"),
+  APP("APP"),
   
   ARTICLE("ARTICLE"),
   
-  GOODS("GOODS");
+  LINK("LINK");
 
   private String value;
 

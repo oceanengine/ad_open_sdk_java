@@ -31,15 +31,15 @@ public enum AdGetV2DataAudiencePlatform {
   
   PC("PC"),
   
-  IOS("IOS"),
+  ANDROID("ANDROID"),
   
-  WAP("WAP"),
+  IOS("IOS"),
   
   NONE("NONE"),
   
   IPAD("IPAD"),
   
-  ANDROID("ANDROID");
+  WAP("WAP");
 
   private String value;
 

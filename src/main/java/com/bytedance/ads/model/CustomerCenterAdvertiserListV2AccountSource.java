@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CustomerCenterAdvertiserListV2AccountSource.Adapter.class)
 public enum CustomerCenterAdvertiserListV2AccountSource {
   
-  QIANCHUAN("QIANCHUAN"),
-  
   ENTERPRISE("ENTERPRISE"),
   
   AD("AD"),
   
-  LOCAL("LOCAL");
+  LOCAL("LOCAL"),
+  
+  QIANCHUAN("QIANCHUAN");
 
   private String value;
 

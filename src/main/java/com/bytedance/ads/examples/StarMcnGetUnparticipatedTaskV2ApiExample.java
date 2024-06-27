@@ -36,13 +36,23 @@ public class StarMcnGetUnparticipatedTaskV2ApiExample {
         Integer payType = null;
         Long minCreateTimeStamp = null;
         Long maxCreateTimeStamp = null;
-        Long developerId = null;
+        Integer firstClassCategory = null;
+        Integer secondClassCategory = null;
+        String keyword = null;
         Integer settlementType = null;
+        Integer playletCategory = null;
+        List<Integer> playletTheme = null;
+        Integer playletGender = null;
+        Integer playletHot = null;
+        Integer playletFirstWeek = null;
+        Integer playletSecondWeek = null;
+        Integer highProfitChallenge = null;
+        Long developerId = null;
         ApiClient apiClient = api.getApiClient();
         apiClient.addDefaultHeader("Access-Token", "");
         apiClient.setDebugging(true);
         api.setApiClient(apiClient);
-        StarMcnGetUnparticipatedTaskV2Response response = api.openApi2StarMcnGetUnparticipatedTaskGet(starId, page, pageSize, payType, minCreateTimeStamp, maxCreateTimeStamp, developerId, settlementType);
+        StarMcnGetUnparticipatedTaskV2Response response = api.openApi2StarMcnGetUnparticipatedTaskGet(starId, page, pageSize, payType, minCreateTimeStamp, maxCreateTimeStamp, firstClassCategory, secondClassCategory, keyword, settlementType, playletCategory, playletTheme, playletGender, playletHot, playletFirstWeek, playletSecondWeek, highProfitChallenge, developerId);
         System.out.println(response);
     }
 

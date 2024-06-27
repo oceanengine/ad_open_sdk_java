@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(DpaAssetsListV2DataListAuditStatus.Adapter.class)
 public enum DpaAssetsListV2DataListAuditStatus {
   
-  AUDIT_SUCCESS("ASSETS_AUDIT_SUCCESS"),
-  
-  PENDING_AUDIT("ASSETS_PENDING_AUDIT"),
-  
   TO_SUBMIT_AUDIT("ASSETS_TO_SUBMIT_AUDIT"),
   
-  AUDIT_DENY("ASSETS_AUDIT_DENY");
+  AUDIT_SUCCESS("ASSETS_AUDIT_SUCCESS"),
+  
+  AUDIT_DENY("ASSETS_AUDIT_DENY"),
+  
+  PENDING_AUDIT("ASSETS_PENDING_AUDIT");
 
   private String value;
 

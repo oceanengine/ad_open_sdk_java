@@ -6182,6 +6182,7 @@ src/main/java/com/bytedance/ads/model/StarMcnContractChallengeV2ResponseData.jav
 src/main/java/com/bytedance/ads/model/StarMcnGetContractChallengeAuthorItemListV2V2Response.java
 src/main/java/com/bytedance/ads/model/StarMcnGetContractChallengeAuthorItemListV2V2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInner.java
+src/main/java/com/bytedance/ads/model/StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataDataInnerItemInfoDailyListInner.java
 src/main/java/com/bytedance/ads/model/StarMcnGetContractChallengeAuthorItemListV2V2ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/StarMcnGetContractedChallengeListV2Response.java
 src/main/java/com/bytedance/ads/model/StarMcnGetContractedChallengeListV2ResponseData.java

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignGetV2DataListDeliveryMode.Adapter.class)
 public enum CampaignGetV2DataListDeliveryMode {
   
-  PROCEDURAL("PROCEDURAL"),
+  MANUAL("MANUAL"),
   
-  MANUAL("MANUAL");
+  PROCEDURAL("PROCEDURAL");
 
   private String value;
 

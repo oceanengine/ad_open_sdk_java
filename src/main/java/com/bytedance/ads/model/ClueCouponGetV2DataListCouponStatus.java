@@ -29,19 +29,19 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueCouponGetV2DataListCouponStatus.Adapter.class)
 public enum ClueCouponGetV2DataListCouponStatus {
   
-  NORMAL("NORMAL"),
-  
-  AUDIT_FAIL("AUDIT_FAIL"),
-  
-  UNAUDITED("UNAUDITED"),
-  
-  DELETED("DELETED"),
-  
   AUDIT_DOING("AUDIT_DOING"),
   
   PAUSE("PAUSE"),
   
-  OFFLINE("OFFLINE");
+  AUDIT_FAIL("AUDIT_FAIL"),
+  
+  NORMAL("NORMAL"),
+  
+  DELETED("DELETED"),
+  
+  OFFLINE("OFFLINE"),
+  
+  UNAUDITED("UNAUDITED");
 
   private String value;
 

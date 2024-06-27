@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignCreateV2Operation.Adapter.class)
 public enum CampaignCreateV2Operation {
   
-  DISABLE("disable"),
+  ENABLE("enable"),
   
-  ENABLE("enable");
+  DISABLE("disable");
 
   private String value;
 

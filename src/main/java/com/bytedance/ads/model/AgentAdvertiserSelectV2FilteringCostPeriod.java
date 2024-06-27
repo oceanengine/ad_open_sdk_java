@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AgentAdvertiserSelectV2FilteringCostPeriod.Adapter.class)
 public enum AgentAdvertiserSelectV2FilteringCostPeriod {
   
-  YESTERDAY("YESTERDAY"),
-  
   LAST_7_DAYS("LAST_7_DAYS"),
   
-  LAST_30_DAYS("LAST_30_DAYS"),
+  YESTERDAY("YESTERDAY"),
   
   TODAY("TODAY"),
+  
+  LAST_30_DAYS("LAST_30_DAYS"),
   
   LAST_15_DAYS("LAST_15_DAYS");
 

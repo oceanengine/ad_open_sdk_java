@@ -32,7 +32,7 @@ public class StarAttachmentUploadV2ApiExample {
 
     public static void main(String[] args) throws ApiException {
         File _file = null;
-        File fileName = null;
+        String fileName = null;
         Long starId = null;
         ApiClient apiClient = api.getApiClient();
         apiClient.addDefaultHeader("Access-Token", "");

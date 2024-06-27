@@ -31,9 +31,9 @@ public enum ToolsPlayableListGetV2DataListPlayableOrientation {
   
   BOTH("BOTH"),
   
-  LANDSCAPE("LANDSCAPE"),
+  PORTRAIT("PORTRAIT"),
   
-  PORTRAIT("PORTRAIT");
+  LANDSCAPE("LANDSCAPE");
 
   private String value;
 

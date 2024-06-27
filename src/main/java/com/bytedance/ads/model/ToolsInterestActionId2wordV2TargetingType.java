@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsInterestActionId2wordV2TargetingType.Adapter.class)
 public enum ToolsInterestActionId2wordV2TargetingType {
   
-  INTEREST("INTEREST"),
+  ACTION("ACTION"),
   
-  ACTION("ACTION");
+  INTEREST("INTEREST");
 
   private String value;
 

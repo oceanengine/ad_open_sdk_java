@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(QianchuanCreativeStatusUpdateV10OptStatus.Adapter.class)
 public enum QianchuanCreativeStatusUpdateV10OptStatus {
   
-  DELETE("DELETE"),
-  
-  ENABLE("ENABLE"),
+  DISABLE("DISABLE"),
   
   REVIVE("REVIVE"),
   
-  DISABLE("DISABLE");
+  DELETE("DELETE"),
+  
+  ENABLE("ENABLE");
 
   private String value;
 

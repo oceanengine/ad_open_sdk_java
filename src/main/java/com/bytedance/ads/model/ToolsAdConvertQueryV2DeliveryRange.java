@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAdConvertQueryV2DeliveryRange.Adapter.class)
 public enum ToolsAdConvertQueryV2DeliveryRange {
   
-  UNION("UNION"),
-  
   UNIVERSAL("UNIVERSAL"),
+  
+  UNION("UNION"),
   
   DEFAULT("DEFAULT");
 

@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 当前所在投放阶段信息
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-25T11:43:06.795378168+08:00[PRC]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2024-06-27T14:13:14.270404670+08:00[PRC]")
 public class QianchuanAdQuotaGetV10ResponseDataQuotaFeedStageInfo {
   public static final String SERIALIZED_NAME_END_DAY = "end_day";
   @SerializedName(SERIALIZED_NAME_END_DAY)

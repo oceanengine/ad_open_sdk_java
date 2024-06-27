@@ -31,13 +31,13 @@ public enum AudiencePackageUpdateV2Platform {
   
   PC("PC"),
   
-  IOS("IOS"),
+  ANDROID("ANDROID"),
   
-  WAP("WAP"),
+  IOS("IOS"),
   
   IPAD("IPAD"),
   
-  ANDROID("ANDROID");
+  WAP("WAP");
 
   private String value;
 
