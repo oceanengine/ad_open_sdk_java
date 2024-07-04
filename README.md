@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.10
-  - Build date: 2024-06-27T14:35:04.257236161+08:00[PRC]
+- API version: 1.1.11
+  - Build date: 2024-07-04T17:55:12.331378724+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -146,7 +146,6 @@ public class DouplusOrderReportV30ApiExample {
 Class | Method | HTTP request
 ------------ | ------------- | -------------
 *AccountFundGetV30Api* | **openApiV30AccountFundGetGet** | **GET** /open_api/v3.0/account/fund/get/
-*AdConvertOptimizedTargetGetV30Api* | **openApiV30AdConvertOptimizedTargetGetGet** | **GET** /open_api/v3.0/ad_convert/optimized_target/get/
 *AdCostProtectStatusGetV2Api* | **openApi2AdCostProtectStatusGetGet** | **GET** /open_api/2/ad/cost_protect_status/get/
 *AdGetV2Api* | **openApi2AdGetGet** | **GET** /open_api/2/ad/get/
 *AdRejectReasonV2Api* | **openApi2AdRejectReasonGet** | **GET** /open_api/2/ad/reject_reason/
