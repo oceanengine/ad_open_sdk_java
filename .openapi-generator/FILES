@@ -154,6 +154,7 @@ src/main/java/com/bytedance/ads/api/ClueWechatInstanceListV2Api.java
 src/main/java/com/bytedance/ads/api/ClueWechatInstanceUpdateV2Api.java
 src/main/java/com/bytedance/ads/api/ClueWechatPoolListV2Api.java
 src/main/java/com/bytedance/ads/api/CommonReqApi.java
+src/main/java/com/bytedance/ads/api/CreateStatementInvoiceV2Api.java
 src/main/java/com/bytedance/ads/api/CreateStatementV2Api.java
 src/main/java/com/bytedance/ads/api/CreativeCustomCreativeCreateV2Api.java
 src/main/java/com/bytedance/ads/api/CreativeCustomCreativeUpdateV2Api.java
@@ -445,12 +446,14 @@ src/main/java/com/bytedance/ads/api/QianchuanUniPromotionAdStatusUpdateV10Api.ja
 src/main/java/com/bytedance/ads/api/QianchuanUniPromotionListV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanVideoGetV10Api.java
 src/main/java/com/bytedance/ads/api/QueryBookingBusinessEntityIdGetV2Api.java
+src/main/java/com/bytedance/ads/api/QueryInvoiceElectronicUrlV2Api.java
 src/main/java/com/bytedance/ads/api/QueryInvoiceV2Api.java
 src/main/java/com/bytedance/ads/api/QueryProjectV2Api.java
 src/main/java/com/bytedance/ads/api/QueryProjectV30Api.java
 src/main/java/com/bytedance/ads/api/QueryRebateAccountingInfoV2Api.java
 src/main/java/com/bytedance/ads/api/QueryRebateBalanceV2Api.java
 src/main/java/com/bytedance/ads/api/QueryStatementV2Api.java
+src/main/java/com/bytedance/ads/api/RecommendVideoListV30Api.java
 src/main/java/com/bytedance/ads/api/ReportAdGetV2Api.java
 src/main/java/com/bytedance/ads/api/ReportAdvertiserGetV2Api.java
 src/main/java/com/bytedance/ads/api/ReportAgentGetV2V2Api.java
@@ -491,6 +494,7 @@ src/main/java/com/bytedance/ads/api/ReportSitePageV2Api.java
 src/main/java/com/bytedance/ads/api/ReportStardeliveryTaskDataGetV30Api.java
 src/main/java/com/bytedance/ads/api/ReportStardeliveryTaskVideoDataGetV30Api.java
 src/main/java/com/bytedance/ads/api/ReportVideoFrameGetV2Api.java
+src/main/java/com/bytedance/ads/api/SecurityScoreViolationEventGetV30Api.java
 src/main/java/com/bytedance/ads/api/ServeMarketActiveFuncGetV10Api.java
 src/main/java/com/bytedance/ads/api/ServeMarketCidVerifyTokenV10Api.java
 src/main/java/com/bytedance/ads/api/ServeMarketOrderGetV10Api.java
@@ -950,6 +954,7 @@ src/main/java/com/bytedance/ads/examples/ClueWechatInstanceListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ClueWechatInstanceUpdateV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ClueWechatPoolListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/CommonReqApiExample.java
+src/main/java/com/bytedance/ads/examples/CreateStatementInvoiceV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/CreateStatementV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/CreativeCustomCreativeCreateV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/CreativeCustomCreativeUpdateV2ApiExample.java
@@ -1241,12 +1246,14 @@ src/main/java/com/bytedance/ads/examples/QianchuanUniPromotionAdStatusUpdateV10A
 src/main/java/com/bytedance/ads/examples/QianchuanUniPromotionListV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanVideoGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QueryBookingBusinessEntityIdGetV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/QueryInvoiceElectronicUrlV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/QueryInvoiceV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/QueryProjectV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/QueryProjectV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/QueryRebateAccountingInfoV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/QueryRebateBalanceV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/QueryStatementV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/RecommendVideoListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ReportAdGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ReportAdvertiserGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ReportAgentGetV2V2ApiExample.java
@@ -1287,6 +1294,7 @@ src/main/java/com/bytedance/ads/examples/ReportSitePageV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ReportStardeliveryTaskDataGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ReportStardeliveryTaskVideoDataGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ReportVideoFrameGetV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/SecurityScoreViolationEventGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ServeMarketActiveFuncGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/ServeMarketCidVerifyTokenV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/ServeMarketOrderGetV10ApiExample.java
@@ -2002,6 +2010,7 @@ src/main/java/com/bytedance/ads/model/AudiencePackageCreateV2AutoExtendTargets.j
 src/main/java/com/bytedance/ads/model/AudiencePackageCreateV2AwemeFanBehaviors.java
 src/main/java/com/bytedance/ads/model/AudiencePackageCreateV2AwemeFanTimeScope.java
 src/main/java/com/bytedance/ads/model/AudiencePackageCreateV2Carrier.java
+src/main/java/com/bytedance/ads/model/AudiencePackageCreateV2CarrierRegionOptimize.java
 src/main/java/com/bytedance/ads/model/AudiencePackageCreateV2ConvertedTimeDuration.java
 src/main/java/com/bytedance/ads/model/AudiencePackageCreateV2DeliveryRange.java
 src/main/java/com/bytedance/ads/model/AudiencePackageCreateV2DeviceBrand.java
@@ -2075,6 +2084,7 @@ src/main/java/com/bytedance/ads/model/AudiencePackageUpdateV2AutoExtendTargets.j
 src/main/java/com/bytedance/ads/model/AudiencePackageUpdateV2AwemeFanBehaviors.java
 src/main/java/com/bytedance/ads/model/AudiencePackageUpdateV2AwemeFanTimeScope.java
 src/main/java/com/bytedance/ads/model/AudiencePackageUpdateV2Carrier.java
+src/main/java/com/bytedance/ads/model/AudiencePackageUpdateV2CarrierRegionOptimize.java
 src/main/java/com/bytedance/ads/model/AudiencePackageUpdateV2ConvertedTimeDuration.java
 src/main/java/com/bytedance/ads/model/AudiencePackageUpdateV2DeviceBrand.java
 src/main/java/com/bytedance/ads/model/AudiencePackageUpdateV2DeviceType.java
@@ -2690,6 +2700,13 @@ src/main/java/com/bytedance/ads/model/ClueWechatPoolListV2Response.java
 src/main/java/com/bytedance/ads/model/ClueWechatPoolListV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ClueWechatPoolListV2ResponseDataItemsInner.java
 src/main/java/com/bytedance/ads/model/CommonResponse.java
+src/main/java/com/bytedance/ads/model/CreateStatementInvoiceV2InvoiceType.java
+src/main/java/com/bytedance/ads/model/CreateStatementInvoiceV2Request.java
+src/main/java/com/bytedance/ads/model/CreateStatementInvoiceV2RequestInvoiceBillListInner.java
+src/main/java/com/bytedance/ads/model/CreateStatementInvoiceV2RequestInvoiceBillListInnerInvoiceBillProjectListInner.java
+src/main/java/com/bytedance/ads/model/CreateStatementInvoiceV2RequestRebateItemListInner.java
+src/main/java/com/bytedance/ads/model/CreateStatementInvoiceV2Response.java
+src/main/java/com/bytedance/ads/model/CreateStatementInvoiceV2ResponseData.java
 src/main/java/com/bytedance/ads/model/CreateStatementV2DataResult.java
 src/main/java/com/bytedance/ads/model/CreateStatementV2Platform.java
 src/main/java/com/bytedance/ads/model/CreateStatementV2Request.java
@@ -3886,6 +3903,7 @@ src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceAutoExtendTargets.
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceAwemeFanBehaviors.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceAwemeFanTimeScope.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceCarrier.java
+src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceCarrierRegionOptimize.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceConvertedTimeDuration.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceDeviceBrand.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceDeviceType.java
@@ -3976,6 +3994,7 @@ src/main/java/com/bytedance/ads/model/ProjectListV30DataListAudienceAwemeFanBeha
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListAudienceAwemeFanTimeScope.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListAudienceCareer.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListAudienceCarrier.java
+src/main/java/com/bytedance/ads/model/ProjectListV30DataListAudienceCarrierRegionOptimize.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListAudienceConvertedTimeDuration.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListAudienceDeviceBrand.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListAudienceDeviceType.java
@@ -4093,6 +4112,7 @@ src/main/java/com/bytedance/ads/model/ProjectUpdateV30AudienceAutoExtendTargets.
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30AudienceAwemeFanBehaviors.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30AudienceAwemeFanTimeScope.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30AudienceCarrier.java
+src/main/java/com/bytedance/ads/model/ProjectUpdateV30AudienceCarrierRegionOptimize.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30AudienceConvertedTimeDuration.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30AudienceDeviceBrand.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30AudienceDeviceType.java
@@ -5577,6 +5597,9 @@ src/main/java/com/bytedance/ads/model/QianchuanVideoGetV10ResponseDataPageInfo.j
 src/main/java/com/bytedance/ads/model/QueryBookingBusinessEntityIdGetV2Response.java
 src/main/java/com/bytedance/ads/model/QueryBookingBusinessEntityIdGetV2ResponseData.java
 src/main/java/com/bytedance/ads/model/QueryBookingBusinessEntityIdGetV2ResponseDataBusinessEntityIdInfosInner.java
+src/main/java/com/bytedance/ads/model/QueryInvoiceElectronicUrlV2Response.java
+src/main/java/com/bytedance/ads/model/QueryInvoiceElectronicUrlV2ResponseData.java
+src/main/java/com/bytedance/ads/model/QueryInvoiceElectronicUrlV2ResponseDataUrlListInner.java
 src/main/java/com/bytedance/ads/model/QueryInvoiceV2Filtering.java
 src/main/java/com/bytedance/ads/model/QueryInvoiceV2Response.java
 src/main/java/com/bytedance/ads/model/QueryInvoiceV2ResponseData.java
@@ -5626,6 +5649,11 @@ src/main/java/com/bytedance/ads/model/QueryStatementV2Response.java
 src/main/java/com/bytedance/ads/model/QueryStatementV2ResponseData.java
 src/main/java/com/bytedance/ads/model/QueryStatementV2ResponseDataProjectRefStatementListInner.java
 src/main/java/com/bytedance/ads/model/QueryStatementV2ResponseDataProjectRefStatementListInnerAttachListInner.java
+src/main/java/com/bytedance/ads/model/RecommendVideoListV30DataRecommendVideoListImageMode.java
+src/main/java/com/bytedance/ads/model/RecommendVideoListV30Request.java
+src/main/java/com/bytedance/ads/model/RecommendVideoListV30Response.java
+src/main/java/com/bytedance/ads/model/RecommendVideoListV30ResponseData.java
+src/main/java/com/bytedance/ads/model/RecommendVideoListV30ResponseDataRecommendVideoListInner.java
 src/main/java/com/bytedance/ads/model/ReportAdGetV2DataListAc.java
 src/main/java/com/bytedance/ads/model/ReportAdGetV2DataListCampaignType.java
 src/main/java/com/bytedance/ads/model/ReportAdGetV2DataListCreativeMaterialMode.java
@@ -5955,6 +5983,16 @@ src/main/java/com/bytedance/ads/model/ReportVideoFrameGetV2Response.java
 src/main/java/com/bytedance/ads/model/ReportVideoFrameGetV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ReportVideoFrameGetV2ResponseDataListInner.java
 src/main/java/com/bytedance/ads/model/ReportVideoFrameGetV2ResponseDataListInnerMetrics.java
+src/main/java/com/bytedance/ads/model/SecurityScoreViolationEventGetV30BusinessLine.java
+src/main/java/com/bytedance/ads/model/SecurityScoreViolationEventGetV30DataAdvScoreEventIllegalType.java
+src/main/java/com/bytedance/ads/model/SecurityScoreViolationEventGetV30DataAdvScoreEventStatus.java
+src/main/java/com/bytedance/ads/model/SecurityScoreViolationEventGetV30Filtering.java
+src/main/java/com/bytedance/ads/model/SecurityScoreViolationEventGetV30FilteringIllegalType.java
+src/main/java/com/bytedance/ads/model/SecurityScoreViolationEventGetV30FilteringStatus.java
+src/main/java/com/bytedance/ads/model/SecurityScoreViolationEventGetV30Response.java
+src/main/java/com/bytedance/ads/model/SecurityScoreViolationEventGetV30ResponseData.java
+src/main/java/com/bytedance/ads/model/SecurityScoreViolationEventGetV30ResponseDataAdvScoreEventInner.java
+src/main/java/com/bytedance/ads/model/SecurityScoreViolationEventGetV30ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/ServeMarketActiveFuncGetV10Response.java
 src/main/java/com/bytedance/ads/model/ServeMarketActiveFuncGetV10ResponseData.java
 src/main/java/com/bytedance/ads/model/ServeMarketActiveFuncGetV10ResponseDataFuncListInner.java
@@ -6013,6 +6051,8 @@ src/main/java/com/bytedance/ads/model/SharedWalletMainWalletGetV30ResponseDataMa
 src/main/java/com/bytedance/ads/model/SharedWalletMainWalletGetV30ResponseDataMainWalletInfoUnallocatedBalanceLocalOnlyUnallocatedBalanceUnavailableBalance.java
 src/main/java/com/bytedance/ads/model/SharedWalletTransactionDetailGetV30AccountType.java
 src/main/java/com/bytedance/ads/model/SharedWalletTransactionDetailGetV30DataResultsBizType.java
+src/main/java/com/bytedance/ads/model/SharedWalletTransactionDetailGetV30DataResultsPayeeType.java
+src/main/java/com/bytedance/ads/model/SharedWalletTransactionDetailGetV30DataResultsRemitterType.java
 src/main/java/com/bytedance/ads/model/SharedWalletTransactionDetailGetV30Response.java
 src/main/java/com/bytedance/ads/model/SharedWalletTransactionDetailGetV30ResponseData.java
 src/main/java/com/bytedance/ads/model/SharedWalletTransactionDetailGetV30ResponseDataPageInfo.java
@@ -7040,10 +7080,12 @@ src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListAllocationStatus
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListClueType.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListEffectiveState.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListEffectiveStateName.java
+src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListFlowEntrance.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListFlowType.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListFollowLifeAccountType.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListFollowStateName.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListGender.java
+src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListIsPrivateClue.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListLeadsPage.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2Request.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2Response.java

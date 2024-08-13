@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.14
-  - Build date: 2024-08-07T12:29:32.857714368+08:00[PRC]
+- API version: 1.1.15
+  - Build date: 2024-08-13T20:41:09.626365829+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -272,6 +272,7 @@ Class | Method | HTTP request
 *ClueWechatInstanceListV2Api* | **openApi2ClueWechatInstanceListGet** | **GET** /open_api/2/clue/wechat_instance/list/
 *ClueWechatInstanceUpdateV2Api* | **openApi2ClueWechatInstanceUpdatePost** | **POST** /open_api/2/clue/wechat_instance/update/
 *ClueWechatPoolListV2Api* | **openApi2ClueWechatPoolListGet** | **GET** /open_api/2/clue/wechat_pool/list/
+*CreateStatementInvoiceV2Api* | **openApi2CreateStatementInvoicePost** | **POST** /open_api/2/create/statement_invoice/
 *CreateStatementV2Api* | **openApi2CreateStatementPost** | **POST** /open_api/2/create/statement/
 *CreativeCustomCreativeCreateV2Api* | **openApi2CreativeCustomCreativeCreatePost** | **POST** /open_api/2/creative/custom_creative/create/
 *CreativeCustomCreativeUpdateV2Api* | **openApi2CreativeCustomCreativeUpdatePost** | **POST** /open_api/2/creative/custom_creative/update/
@@ -563,12 +564,14 @@ Class | Method | HTTP request
 *QianchuanUniPromotionListV10Api* | **openApiV10QianchuanUniPromotionListGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/list/
 *QianchuanVideoGetV10Api* | **openApiV10QianchuanVideoGetGet** | **GET** /open_api/v1.0/qianchuan/video/get/
 *QueryBookingBusinessEntityIdGetV2Api* | **openApi2QueryBookingBusinessEntityIdGetGet** | **GET** /open_api/2/query/booking/business_entity_id/get/
+*QueryInvoiceElectronicUrlV2Api* | **openApi2QueryInvoiceElectronicUrlGet** | **GET** /open_api/2/query/invoice_electronic_url/
 *QueryInvoiceV2Api* | **openApi2QueryInvoiceGet** | **GET** /open_api/2/query/invoice/
 *QueryProjectV2Api* | **openApi2QueryProjectGet** | **GET** /open_api/2/query/project/
 *QueryProjectV30Api* | **openApiV30QueryProjectGet** | **GET** /open_api/v3.0/query/project/
 *QueryRebateAccountingInfoV2Api* | **openApi2QueryRebateAccountingInfoGet** | **GET** /open_api/2/query/rebate_accounting_info/
 *QueryRebateBalanceV2Api* | **openApi2QueryRebateBalanceGet** | **GET** /open_api/2/query/rebate_balance/
 *QueryStatementV2Api* | **openApi2QueryStatementGet** | **GET** /open_api/2/query/statement/
+*RecommendVideoListV30Api* | **openApiV30RecommendVideoListPost** | **POST** /open_api/v3.0/recommend/video/list/
 *ReportAdGetV2Api* | **openApi2ReportAdGetGet** | **GET** /open_api/2/report/ad/get/
 *ReportAdvertiserGetV2Api* | **openApi2ReportAdvertiserGetGet** | **GET** /open_api/2/report/advertiser/get/
 *ReportAgentGetV2V2Api* | **openApi2ReportAgentGetV2Get** | **GET** /open_api/2/report/agent/get_v2/
@@ -609,6 +612,7 @@ Class | Method | HTTP request
 *ReportStardeliveryTaskDataGetV30Api* | **openApiV30ReportStardeliveryTaskDataGetGet** | **GET** /open_api/v3.0/report/stardelivery/task_data/get/
 *ReportStardeliveryTaskVideoDataGetV30Api* | **openApiV30ReportStardeliveryTaskVideoDataGetGet** | **GET** /open_api/v3.0/report/stardelivery/task_video_data/get/
 *ReportVideoFrameGetV2Api* | **openApi2ReportVideoFrameGetGet** | **GET** /open_api/2/report/video/frame/get/
+*SecurityScoreViolationEventGetV30Api* | **openApiV30SecurityScoreViolationEventGetGet** | **GET** /open_api/v3.0/security/score_violation_event/get/
 *ServeMarketActiveFuncGetV10Api* | **openApiV10ServeMarketActiveFuncGetGet** | **GET** /open_api/v1.0/serve_market/active_func/get/
 *ServeMarketCidVerifyTokenV10Api* | **openApiV10ServeMarketCidVerifyTokenGet** | **GET** /open_api/v1.0/serve_market/cid/verify_token/
 *ServeMarketOrderGetV10Api* | **openApiV10ServeMarketOrderGetGet** | **GET** /open_api/v1.0/serve_market/order/get/
