@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.15
-  - Build date: 2024-08-13T20:41:09.626365829+08:00[PRC]
+- API version: 1.1.16
+  - Build date: 2024-08-22T17:23:28.366128396+08:00[PRC]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -612,6 +612,8 @@ Class | Method | HTTP request
 *ReportStardeliveryTaskDataGetV30Api* | **openApiV30ReportStardeliveryTaskDataGetGet** | **GET** /open_api/v3.0/report/stardelivery/task_data/get/
 *ReportStardeliveryTaskVideoDataGetV30Api* | **openApiV30ReportStardeliveryTaskVideoDataGetGet** | **GET** /open_api/v3.0/report/stardelivery/task_video_data/get/
 *ReportVideoFrameGetV2Api* | **openApi2ReportVideoFrameGetGet** | **GET** /open_api/2/report/video/frame/get/
+*SecurityScoreDisposalInfoGetV30Api* | **openApiV30SecurityScoreDisposalInfoGetGet** | **GET** /open_api/v3.0/security/score_disposal_info/get/
+*SecurityScoreTotalGetV30Api* | **openApiV30SecurityScoreTotalGetGet** | **GET** /open_api/v3.0/security/score_total/get/
 *SecurityScoreViolationEventGetV30Api* | **openApiV30SecurityScoreViolationEventGetGet** | **GET** /open_api/v3.0/security/score_violation_event/get/
 *ServeMarketActiveFuncGetV10Api* | **openApiV10ServeMarketActiveFuncGetGet** | **GET** /open_api/v1.0/serve_market/active_func/get/
 *ServeMarketCidVerifyTokenV10Api* | **openApiV10ServeMarketCidVerifyTokenGet** | **GET** /open_api/v1.0/serve_market/cid/verify_token/
@@ -704,6 +706,7 @@ Class | Method | HTTP request
 *StarVasGetExportBoostItemGroupResultV2Api* | **openApi2StarVasGetExportBoostItemGroupResultGet** | **GET** /open_api/2/star/vas/get_export_boost_item_group_result/
 *StarVasSubmitExportBoostItemGroupDataV2Api* | **openApi2StarVasSubmitExportBoostItemGroupDataPost** | **POST** /open_api/2/star/vas/submit_export_boost_item_group_data/
 *StardeliveryTaskAuthorDetailV30Api* | **openApiV30StardeliveryTaskAuthorDetailGet** | **GET** /open_api/v3.0/stardelivery/task_author/detail/
+*StardeliveryTaskAuthorVideoAuditV30Api* | **openApiV30StardeliveryTaskAuthorVideoAuditPost** | **POST** /open_api/v3.0/stardelivery/task_author_video/audit/
 *StardeliveryTaskAuthorVideoDetailV30Api* | **openApiV30StardeliveryTaskAuthorVideoDetailGet** | **GET** /open_api/v3.0/stardelivery/task_author_video/detail/
 *StardeliveryTaskBudgetUpdateV30Api* | **openApiV30StardeliveryTaskBudgetUpdatePost** | **POST** /open_api/v3.0/stardelivery/task/budget/update/
 *StardeliveryTaskCancelV30Api* | **openApiV30StardeliveryTaskCancelPost** | **POST** /open_api/v3.0/stardelivery/task/cancel/
@@ -825,6 +828,7 @@ Class | Method | HTTP request
 *ToolsEventAllAssetsListV2Api* | **openApi2ToolsEventAllAssetsListGet** | **GET** /open_api/2/tools/event/all_assets/list/
 *ToolsEventAssetsGetV2Api* | **openApi2ToolsEventAssetsGetGet** | **GET** /open_api/2/tools/event/assets/get/
 *ToolsEventConvertOptimizedGoalGetV30Api* | **openApiV30ToolsEventConvertOptimizedGoalGetGet** | **GET** /open_api/v3.0/tools/event_convert/optimized_goal/get/
+*ToolsForbiddenLinkGreyGetV30Api* | **openApiV30ToolsForbiddenLinkGreyGetGet** | **GET** /open_api/v3.0/tools/forbidden_link/grey/get/
 *ToolsGrayGetV30Api* | **openApiV30ToolsGrayGetGet** | **GET** /open_api/v3.0/tools/gray/get/
 *ToolsIesAccountSearchV2Api* | **openApi2ToolsIesAccountSearchGet** | **GET** /open_api/2/tools/ies_account_search/
 *ToolsIndustryGetV2Api* | **openApi2ToolsIndustryGetGet** | **GET** /open_api/2/tools/industry/get/
