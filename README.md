@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.17
-  - Build date: 2024-09-04T13:08:12.620169007+08:00[Asia/Shanghai]
+- API version: 1.1.18
+  - Build date: 2024-09-04T14:22:53.478937230+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -223,6 +223,7 @@ Class | Method | HTTP request
 *BrandQueryStockV30Api* | **openApiV30BrandQueryStockGet** | **GET** /open_api/v3.0/brand/query_stock/
 *BrandQueryYuntu5aBrandCategoryV30Api* | **openApiV30BrandQueryYuntu5aBrandCategoryGet** | **GET** /open_api/v3.0/brand/query_yuntu_5a_brand_category/
 *BrandRegionGetV30Api* | **openApiV30BrandRegionGetGet** | **GET** /open_api/v3.0/brand/region/get/
+*BrandToolCreativePreviewV30Api* | **openApiV30BrandToolCreativePreviewGet** | **GET** /open_api/v3.0/brand/tool/creative_preview/
 *BrandUploadImageV30Api* | **openApiV30BrandUploadImagePost** | **POST** /open_api/v3.0/brand/upload_image/
 *BudgetGroupCreateV30Api* | **openApiV30BudgetGroupCreatePost** | **POST** /open_api/v3.0/budget_group/create/
 *BudgetGroupDeleteV30Api* | **openApiV30BudgetGroupDeletePost** | **POST** /open_api/v3.0/budget_group/delete/
@@ -528,6 +529,8 @@ Class | Method | HTTP request
 *QianchuanReportLongTransferOrderGetV10Api* | **openApiV10QianchuanReportLongTransferOrderGetGet** | **GET** /open_api/v1.0/qianchuan/report/long_transfer/order/get/
 *QianchuanReportMaterialGetV10Api* | **openApiV10QianchuanReportMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/report/material/get/
 *QianchuanReportSearchWordGetV10Api* | **openApiV10QianchuanReportSearchWordGetGet** | **GET** /open_api/v1.0/qianchuan/report/search_word/get/
+*QianchuanReportTodayLiveRoomConfigGetV10Api* | **openApiV10QianchuanReportTodayLiveRoomConfigGetGet** | **GET** /open_api/v1.0/qianchuan/report/today_live/room/config/get/
+*QianchuanReportTodayLiveRoomDataGetV10Api* | **openApiV10QianchuanReportTodayLiveRoomDataGetGet** | **GET** /open_api/v1.0/qianchuan/report/today_live/room/data/get/
 *QianchuanReportUniPromotionDimensionDataAuthorGetV10Api* | **openApiV10QianchuanReportUniPromotionDimensionDataAuthorGetGet** | **GET** /open_api/v1.0/qianchuan/report/uni_promotion/dimension_data/author/get/
 *QianchuanReportUniPromotionDimensionDataRoomGetV10Api* | **openApiV10QianchuanReportUniPromotionDimensionDataRoomGetGet** | **GET** /open_api/v1.0/qianchuan/report/uni_promotion/dimension_data/room/get/
 *QianchuanReportUniPromotionGetV10Api* | **openApiV10QianchuanReportUniPromotionGetGet** | **GET** /open_api/v1.0/qianchuan/report/uni_promotion/get/
@@ -686,6 +689,7 @@ Class | Method | HTTP request
 *StarOrderRejectResourceV2Api* | **openApi2StarOrderRejectResourcePost** | **POST** /open_api/2/star/order/reject_resource/
 *StarOrderReplyAuthorCancelV2Api* | **openApi2StarOrderReplyAuthorCancelPost** | **POST** /open_api/2/star/order/reply_author_cancel/
 *StarOrderUpdateV2Api* | **openApi2StarOrderUpdatePost** | **POST** /open_api/2/star/order/update/
+*StarProjectListV2Api* | **openApi2StarProjectListGet** | **GET** /open_api/2/star/project/list/
 *StarReportCustomDataTopicDailyReportV2Api* | **openApi2StarReportCustomDataTopicDailyReportGet** | **GET** /open_api/2/star/report/custom_data_topic_daily_report/
 *StarReportCustomDataTopicReportV2Api* | **openApi2StarReportCustomDataTopicReportGet** | **GET** /open_api/2/star/report/custom_data_topic_report/
 *StarReportDataTopicConfigV2Api* | **openApi2StarReportDataTopicConfigGet** | **GET** /open_api/2/star/report/data_topic_config/
@@ -695,6 +699,8 @@ Class | Method | HTTP request
 *StarStarAdUniteTaskDetailV2Api* | **openApi2StarStarAdUniteTaskDetailGet** | **GET** /open_api/2/star/star_ad_unite_task/detail/
 *StarStarAdUniteTaskItemListV2Api* | **openApi2StarStarAdUniteTaskItemListGet** | **GET** /open_api/2/star/star_ad_unite_task_item/list/
 *StarStarAdUniteTaskListV2Api* | **openApi2StarStarAdUniteTaskListGet** | **GET** /open_api/2/star/star_ad_unite_task/list/
+*StarTaskBindProjectV2Api* | **openApi2StarTaskBindProjectPost** | **POST** /open_api/2/star/task/bind_project/
+*StarTaskListByProjectV2Api* | **openApi2StarTaskListByProjectGet** | **GET** /open_api/2/star/task/list_by_project/
 *StarUserGetAwemeAuthorIdV2Api* | **openApi2StarUserGetAwemeAuthorIdGet** | **GET** /open_api/2/star/user/get_aweme_author_id/
 *StarUserGetStarIdV2Api* | **openApi2StarUserGetStarIdGet** | **GET** /open_api/2/star/user/get_star_id/
 *StarVasAppendOrderToBoostItemGroupV2Api* | **openApi2StarVasAppendOrderToBoostItemGroupPost** | **POST** /open_api/2/star/vas/append_order_to_boost_item_group/
@@ -796,6 +802,7 @@ Class | Method | HTTP request
 *ToolsClueLifeGetV2Api* | **openApi2ToolsClueLifeGetPost** | **POST** /open_api/2/tools/clue/life/get/
 *ToolsClueLiteContactGetV2Api* | **openApi2ToolsClueLiteContactGetPost** | **POST** /open_api/2/tools/clue/lite/contact/get/
 *ToolsClueLiteContactRecordV2Api* | **openApi2ToolsClueLiteContactRecordPost** | **POST** /open_api/2/tools/clue/lite/contact/record/
+*ToolsCluePrivateMessageCallbackV2Api* | **openApi2ToolsCluePrivateMessageCallbackPost** | **POST** /open_api/2/tools/clue/private_message/callback/
 *ToolsClueRefundDetailGetV2Api* | **openApi2ToolsClueRefundDetailGetGet** | **GET** /open_api/2/tools/clue/refund_detail/get/
 *ToolsClueRefundInfoQueryV2Api* | **openApi2ToolsClueRefundInfoQueryPost** | **POST** /open_api/2/tools/clue/refund/info/query/
 *ToolsClueRefundReportGetV2Api* | **openApi2ToolsClueRefundReportGetGet** | **GET** /open_api/2/tools/clue/refund_report/get/

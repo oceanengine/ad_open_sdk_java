@@ -104,6 +104,7 @@ src/main/java/com/bytedance/ads/api/BrandFileVideoUploadV30Api.java
 src/main/java/com/bytedance/ads/api/BrandQueryStockV30Api.java
 src/main/java/com/bytedance/ads/api/BrandQueryYuntu5aBrandCategoryV30Api.java
 src/main/java/com/bytedance/ads/api/BrandRegionGetV30Api.java
+src/main/java/com/bytedance/ads/api/BrandToolCreativePreviewV30Api.java
 src/main/java/com/bytedance/ads/api/BrandUploadImageV30Api.java
 src/main/java/com/bytedance/ads/api/BudgetGroupCreateV30Api.java
 src/main/java/com/bytedance/ads/api/BudgetGroupDeleteV30Api.java
@@ -410,6 +411,8 @@ src/main/java/com/bytedance/ads/api/QianchuanReportLongTransferOrderDataGetV10Ap
 src/main/java/com/bytedance/ads/api/QianchuanReportLongTransferOrderGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanReportMaterialGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanReportSearchWordGetV10Api.java
+src/main/java/com/bytedance/ads/api/QianchuanReportTodayLiveRoomConfigGetV10Api.java
+src/main/java/com/bytedance/ads/api/QianchuanReportTodayLiveRoomDataGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanReportUniPromotionDimensionDataAuthorGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanReportUniPromotionDimensionDataRoomGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanReportUniPromotionGetV10Api.java
@@ -568,6 +571,7 @@ src/main/java/com/bytedance/ads/api/StarOrderPushResourceV2Api.java
 src/main/java/com/bytedance/ads/api/StarOrderRejectResourceV2Api.java
 src/main/java/com/bytedance/ads/api/StarOrderReplyAuthorCancelV2Api.java
 src/main/java/com/bytedance/ads/api/StarOrderUpdateV2Api.java
+src/main/java/com/bytedance/ads/api/StarProjectListV2Api.java
 src/main/java/com/bytedance/ads/api/StarReportCustomDataTopicDailyReportV2Api.java
 src/main/java/com/bytedance/ads/api/StarReportCustomDataTopicReportV2Api.java
 src/main/java/com/bytedance/ads/api/StarReportDataTopicConfigV2Api.java
@@ -577,6 +581,8 @@ src/main/java/com/bytedance/ads/api/StarReportOrderUserDistributionGetV2Api.java
 src/main/java/com/bytedance/ads/api/StarStarAdUniteTaskDetailV2Api.java
 src/main/java/com/bytedance/ads/api/StarStarAdUniteTaskItemListV2Api.java
 src/main/java/com/bytedance/ads/api/StarStarAdUniteTaskListV2Api.java
+src/main/java/com/bytedance/ads/api/StarTaskBindProjectV2Api.java
+src/main/java/com/bytedance/ads/api/StarTaskListByProjectV2Api.java
 src/main/java/com/bytedance/ads/api/StarUserGetAwemeAuthorIdV2Api.java
 src/main/java/com/bytedance/ads/api/StarUserGetStarIdV2Api.java
 src/main/java/com/bytedance/ads/api/StarVasAppendOrderToBoostItemGroupV2Api.java
@@ -678,6 +684,7 @@ src/main/java/com/bytedance/ads/api/ToolsClueLifeCallbackV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsClueLifeGetV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsClueLiteContactGetV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsClueLiteContactRecordV2Api.java
+src/main/java/com/bytedance/ads/api/ToolsCluePrivateMessageCallbackV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsClueRefundDetailGetV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsClueRefundInfoQueryV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsClueRefundReportGetV2Api.java
@@ -908,6 +915,7 @@ src/main/java/com/bytedance/ads/examples/BrandFileVideoUploadV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/BrandQueryStockV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/BrandQueryYuntu5aBrandCategoryV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/BrandRegionGetV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/BrandToolCreativePreviewV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/BrandUploadImageV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/BudgetGroupCreateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/BudgetGroupDeleteV30ApiExample.java
@@ -1214,6 +1222,8 @@ src/main/java/com/bytedance/ads/examples/QianchuanReportLongTransferOrderDataGet
 src/main/java/com/bytedance/ads/examples/QianchuanReportLongTransferOrderGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanReportMaterialGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanReportSearchWordGetV10ApiExample.java
+src/main/java/com/bytedance/ads/examples/QianchuanReportTodayLiveRoomConfigGetV10ApiExample.java
+src/main/java/com/bytedance/ads/examples/QianchuanReportTodayLiveRoomDataGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanReportUniPromotionDimensionDataAuthorGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanReportUniPromotionDimensionDataRoomGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanReportUniPromotionGetV10ApiExample.java
@@ -1372,6 +1382,7 @@ src/main/java/com/bytedance/ads/examples/StarOrderPushResourceV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarOrderRejectResourceV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarOrderReplyAuthorCancelV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarOrderUpdateV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/StarProjectListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarReportCustomDataTopicDailyReportV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarReportCustomDataTopicReportV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarReportDataTopicConfigV2ApiExample.java
@@ -1381,6 +1392,8 @@ src/main/java/com/bytedance/ads/examples/StarReportOrderUserDistributionGetV2Api
 src/main/java/com/bytedance/ads/examples/StarStarAdUniteTaskDetailV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarStarAdUniteTaskItemListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarStarAdUniteTaskListV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/StarTaskBindProjectV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/StarTaskListByProjectV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarUserGetAwemeAuthorIdV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarUserGetStarIdV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarVasAppendOrderToBoostItemGroupV2ApiExample.java
@@ -1482,6 +1495,7 @@ src/main/java/com/bytedance/ads/examples/ToolsClueLifeCallbackV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsClueLifeGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsClueLiteContactGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsClueLiteContactRecordV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/ToolsCluePrivateMessageCallbackV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsClueRefundDetailGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsClueRefundInfoQueryV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsClueRefundReportGetV2ApiExample.java
@@ -2317,6 +2331,8 @@ src/main/java/com/bytedance/ads/model/BrandRegionGetV30Response.java
 src/main/java/com/bytedance/ads/model/BrandRegionGetV30ResponseData.java
 src/main/java/com/bytedance/ads/model/BrandRegionGetV30ResponseDataRegionsInner.java
 src/main/java/com/bytedance/ads/model/BrandRegionGetV30ResponseDataRegionsInnerSubRegionsInner.java
+src/main/java/com/bytedance/ads/model/BrandToolCreativePreviewV30Response.java
+src/main/java/com/bytedance/ads/model/BrandToolCreativePreviewV30ResponseData.java
 src/main/java/com/bytedance/ads/model/BrandUploadImageV30Request.java
 src/main/java/com/bytedance/ads/model/BrandUploadImageV30Response.java
 src/main/java/com/bytedance/ads/model/BrandUploadImageV30ResponseData.java
@@ -5354,6 +5370,21 @@ src/main/java/com/bytedance/ads/model/QianchuanReportSearchWordGetV10ResponseDat
 src/main/java/com/bytedance/ads/model/QianchuanReportSearchWordGetV10ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/QianchuanReportSearchWordGetV10TimeGranularity.java
 src/main/java/com/bytedance/ads/model/QianchuanReportSearchWordGetV10WordType.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomConfigGetV10DataTopics.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomConfigGetV10Response.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomConfigGetV10ResponseData.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomConfigGetV10ResponseDataCustomConfigDatasInner.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomConfigGetV10ResponseDataCustomConfigDatasInnerDimensionsInner.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomConfigGetV10ResponseDataCustomConfigDatasInnerDimensionsInnerFilterConfig.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomConfigGetV10ResponseDataCustomConfigDatasInnerDimensionsInnerFilterConfigRangeValuesInner.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomConfigGetV10ResponseDataCustomConfigDatasInnerMetricsInner.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomDataGetV10DataTopic.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomDataGetV10FiltersInner.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomDataGetV10OrderByInner.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomDataGetV10Response.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomDataGetV10ResponseData.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomDataGetV10ResponseDataPageInfo.java
+src/main/java/com/bytedance/ads/model/QianchuanReportTodayLiveRoomDataGetV10ResponseDataRowsInner.java
 src/main/java/com/bytedance/ads/model/QianchuanReportUniPromotionDimensionDataAuthorGetV10Dimension.java
 src/main/java/com/bytedance/ads/model/QianchuanReportUniPromotionDimensionDataAuthorGetV10Filtering.java
 src/main/java/com/bytedance/ads/model/QianchuanReportUniPromotionDimensionDataAuthorGetV10FilteringSmartBidType.java
@@ -6418,6 +6449,10 @@ src/main/java/com/bytedance/ads/model/StarOrderReplyAuthorCancelV2Response.java
 src/main/java/com/bytedance/ads/model/StarOrderUpdateV2Request.java
 src/main/java/com/bytedance/ads/model/StarOrderUpdateV2RequestOrderInfoChanges.java
 src/main/java/com/bytedance/ads/model/StarOrderUpdateV2Response.java
+src/main/java/com/bytedance/ads/model/StarProjectListV2Response.java
+src/main/java/com/bytedance/ads/model/StarProjectListV2ResponseData.java
+src/main/java/com/bytedance/ads/model/StarProjectListV2ResponseDataPageInfo.java
+src/main/java/com/bytedance/ads/model/StarProjectListV2ResponseDataProjectsInner.java
 src/main/java/com/bytedance/ads/model/StarReportCustomDataTopicDailyReportV2DataStatsDataDataTopic.java
 src/main/java/com/bytedance/ads/model/StarReportCustomDataTopicDailyReportV2DataStatsDataMetricsType.java
 src/main/java/com/bytedance/ads/model/StarReportCustomDataTopicDailyReportV2Response.java
@@ -6491,6 +6526,12 @@ src/main/java/com/bytedance/ads/model/StarStarAdUniteTaskListV2Response.java
 src/main/java/com/bytedance/ads/model/StarStarAdUniteTaskListV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarStarAdUniteTaskListV2ResponseDataDemandsInner.java
 src/main/java/com/bytedance/ads/model/StarStarAdUniteTaskListV2ResponseDataPageInfo.java
+src/main/java/com/bytedance/ads/model/StarTaskBindProjectV2Request.java
+src/main/java/com/bytedance/ads/model/StarTaskBindProjectV2Response.java
+src/main/java/com/bytedance/ads/model/StarTaskListByProjectV2Response.java
+src/main/java/com/bytedance/ads/model/StarTaskListByProjectV2ResponseData.java
+src/main/java/com/bytedance/ads/model/StarTaskListByProjectV2ResponseDataPageInfo.java
+src/main/java/com/bytedance/ads/model/StarTaskListByProjectV2ResponseDataProjectTasksInner.java
 src/main/java/com/bytedance/ads/model/StarUserGetAwemeAuthorIdV2Response.java
 src/main/java/com/bytedance/ads/model/StarUserGetAwemeAuthorIdV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarUserGetStarIdV2Response.java
@@ -7152,6 +7193,15 @@ src/main/java/com/bytedance/ads/model/ToolsClueLiteContactRecordV2Request.java
 src/main/java/com/bytedance/ads/model/ToolsClueLiteContactRecordV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsClueLiteContactRecordV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsClueLiteContactRecordV2ResponseDataListInner.java
+src/main/java/com/bytedance/ads/model/ToolsCluePrivateMessageCallbackV2ClueConvertInfoClueBizStates.java
+src/main/java/com/bytedance/ads/model/ToolsCluePrivateMessageCallbackV2ClueConvertInfoClueConvertState.java
+src/main/java/com/bytedance/ads/model/ToolsCluePrivateMessageCallbackV2Request.java
+src/main/java/com/bytedance/ads/model/ToolsCluePrivateMessageCallbackV2RequestAdinfo.java
+src/main/java/com/bytedance/ads/model/ToolsCluePrivateMessageCallbackV2RequestClueConvertInfo.java
+src/main/java/com/bytedance/ads/model/ToolsCluePrivateMessageCallbackV2RequestClueData.java
+src/main/java/com/bytedance/ads/model/ToolsCluePrivateMessageCallbackV2RequestMsgInfo.java
+src/main/java/com/bytedance/ads/model/ToolsCluePrivateMessageCallbackV2Response.java
+src/main/java/com/bytedance/ads/model/ToolsCluePrivateMessageCallbackV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsClueRefundDetailGetV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsClueRefundDetailGetV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsClueRefundDetailGetV2ResponseDataPageInfo.java
