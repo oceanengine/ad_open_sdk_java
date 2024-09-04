@@ -3223,7 +3223,7 @@ src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2Request.java
 src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProduct.java
 src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductBrandInfo.java
 src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductImagesUrlInner.java
-src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductLandingInfo.java
+src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductLandingUrl.java
 src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductPriceInfo.java
 src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductShopKeeperInfo.java
 src/main/java/com/bytedance/ads/model/DpaClueProductSaveV2RequestProductVideosInner.java
@@ -3800,6 +3800,7 @@ src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30DataListInsuranceE
 src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30DataListNetServiceAnchorNetServiceType.java
 src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30DataListPrivateChatAnchorButton.java
 src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30DataListShoppingCartAnchorLinkType.java
+src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30DataListSource.java
 src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30Response.java
 src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30ResponseData.java
 src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30ResponseDataErrorListInner.java
@@ -3820,6 +3821,8 @@ src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30ResponseDataListIn
 src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30ResponseDataListInnerInsuranceEnterpriseAnchorBannerImage.java
 src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30ResponseDataListInnerInsuranceEnterpriseAnchorProductImage.java
 src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30ResponseDataListInnerInsuranceEnterpriseAnchorSingleProductInfoInner.java
+src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30ResponseDataListInnerMicroAppAnchor.java
+src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30ResponseDataListInnerMicroGameAnchor.java
 src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30ResponseDataListInnerNetServiceAnchor.java
 src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30ResponseDataListInnerNetServiceAnchorAppImagesInner.java
 src/main/java/com/bytedance/ads/model/NativeAnchorGetDetailV30ResponseDataListInnerNetServiceAnchorHeadImageListInner.java
@@ -4256,6 +4259,7 @@ src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterial
 src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterialsImageMaterialListInnerImagesInner.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterialsImageMaterialListInnerImagesInnerTemplateDataListInner.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterialsMiniProgramInfo.java
+src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterialsMiniProgramInfoAutoInner.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterialsProductInfo.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterialsTextAbstractListInner.java
 src/main/java/com/bytedance/ads/model/PromotionCreateV30RequestPromotionMaterialsTextAbstractListInnerBidwordListInner.java
@@ -4351,6 +4355,7 @@ src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromo
 src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsImageMaterialListInner.java
 src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsImageMaterialListInnerImagesInner.java
 src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsMiniProgramInfo.java
+src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsMiniProgramInfoAutoInner.java
 src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsProductInfo.java
 src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsTextAbstractListInner.java
 src/main/java/com/bytedance/ads/model/PromotionListV30ResponseDataListInnerPromotionMaterialsTextAbstractListInnerBidwordListInner.java
@@ -4420,6 +4425,7 @@ src/main/java/com/bytedance/ads/model/PromotionUpdateV30RequestPromotionMaterial
 src/main/java/com/bytedance/ads/model/PromotionUpdateV30RequestPromotionMaterialsImageMaterialListInnerImagesInner.java
 src/main/java/com/bytedance/ads/model/PromotionUpdateV30RequestPromotionMaterialsImageMaterialListInnerImagesInnerTemplateDataListInner.java
 src/main/java/com/bytedance/ads/model/PromotionUpdateV30RequestPromotionMaterialsMiniProgramInfo.java
+src/main/java/com/bytedance/ads/model/PromotionUpdateV30RequestPromotionMaterialsMiniProgramInfoAutoInner.java
 src/main/java/com/bytedance/ads/model/PromotionUpdateV30RequestPromotionMaterialsProductInfo.java
 src/main/java/com/bytedance/ads/model/PromotionUpdateV30RequestPromotionMaterialsTextAbstractListInner.java
 src/main/java/com/bytedance/ads/model/PromotionUpdateV30RequestPromotionMaterialsTextAbstractListInnerBidwordListInner.java
@@ -6140,6 +6146,7 @@ src/main/java/com/bytedance/ads/model/StarBrandCategoryListV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarBrandListV2Response.java
 src/main/java/com/bytedance/ads/model/StarBrandListV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarBrandListV2ResponseDataBrandsInner.java
+src/main/java/com/bytedance/ads/model/StarBrandListV2ResponseDataBrandsInnerYuntuIndustryInner.java
 src/main/java/com/bytedance/ads/model/StarCampaignListV2Response.java
 src/main/java/com/bytedance/ads/model/StarCampaignListV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarCampaignListV2ResponseDataCampaignsInner.java
@@ -6235,6 +6242,7 @@ src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestDemandInfoA
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestDemandInfoAdSyncConfOceanEngine.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestDemandInfoAdSyncConfQianchuan.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestDemandInfoComponentInfo.java
+src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestDemandInfoComponentInfoEcomCartInner.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestDemandInfoDemandRequirement.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestOrderItemInfo.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestOrderItemInfoAuthorListInner.java
@@ -6252,13 +6260,17 @@ src/main/java/com/bytedance/ads/model/StarDemandCreateChallengeV2RequestDemandIn
 src/main/java/com/bytedance/ads/model/StarDemandCreateChallengeV2RequestDemandInfoAdSyncConfOceanEngine.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateChallengeV2RequestDemandInfoChallengeRequirement.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateChallengeV2RequestDemandInfoComponentInfo.java
+src/main/java/com/bytedance/ads/model/StarDemandCreateChallengeV2RequestDemandInfoComponentInfoEcomCartInner.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateChallengeV2Response.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateChallengeV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateChallengeV2ResponseDataBillInfo.java
 src/main/java/com/bytedance/ads/model/StarDemandListV2DataListComponentType.java
+src/main/java/com/bytedance/ads/model/StarDemandListV2DataListTaskCategory.java
 src/main/java/com/bytedance/ads/model/StarDemandListV2DataListUniversalSettlementType.java
 src/main/java/com/bytedance/ads/model/StarDemandListV2Filtering.java
 src/main/java/com/bytedance/ads/model/StarDemandListV2FilteringComponentType.java
+src/main/java/com/bytedance/ads/model/StarDemandListV2FilteringQueryTimeRange.java
+src/main/java/com/bytedance/ads/model/StarDemandListV2FilteringTaskCategory.java
 src/main/java/com/bytedance/ads/model/StarDemandListV2FilteringUniversalOrderStatus.java
 src/main/java/com/bytedance/ads/model/StarDemandListV2FilteringUniversalSettlementType.java
 src/main/java/com/bytedance/ads/model/StarDemandListV2Response.java
@@ -6374,6 +6386,7 @@ src/main/java/com/bytedance/ads/model/StarOrderGetCancelAmountV2ResponseData.jav
 src/main/java/com/bytedance/ads/model/StarOrderGetComponentV2Response.java
 src/main/java/com/bytedance/ads/model/StarOrderGetComponentV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarOrderGetComponentV2ResponseDataOrderComponentListInner.java
+src/main/java/com/bytedance/ads/model/StarOrderGetComponentV2ResponseDataOrderComponentListInnerEcomInfoInner.java
 src/main/java/com/bytedance/ads/model/StarOrderGetComponentV2ResponseDataOrderComponentListInnerLinkComponentListInner.java
 src/main/java/com/bytedance/ads/model/StarOrderGetInfoV2Response.java
 src/main/java/com/bytedance/ads/model/StarOrderGetInfoV2ResponseData.java
