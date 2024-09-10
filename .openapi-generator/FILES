@@ -511,7 +511,6 @@ src/main/java/com/bytedance/ads/api/SharedWalletWalletBalanceGetV30Api.java
 src/main/java/com/bytedance/ads/api/SharedWalletWalletInfoGetV30Api.java
 src/main/java/com/bytedance/ads/api/SharedWalletWalletRelationGetV30Api.java
 src/main/java/com/bytedance/ads/api/SpiTaskGetV2Api.java
-src/main/java/com/bytedance/ads/api/StarAttachmentUploadV2Api.java
 src/main/java/com/bytedance/ads/api/StarBillGetPendingV2Api.java
 src/main/java/com/bytedance/ads/api/StarBillPayV2Api.java
 src/main/java/com/bytedance/ads/api/StarBrandCategoryListV2Api.java
@@ -719,7 +718,6 @@ src/main/java/com/bytedance/ads/api/ToolsEventAssetsGetV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsEventConvertOptimizedGoalGetV30Api.java
 src/main/java/com/bytedance/ads/api/ToolsForbiddenLinkGreyGetV30Api.java
 src/main/java/com/bytedance/ads/api/ToolsGrayGetV30Api.java
-src/main/java/com/bytedance/ads/api/ToolsIesAccountSearchV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsIndustryGetV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsInterestActionActionKeywordV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsInterestActionId2wordV2Api.java
@@ -1322,7 +1320,6 @@ src/main/java/com/bytedance/ads/examples/SharedWalletWalletBalanceGetV30ApiExamp
 src/main/java/com/bytedance/ads/examples/SharedWalletWalletInfoGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SharedWalletWalletRelationGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SpiTaskGetV2ApiExample.java
-src/main/java/com/bytedance/ads/examples/StarAttachmentUploadV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarBillGetPendingV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarBillPayV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarBrandCategoryListV2ApiExample.java
@@ -1530,7 +1527,6 @@ src/main/java/com/bytedance/ads/examples/ToolsEventAssetsGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsEventConvertOptimizedGoalGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsForbiddenLinkGreyGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsGrayGetV30ApiExample.java
-src/main/java/com/bytedance/ads/examples/ToolsIesAccountSearchV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsIndustryGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsInterestActionActionKeywordV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsInterestActionId2wordV2ApiExample.java
@@ -6163,9 +6159,6 @@ src/main/java/com/bytedance/ads/model/SpiTaskGetV2ResponseDataCursorInfo.java
 src/main/java/com/bytedance/ads/model/SpiTaskGetV2ResponseDataListInner.java
 src/main/java/com/bytedance/ads/model/SpiTaskGetV2ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/SpiTaskGetV2Status.java
-src/main/java/com/bytedance/ads/model/StarAttachmentUploadV2Request.java
-src/main/java/com/bytedance/ads/model/StarAttachmentUploadV2Response.java
-src/main/java/com/bytedance/ads/model/StarAttachmentUploadV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarBillGetPendingV2Response.java
 src/main/java/com/bytedance/ads/model/StarBillGetPendingV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarBillGetPendingV2ResponseDataOrderBillListInner.java
@@ -7405,7 +7398,6 @@ src/main/java/com/bytedance/ads/model/ToolsForbiddenLinkGreyGetV30ResponseData.j
 src/main/java/com/bytedance/ads/model/ToolsGrayGetV30Response.java
 src/main/java/com/bytedance/ads/model/ToolsGrayGetV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsGrayGetV30ResponseDataListInner.java
-src/main/java/com/bytedance/ads/model/ToolsIesAccountSearchV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsIndustryGetV2Level.java
 src/main/java/com/bytedance/ads/model/ToolsIndustryGetV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsIndustryGetV2ResponseData.java

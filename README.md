@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.18
-  - Build date: 2024-09-04T14:22:53.478937230+08:00[Asia/Shanghai]
+- API version: 1.1.19
+  - Build date: 2024-09-10T15:29:00.246104612+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -629,7 +629,6 @@ Class | Method | HTTP request
 *SharedWalletWalletInfoGetV30Api* | **openApiV30SharedWalletWalletInfoGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_info/get/
 *SharedWalletWalletRelationGetV30Api* | **openApiV30SharedWalletWalletRelationGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_relation/get/
 *SpiTaskGetV2Api* | **openApi2SpiTaskGetGet** | **GET** /open_api/2/spi_task/get/
-*StarAttachmentUploadV2Api* | **openApi2StarAttachmentUploadPost** | **POST** /open_api/2/star/attachment/upload/
 *StarBillGetPendingV2Api* | **openApi2StarBillGetPendingGet** | **GET** /open_api/2/star/bill/get_pending/
 *StarBillPayV2Api* | **openApi2StarBillPayPost** | **POST** /open_api/2/star/bill/pay/
 *StarBrandCategoryListV2Api* | **openApi2StarBrandCategoryListGet** | **GET** /open_api/2/star/brand_category/list/
@@ -837,7 +836,6 @@ Class | Method | HTTP request
 *ToolsEventConvertOptimizedGoalGetV30Api* | **openApiV30ToolsEventConvertOptimizedGoalGetGet** | **GET** /open_api/v3.0/tools/event_convert/optimized_goal/get/
 *ToolsForbiddenLinkGreyGetV30Api* | **openApiV30ToolsForbiddenLinkGreyGetGet** | **GET** /open_api/v3.0/tools/forbidden_link/grey/get/
 *ToolsGrayGetV30Api* | **openApiV30ToolsGrayGetGet** | **GET** /open_api/v3.0/tools/gray/get/
-*ToolsIesAccountSearchV2Api* | **openApi2ToolsIesAccountSearchGet** | **GET** /open_api/2/tools/ies_account_search/
 *ToolsIndustryGetV2Api* | **openApi2ToolsIndustryGetGet** | **GET** /open_api/2/tools/industry/get/
 *ToolsInterestActionActionKeywordV2Api* | **openApi2ToolsInterestActionActionKeywordGet** | **GET** /open_api/2/tools/interest_action/action/keyword/
 *ToolsInterestActionId2wordV2Api* | **openApi2ToolsInterestActionId2wordGet** | **GET** /open_api/2/tools/interest_action/id2word/
