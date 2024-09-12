@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.19
-  - Build date: 2024-09-10T15:29:00.246104612+08:00[Asia/Shanghai]
+- API version: 1.1.20
+  - Build date: 2024-09-12T20:16:46.266280315+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -302,9 +302,12 @@ Class | Method | HTTP request
 *DmpDataSourceFileUploadV2Api* | **openApi2DmpDataSourceFileUploadPost** | **POST** /open_api/2/dmp/data_source/file/upload/
 *DmpDataSourceReadV2Api* | **openApi2DmpDataSourceReadGet** | **GET** /open_api/2/dmp/data_source/read/
 *DmpDataSourceUpdateV2Api* | **openApi2DmpDataSourceUpdatePost** | **POST** /open_api/2/dmp/data_source/update/
+*DouplusOptionalItemsListV30Api* | **openApiV30DouplusOptionalItemsListGet** | **GET** /open_api/v3.0/douplus/optional_items/list/
+*DouplusOptionalTargetsListV30Api* | **openApiV30DouplusOptionalTargetsListGet** | **GET** /open_api/v3.0/douplus/optional_targets/list/
 *DouplusOrderCloseV30Api* | **openApiV30DouplusOrderClosePost** | **POST** /open_api/v3.0/douplus/order/close/
 *DouplusOrderCreateV30Api* | **openApiV30DouplusOrderCreatePost** | **POST** /open_api/v3.0/douplus/order/create/
 *DouplusOrderListV30Api* | **openApiV30DouplusOrderListGet** | **GET** /open_api/v3.0/douplus/order/list/
+*DouplusOrderRenewV30Api* | **openApiV30DouplusOrderRenewPost** | **POST** /open_api/v3.0/douplus/order/renew/
 *DouplusOrderReportV30Api* | **openApiV30DouplusOrderReportGet** | **GET** /open_api/v3.0/douplus/order/report/
 *DownloadStatementV2Api* | **openApi2DownloadStatementGet** | **GET** /open_api/2/download/statement/
 *DpaAssetV2DetailReadV2Api* | **openApi2DpaAssetV2DetailReadPost** | **POST** /open_api/2/dpa/asset_v2/detail/read/
