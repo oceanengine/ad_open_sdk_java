@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.20
-  - Build date: 2024-09-12T20:16:46.266280315+08:00[Asia/Shanghai]
+- API version: 1.1.21
+  - Build date: 2024-09-23T20:22:05.728466681+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -289,6 +289,9 @@ Class | Method | HTTP request
 *CustomerCenterFundTransferSeqCommitV2Api* | **openApi2CustomerCenterFundTransferSeqCommitPost** | **POST** /open_api/2/customer_center/fund/transfer_seq/commit/
 *CustomerCenterFundTransferSeqCreateV2Api* | **openApi2CustomerCenterFundTransferSeqCreatePost** | **POST** /open_api/2/customer_center/fund/transfer_seq/create/
 *DecorationCouponGetV30Api* | **openApiV30DecorationCouponGetGet** | **GET** /open_api/v3.0/decoration/coupon/get/
+*DiagnosisTaskAdvCreateV2Api* | **openApi2DiagnosisTaskAdvCreatePost** | **POST** /open_api/2/diagnosis_task/adv/create/
+*DiagnosisTaskAdvGetV2Api* | **openApi2DiagnosisTaskAdvGetGet** | **GET** /open_api/2/diagnosis_task/adv/get/
+*DiagnosisTaskAdvListV2Api* | **openApi2DiagnosisTaskAdvListGet** | **GET** /open_api/2/diagnosis_task/adv/list/
 *DiagnosisTaskAgentCreateV2Api* | **openApi2DiagnosisTaskAgentCreatePost** | **POST** /open_api/2/diagnosis_task/agent/create/
 *DiagnosisTaskAgentGetV2Api* | **openApi2DiagnosisTaskAgentGetGet** | **GET** /open_api/2/diagnosis_task/agent/get/
 *DiagnosisTaskAgentListV2Api* | **openApi2DiagnosisTaskAgentListGet** | **GET** /open_api/2/diagnosis_task/agent/list/
@@ -399,6 +402,27 @@ Class | Method | HTTP request
 *KeywordListV30Api* | **openApiV30KeywordListGet** | **GET** /open_api/v3.0/keyword/list/
 *KeywordUpdateV2V2Api* | **openApi2KeywordUpdateV2Post** | **POST** /open_api/2/keyword/update_v2/
 *KeywordUpdateV30Api* | **openApiV30KeywordUpdatePost** | **POST** /open_api/v3.0/keyword/update/
+*LocalAwemeAuthorizedGetV30Api* | **openApiV30LocalAwemeAuthorizedGetGet** | **GET** /open_api/v3.0/local/aweme/authorized/get/
+*LocalCustomAudienceGetV30Api* | **openApiV30LocalCustomAudienceGetGet** | **GET** /open_api/v3.0/local/custom_audience/get/
+*LocalFileUploadTaskCreateV30Api* | **openApiV30LocalFileUploadTaskCreatePost** | **POST** /open_api/v3.0/local/file/upload_task/create/
+*LocalFileVideoAwemeGetV30Api* | **openApiV30LocalFileVideoAwemeGetGet** | **GET** /open_api/v3.0/local/file/video/aweme/get/
+*LocalFileVideoGetV30Api* | **openApiV30LocalFileVideoGetGet** | **GET** /open_api/v3.0/local/file/video/get/
+*LocalFileVideoUploadTaskListV30Api* | **openApiV30LocalFileVideoUploadTaskListGet** | **GET** /open_api/v3.0/local/file/video/upload_task/list/
+*LocalFileVideoUploadV30Api* | **openApiV30LocalFileVideoUploadPost** | **POST** /open_api/v3.0/local/file/video/upload/
+*LocalMultiPoiIdPoiIdsGetV30Api* | **openApiV30LocalMultiPoiIdPoiIdsGetGet** | **GET** /open_api/v3.0/local/multi_poi_id/poi_ids/get/
+*LocalPoiGetV30Api* | **openApiV30LocalPoiGetGet** | **GET** /open_api/v3.0/local/poi/get/
+*LocalProductGetByPoiidsV30Api* | **openApiV30LocalProductGetByPoiidsGet** | **GET** /open_api/v3.0/local/product/get_by_poiids/
+*LocalProductGetV30Api* | **openApiV30LocalProductGetGet** | **GET** /open_api/v3.0/local/product/get/
+*LocalProjectCreateV30Api* | **openApiV30LocalProjectCreatePost** | **POST** /open_api/v3.0/local/project/create/
+*LocalProjectDetailV30Api* | **openApiV30LocalProjectDetailGet** | **GET** /open_api/v3.0/local/project/detail/
+*LocalProjectListV30Api* | **openApiV30LocalProjectListGet** | **GET** /open_api/v3.0/local/project/list/
+*LocalProjectStatusUpdateV30Api* | **openApiV30LocalProjectStatusUpdatePost** | **POST** /open_api/v3.0/local/project/status/update/
+*LocalProjectUpdateV30Api* | **openApiV30LocalProjectUpdatePost** | **POST** /open_api/v3.0/local/project/update/
+*LocalPromotionCreateV30Api* | **openApiV30LocalPromotionCreatePost** | **POST** /open_api/v3.0/local/promotion/create/
+*LocalPromotionDetailV30Api* | **openApiV30LocalPromotionDetailGet** | **GET** /open_api/v3.0/local/promotion/detail/
+*LocalPromotionListV30Api* | **openApiV30LocalPromotionListGet** | **GET** /open_api/v3.0/local/promotion/list/
+*LocalPromotionStatusUpdateV30Api* | **openApiV30LocalPromotionStatusUpdatePost** | **POST** /open_api/v3.0/local/promotion/status/update/
+*LocalPromotionUpdateV30Api* | **openApiV30LocalPromotionUpdatePost** | **POST** /open_api/v3.0/local/promotion/update/
 *LocalReportMaterialGetV30Api* | **openApiV30LocalReportMaterialGetGet** | **GET** /open_api/v3.0/local/report/material/get/
 *LocalReportProjectGetV30Api* | **openApiV30LocalReportProjectGetGet** | **GET** /open_api/v3.0/local/report/project/get/
 *LocalReportPromotionGetV30Api* | **openApiV30LocalReportPromotionGetGet** | **GET** /open_api/v3.0/local/report/promotion/get/
