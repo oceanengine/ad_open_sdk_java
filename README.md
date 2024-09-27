@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.21
-  - Build date: 2024-09-23T20:22:05.728466681+08:00[Asia/Shanghai]
+- API version: 1.1.22
+  - Build date: 2024-09-27T11:41:26.016527974+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -180,8 +180,11 @@ Class | Method | HTTP request
 *AdvertiserTransferableFundGetV2Api* | **openApi2AdvertiserTransferableFundGetGet** | **GET** /open_api/2/advertiser/transferable_fund/get/
 *AdvertiserUpdateBudgetV2Api* | **openApi2AdvertiserUpdateBudgetPost** | **POST** /open_api/2/advertiser/update/budget/
 *AgentAdvCostReportListQueryV2Api* | **openApi2AgentAdvCostReportListQueryPost** | **POST** /open_api/2/agent/adv/cost_report/list/query/
+*AgentAdvertiserAssignV2Api* | **openApi2AgentAdvertiserAssignPost** | **POST** /open_api/2/agent/advertiser/assign/
 *AgentAdvertiserCopyV2Api* | **openApi2AgentAdvertiserCopyPost** | **POST** /open_api/2/agent/advertiser/copy/
+*AgentAdvertiserInfoQueryV2Api* | **openApi2AgentAdvertiserInfoQueryGet** | **GET** /open_api/2/agent/advertiser_info/query/
 *AgentAdvertiserSelectV2Api* | **openApi2AgentAdvertiserSelectGet** | **GET** /open_api/2/agent/advertiser/select/
+*AgentAdvertiserUnassignV2Api* | **openApi2AgentAdvertiserUnassignPost** | **POST** /open_api/2/agent/advertiser/unassign/
 *AgentAdvertiserUpdateV2Api* | **openApi2AgentAdvertiserUpdatePost** | **POST** /open_api/2/agent/advertiser/update/
 *AgentChildAgentSelectV2Api* | **openApi2AgentChildAgentSelectGet** | **GET** /open_api/2/agent/child_agent/select/
 *AgentFundTransferSeqCommitV2Api* | **openApi2AgentFundTransferSeqCommitPost** | **POST** /open_api/2/agent/fund/transfer_seq/commit/
@@ -361,6 +364,7 @@ Class | Method | HTTP request
 *FileAudioAdV2Api* | **openApi2FileAudioAdPost** | **POST** /open_api/2/file/audio/ad/
 *FileAudioGetV2Api* | **openApi2FileAudioGetGet** | **GET** /open_api/2/file/audio/get/
 *FileAutoGenerateSourceGetV2Api* | **openApi2FileAutoGenerateSourceGetGet** | **GET** /open_api/2/file/auto_generate_source/get/
+*FileCarouselAwemeGetV30Api* | **openApiV30FileCarouselAwemeGetGet** | **GET** /open_api/v3.0/file/carousel/aweme/get/
 *FileImageAdGetV2Api* | **openApi2FileImageAdGetGet** | **GET** /open_api/2/file/image/ad/get/
 *FileImageAdV2Api* | **openApi2FileImageAdPost** | **POST** /open_api/2/file/image/ad/
 *FileImageAdvertiserV2Api* | **openApi2FileImageAdvertiserPost** | **POST** /open_api/2/file/image/advertiser/
@@ -595,6 +599,7 @@ Class | Method | HTTP request
 *QianchuanVideoGetV10Api* | **openApiV10QianchuanVideoGetGet** | **GET** /open_api/v1.0/qianchuan/video/get/
 *QueryBookingBusinessEntityIdGetV2Api* | **openApi2QueryBookingBusinessEntityIdGetGet** | **GET** /open_api/2/query/booking/business_entity_id/get/
 *QueryInvoiceElectronicUrlV2Api* | **openApi2QueryInvoiceElectronicUrlGet** | **GET** /open_api/2/query/invoice_electronic_url/
+*QueryInvoiceTaxV2Api* | **openApi2QueryInvoiceTaxGet** | **GET** /open_api/2/query/invoice_tax/
 *QueryInvoiceV2Api* | **openApi2QueryInvoiceGet** | **GET** /open_api/2/query/invoice/
 *QueryProjectV2Api* | **openApi2QueryProjectGet** | **GET** /open_api/2/query/project/
 *QueryProjectV30Api* | **openApiV30QueryProjectGet** | **GET** /open_api/v3.0/query/project/
@@ -976,6 +981,12 @@ Class | Method | HTTP request
 *ToolsWechatGameListV30Api* | **openApiV30ToolsWechatGameListGet** | **GET** /open_api/v3.0/tools/wechat_game/list/
 *UploadStatementV2Api* | **openApi2UploadStatementPost** | **POST** /open_api/2/upload/statement/
 *UserInfoV2Api* | **openApi2UserInfoGet** | **GET** /open_api/2/user/info/
+*YuntuAudienceInfoCreateV30Api* | **openApiV30YuntuAudienceInfoCreatePost** | **POST** /open_api/v3.0/yuntu/audience_info/create/
+*YuntuAudienceInfoDeleteV30Api* | **openApiV30YuntuAudienceInfoDeletePost** | **POST** /open_api/v3.0/yuntu/audience_info/delete/
+*YuntuAudienceInfoGetV30Api* | **openApiV30YuntuAudienceInfoGetGet** | **GET** /open_api/v3.0/yuntu/audience_info/get/
+*YuntuAudienceLabelCreateV30Api* | **openApiV30YuntuAudienceLabelCreatePost** | **POST** /open_api/v3.0/yuntu/audience_label/create/
+*YuntuAudienceLabelDeleteV30Api* | **openApiV30YuntuAudienceLabelDeletePost** | **POST** /open_api/v3.0/yuntu/audience_label/delete/
+*YuntuBrandInfoGetV30Api* | **openApiV30YuntuBrandInfoGetGet** | **GET** /open_api/v3.0/yuntu/brand_info/get/
 
 
 ## 问题建议与反馈
