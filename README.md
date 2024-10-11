@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.22
-  - Build date: 2024-09-27T11:41:26.016527974+08:00[Asia/Shanghai]
+- API version: 1.1.23
+  - Build date: 2024-10-11T21:50:39.675066214+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -194,6 +194,16 @@ Class | Method | HTTP request
 *AgentRefundTransferSeqCommitV2Api* | **openApi2AgentRefundTransferSeqCommitPost** | **POST** /open_api/2/agent/refund/transfer_seq/commit/
 *AgentRefundTransferSeqCreateV2Api* | **openApi2AgentRefundTransferSeqCreatePost** | **POST** /open_api/2/agent/refund/transfer_seq/create/
 *AgentTransferTransactionRecordV2Api* | **openApi2AgentTransferTransactionRecordGet** | **GET** /open_api/2/agent/transfer/transaction_record/
+*AicElementDeleteV30Api* | **openApiV30AicElementDeletePost** | **POST** /open_api/v3.0/aic/element/delete/
+*AicElementGetV30Api* | **openApiV30AicElementGetGet** | **GET** /open_api/v3.0/aic/element/get/
+*AicElementUpdateV30Api* | **openApiV30AicElementUpdatePost** | **POST** /open_api/v3.0/aic/element/update/
+*AicElementUploadV30Api* | **openApiV30AicElementUploadPost** | **POST** /open_api/v3.0/aic/element/upload/
+*AicImageMixcutCreateV30Api* | **openApiV30AicImageMixcutCreatePost** | **POST** /open_api/v3.0/aic/image_mixcut/create/
+*AicMaterialGetV30Api* | **openApiV30AicMaterialGetGet** | **GET** /open_api/v3.0/aic/material/get/
+*AicMaterialPushV30Api* | **openApiV30AicMaterialPushPost** | **POST** /open_api/v3.0/aic/material/push/
+*AicMixcutTaskResultGetV30Api* | **openApiV30AicMixcutTaskResultGetGet** | **GET** /open_api/v3.0/aic/mixcut_task/result/get/
+*AicMixcutTaskSaveV30Api* | **openApiV30AicMixcutTaskSavePost** | **POST** /open_api/v3.0/aic/mixcut_task/save/
+*AicVideoMixcutCreateV30Api* | **openApiV30AicVideoMixcutCreatePost** | **POST** /open_api/v3.0/aic/video_mixcut/create/
 *AnalyticsAttributionV30Api* | **openApiV30AnalyticsAttributionPost** | **POST** /open_api/v3.0/analytics/attribution/
 *AssetsCreativeComponentCreateV2Api* | **openApi2AssetsCreativeComponentCreatePost** | **POST** /open_api/2/assets/creative_component/create/
 *AssetsCreativeComponentGetV2Api* | **openApi2AssetsCreativeComponentGetGet** | **GET** /open_api/2/assets/creative_component/get/
@@ -541,6 +551,7 @@ Class | Method | HTTP request
 *QianchuanKeywordCheckV10Api* | **openApiV10QianchuanKeywordCheckPost** | **POST** /open_api/v1.0/qianchuan/keyword/check/
 *QianchuanKeywordPackageGetV10Api* | **openApiV10QianchuanKeywordPackageGetGet** | **GET** /open_api/v1.0/qianchuan/keyword_package/get/
 *QianchuanLqAdGetV10Api* | **openApiV10QianchuanLqAdGetGet** | **GET** /open_api/v1.0/qianchuan/lq_ad/get/
+*QianchuanMaterialGetV10Api* | **openApiV10QianchuanMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/material/get/
 *QianchuanOrientationPackageGetV10Api* | **openApiV10QianchuanOrientationPackageGetGet** | **GET** /open_api/v1.0/qianchuan/orientation_package/get/
 *QianchuanProductAnalyseCompareCreativeV10Api* | **openApiV10QianchuanProductAnalyseCompareCreativeGet** | **GET** /open_api/v1.0/qianchuan/product/analyse/compare_creative/
 *QianchuanProductAnalyseCompareStatsDataV10Api* | **openApiV10QianchuanProductAnalyseCompareStatsDataGet** | **GET** /open_api/v1.0/qianchuan/product/analyse/compare_stats_data/
