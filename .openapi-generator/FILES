@@ -8337,6 +8337,7 @@ src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerSetting
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerSettingBackground.java
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerSettingBackgroundImage.java
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerSettingButton.java
+src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerSettingImage.java
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerSettingLabel.java
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerSettingTitle.java
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerSuccessLink.java
@@ -8510,6 +8511,7 @@ src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerSetting
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerSettingBackground.java
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerSettingBackgroundImage.java
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerSettingButton.java
+src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerSettingImage.java
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerSettingLabel.java
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerSettingTitle.java
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerSuccessLink.java
