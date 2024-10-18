@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.24
-  - Build date: 2024-10-12T16:34:28.931856415+08:00[Asia/Shanghai]
+- API version: 1.1.25
+  - Build date: 2024-10-18T16:52:21.736905407+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -179,6 +179,7 @@ Class | Method | HTTP request
 *AdvertiserQualificationSubmitV30Api* | **openApiV30AdvertiserQualificationSubmitPost** | **POST** /open_api/v3.0/advertiser/qualification/submit/
 *AdvertiserTransferableFundGetV2Api* | **openApi2AdvertiserTransferableFundGetGet** | **GET** /open_api/2/advertiser/transferable_fund/get/
 *AdvertiserUpdateBudgetV2Api* | **openApi2AdvertiserUpdateBudgetPost** | **POST** /open_api/2/advertiser/update/budget/
+*AdvertiserVerifyInfoGetV30Api* | **openApiV30AdvertiserVerifyInfoGetGet** | **GET** /open_api/v3.0/advertiser/verify_info/get/
 *AgentAdvCostReportListQueryV2Api* | **openApi2AgentAdvCostReportListQueryPost** | **POST** /open_api/2/agent/adv/cost_report/list/query/
 *AgentAdvertiserAssignV2Api* | **openApi2AgentAdvertiserAssignPost** | **POST** /open_api/2/agent/advertiser/assign/
 *AgentAdvertiserCopyV2Api* | **openApi2AgentAdvertiserCopyPost** | **POST** /open_api/2/agent/advertiser/copy/
@@ -325,6 +326,7 @@ Class | Method | HTTP request
 *DouplusOrderListV30Api* | **openApiV30DouplusOrderListGet** | **GET** /open_api/v3.0/douplus/order/list/
 *DouplusOrderRenewV30Api* | **openApiV30DouplusOrderRenewPost** | **POST** /open_api/v3.0/douplus/order/renew/
 *DouplusOrderReportV30Api* | **openApiV30DouplusOrderReportGet** | **GET** /open_api/v3.0/douplus/order/report/
+*DownloadStatementEsignFileV2Api* | **openApi2DownloadStatementEsignFileGet** | **GET** /open_api/2/download/statement/esign_file/
 *DownloadStatementV2Api* | **openApi2DownloadStatementGet** | **GET** /open_api/2/download/statement/
 *DpaAssetV2DetailReadV2Api* | **openApi2DpaAssetV2DetailReadPost** | **POST** /open_api/2/dpa/asset_v2/detail/read/
 *DpaAssetV2ListV2Api* | **openApi2DpaAssetV2ListPost** | **POST** /open_api/2/dpa/asset_v2/list/
@@ -391,6 +393,7 @@ Class | Method | HTTP request
 *FileRebateMaterialDownloadCreateTaskV2Api* | **openApi2FileRebateMaterialDownloadCreateTaskPost** | **POST** /open_api/2/file/rebate/material_download/create_task/
 *FileRebateMaterialDownloadDownloadFileV2Api* | **openApi2FileRebateMaterialDownloadDownloadFileGet** | **GET** /open_api/2/file/rebate/material_download/download_file/
 *FileRebateMaterialDownloadGetDownloadTaskListV2Api* | **openApi2FileRebateMaterialDownloadGetDownloadTaskListGet** | **GET** /open_api/2/file/rebate/material_download/get_download_task_list/
+*FileRebateRebateDownloadCreateTaskV2Api* | **openApi2FileRebateRebateDownloadCreateTaskPost** | **POST** /open_api/2/file/rebate/rebate_download/create_task/
 *FileUploadTaskCreateV2Api* | **openApi2FileUploadTaskCreatePost** | **POST** /open_api/2/file/upload_task/create/
 *FileVideoAdGetV2Api* | **openApi2FileVideoAdGetGet** | **GET** /open_api/2/file/video/ad/get/
 *FileVideoAdV2Api* | **openApi2FileVideoAdPost** | **POST** /open_api/2/file/video/ad/
@@ -716,6 +719,9 @@ Class | Method | HTTP request
 *StarMcnGetContractedChallengeListV2Api* | **openApi2StarMcnGetContractedChallengeListGet** | **GET** /open_api/2/star/mcn/get_contracted_challenge_list/
 *StarMcnGetContractedChallengeUrlV2Api* | **openApi2StarMcnGetContractedChallengeUrlGet** | **GET** /open_api/2/star/mcn/get_contracted_challenge_url/
 *StarMcnGetUnparticipatedTaskV2Api* | **openApi2StarMcnGetUnparticipatedTaskGet** | **GET** /open_api/2/star/mcn/get_unparticipated_task/
+*StarMcnProviderGetParticipatedTaskV2Api* | **openApi2StarMcnProviderGetParticipatedTaskGet** | **GET** /open_api/2/star/mcn/provider_get_participated_task/
+*StarMcnProviderGetTaskDetailV2Api* | **openApi2StarMcnProviderGetTaskDetailGet** | **GET** /open_api/2/star/mcn/provider_get_task_detail/
+*StarMcnProviderGetUnparticipatedTaskV2Api* | **openApi2StarMcnProviderGetUnparticipatedTaskGet** | **GET** /open_api/2/star/mcn/provider_get_unparticipated_task/
 *StarOrderApproveResourceV2Api* | **openApi2StarOrderApproveResourcePost** | **POST** /open_api/2/star/order/approve_resource/
 *StarOrderDemanderCancelV2Api* | **openApi2StarOrderDemanderCancelPost** | **POST** /open_api/2/star/order/demander_cancel/
 *StarOrderDetailV2Api* | **openApi2StarOrderDetailGet** | **GET** /open_api/2/star/order/detail/
@@ -758,8 +764,6 @@ Class | Method | HTTP request
 *StardeliveryTaskAuthorVideoDetailV30Api* | **openApiV30StardeliveryTaskAuthorVideoDetailGet** | **GET** /open_api/v3.0/stardelivery/task_author_video/detail/
 *StardeliveryTaskBudgetUpdateV30Api* | **openApiV30StardeliveryTaskBudgetUpdatePost** | **POST** /open_api/v3.0/stardelivery/task/budget/update/
 *StardeliveryTaskCancelV30Api* | **openApiV30StardeliveryTaskCancelPost** | **POST** /open_api/v3.0/stardelivery/task/cancel/
-*StardeliveryTaskCreateResultGetV30Api* | **openApiV30StardeliveryTaskCreateResultGetGet** | **GET** /open_api/v3.0/stardelivery/task/create_result/get/
-*StardeliveryTaskCreateV30Api* | **openApiV30StardeliveryTaskCreatePost** | **POST** /open_api/v3.0/stardelivery/task/create/
 *StardeliveryTaskDetailV30Api* | **openApiV30StardeliveryTaskDetailGet** | **GET** /open_api/v3.0/stardelivery/task/detail/
 *StardeliveryTaskListV30Api* | **openApiV30StardeliveryTaskListGet** | **GET** /open_api/v3.0/stardelivery/task/list/
 *StardeliveryTaskPostEndTimeUpdateV30Api* | **openApiV30StardeliveryTaskPostEndTimeUpdatePost** | **POST** /open_api/v3.0/stardelivery/task/post_end_time/update/
@@ -767,7 +771,6 @@ Class | Method | HTTP request
 *StardeliveryTaskShareableListV30Api* | **openApiV30StardeliveryTaskShareableListGet** | **GET** /open_api/v3.0/stardelivery/task/shareable/list/
 *StardeliveryTaskSharingListV30Api* | **openApiV30StardeliveryTaskSharingListGet** | **GET** /open_api/v3.0/stardelivery/task/sharing/list/
 *StardeliveryTaskUnshareV30Api* | **openApiV30StardeliveryTaskUnsharePost** | **POST** /open_api/v3.0/stardelivery/task/unshare/
-*StardeliveryTaskUpdateV30Api* | **openApiV30StardeliveryTaskUpdatePost** | **POST** /open_api/v3.0/stardelivery/task/update/
 *SubscribeAccountsAddV30Api* | **openApiV30SubscribeAccountsAddPost** | **POST** /open_api/v3.0/subscribe/accounts/add/
 *SubscribeAccountsListV30Api* | **openApiV30SubscribeAccountsListGet** | **GET** /open_api/v3.0/subscribe/accounts/list/
 *SubscribeAccountsRemoveV30Api* | **openApiV30SubscribeAccountsRemovePost** | **POST** /open_api/v3.0/subscribe/accounts/remove/

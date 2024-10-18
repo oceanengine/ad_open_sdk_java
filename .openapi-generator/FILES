@@ -60,6 +60,7 @@ src/main/java/com/bytedance/ads/api/AdvertiserQualificationSelectV2V2Api.java
 src/main/java/com/bytedance/ads/api/AdvertiserQualificationSubmitV30Api.java
 src/main/java/com/bytedance/ads/api/AdvertiserTransferableFundGetV2Api.java
 src/main/java/com/bytedance/ads/api/AdvertiserUpdateBudgetV2Api.java
+src/main/java/com/bytedance/ads/api/AdvertiserVerifyInfoGetV30Api.java
 src/main/java/com/bytedance/ads/api/AgentAdvCostReportListQueryV2Api.java
 src/main/java/com/bytedance/ads/api/AgentAdvertiserAssignV2Api.java
 src/main/java/com/bytedance/ads/api/AgentAdvertiserCopyV2Api.java
@@ -207,6 +208,7 @@ src/main/java/com/bytedance/ads/api/DouplusOrderCreateV30Api.java
 src/main/java/com/bytedance/ads/api/DouplusOrderListV30Api.java
 src/main/java/com/bytedance/ads/api/DouplusOrderRenewV30Api.java
 src/main/java/com/bytedance/ads/api/DouplusOrderReportV30Api.java
+src/main/java/com/bytedance/ads/api/DownloadStatementEsignFileV2Api.java
 src/main/java/com/bytedance/ads/api/DownloadStatementV2Api.java
 src/main/java/com/bytedance/ads/api/DpaAssetV2DetailReadV2Api.java
 src/main/java/com/bytedance/ads/api/DpaAssetV2ListV2Api.java
@@ -273,6 +275,7 @@ src/main/java/com/bytedance/ads/api/FileQualitySubmitV30Api.java
 src/main/java/com/bytedance/ads/api/FileRebateMaterialDownloadCreateTaskV2Api.java
 src/main/java/com/bytedance/ads/api/FileRebateMaterialDownloadDownloadFileV2Api.java
 src/main/java/com/bytedance/ads/api/FileRebateMaterialDownloadGetDownloadTaskListV2Api.java
+src/main/java/com/bytedance/ads/api/FileRebateRebateDownloadCreateTaskV2Api.java
 src/main/java/com/bytedance/ads/api/FileUploadTaskCreateV2Api.java
 src/main/java/com/bytedance/ads/api/FileVideoAdGetV2Api.java
 src/main/java/com/bytedance/ads/api/FileVideoAdV2Api.java
@@ -598,6 +601,9 @@ src/main/java/com/bytedance/ads/api/StarMcnGetContractChallengeAuthorItemListV2V
 src/main/java/com/bytedance/ads/api/StarMcnGetContractedChallengeListV2Api.java
 src/main/java/com/bytedance/ads/api/StarMcnGetContractedChallengeUrlV2Api.java
 src/main/java/com/bytedance/ads/api/StarMcnGetUnparticipatedTaskV2Api.java
+src/main/java/com/bytedance/ads/api/StarMcnProviderGetParticipatedTaskV2Api.java
+src/main/java/com/bytedance/ads/api/StarMcnProviderGetTaskDetailV2Api.java
+src/main/java/com/bytedance/ads/api/StarMcnProviderGetUnparticipatedTaskV2Api.java
 src/main/java/com/bytedance/ads/api/StarOrderApproveResourceV2Api.java
 src/main/java/com/bytedance/ads/api/StarOrderDemanderCancelV2Api.java
 src/main/java/com/bytedance/ads/api/StarOrderDetailV2Api.java
@@ -640,8 +646,6 @@ src/main/java/com/bytedance/ads/api/StardeliveryTaskAuthorVideoAuditV30Api.java
 src/main/java/com/bytedance/ads/api/StardeliveryTaskAuthorVideoDetailV30Api.java
 src/main/java/com/bytedance/ads/api/StardeliveryTaskBudgetUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/StardeliveryTaskCancelV30Api.java
-src/main/java/com/bytedance/ads/api/StardeliveryTaskCreateResultGetV30Api.java
-src/main/java/com/bytedance/ads/api/StardeliveryTaskCreateV30Api.java
 src/main/java/com/bytedance/ads/api/StardeliveryTaskDetailV30Api.java
 src/main/java/com/bytedance/ads/api/StardeliveryTaskListV30Api.java
 src/main/java/com/bytedance/ads/api/StardeliveryTaskPostEndTimeUpdateV30Api.java
@@ -649,7 +653,6 @@ src/main/java/com/bytedance/ads/api/StardeliveryTaskShareV30Api.java
 src/main/java/com/bytedance/ads/api/StardeliveryTaskShareableListV30Api.java
 src/main/java/com/bytedance/ads/api/StardeliveryTaskSharingListV30Api.java
 src/main/java/com/bytedance/ads/api/StardeliveryTaskUnshareV30Api.java
-src/main/java/com/bytedance/ads/api/StardeliveryTaskUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/SubscribeAccountsAddV30Api.java
 src/main/java/com/bytedance/ads/api/SubscribeAccountsListV30Api.java
 src/main/java/com/bytedance/ads/api/SubscribeAccountsRemoveV30Api.java
@@ -918,6 +921,7 @@ src/main/java/com/bytedance/ads/examples/AdvertiserQualificationSelectV2V2ApiExa
 src/main/java/com/bytedance/ads/examples/AdvertiserQualificationSubmitV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/AdvertiserTransferableFundGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/AdvertiserUpdateBudgetV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/AdvertiserVerifyInfoGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/AgentAdvCostReportListQueryV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/AgentAdvertiserAssignV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/AgentAdvertiserCopyV2ApiExample.java
@@ -1065,6 +1069,7 @@ src/main/java/com/bytedance/ads/examples/DouplusOrderCreateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/DouplusOrderListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/DouplusOrderRenewV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/DouplusOrderReportV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/DownloadStatementEsignFileV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DownloadStatementV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DpaAssetV2DetailReadV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/DpaAssetV2ListV2ApiExample.java
@@ -1131,6 +1136,7 @@ src/main/java/com/bytedance/ads/examples/FileQualitySubmitV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/FileRebateMaterialDownloadCreateTaskV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/FileRebateMaterialDownloadDownloadFileV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/FileRebateMaterialDownloadGetDownloadTaskListV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/FileRebateRebateDownloadCreateTaskV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/FileUploadTaskCreateV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/FileVideoAdGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/FileVideoAdV2ApiExample.java
@@ -1456,6 +1462,9 @@ src/main/java/com/bytedance/ads/examples/StarMcnGetContractChallengeAuthorItemLi
 src/main/java/com/bytedance/ads/examples/StarMcnGetContractedChallengeListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarMcnGetContractedChallengeUrlV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarMcnGetUnparticipatedTaskV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/StarMcnProviderGetParticipatedTaskV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/StarMcnProviderGetTaskDetailV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/StarMcnProviderGetUnparticipatedTaskV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarOrderApproveResourceV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarOrderDemanderCancelV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarOrderDetailV2ApiExample.java
@@ -1498,8 +1507,6 @@ src/main/java/com/bytedance/ads/examples/StardeliveryTaskAuthorVideoAuditV30ApiE
 src/main/java/com/bytedance/ads/examples/StardeliveryTaskAuthorVideoDetailV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/StardeliveryTaskBudgetUpdateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/StardeliveryTaskCancelV30ApiExample.java
-src/main/java/com/bytedance/ads/examples/StardeliveryTaskCreateResultGetV30ApiExample.java
-src/main/java/com/bytedance/ads/examples/StardeliveryTaskCreateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/StardeliveryTaskDetailV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/StardeliveryTaskListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/StardeliveryTaskPostEndTimeUpdateV30ApiExample.java
@@ -1507,7 +1514,6 @@ src/main/java/com/bytedance/ads/examples/StardeliveryTaskShareV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/StardeliveryTaskShareableListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/StardeliveryTaskSharingListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/StardeliveryTaskUnshareV30ApiExample.java
-src/main/java/com/bytedance/ads/examples/StardeliveryTaskUpdateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SubscribeAccountsAddV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SubscribeAccountsListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SubscribeAccountsRemoveV30ApiExample.java
@@ -1991,6 +1997,13 @@ src/main/java/com/bytedance/ads/model/AdvertiserTransferableFundGetV2ResponseDat
 src/main/java/com/bytedance/ads/model/AdvertiserUpdateBudgetV2BudgetMode.java
 src/main/java/com/bytedance/ads/model/AdvertiserUpdateBudgetV2Request.java
 src/main/java/com/bytedance/ads/model/AdvertiserUpdateBudgetV2Response.java
+src/main/java/com/bytedance/ads/model/AdvertiserVerifyInfoGetV30DataRecordsCheckType.java
+src/main/java/com/bytedance/ads/model/AdvertiserVerifyInfoGetV30DataRecordsPlatform.java
+src/main/java/com/bytedance/ads/model/AdvertiserVerifyInfoGetV30DataRecordsStatus.java
+src/main/java/com/bytedance/ads/model/AdvertiserVerifyInfoGetV30DataRecordsVerifyType.java
+src/main/java/com/bytedance/ads/model/AdvertiserVerifyInfoGetV30Response.java
+src/main/java/com/bytedance/ads/model/AdvertiserVerifyInfoGetV30ResponseData.java
+src/main/java/com/bytedance/ads/model/AdvertiserVerifyInfoGetV30ResponseDataRecordsInner.java
 src/main/java/com/bytedance/ads/model/AgentAdvCostReportListQueryV2DataListAppName.java
 src/main/java/com/bytedance/ads/model/AgentAdvCostReportListQueryV2DataListBusinessType.java
 src/main/java/com/bytedance/ads/model/AgentAdvCostReportListQueryV2DataListCashbackType.java
@@ -3405,6 +3418,8 @@ src/main/java/com/bytedance/ads/model/DouplusOrderReportV30ResponseDataOrderMetr
 src/main/java/com/bytedance/ads/model/DouplusOrderReportV30ResponseDataOrderMetricsInnerMetricsData.java
 src/main/java/com/bytedance/ads/model/DouplusOrderReportV30ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/DouplusOrderReportV30StatTime.java
+src/main/java/com/bytedance/ads/model/DownloadStatementEsignFileV2Response.java
+src/main/java/com/bytedance/ads/model/DownloadStatementEsignFileV2ResponseData.java
 src/main/java/com/bytedance/ads/model/DownloadStatementV2Response.java
 src/main/java/com/bytedance/ads/model/DownloadStatementV2ResponseData.java
 src/main/java/com/bytedance/ads/model/DpaAssetV2DetailReadV2DataAssetListAssetType.java
@@ -3843,6 +3858,10 @@ src/main/java/com/bytedance/ads/model/FileRebateMaterialDownloadGetDownloadTaskL
 src/main/java/com/bytedance/ads/model/FileRebateMaterialDownloadGetDownloadTaskListV2ResponseData.java
 src/main/java/com/bytedance/ads/model/FileRebateMaterialDownloadGetDownloadTaskListV2ResponseDataQueryListInner.java
 src/main/java/com/bytedance/ads/model/FileRebateMaterialDownloadGetDownloadTaskListV2ResponseDataQueryListInnerTaskListInner.java
+src/main/java/com/bytedance/ads/model/FileRebateRebateDownloadCreateTaskV2QueryType.java
+src/main/java/com/bytedance/ads/model/FileRebateRebateDownloadCreateTaskV2Request.java
+src/main/java/com/bytedance/ads/model/FileRebateRebateDownloadCreateTaskV2Response.java
+src/main/java/com/bytedance/ads/model/FileRebateRebateDownloadCreateTaskV2ResponseData.java
 src/main/java/com/bytedance/ads/model/FileUploadTaskCreateV2AccountType.java
 src/main/java/com/bytedance/ads/model/FileUploadTaskCreateV2Request.java
 src/main/java/com/bytedance/ads/model/FileUploadTaskCreateV2Response.java
@@ -6898,6 +6917,19 @@ src/main/java/com/bytedance/ads/model/StarMcnGetUnparticipatedTaskV2ResponseData
 src/main/java/com/bytedance/ads/model/StarMcnGetUnparticipatedTaskV2ResponseDataDataInner.java
 src/main/java/com/bytedance/ads/model/StarMcnGetUnparticipatedTaskV2ResponseDataDataInnerSmallAppInfo.java
 src/main/java/com/bytedance/ads/model/StarMcnGetUnparticipatedTaskV2ResponseDataPageInfo.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetParticipatedTaskV2Response.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetParticipatedTaskV2ResponseData.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetParticipatedTaskV2ResponseDataDataInner.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetParticipatedTaskV2ResponseDataPageInfo.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetTaskDetailV2Response.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetTaskDetailV2ResponseData.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetTaskDetailV2ResponseDataTaskDetailInfo.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetTaskDetailV2ResponseDataTaskDetailInfoSmallAppInfo.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetUnparticipatedTaskV2Response.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetUnparticipatedTaskV2ResponseData.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetUnparticipatedTaskV2ResponseDataDataInner.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetUnparticipatedTaskV2ResponseDataDataInnerSmallAppInfo.java
+src/main/java/com/bytedance/ads/model/StarMcnProviderGetUnparticipatedTaskV2ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/StarOrderApproveResourceV2Request.java
 src/main/java/com/bytedance/ads/model/StarOrderApproveResourceV2Response.java
 src/main/java/com/bytedance/ads/model/StarOrderDemanderCancelV2Request.java
@@ -7103,18 +7135,6 @@ src/main/java/com/bytedance/ads/model/StardeliveryTaskBudgetUpdateV30Request.jav
 src/main/java/com/bytedance/ads/model/StardeliveryTaskBudgetUpdateV30Response.java
 src/main/java/com/bytedance/ads/model/StardeliveryTaskCancelV30Request.java
 src/main/java/com/bytedance/ads/model/StardeliveryTaskCancelV30Response.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskCreateResultGetV30DataStatus.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskCreateResultGetV30Response.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskCreateResultGetV30ResponseData.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskCreateV30Request.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskCreateV30RequestStarTaskAssetInfo.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskCreateV30RequestStarTaskMaterialsRequirements.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskCreateV30RequestTaskContactInfo.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskCreateV30Response.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskCreateV30ResponseData.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskCreateV30StarTaskAnchorType.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskCreateV30StarTaskExternalAction.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskCreateV30StarTaskMaterialsRequirementsVideoReviewer.java
 src/main/java/com/bytedance/ads/model/StardeliveryTaskDetailV30DataStarTaskAnchorType.java
 src/main/java/com/bytedance/ads/model/StardeliveryTaskDetailV30DataStarTaskExternalAction.java
 src/main/java/com/bytedance/ads/model/StardeliveryTaskDetailV30DataStarTaskMaterialsRequirementsVideoReviewer.java
@@ -7155,11 +7175,6 @@ src/main/java/com/bytedance/ads/model/StardeliveryTaskUnshareV30Request.java
 src/main/java/com/bytedance/ads/model/StardeliveryTaskUnshareV30Response.java
 src/main/java/com/bytedance/ads/model/StardeliveryTaskUnshareV30ResponseData.java
 src/main/java/com/bytedance/ads/model/StardeliveryTaskUnshareV30ResponseDataErrorListInner.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskUpdateV30Request.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskUpdateV30RequestStarTaskMaterialsRequirements.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskUpdateV30RequestTaskContactInfo.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskUpdateV30Response.java
-src/main/java/com/bytedance/ads/model/StardeliveryTaskUpdateV30StarTaskMaterialsRequirementsVideoReviewer.java
 src/main/java/com/bytedance/ads/model/SubscribeAccountsAddV30Request.java
 src/main/java/com/bytedance/ads/model/SubscribeAccountsAddV30Response.java
 src/main/java/com/bytedance/ads/model/SubscribeAccountsListV30DataAdvertisersStatus.java
