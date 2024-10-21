@@ -557,6 +557,7 @@ src/main/java/com/bytedance/ads/api/SharedWalletWalletBalanceGetV30Api.java
 src/main/java/com/bytedance/ads/api/SharedWalletWalletInfoGetV30Api.java
 src/main/java/com/bytedance/ads/api/SharedWalletWalletRelationGetV30Api.java
 src/main/java/com/bytedance/ads/api/SpiTaskGetV2Api.java
+src/main/java/com/bytedance/ads/api/StarAttachmentUploadV2Api.java
 src/main/java/com/bytedance/ads/api/StarBillGetPendingV2Api.java
 src/main/java/com/bytedance/ads/api/StarBillPayV2Api.java
 src/main/java/com/bytedance/ads/api/StarBrandCategoryListV2Api.java
@@ -1418,6 +1419,7 @@ src/main/java/com/bytedance/ads/examples/SharedWalletWalletBalanceGetV30ApiExamp
 src/main/java/com/bytedance/ads/examples/SharedWalletWalletInfoGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SharedWalletWalletRelationGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SpiTaskGetV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/StarAttachmentUploadV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarBillGetPendingV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarBillPayV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarBrandCategoryListV2ApiExample.java
@@ -6687,6 +6689,9 @@ src/main/java/com/bytedance/ads/model/SpiTaskGetV2ResponseDataCursorInfo.java
 src/main/java/com/bytedance/ads/model/SpiTaskGetV2ResponseDataListInner.java
 src/main/java/com/bytedance/ads/model/SpiTaskGetV2ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/SpiTaskGetV2Status.java
+src/main/java/com/bytedance/ads/model/StarAttachmentUploadV2Request.java
+src/main/java/com/bytedance/ads/model/StarAttachmentUploadV2Response.java
+src/main/java/com/bytedance/ads/model/StarAttachmentUploadV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarBillGetPendingV2Response.java
 src/main/java/com/bytedance/ads/model/StarBillGetPendingV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarBillGetPendingV2ResponseDataOrderBillListInner.java
