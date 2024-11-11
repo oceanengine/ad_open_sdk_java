@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.27
-  - Build date: 2024-10-24T16:27:44.765493616+08:00[Asia/Shanghai]
+- API version: 1.1.28
+  - Build date: 2024-11-11T17:17:04.881129010+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -410,6 +410,7 @@ Class | Method | HTTP request
 *FileVideoUpdateV2Api* | **openApi2FileVideoUpdatePost** | **POST** /open_api/2/file/video/update/
 *FileVideoUploadTaskListV2Api* | **openApi2FileVideoUploadTaskListGet** | **GET** /open_api/2/file/video/upload_task/list/
 *FundSharedWalletBalanceGetV2Api* | **openApi2FundSharedWalletBalanceGetGet** | **GET** /open_api/2/fund/shared_wallet_balance/get/
+*GameAddictionIdGetV30Api* | **openApiV30GameAddictionIdGetGet** | **GET** /open_api/v3.0/game_addiction_id/get/
 *KeywordCreateV2V2Api* | **openApi2KeywordCreateV2Post** | **POST** /open_api/2/keyword/create_v2/
 *KeywordCreateV30Api* | **openApiV30KeywordCreatePost** | **POST** /open_api/v3.0/keyword/create/
 *KeywordDeleteV2V2Api* | **openApi2KeywordDeleteV2Post** | **POST** /open_api/2/keyword/delete_v2/
@@ -560,7 +561,6 @@ Class | Method | HTTP request
 *QianchuanProductAnalyseCompareStatsDataV10Api* | **openApiV10QianchuanProductAnalyseCompareStatsDataGet** | **GET** /open_api/v1.0/qianchuan/product/analyse/compare_stats_data/
 *QianchuanProductAnalyseListV10Api* | **openApiV10QianchuanProductAnalyseListGet** | **GET** /open_api/v1.0/qianchuan/product/analyse/list/
 *QianchuanProductAvailableGetV10Api* | **openApiV10QianchuanProductAvailableGetGet** | **GET** /open_api/v1.0/qianchuan/product/available/get/
-*QianchuanQianchuanReportLtodayLiveRoomDataGetV10Api* | **openApiV10QianchuanQianchuanReportLtodayLiveRoomDataGetGet** | **GET** /open_api/v1.0/qianchuan/qianchuan/report/ltoday_live/room/data/get/
 *QianchuanQianchuanReportTodayLiveRoomConfigGetV10Api* | **openApiV10QianchuanQianchuanReportTodayLiveRoomConfigGetGet** | **GET** /open_api/v1.0/qianchuan/qianchuan/report/today_live/room/config/get/
 *QianchuanReportAdGetV10Api* | **openApiV10QianchuanReportAdGetGet** | **GET** /open_api/v1.0/qianchuan/report/ad/get/
 *QianchuanReportAdMaterialGetV10Api* | **openApiV10QianchuanReportAdMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/report/ad/material/get/
@@ -610,6 +610,7 @@ Class | Method | HTTP request
 *QianchuanUniPromotionAdMaterialGetV10Api* | **openApiV10QianchuanUniPromotionAdMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/ad/material/get/
 *QianchuanUniPromotionAdStatusUpdateV10Api* | **openApiV10QianchuanUniPromotionAdStatusUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/status/update/
 *QianchuanUniPromotionListV10Api* | **openApiV10QianchuanUniPromotionListGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/list/
+*QianchuanVideoByAwemeGetV10Api* | **openApiV10QianchuanVideoByAwemeGetGet** | **GET** /open_api/v1.0/qianchuan/video/by_aweme/get/
 *QianchuanVideoGetV10Api* | **openApiV10QianchuanVideoGetGet** | **GET** /open_api/v1.0/qianchuan/video/get/
 *QueryBookingBusinessEntityIdGetV2Api* | **openApi2QueryBookingBusinessEntityIdGetGet** | **GET** /open_api/2/query/booking/business_entity_id/get/
 *QueryInvoiceElectronicUrlV2Api* | **openApi2QueryInvoiceElectronicUrlGet** | **GET** /open_api/2/query/invoice_electronic_url/
