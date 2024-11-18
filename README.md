@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.28
-  - Build date: 2024-11-11T17:17:04.881129010+08:00[Asia/Shanghai]
+- API version: 1.1.29
+  - Build date: 2024-11-18T19:12:38.158236813+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -215,6 +215,7 @@ Class | Method | HTTP request
 *AudiencePackageCreateV2Api* | **openApi2AudiencePackageCreatePost** | **POST** /open_api/2/audience_package/create/
 *AudiencePackageDeleteV2Api* | **openApi2AudiencePackageDeletePost** | **POST** /open_api/2/audience_package/delete/
 *AudiencePackageGetV2Api* | **openApi2AudiencePackageGetGet** | **GET** /open_api/2/audience_package/get/
+*AudiencePackageGetV30Api* | **openApiV30AudiencePackageGetGet** | **GET** /open_api/v3.0/audience_package/get/
 *AudiencePackageUpdateV2Api* | **openApi2AudiencePackageUpdatePost** | **POST** /open_api/2/audience_package/update/
 *BrandActionCategoryV30Api* | **openApiV30BrandActionCategoryGet** | **GET** /open_api/v3.0/brand/action_category/
 *BrandAdCancelDeleteV30Api* | **openApiV30BrandAdCancelDeletePost** | **POST** /open_api/v3.0/brand/ad/cancel_delete/
