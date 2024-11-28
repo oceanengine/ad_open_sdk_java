@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.29
-  - Build date: 2024-11-18T19:12:38.158236813+08:00[Asia/Shanghai]
+- API version: 1.1.30
+  - Build date: 2024-11-28T11:58:36.026519536+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -180,6 +180,8 @@ Class | Method | HTTP request
 *AdvertiserTransferableFundGetV2Api* | **openApi2AdvertiserTransferableFundGetGet** | **GET** /open_api/2/advertiser/transferable_fund/get/
 *AdvertiserUpdateBudgetV2Api* | **openApi2AdvertiserUpdateBudgetPost** | **POST** /open_api/2/advertiser/update/budget/
 *AdvertiserVerifyInfoGetV30Api* | **openApiV30AdvertiserVerifyInfoGetGet** | **GET** /open_api/v3.0/advertiser/verify_info/get/
+*AgentAdvBiddingListQueryV2Api* | **openApi2AgentAdvBiddingListQueryGet** | **GET** /open_api/2/agent/adv/bidding/list/query/
+*AgentAdvBrandListQueryV2Api* | **openApi2AgentAdvBrandListQueryGet** | **GET** /open_api/2/agent/adv/brand/list/query/
 *AgentAdvCostReportListQueryV2Api* | **openApi2AgentAdvCostReportListQueryPost** | **POST** /open_api/2/agent/adv/cost_report/list/query/
 *AgentAdvertiserAssignV2Api* | **openApi2AgentAdvertiserAssignPost** | **POST** /open_api/2/agent/advertiser/assign/
 *AgentAdvertiserCopyV2Api* | **openApi2AgentAdvertiserCopyPost** | **POST** /open_api/2/agent/advertiser/copy/
@@ -212,9 +214,9 @@ Class | Method | HTTP request
 *AsyncTaskCreateV2Api* | **openApi2AsyncTaskCreatePost** | **POST** /open_api/2/async_task/create/
 *AsyncTaskDownloadV2Api* | **openApi2AsyncTaskDownloadGet** | **GET** /open_api/2/async_task/download/
 *AsyncTaskGetV2Api* | **openApi2AsyncTaskGetGet** | **GET** /open_api/2/async_task/get/
+*AudiencePackageBindinfoGetV30Api* | **openApiV30AudiencePackageBindinfoGetGet** | **GET** /open_api/v3.0/audience_package_bindinfo/get/
 *AudiencePackageCreateV2Api* | **openApi2AudiencePackageCreatePost** | **POST** /open_api/2/audience_package/create/
 *AudiencePackageDeleteV2Api* | **openApi2AudiencePackageDeletePost** | **POST** /open_api/2/audience_package/delete/
-*AudiencePackageGetV2Api* | **openApi2AudiencePackageGetGet** | **GET** /open_api/2/audience_package/get/
 *AudiencePackageGetV30Api* | **openApiV30AudiencePackageGetGet** | **GET** /open_api/v3.0/audience_package/get/
 *AudiencePackageUpdateV2Api* | **openApi2AudiencePackageUpdatePost** | **POST** /open_api/2/audience_package/update/
 *BrandActionCategoryV30Api* | **openApiV30BrandActionCategoryGet** | **GET** /open_api/v3.0/brand/action_category/
@@ -229,12 +231,15 @@ Class | Method | HTTP request
 *BrandCampaignDeleteV30Api* | **openApiV30BrandCampaignDeletePost** | **POST** /open_api/v3.0/brand/campaign/delete/
 *BrandCampaignEditV30Api* | **openApiV30BrandCampaignEditPost** | **POST** /open_api/v3.0/brand/campaign/edit/
 *BrandCampaignGetV30Api* | **openApiV30BrandCampaignGetGet** | **GET** /open_api/v3.0/brand/campaign/get/
+*BrandCampaignListV30Api* | **openApiV30BrandCampaignListGet** | **GET** /open_api/v3.0/brand/campaign/list/
 *BrandCampaignOperateV30Api* | **openApiV30BrandCampaignOperatePost** | **POST** /open_api/v3.0/brand/campaign/operate/
 *BrandCreativeCreateV30Api* | **openApiV30BrandCreativeCreatePost** | **POST** /open_api/v3.0/brand/creative/create/
 *BrandCreativeDeleteV30Api* | **openApiV30BrandCreativeDeletePost** | **POST** /open_api/v3.0/brand/creative/delete/
 *BrandCreativeGetV30Api* | **openApiV30BrandCreativeGetGet** | **GET** /open_api/v3.0/brand/creative/get/
 *BrandCreativeUpdateV30Api* | **openApiV30BrandCreativeUpdatePost** | **POST** /open_api/v3.0/brand/creative/update/
 *BrandFileVideoUploadV30Api* | **openApiV30BrandFileVideoUploadPost** | **POST** /open_api/v3.0/brand/file/video/upload/
+*BrandMaterialListV30Api* | **openApiV30BrandMaterialListGet** | **GET** /open_api/v3.0/brand/material/list/
+*BrandOrderListV30Api* | **openApiV30BrandOrderListGet** | **GET** /open_api/v3.0/brand/order/list/
 *BrandQueryStockV30Api* | **openApiV30BrandQueryStockGet** | **GET** /open_api/v3.0/brand/query_stock/
 *BrandQueryYuntu5aBrandCategoryV30Api* | **openApiV30BrandQueryYuntu5aBrandCategoryGet** | **GET** /open_api/v3.0/brand/query_yuntu_5a_brand_category/
 *BrandRegionGetV30Api* | **openApiV30BrandRegionGetGet** | **GET** /open_api/v3.0/brand/region/get/
@@ -257,10 +262,15 @@ Class | Method | HTTP request
 *CarouselListV2Api* | **openApi2CarouselListGet** | **GET** /open_api/2/carousel/list/
 *CarouselUpdateV2Api* | **openApi2CarouselUpdatePost** | **POST** /open_api/2/carousel/update/
 *CdpBrandGetV30Api* | **openApiV30CdpBrandGetGet** | **GET** /open_api/v3.0/cdp/brand/get/
+*CgTransferCanTransferBalanceGetV30Api* | **openApiV30CgTransferCanTransferBalanceGetGet** | **GET** /open_api/v3.0/cg_transfer/can_transfer_balance/get/
+*CgTransferCanTransferTargetListV30Api* | **openApiV30CgTransferCanTransferTargetListGet** | **GET** /open_api/v3.0/cg_transfer/can_transfer_target/list/
 *CgTransferCreateTransferV30Api* | **openApiV30CgTransferCreateTransferPost** | **POST** /open_api/v3.0/cg_transfer/create_transfer/
 *CgTransferQueryCanTransferBalanceV30Api* | **openApiV30CgTransferQueryCanTransferBalanceGet** | **GET** /open_api/v3.0/cg_transfer/query_can_transfer_balance/
 *CgTransferQueryTransferBalanceV30Api* | **openApiV30CgTransferQueryTransferBalanceGet** | **GET** /open_api/v3.0/cg_transfer/query_transfer_balance/
 *CgTransferQueryTransferDetailV30Api* | **openApiV30CgTransferQueryTransferDetailGet** | **GET** /open_api/v3.0/cg_transfer/query_transfer_detail/
+*CgTransferTransferBalanceGetV30Api* | **openApiV30CgTransferTransferBalanceGetGet** | **GET** /open_api/v3.0/cg_transfer/transfer_balance/get/
+*CgTransferTransferCreateV30Api* | **openApiV30CgTransferTransferCreatePost** | **POST** /open_api/v3.0/cg_transfer/transfer/create/
+*CgTransferTransferDetailGetV30Api* | **openApiV30CgTransferTransferDetailGetGet** | **GET** /open_api/v3.0/cg_transfer/transfer_detail/get/
 *CgTransferWalletTransferCanTransferBalanceV30Api* | **openApiV30CgTransferWalletTransferCanTransferBalanceGet** | **GET** /open_api/v3.0/cg_transfer/wallet/transfer/can_transfer_balance/
 *CgTransferWalletTransferCreateV30Api* | **openApiV30CgTransferWalletTransferCreatePost** | **POST** /open_api/v3.0/cg_transfer/wallet/transfer/create/
 *CgTransferWalletTransferDetailV30Api* | **openApiV30CgTransferWalletTransferDetailGet** | **GET** /open_api/v3.0/cg_transfer/wallet/transfer/detail/
@@ -498,6 +508,7 @@ Class | Method | HTTP request
 *QianchuanAdLearingStatusGetV10Api* | **openApiV10QianchuanAdLearingStatusGetGet** | **GET** /open_api/v1.0/qianchuan/ad/learing_status/get/
 *QianchuanAdMaterialDeleteV10Api* | **openApiV10QianchuanAdMaterialDeletePost** | **POST** /open_api/v1.0/qianchuan/ad/material/delete/
 *QianchuanAdMaterialGetV10Api* | **openApiV10QianchuanAdMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/ad/material/get/
+*QianchuanAdMaterialSuggestionV10Api* | **openApiV10QianchuanAdMaterialSuggestionGet** | **GET** /open_api/v1.0/qianchuan/ad/material/suggestion/
 *QianchuanAdPivativewordsGetV10Api* | **openApiV10QianchuanAdPivativewordsGetGet** | **GET** /open_api/v1.0/qianchuan/ad/pivativewords/get/
 *QianchuanAdPivativewordsUpdateV10Api* | **openApiV10QianchuanAdPivativewordsUpdatePost** | **POST** /open_api/v1.0/qianchuan/ad/pivativewords/update/
 *QianchuanAdQuotaGetV10Api* | **openApiV10QianchuanAdQuotaGetGet** | **GET** /open_api/v1.0/qianchuan/ad/quota/get/
@@ -556,6 +567,7 @@ Class | Method | HTTP request
 *QianchuanKeywordCheckV10Api* | **openApiV10QianchuanKeywordCheckPost** | **POST** /open_api/v1.0/qianchuan/keyword/check/
 *QianchuanKeywordPackageGetV10Api* | **openApiV10QianchuanKeywordPackageGetGet** | **GET** /open_api/v1.0/qianchuan/keyword_package/get/
 *QianchuanLqAdGetV10Api* | **openApiV10QianchuanLqAdGetGet** | **GET** /open_api/v1.0/qianchuan/lq_ad/get/
+*QianchuanMaterialAdGetV10Api* | **openApiV10QianchuanMaterialAdGetGet** | **GET** /open_api/v1.0/qianchuan/material/ad/get/
 *QianchuanMaterialGetV10Api* | **openApiV10QianchuanMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/material/get/
 *QianchuanOrientationPackageGetV10Api* | **openApiV10QianchuanOrientationPackageGetGet** | **GET** /open_api/v1.0/qianchuan/orientation_package/get/
 *QianchuanProductAnalyseCompareCreativeV10Api* | **openApiV10QianchuanProductAnalyseCompareCreativeGet** | **GET** /open_api/v1.0/qianchuan/product/analyse/compare_creative/
@@ -634,8 +646,10 @@ Class | Method | HTTP request
 *ReportAudienceProvinceV2Api* | **openApi2ReportAudienceProvinceGet** | **GET** /open_api/2/report/audience/province/
 *ReportBrandAdGetV30Api* | **openApiV30ReportBrandAdGetGet** | **GET** /open_api/v3.0/report/brand/ad/get/
 *ReportBrandAdvertiserGetV30Api* | **openApiV30ReportBrandAdvertiserGetGet** | **GET** /open_api/v3.0/report/brand/advertiser/get/
+*ReportBrandAgentDataV30Api* | **openApiV30ReportBrandAgentDataGet** | **GET** /open_api/v3.0/report/brand/agent/data/
 *ReportBrandCampaignGetV30Api* | **openApiV30ReportBrandCampaignGetGet** | **GET** /open_api/v3.0/report/brand/campaign/get/
 *ReportBrandCreativeGetV30Api* | **openApiV30ReportBrandCreativeGetGet** | **GET** /open_api/v3.0/report/brand/creative/get/
+*ReportBrandDataV30Api* | **openApiV30ReportBrandDataGet** | **GET** /open_api/v3.0/report/brand/data/
 *ReportCampaignGetV2Api* | **openApi2ReportCampaignGetGet** | **GET** /open_api/2/report/campaign/get/
 *ReportCreativeGetV2Api* | **openApi2ReportCreativeGetGet** | **GET** /open_api/2/report/creative/get/
 *ReportCustomAsyncTaskCreateV30Api* | **openApiV30ReportCustomAsyncTaskCreatePost** | **POST** /open_api/v3.0/report/custom/async_task/create/
