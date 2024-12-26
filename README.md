@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.30
-  - Build date: 2024-11-28T11:58:36.026519536+08:00[Asia/Shanghai]
+- API version: 1.1.31
+  - Build date: 2024-12-26T15:05:57.295569070+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -298,6 +298,7 @@ Class | Method | HTTP request
 *ClueWechatInstanceListV2Api* | **openApi2ClueWechatInstanceListGet** | **GET** /open_api/2/clue/wechat_instance/list/
 *ClueWechatInstanceUpdateV2Api* | **openApi2ClueWechatInstanceUpdatePost** | **POST** /open_api/2/clue/wechat_instance/update/
 *ClueWechatPoolListV2Api* | **openApi2ClueWechatPoolListGet** | **GET** /open_api/2/clue/wechat_pool/list/
+*CreateProjectInvoiceV2Api* | **openApi2CreateProjectInvoicePost** | **POST** /open_api/2/create/project_invoice/
 *CreateStatementInvoiceV2Api* | **openApi2CreateStatementInvoicePost** | **POST** /open_api/2/create/statement_invoice/
 *CreateStatementV2Api* | **openApi2CreateStatementPost** | **POST** /open_api/2/create/statement/
 *CreativeCustomCreativeCreateV2Api* | **openApi2CreativeCustomCreativeCreatePost** | **POST** /open_api/2/creative/custom_creative/create/
@@ -401,6 +402,9 @@ Class | Method | HTTP request
 *FilePreauditSubmitV30Api* | **openApiV30FilePreauditSubmitPost** | **POST** /open_api/v3.0/file/preaudit/submit/
 *FileQualityGetV30Api* | **openApiV30FileQualityGetGet** | **GET** /open_api/v3.0/file/quality/get/
 *FileQualitySubmitV30Api* | **openApiV30FileQualitySubmitPost** | **POST** /open_api/v3.0/file/quality/submit/
+*FileRebateCommonDownloadCreateTaskV2Api* | **openApi2FileRebateCommonDownloadCreateTaskPost** | **POST** /open_api/2/file/rebate/common_download/create_task/
+*FileRebateCommonDownloadDownloadFileV2Api* | **openApi2FileRebateCommonDownloadDownloadFileGet** | **GET** /open_api/2/file/rebate/common_download/download_file/
+*FileRebateCommonDownloadGetDownloadTaskListV2Api* | **openApi2FileRebateCommonDownloadGetDownloadTaskListGet** | **GET** /open_api/2/file/rebate/common_download/get_download_task_list/
 *FileRebateMaterialDownloadCreateTaskV2Api* | **openApi2FileRebateMaterialDownloadCreateTaskPost** | **POST** /open_api/2/file/rebate/material_download/create_task/
 *FileRebateMaterialDownloadDownloadFileV2Api* | **openApi2FileRebateMaterialDownloadDownloadFileGet** | **GET** /open_api/2/file/rebate/material_download/download_file/
 *FileRebateMaterialDownloadGetDownloadTaskListV2Api* | **openApi2FileRebateMaterialDownloadGetDownloadTaskListGet** | **GET** /open_api/2/file/rebate/material_download/get_download_task_list/
@@ -433,11 +437,23 @@ Class | Method | HTTP request
 *KeywordUpdateV30Api* | **openApiV30KeywordUpdatePost** | **POST** /open_api/v3.0/keyword/update/
 *LocalAwemeAuthorizedGetV30Api* | **openApiV30LocalAwemeAuthorizedGetGet** | **GET** /open_api/v3.0/local/aweme/authorized/get/
 *LocalCustomAudienceGetV30Api* | **openApiV30LocalCustomAudienceGetGet** | **GET** /open_api/v3.0/local/custom_audience/get/
+*LocalCxtAudienceUpdateV30Api* | **openApiV30LocalCxtAudienceUpdatePost** | **POST** /open_api/v3.0/local/cxt/audience/update/
+*LocalCxtBudgetUpdateV30Api* | **openApiV30LocalCxtBudgetUpdatePost** | **POST** /open_api/v3.0/local/cxt/budget/update/
+*LocalCxtCreateV30Api* | **openApiV30LocalCxtCreatePost** | **POST** /open_api/v3.0/local/cxt/create/
+*LocalCxtDetailV30Api* | **openApiV30LocalCxtDetailGet** | **GET** /open_api/v3.0/local/cxt/detail/
+*LocalCxtExternalActionUpdateV30Api* | **openApiV30LocalCxtExternalActionUpdatePost** | **POST** /open_api/v3.0/local/cxt/external_action/update/
+*LocalCxtPoiUpdateV30Api* | **openApiV30LocalCxtPoiUpdatePost** | **POST** /open_api/v3.0/local/cxt/poi/update/
+*LocalCxtReportAudienceGetV30Api* | **openApiV30LocalCxtReportAudienceGetGet** | **GET** /open_api/v3.0/local/cxt/report/audience/get/
+*LocalCxtReportBasicGetV30Api* | **openApiV30LocalCxtReportBasicGetGet** | **GET** /open_api/v3.0/local/cxt/report/basic/get/
+*LocalCxtReportConvertGetV30Api* | **openApiV30LocalCxtReportConvertGetGet** | **GET** /open_api/v3.0/local/cxt/report/convert/get/
+*LocalCxtStatusUpdateV30Api* | **openApiV30LocalCxtStatusUpdatePost** | **POST** /open_api/v3.0/local/cxt/status/update/
 *LocalFileUploadTaskCreateV30Api* | **openApiV30LocalFileUploadTaskCreatePost** | **POST** /open_api/v3.0/local/file/upload_task/create/
 *LocalFileVideoAwemeGetV30Api* | **openApiV30LocalFileVideoAwemeGetGet** | **GET** /open_api/v3.0/local/file/video/aweme/get/
 *LocalFileVideoGetV30Api* | **openApiV30LocalFileVideoGetGet** | **GET** /open_api/v3.0/local/file/video/get/
 *LocalFileVideoUploadTaskListV30Api* | **openApiV30LocalFileVideoUploadTaskListGet** | **GET** /open_api/v3.0/local/file/video/upload_task/list/
 *LocalFileVideoUploadV30Api* | **openApiV30LocalFileVideoUploadPost** | **POST** /open_api/v3.0/local/file/video/upload/
+*LocalLifeAdvertiserCreateV30Api* | **openApiV30LocalLifeAdvertiserCreatePost** | **POST** /open_api/v3.0/local/life/advertiser/create/
+*LocalLifeAdvertiserListV30Api* | **openApiV30LocalLifeAdvertiserListGet** | **GET** /open_api/v3.0/local/life/advertiser/list/
 *LocalMultiPoiIdPoiIdsGetV30Api* | **openApiV30LocalMultiPoiIdPoiIdsGetGet** | **GET** /open_api/v3.0/local/multi_poi_id/poi_ids/get/
 *LocalPoiGetV30Api* | **openApiV30LocalPoiGetGet** | **GET** /open_api/v3.0/local/poi/get/
 *LocalProductGetByPoiidsV30Api* | **openApiV30LocalProductGetByPoiidsGet** | **GET** /open_api/v3.0/local/product/get_by_poiids/
@@ -487,8 +503,11 @@ Class | Method | HTTP request
 *PromotionCreateV30Api* | **openApiV30PromotionCreatePost** | **POST** /open_api/v3.0/promotion/create/
 *PromotionDeepbidUpdateV30Api* | **openApiV30PromotionDeepbidUpdatePost** | **POST** /open_api/v3.0/promotion/deepbid/update/
 *PromotionDeleteV30Api* | **openApiV30PromotionDeletePost** | **POST** /open_api/v3.0/promotion/delete/
+*PromotionEasyKeepDeliverySwitchUpdateV30Api* | **openApiV30PromotionEasyKeepDeliverySwitchUpdatePost** | **POST** /open_api/v3.0/promotion_easy/keep_delivery_switch/update/
+*PromotionEasyUpdateV30Api* | **openApiV30PromotionEasyUpdatePost** | **POST** /open_api/v3.0/promotion_easy/update/
 *PromotionListV30Api* | **openApiV30PromotionListGet** | **GET** /open_api/v3.0/promotion/list/
 *PromotionMaterialDeleteV30Api* | **openApiV30PromotionMaterialDeletePost** | **POST** /open_api/v3.0/promotion/material/delete/
+*PromotionNewcustomerCreateV30Api* | **openApiV30PromotionNewcustomerCreatePost** | **POST** /open_api/v3.0/promotion_newcustomer/create/
 *PromotionRejectReasonGetV30Api* | **openApiV30PromotionRejectReasonGetGet** | **GET** /open_api/v3.0/promotion/reject_reason/get/
 *PromotionScheduleTimeUpdateV30Api* | **openApiV30PromotionScheduleTimeUpdatePost** | **POST** /open_api/v3.0/promotion/schedule_time/update/
 *PromotionShopInfoUpdateV30Api* | **openApiV30PromotionShopInfoUpdatePost** | **POST** /open_api/v3.0/promotion/shop_info/update/
@@ -575,6 +594,7 @@ Class | Method | HTTP request
 *QianchuanProductAnalyseListV10Api* | **openApiV10QianchuanProductAnalyseListGet** | **GET** /open_api/v1.0/qianchuan/product/analyse/list/
 *QianchuanProductAvailableGetV10Api* | **openApiV10QianchuanProductAvailableGetGet** | **GET** /open_api/v1.0/qianchuan/product/available/get/
 *QianchuanQianchuanReportTodayLiveRoomConfigGetV10Api* | **openApiV10QianchuanQianchuanReportTodayLiveRoomConfigGetGet** | **GET** /open_api/v1.0/qianchuan/qianchuan/report/today_live/room/config/get/
+*QianchuanQianchuanVideoStarGetV10Api* | **openApiV10QianchuanQianchuanVideoStarGetGet** | **GET** /open_api/v1.0/qianchuan/qianchuan/video/star/get/
 *QianchuanReportAdGetV10Api* | **openApiV10QianchuanReportAdGetGet** | **GET** /open_api/v1.0/qianchuan/report/ad/get/
 *QianchuanReportAdMaterialGetV10Api* | **openApiV10QianchuanReportAdMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/report/ad/material/get/
 *QianchuanReportAdvertiserGetV10Api* | **openApiV10QianchuanReportAdvertiserGetGet** | **GET** /open_api/v1.0/qianchuan/report/advertiser/get/
@@ -626,7 +646,11 @@ Class | Method | HTTP request
 *QianchuanVideoByAwemeGetV10Api* | **openApiV10QianchuanVideoByAwemeGetGet** | **GET** /open_api/v1.0/qianchuan/video/by_aweme/get/
 *QianchuanVideoGetV10Api* | **openApiV10QianchuanVideoGetGet** | **GET** /open_api/v1.0/qianchuan/video/get/
 *QueryBookingBusinessEntityIdGetV2Api* | **openApi2QueryBookingBusinessEntityIdGetGet** | **GET** /open_api/2/query/booking/business_entity_id/get/
+*QueryInvoiceDetailSelfV2Api* | **openApi2QueryInvoiceDetailSelfGet** | **GET** /open_api/2/query/invoice_detail/self/
+*QueryInvoiceDetailV2Api* | **openApi2QueryInvoiceDetailGet** | **GET** /open_api/2/query/invoice_detail/
+*QueryInvoiceElectronicUrlSelfV2Api* | **openApi2QueryInvoiceElectronicUrlSelfGet** | **GET** /open_api/2/query/invoice_electronic_url/self/
 *QueryInvoiceElectronicUrlV2Api* | **openApi2QueryInvoiceElectronicUrlGet** | **GET** /open_api/2/query/invoice_electronic_url/
+*QueryInvoiceSelfV2Api* | **openApi2QueryInvoiceSelfGet** | **GET** /open_api/2/query/invoice/self/
 *QueryInvoiceTaxV2Api* | **openApi2QueryInvoiceTaxGet** | **GET** /open_api/2/query/invoice_tax/
 *QueryInvoiceV2Api* | **openApi2QueryInvoiceGet** | **GET** /open_api/2/query/invoice/
 *QueryProjectV2Api* | **openApi2QueryProjectGet** | **GET** /open_api/2/query/project/
@@ -709,10 +733,13 @@ Class | Method | HTTP request
 *StarChallengeItemsDataV2Api* | **openApi2StarChallengeItemsDataGet** | **GET** /open_api/2/star/challenge/items_data/
 *StarChallengeListV2Api* | **openApi2StarChallengeListGet** | **GET** /open_api/2/star/challenge/list/
 *StarChallengePushItemsToAdV2Api* | **openApi2StarChallengePushItemsToAdPost** | **POST** /open_api/2/star/challenge/push_items_to_ad/
+*StarChallengeSyncItemToAdV2Api* | **openApi2StarChallengeSyncItemToAdPost** | **POST** /open_api/2/star/challenge/sync_item_to_ad/
 *StarClueGetV2Api* | **openApi2StarClueGetGet** | **GET** /open_api/2/star/clue/get/
+*StarComponentCreateCommonComponentV2Api* | **openApi2StarComponentCreateCommonComponentPost** | **POST** /open_api/2/star/component/create_common_component/
 *StarComponentCreateLinkV2Api* | **openApi2StarComponentCreateLinkPost** | **POST** /open_api/2/star/component/create_link/
 *StarComponentQueryIndustryAnchorV2Api* | **openApi2StarComponentQueryIndustryAnchorGet** | **GET** /open_api/2/star/component/query_industry_anchor/
 *StarComponentQueryLinkV2Api* | **openApi2StarComponentQueryLinkGet** | **GET** /open_api/2/star/component/query_link/
+*StarComponentUpdateCommonComponentV2Api* | **openApi2StarComponentUpdateCommonComponentPost** | **POST** /open_api/2/star/component/update_common_component/
 *StarComponentUpdateLinkV2Api* | **openApi2StarComponentUpdateLinkPost** | **POST** /open_api/2/star/component/update_link/
 *StarDataTaskTimelineReportV2Api* | **openApi2StarDataTaskTimelineReportGet** | **GET** /open_api/2/star/data/task_timeline_report/
 *StarDemandCreateAssignV2Api* | **openApi2StarDemandCreateAssignPost** | **POST** /open_api/2/star/demand/create_assign/
@@ -728,6 +755,8 @@ Class | Method | HTTP request
 *StarDemandOmUpdateChallengeV2Api* | **openApi2StarDemandOmUpdateChallengePost** | **POST** /open_api/2/star/demand/om_update_challenge/
 *StarDemandOrderListV2Api* | **openApi2StarDemandOrderListGet** | **GET** /open_api/2/star/demand/order/list/
 *StarDemandSearchWordModifyV2Api* | **openApi2StarDemandSearchWordModifyPost** | **POST** /open_api/2/star/demand/search_word/modify/
+*StarDemanderDemanderGetAuthorBindInfoV2Api* | **openApi2StarDemanderDemanderGetAuthorBindInfoGet** | **GET** /open_api/2/star/demander/demander_get_author_bind_info/
+*StarDemanderDemanderGetBindShareCodeV2Api* | **openApi2StarDemanderDemanderGetBindShareCodeGet** | **GET** /open_api/2/star/demander/demander_get_bind_share_code/
 *StarGetCreateChallengeDataDictV2Api* | **openApi2StarGetCreateChallengeDataDictGet** | **GET** /open_api/2/star/get_create_challenge_data_dict/
 *StarInfoV2Api* | **openApi2StarInfoGet** | **GET** /open_api/2/star/info/
 *StarMcnContractChallengeV2Api* | **openApi2StarMcnContractChallengePost** | **POST** /open_api/2/star/mcn/contract_challenge/
@@ -738,6 +767,7 @@ Class | Method | HTTP request
 *StarMcnGetUnparticipatedTaskV2Api* | **openApi2StarMcnGetUnparticipatedTaskGet** | **GET** /open_api/2/star/mcn/get_unparticipated_task/
 *StarMcnProviderGetParticipatedTaskV2Api* | **openApi2StarMcnProviderGetParticipatedTaskGet** | **GET** /open_api/2/star/mcn/provider_get_participated_task/
 *StarMcnProviderGetTaskDetailV2Api* | **openApi2StarMcnProviderGetTaskDetailGet** | **GET** /open_api/2/star/mcn/provider_get_task_detail/
+*StarMcnProviderGetTaskShareCodeV2Api* | **openApi2StarMcnProviderGetTaskShareCodeGet** | **GET** /open_api/2/star/mcn/provider_get_task_share_code/
 *StarMcnProviderGetUnparticipatedTaskV2Api* | **openApi2StarMcnProviderGetUnparticipatedTaskGet** | **GET** /open_api/2/star/mcn/provider_get_unparticipated_task/
 *StarOrderApproveResourceV2Api* | **openApi2StarOrderApproveResourcePost** | **POST** /open_api/2/star/order/approve_resource/
 *StarOrderDemanderCancelV2Api* | **openApi2StarOrderDemanderCancelPost** | **POST** /open_api/2/star/order/demander_cancel/
