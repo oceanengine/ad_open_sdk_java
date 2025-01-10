@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.31
-  - Build date: 2024-12-26T15:05:57.295569070+08:00[Asia/Shanghai]
+- API version: 1.1.33
+  - Build date: 2025-01-10T18:43:14.581253177+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -227,6 +227,7 @@ Class | Method | HTTP request
 *BrandAdUpdateBaseInfoV30Api* | **openApiV30BrandAdUpdateBaseInfoPost** | **POST** /open_api/v3.0/brand/ad/update_base_info/
 *BrandAdUpdateDeliveryInfoV30Api* | **openApiV30BrandAdUpdateDeliveryInfoPost** | **POST** /open_api/v3.0/brand/ad/update_delivery_info/
 *BrandAwemeListV30Api* | **openApiV30BrandAwemeListGet** | **GET** /open_api/v3.0/brand/aweme_list/
+*BrandCampaignAddV30Api* | **openApiV30BrandCampaignAddPost** | **POST** /open_api/v3.0/brand/campaign/add/
 *BrandCampaignCreateV30Api* | **openApiV30BrandCampaignCreatePost** | **POST** /open_api/v3.0/brand/campaign/create/
 *BrandCampaignDeleteV30Api* | **openApiV30BrandCampaignDeletePost** | **POST** /open_api/v3.0/brand/campaign/delete/
 *BrandCampaignEditV30Api* | **openApiV30BrandCampaignEditPost** | **POST** /open_api/v3.0/brand/campaign/edit/
@@ -238,12 +239,16 @@ Class | Method | HTTP request
 *BrandCreativeGetV30Api* | **openApiV30BrandCreativeGetGet** | **GET** /open_api/v3.0/brand/creative/get/
 *BrandCreativeUpdateV30Api* | **openApiV30BrandCreativeUpdatePost** | **POST** /open_api/v3.0/brand/creative/update/
 *BrandFileVideoUploadV30Api* | **openApiV30BrandFileVideoUploadPost** | **POST** /open_api/v3.0/brand/file/video/upload/
+*BrandMaterialCreateV30Api* | **openApiV30BrandMaterialCreatePost** | **POST** /open_api/v3.0/brand/material/create/
 *BrandMaterialListV30Api* | **openApiV30BrandMaterialListGet** | **GET** /open_api/v3.0/brand/material/list/
+*BrandOrderCreateV30Api* | **openApiV30BrandOrderCreatePost** | **POST** /open_api/v3.0/brand/order/create/
 *BrandOrderListV30Api* | **openApiV30BrandOrderListGet** | **GET** /open_api/v3.0/brand/order/list/
 *BrandQueryStockV30Api* | **openApiV30BrandQueryStockGet** | **GET** /open_api/v3.0/brand/query_stock/
 *BrandQueryYuntu5aBrandCategoryV30Api* | **openApiV30BrandQueryYuntu5aBrandCategoryGet** | **GET** /open_api/v3.0/brand/query_yuntu_5a_brand_category/
 *BrandRegionGetV30Api* | **openApiV30BrandRegionGetGet** | **GET** /open_api/v3.0/brand/region/get/
 *BrandToolCreativePreviewV30Api* | **openApiV30BrandToolCreativePreviewGet** | **GET** /open_api/v3.0/brand/tool/creative_preview/
+*BrandToolMaterialPreviewV30Api* | **openApiV30BrandToolMaterialPreviewGet** | **GET** /open_api/v3.0/brand/tool/material_preview/
+*BrandToolQueryPublishPriceV30Api* | **openApiV30BrandToolQueryPublishPriceGet** | **GET** /open_api/v3.0/brand/tool/query_publish_price/
 *BrandUploadImageV30Api* | **openApiV30BrandUploadImagePost** | **POST** /open_api/v3.0/brand/upload_image/
 *BudgetGroupCreateV30Api* | **openApiV30BudgetGroupCreatePost** | **POST** /open_api/v3.0/budget_group/create/
 *BudgetGroupDeleteV30Api* | **openApiV30BudgetGroupDeletePost** | **POST** /open_api/v3.0/budget_group/delete/
@@ -436,6 +441,9 @@ Class | Method | HTTP request
 *KeywordUpdateV2V2Api* | **openApi2KeywordUpdateV2Post** | **POST** /open_api/2/keyword/update_v2/
 *KeywordUpdateV30Api* | **openApiV30KeywordUpdatePost** | **POST** /open_api/v3.0/keyword/update/
 *LocalAwemeAuthorizedGetV30Api* | **openApiV30LocalAwemeAuthorizedGetGet** | **GET** /open_api/v3.0/local/aweme/authorized/get/
+*LocalChargeListV30Api* | **openApiV30LocalChargeListGet** | **GET** /open_api/v3.0/local/charge/list/
+*LocalChargeResultV30Api* | **openApiV30LocalChargeResultGet** | **GET** /open_api/v3.0/local/charge/result/
+*LocalChargeSubmitV30Api* | **openApiV30LocalChargeSubmitPost** | **POST** /open_api/v3.0/local/charge/submit/
 *LocalCustomAudienceGetV30Api* | **openApiV30LocalCustomAudienceGetGet** | **GET** /open_api/v3.0/local/custom_audience/get/
 *LocalCxtAudienceUpdateV30Api* | **openApiV30LocalCxtAudienceUpdatePost** | **POST** /open_api/v3.0/local/cxt/audience/update/
 *LocalCxtBudgetUpdateV30Api* | **openApiV30LocalCxtBudgetUpdatePost** | **POST** /open_api/v3.0/local/cxt/budget/update/
@@ -468,6 +476,7 @@ Class | Method | HTTP request
 *LocalPromotionListV30Api* | **openApiV30LocalPromotionListGet** | **GET** /open_api/v3.0/local/promotion/list/
 *LocalPromotionStatusUpdateV30Api* | **openApiV30LocalPromotionStatusUpdatePost** | **POST** /open_api/v3.0/local/promotion/status/update/
 *LocalPromotionUpdateV30Api* | **openApiV30LocalPromotionUpdatePost** | **POST** /open_api/v3.0/local/promotion/update/
+*LocalReportAccountGetV30Api* | **openApiV30LocalReportAccountGetGet** | **GET** /open_api/v3.0/local/report/account/get/
 *LocalReportMaterialGetV30Api* | **openApiV30LocalReportMaterialGetGet** | **GET** /open_api/v3.0/local/report/material/get/
 *LocalReportProjectGetV30Api* | **openApiV30LocalReportProjectGetGet** | **GET** /open_api/v3.0/local/report/project/get/
 *LocalReportPromotionGetV30Api* | **openApiV30LocalReportPromotionGetGet** | **GET** /open_api/v3.0/local/report/promotion/get/
@@ -489,6 +498,7 @@ Class | Method | HTTP request
 *ProjectCreateV30Api* | **openApiV30ProjectCreatePost** | **POST** /open_api/v3.0/project/create/
 *ProjectDeleteV30Api* | **openApiV30ProjectDeletePost** | **POST** /open_api/v3.0/project/delete/
 *ProjectListV30Api* | **openApiV30ProjectListGet** | **GET** /open_api/v3.0/project/list/
+*ProjectNameUpdateV30Api* | **openApiV30ProjectNameUpdatePost** | **POST** /open_api/v3.0/project_name/update/
 *ProjectRoigoalUpdateV30Api* | **openApiV30ProjectRoigoalUpdatePost** | **POST** /open_api/v3.0/project/roigoal/update/
 *ProjectScheduleTimeUpdateV30Api* | **openApiV30ProjectScheduleTimeUpdatePost** | **POST** /open_api/v3.0/project/schedule_time/update/
 *ProjectStatusUpdateV30Api* | **openApiV30ProjectStatusUpdatePost** | **POST** /open_api/v3.0/project/status/update/
@@ -507,6 +517,7 @@ Class | Method | HTTP request
 *PromotionEasyUpdateV30Api* | **openApiV30PromotionEasyUpdatePost** | **POST** /open_api/v3.0/promotion_easy/update/
 *PromotionListV30Api* | **openApiV30PromotionListGet** | **GET** /open_api/v3.0/promotion/list/
 *PromotionMaterialDeleteV30Api* | **openApiV30PromotionMaterialDeletePost** | **POST** /open_api/v3.0/promotion/material/delete/
+*PromotionNameUpdateV30Api* | **openApiV30PromotionNameUpdatePost** | **POST** /open_api/v3.0/promotion_name/update/
 *PromotionNewcustomerCreateV30Api* | **openApiV30PromotionNewcustomerCreatePost** | **POST** /open_api/v3.0/promotion_newcustomer/create/
 *PromotionRejectReasonGetV30Api* | **openApiV30PromotionRejectReasonGetGet** | **GET** /open_api/v3.0/promotion/reject_reason/get/
 *PromotionScheduleTimeUpdateV30Api* | **openApiV30PromotionScheduleTimeUpdatePost** | **POST** /open_api/v3.0/promotion/schedule_time/update/
@@ -757,6 +768,7 @@ Class | Method | HTTP request
 *StarDemandSearchWordModifyV2Api* | **openApi2StarDemandSearchWordModifyPost** | **POST** /open_api/2/star/demand/search_word/modify/
 *StarDemanderDemanderGetAuthorBindInfoV2Api* | **openApi2StarDemanderDemanderGetAuthorBindInfoGet** | **GET** /open_api/2/star/demander/demander_get_author_bind_info/
 *StarDemanderDemanderGetBindShareCodeV2Api* | **openApi2StarDemanderDemanderGetBindShareCodeGet** | **GET** /open_api/2/star/demander/demander_get_bind_share_code/
+*StarFeCommonServiceTalentDayJudgeCheckedInV2Api* | **openApi2StarFeCommonServiceTalentDayJudgeCheckedInGet** | **GET** /open_api/2/star/fe_common_service/talent_day/judge_checked_in/
 *StarGetCreateChallengeDataDictV2Api* | **openApi2StarGetCreateChallengeDataDictGet** | **GET** /open_api/2/star/get_create_challenge_data_dict/
 *StarInfoV2Api* | **openApi2StarInfoGet** | **GET** /open_api/2/star/info/
 *StarMcnContractChallengeV2Api* | **openApi2StarMcnContractChallengePost** | **POST** /open_api/2/star/mcn/contract_challenge/
