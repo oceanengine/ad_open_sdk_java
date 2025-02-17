@@ -26,20 +26,16 @@ import com.google.gson.stream.JsonWriter;
 /**
  * 
  */
-@JsonAdapter(PromotionListV30DataListLearningPhase.Adapter.class)
-public enum PromotionListV30DataListLearningPhase {
+@JsonAdapter(ProjectCreateV30DeliverySettingBidSpeed.Adapter.class)
+public enum ProjectCreateV30DeliverySettingBidSpeed {
   
-  LEARNING("LEARNING"),
+  BALANCE("BALANCE"),
   
-  LEARN_FAILED("LEARN_FAILED"),
-  
-  LEARNED("LEARNED"),
-  
-  DEFAULT("DEFAULT");
+  FAST("FAST");
 
   private String value;
 
-  PromotionListV30DataListLearningPhase(String value) {
+  ProjectCreateV30DeliverySettingBidSpeed(String value) {
     this.value = value;
   }
 
@@ -52,25 +48,25 @@ public enum PromotionListV30DataListLearningPhase {
     return String.valueOf(value);
   }
 
-  public static PromotionListV30DataListLearningPhase fromValue(String value) {
-    for (PromotionListV30DataListLearningPhase b : PromotionListV30DataListLearningPhase.values()) {
+  public static ProjectCreateV30DeliverySettingBidSpeed fromValue(String value) {
+    for (ProjectCreateV30DeliverySettingBidSpeed b : ProjectCreateV30DeliverySettingBidSpeed.values()) {
       if (b.value.equals(value)) {
         return b;
       }
     }
-    return null;
+    throw new IllegalArgumentException("Unexpected value '" + value + "'");
   }
 
-  public static class Adapter extends TypeAdapter<PromotionListV30DataListLearningPhase> {
+  public static class Adapter extends TypeAdapter<ProjectCreateV30DeliverySettingBidSpeed> {
     @Override
-    public void write(final JsonWriter jsonWriter, final PromotionListV30DataListLearningPhase enumeration) throws IOException {
+    public void write(final JsonWriter jsonWriter, final ProjectCreateV30DeliverySettingBidSpeed enumeration) throws IOException {
       jsonWriter.value(enumeration.getValue());
     }
 
     @Override
-    public PromotionListV30DataListLearningPhase read(final JsonReader jsonReader) throws IOException {
+    public ProjectCreateV30DeliverySettingBidSpeed read(final JsonReader jsonReader) throws IOException {
       String value = jsonReader.nextString();
-      return PromotionListV30DataListLearningPhase.fromValue(value);
+      return ProjectCreateV30DeliverySettingBidSpeed.fromValue(value);
     }
   }
 }
