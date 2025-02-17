@@ -13,7 +13,7 @@
 
 package com.bytedance.ads;
 
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-17T20:36:04.545962331+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-17T20:37:36.983327146+08:00[Asia/Shanghai]")
 public class Pair {
     private String name = "";
     private String value = "";

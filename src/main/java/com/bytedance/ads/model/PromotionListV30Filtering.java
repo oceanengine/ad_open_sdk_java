@@ -61,7 +61,7 @@ import com.bytedance.ads.JSON;
 /**
  * 
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-17T20:36:04.545962331+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-17T20:37:36.983327146+08:00[Asia/Shanghai]")
 public class PromotionListV30Filtering {
   public static final String SERIALIZED_NAME_BLUE_FLOW_PACKAGE_SETTING = "blue_flow_package_setting";
   @SerializedName(SERIALIZED_NAME_BLUE_FLOW_PACKAGE_SETTING)
