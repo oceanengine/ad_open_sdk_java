@@ -435,7 +435,6 @@ src/main/java/com/bytedance/ads/api/QianchuanAdRegionUpdateV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanAdRejectReasonV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanAdScheduleDateUpdateV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanAdScheduleFixedRangeUpdateV10Api.java
-src/main/java/com/bytedance/ads/api/QianchuanAdScheduleTimeUpdateV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanAdStatusUpdateV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanAdUpdateV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanAdvertiserTypeGetV10Api.java
@@ -1358,7 +1357,6 @@ src/main/java/com/bytedance/ads/examples/QianchuanAdRegionUpdateV10ApiExample.ja
 src/main/java/com/bytedance/ads/examples/QianchuanAdRejectReasonV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanAdScheduleDateUpdateV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanAdScheduleFixedRangeUpdateV10ApiExample.java
-src/main/java/com/bytedance/ads/examples/QianchuanAdScheduleTimeUpdateV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanAdStatusUpdateV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanAdUpdateV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanAdvertiserTypeGetV10ApiExample.java
@@ -5876,10 +5874,6 @@ src/main/java/com/bytedance/ads/model/QianchuanAdScheduleFixedRangeUpdateV10Requ
 src/main/java/com/bytedance/ads/model/QianchuanAdScheduleFixedRangeUpdateV10Response.java
 src/main/java/com/bytedance/ads/model/QianchuanAdScheduleFixedRangeUpdateV10ResponseData.java
 src/main/java/com/bytedance/ads/model/QianchuanAdScheduleFixedRangeUpdateV10ResponseDataErrorsInner.java
-src/main/java/com/bytedance/ads/model/QianchuanAdScheduleTimeUpdateV10Request.java
-src/main/java/com/bytedance/ads/model/QianchuanAdScheduleTimeUpdateV10Response.java
-src/main/java/com/bytedance/ads/model/QianchuanAdScheduleTimeUpdateV10ResponseData.java
-src/main/java/com/bytedance/ads/model/QianchuanAdScheduleTimeUpdateV10ResponseDataErrorsInner.java
 src/main/java/com/bytedance/ads/model/QianchuanAdStatusUpdateV10OptStatus.java
 src/main/java/com/bytedance/ads/model/QianchuanAdStatusUpdateV10Request.java
 src/main/java/com/bytedance/ads/model/QianchuanAdStatusUpdateV10Response.java
@@ -8208,9 +8202,11 @@ src/main/java/com/bytedance/ads/model/ToolsAwemeAuthListV2DataListAwemeUserType.
 src/main/java/com/bytedance/ads/model/ToolsAwemeAuthListV2DataListShareType.java
 src/main/java/com/bytedance/ads/model/ToolsAwemeAuthListV2DataListSubStatus.java
 src/main/java/com/bytedance/ads/model/ToolsAwemeAuthListV2DataListVideoInfoImageMode.java
+src/main/java/com/bytedance/ads/model/ToolsAwemeAuthListV2DataListWarningTypes.java
 src/main/java/com/bytedance/ads/model/ToolsAwemeAuthListV2Filtering.java
 src/main/java/com/bytedance/ads/model/ToolsAwemeAuthListV2FilteringAuthStatus.java
 src/main/java/com/bytedance/ads/model/ToolsAwemeAuthListV2FilteringAuthType.java
+src/main/java/com/bytedance/ads/model/ToolsAwemeAuthListV2FilteringWarningTypes.java
 src/main/java/com/bytedance/ads/model/ToolsAwemeAuthListV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsAwemeAuthListV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsAwemeAuthListV2ResponseDataListInner.java
