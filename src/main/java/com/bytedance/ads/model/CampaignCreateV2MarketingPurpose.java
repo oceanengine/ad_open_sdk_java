@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignCreateV2MarketingPurpose.Adapter.class)
 public enum CampaignCreateV2MarketingPurpose {
   
-  ACKNOWLEDGE("ACKNOWLEDGE"),
+  UNLIMITED("UNLIMITED"),
   
   INTENTION("INTENTION"),
   
-  UNLIMITED("UNLIMITED"),
+  ACKNOWLEDGE("ACKNOWLEDGE"),
   
   CONVERSION("CONVERSION");
 

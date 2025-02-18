@@ -31,9 +31,9 @@ public enum CampaignCreateV2CampaignType {
   
   SEARCH("SEARCH"),
   
-  FEED("FEED"),
+  CONTENT("CONTENT"),
   
-  CONTENT("CONTENT");
+  FEED("FEED");
 
   private String value;
 

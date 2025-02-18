@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportRubeexGetV2Order.Adapter.class)
 public enum ReportRubeexGetV2Order {
   
-  ASC("ASC"),
+  DESC("DESC"),
   
-  DESC("DESC");
+  ASC("ASC");
 
   private String value;
 

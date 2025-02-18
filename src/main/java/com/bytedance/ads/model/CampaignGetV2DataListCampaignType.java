@@ -31,9 +31,9 @@ public enum CampaignGetV2DataListCampaignType {
   
   SEARCH("SEARCH"),
   
-  FEED("FEED"),
+  CONTENT("CONTENT"),
   
-  CONTENT("CONTENT");
+  FEED("FEED");
 
   private String value;
 

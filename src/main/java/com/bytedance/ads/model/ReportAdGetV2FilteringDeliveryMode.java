@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAdGetV2FilteringDeliveryMode.Adapter.class)
 public enum ReportAdGetV2FilteringDeliveryMode {
   
-  STANDARD("STANDARD"),
+  ADLAB_FREE("ADLAB_FREE"),
   
-  ADLAB_FREE("ADLAB_FREE");
+  STANDARD("STANDARD");
 
   private String value;
 

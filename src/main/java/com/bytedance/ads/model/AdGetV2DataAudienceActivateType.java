@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataAudienceActivateType.Adapter.class)
 public enum AdGetV2DataAudienceActivateType {
   
-  WITH_IN_A_MONTH("WITH_IN_A_MONTH"),
+  THREE_MONTH_EAILIER("THREE_MONTH_EAILIER"),
   
   UNLIMITED("UNLIMITED"),
   
-  THREE_MONTH_EAILIER("THREE_MONTH_EAILIER"),
+  ONE_MONTH_2_THREE_MONTH("ONE_MONTH_2_THREE_MONTH"),
   
-  ONE_MONTH_2_THREE_MONTH("ONE_MONTH_2_THREE_MONTH");
+  WITH_IN_A_MONTH("WITH_IN_A_MONTH");
 
   private String value;
 

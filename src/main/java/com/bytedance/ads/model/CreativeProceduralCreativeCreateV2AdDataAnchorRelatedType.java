@@ -31,9 +31,9 @@ public enum CreativeProceduralCreativeCreateV2AdDataAnchorRelatedType {
   
   SELECT("SELECT"),
   
-  AUTO("AUTO"),
+  OFF("OFF"),
   
-  OFF("OFF");
+  AUTO("AUTO");
 
   private String value;
 

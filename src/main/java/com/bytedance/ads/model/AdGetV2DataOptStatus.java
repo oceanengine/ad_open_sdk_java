@@ -33,9 +33,9 @@ public enum AdGetV2DataOptStatus {
   
   ENABLE("AD_STATUS_ENABLE"),
   
-  DISABLE("AD_STATUS_DISABLE"),
+  FROZEN("AD_STATUS_FROZEN"),
   
-  FROZEN("AD_STATUS_FROZEN");
+  DISABLE("AD_STATUS_DISABLE");
 
   private String value;
 

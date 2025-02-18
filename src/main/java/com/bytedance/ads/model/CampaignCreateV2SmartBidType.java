@@ -29,25 +29,25 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignCreateV2SmartBidType.Adapter.class)
 public enum CampaignCreateV2SmartBidType {
   
-  LITE_PACING("LITE_PACING"),
-  
-  MAX_CONVERSION("MAX_CONVERSION"),
-  
-  BAOSHOU("BAOSHOU"),
-  
   AWEME_LITE_PACING("AWEME_LITE_PACING"),
   
-  GUARANTEED_SHOW("GUARANTEED_SHOW"),
+  JIJIN("JIJIN"),
   
   SMART_BID_NO_BID("SMART_BID_NO_BID"),
   
-  MAXCV("MAXCV"),
+  LITE_PACING("LITE_PACING"),
+  
+  BAOSHOU("BAOSHOU"),
+  
+  GUARANTEED_SHOW("GUARANTEED_SHOW"),
+  
+  MAX_CONVERSION("MAX_CONVERSION"),
   
   GD_PROMOTE("GD_PROMOTE"),
   
   CUSTOM("CUSTOM"),
   
-  JIJIN("JIJIN");
+  MAXCV("MAXCV");
 
   private String value;
 

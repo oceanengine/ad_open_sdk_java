@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueSmartphoneGetV2IsDel.Adapter.class)
 public enum ClueSmartphoneGetV2IsDel {
   
-  Enum_0("0"),
+  Enum_1("1"),
   
-  Enum_1("1");
+  Enum_0("0");
 
   private String value;
 

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CreativeProceduralCreativeCreateV2AdDataParamsType.Adapter.class)
 public enum CreativeProceduralCreativeCreateV2AdDataParamsType {
   
-  CUSTOM("CUSTOM"),
+  DPA("DPA"),
   
-  DPA("DPA");
+  CUSTOM("CUSTOM");
 
   private String value;
 

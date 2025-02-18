@@ -29,61 +29,61 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataAudienceDeviceBrand.Adapter.class)
 public enum AdGetV2DataAudienceDeviceBrand {
   
-  HUAWEI("HUAWEI"),
+  COOLPAD("COOLPAD"),
   
-  LENOVO("LENOVO"),
-  
-  XIAOMI("XIAOMI"),
-  
-  HISENSE("HISENSE"),
-  
-  ONEPLUS("ONEPLUS"),
-  
-  HONOR("HONOR"),
+  VIVO("VIVO"),
   
   SAMSUNG("SAMSUNG"),
   
-  TCL("TCL"),
+  MOTO("MOTO"),
+  
+  HONOR("HONOR"),
+  
+  CHINAMOBILE("CHINAMOBILE"),
+  
+  MEIZU("MEIZU"),
+  
+  XIAOMI("XIAOMI"),
+  
+  LETV("LETV"),
+  
+  HTC("HTC"),
+  
+  Enum_360("360"),
+  
+  ONEPLUS("ONEPLUS"),
+  
+  HUAWEI("HUAWEI"),
   
   APPLE("APPLE"),
   
-  LETV("LETV"),
+  SONY("SONY"),
+  
+  SMARTISAN("SMARTISAN"),
+  
+  GOOGLE("GOOGLE"),
+  
+  PEPPER("PEPPER"),
+  
+  QIKU("QIKU"),
+  
+  HISENSE("HISENSE"),
+  
+  ZTE("ZTE"),
+  
+  OPPO("OPPO"),
   
   NUBIA("NUBIA"),
   
   NOKIA("NOKIA"),
   
-  LG("LG"),
-  
-  OPPO("OPPO"),
-  
-  Enum_360("360"),
-  
-  ZTE("ZTE"),
+  TCL("TCL"),
   
   GIONEE("GIONEE"),
   
-  PEPPER("PEPPER"),
+  LG("LG"),
   
-  MEIZU("MEIZU"),
-  
-  SONY("SONY"),
-  
-  VIVO("VIVO"),
-  
-  GOOGLE("GOOGLE"),
-  
-  MOTO("MOTO"),
-  
-  CHINAMOBILE("CHINAMOBILE"),
-  
-  COOLPAD("COOLPAD"),
-  
-  QIKU("QIKU"),
-  
-  SMARTISAN("SMARTISAN"),
-  
-  HTC("HTC");
+  LENOVO("LENOVO");
 
   private String value;
 

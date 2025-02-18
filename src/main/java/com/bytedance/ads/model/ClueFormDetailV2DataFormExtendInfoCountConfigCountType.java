@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueFormDetailV2DataFormExtendInfoCountConfigCountType.Adapter.class)
 public enum ClueFormDetailV2DataFormExtendInfoCountConfigCountType {
   
-  INCREMENT("COUNT_TYPE_INCREMENT"),
+  DECREMENT("COUNT_TYPE_DECREMENT"),
   
-  DECREMENT("COUNT_TYPE_DECREMENT");
+  INCREMENT("COUNT_TYPE_INCREMENT");
 
   private String value;
 

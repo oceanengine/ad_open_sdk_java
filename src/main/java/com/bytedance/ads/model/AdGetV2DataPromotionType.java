@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataPromotionType.Adapter.class)
 public enum AdGetV2DataPromotionType {
   
-  LIVE("LIVE"),
-  
   LANDING_PAGE_LINK("LANDING_PAGE_LINK"),
   
   AWEME_HOME_PAGE("AWEME_HOME_PAGE"),
+  
+  LIVE("LIVE"),
   
   GOODS("GOODS");
 

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsPlayableListGetV2PlayableSource.Adapter.class)
 public enum ToolsPlayableListGetV2PlayableSource {
   
-  EXCLUDE_DIRECT("EXCLUDE_DIRECT"),
+  DIRECT_PLAYABLE("DIRECT_PLAYABLE"),
   
-  DIRECT_PLAYABLE("DIRECT_PLAYABLE");
+  EXCLUDE_DIRECT("EXCLUDE_DIRECT");
 
   private String value;
 

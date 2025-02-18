@@ -63,7 +63,7 @@ import com.bytedance.ads.JSON;
 /**
  * CreativeCustomCreativeCreateV2RequestCreativeListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class CreativeCustomCreativeCreateV2RequestCreativeListInner {
   public static final String SERIALIZED_NAME_ABSTRACT_MATERIALS = "abstract_materials";
   @SerializedName(SERIALIZED_NAME_ABSTRACT_MATERIALS)

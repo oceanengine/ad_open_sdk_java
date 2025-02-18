@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CreativeProceduralCreativeUpdateV2AdDataMiniProgramInfoType.Adapter.class)
 public enum CreativeProceduralCreativeUpdateV2AdDataMiniProgramInfoType {
   
-  BYTE_APP("BYTE_APP"),
-  
   TEMPLATE_APP("TEMPLATE_APP"),
   
-  SHELL_APP("SHELL_APP"),
+  BYTE_GAME("BYTE_GAME"),
   
-  BYTE_GAME("BYTE_GAME");
+  BYTE_APP("BYTE_APP"),
+  
+  SHELL_APP("SHELL_APP");
 
   private String value;
 

@@ -29,19 +29,19 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2ConvertedTimeDuration.Adapter.class)
 public enum ToolsBidSuggestV2ConvertedTimeDuration {
   
-  NONE("NONE"),
-  
-  THREE_MONTH("THREE_MONTH"),
-  
-  ONE_MONTH("ONE_MONTH"),
-  
-  SEVEN_DAY("SEVEN_DAY"),
+  TWELVE_MONTH("TWELVE_MONTH"),
   
   SIX_MONTH("SIX_MONTH"),
   
-  TWELVE_MONTH("TWELVE_MONTH"),
+  THREE_MONTH("THREE_MONTH"),
   
-  TODAY("TODAY");
+  NONE("NONE"),
+  
+  ONE_MONTH("ONE_MONTH"),
+  
+  TODAY("TODAY"),
+  
+  SEVEN_DAY("SEVEN_DAY");
 
   private String value;
 

@@ -31,9 +31,9 @@ public enum AdGetV2DataAudienceAppBehaviorTarget {
   
   APP("APP"),
   
-  CATEGORY("CATEGORY"),
+  NONE("NONE"),
   
-  NONE("NONE");
+  CATEGORY("CATEGORY");
 
   private String value;
 

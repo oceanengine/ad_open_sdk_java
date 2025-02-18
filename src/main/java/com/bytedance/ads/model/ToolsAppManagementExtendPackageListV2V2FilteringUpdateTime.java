@@ -50,7 +50,7 @@ import com.bytedance.ads.JSON;
 /**
  * 更新时间 可通过最近更新时间筛选应用分包，可通过筛选开始时间和结束时间查询该时间范围内更新过的应用分包
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class ToolsAppManagementExtendPackageListV2V2FilteringUpdateTime {
   public static final String SERIALIZED_NAME_END_TIME = "end_time";
   @SerializedName(SERIALIZED_NAME_END_TIME)

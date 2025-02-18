@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2DeviceType.Adapter.class)
 public enum ToolsBidSuggestV2DeviceType {
   
-  MOBILE("MOBILE"),
+  PAD("PAD"),
   
-  PAD("PAD");
+  MOBILE("MOBILE");
 
   private String value;
 

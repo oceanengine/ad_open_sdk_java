@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageCreateV2MarketingGoal.Adapter.class)
 public enum AudiencePackageCreateV2MarketingGoal {
   
-  LIVE("LIVE"),
+  VIDEO_AND_IMAGE("VIDEO_AND_IMAGE"),
   
-  VIDEO_AND_IMAGE("VIDEO_AND_IMAGE");
+  LIVE("LIVE");
 
   private String value;
 

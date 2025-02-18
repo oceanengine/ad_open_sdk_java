@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsIndustryGetV2Type.Adapter.class)
 public enum ToolsIndustryGetV2Type {
   
-  QUALIFICATION("QUALIFICATION"),
+  ADVERTISER("ADVERTISER"),
   
   AGENT("AGENT"),
   
-  ADVERTISER("ADVERTISER");
+  QUALIFICATION("QUALIFICATION");
 
   private String value;
 

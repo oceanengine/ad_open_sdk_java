@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsLandingGroupGetV2DataListSitesSiteOptStatus.Adapter.class)
 public enum ToolsLandingGroupGetV2DataListSitesSiteOptStatus {
   
-  DISABLE("SITE_OPT_STATUS_DISABLE"),
+  ENABLE("SITE_OPT_STATUS_ENABLE"),
   
-  ENABLE("SITE_OPT_STATUS_ENABLE");
+  DISABLE("SITE_OPT_STATUS_DISABLE");
 
   private String value;
 

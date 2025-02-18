@@ -50,7 +50,7 @@ import com.bytedance.ads.JSON;
 /**
  * 线索关联的私信信息
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class ToolsCluePrivateMessageCallbackV2RequestMsgInfo {
   public static final String SERIALIZED_NAME_CONVERSATION_SHORT_ID = "conversation_short_id";
   @SerializedName(SERIALIZED_NAME_CONVERSATION_SHORT_ID)

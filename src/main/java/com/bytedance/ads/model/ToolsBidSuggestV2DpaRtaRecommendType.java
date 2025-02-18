@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2DpaRtaRecommendType.Adapter.class)
 public enum ToolsBidSuggestV2DpaRtaRecommendType {
   
-  MORE("MORE"),
+  ONLY("ONLY"),
   
-  ONLY("ONLY");
+  MORE("MORE");
 
   private String value;
 

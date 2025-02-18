@@ -31,9 +31,9 @@ public enum ToolsEstimateAudienceV2AppBehaviorTarget {
   
   APP("APP"),
   
-  CATEGORY("CATEGORY"),
+  NONE("NONE"),
   
-  NONE("NONE");
+  CATEGORY("CATEGORY");
 
   private String value;
 

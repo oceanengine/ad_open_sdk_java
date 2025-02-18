@@ -31,15 +31,15 @@ public enum AudiencePackageCreateV2AutoExtendTargets {
   
   AGE("AGE"),
   
-  REGION("REGION"),
-  
   GENDER("GENDER"),
-  
-  INTEREST_TAG("INTEREST_TAG"),
   
   AD_TAG("AD_TAG"),
   
-  CUSTOM_AUDIENCE("CUSTOM_AUDIENCE");
+  CUSTOM_AUDIENCE("CUSTOM_AUDIENCE"),
+  
+  REGION("REGION"),
+  
+  INTEREST_TAG("INTEREST_TAG");
 
   private String value;
 

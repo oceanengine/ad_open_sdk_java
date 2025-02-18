@@ -53,7 +53,7 @@ import com.bytedance.ads.JSON;
 /**
  * PromotionCreateV30RequestPromotionMaterialsTextAbstractListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class PromotionCreateV30RequestPromotionMaterialsTextAbstractListInner {
   public static final String SERIALIZED_NAME_ABSTRACT_TEXT = "abstract_text";
   @SerializedName(SERIALIZED_NAME_ABSTRACT_TEXT)

@@ -33,11 +33,11 @@ public enum ReportAdGetV2DataListAc {
   
   WIFI("WIFI"),
   
-  UNKNOWN("unknown"),
-  
   Enum_5G("5G"),
   
   Enum_4G("4G"),
+  
+  UNKNOWN("unknown"),
   
   Enum_2G("2G");
 

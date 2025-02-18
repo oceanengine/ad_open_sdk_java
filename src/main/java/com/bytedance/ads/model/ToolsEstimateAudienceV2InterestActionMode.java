@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsEstimateAudienceV2InterestActionMode.Adapter.class)
 public enum ToolsEstimateAudienceV2InterestActionMode {
   
-  CUSTOM("CUSTOM"),
+  RECOMMEND("RECOMMEND"),
   
   UNLIMITED("UNLIMITED"),
   
-  RECOMMEND("RECOMMEND");
+  CUSTOM("CUSTOM");
 
   private String value;
 

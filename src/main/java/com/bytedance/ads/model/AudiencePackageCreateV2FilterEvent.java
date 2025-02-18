@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageCreateV2FilterEvent.Adapter.class)
 public enum AudiencePackageCreateV2FilterEvent {
   
-  TYPE_ACTIVE_REGISTER("AD_CONVERT_TYPE_ACTIVE_REGISTER"),
+  EXTERNAL_ACTION("AD_CONVERT_EXTERNAL_ACTION"),
   
   TYPE_ACTIVE("AD_CONVERT_TYPE_ACTIVE"),
   
-  EXTERNAL_ACTION("AD_CONVERT_EXTERNAL_ACTION"),
+  TYPE_PAY("AD_CONVERT_TYPE_PAY"),
   
-  TYPE_PAY("AD_CONVERT_TYPE_PAY");
+  TYPE_ACTIVE_REGISTER("AD_CONVERT_TYPE_ACTIVE_REGISTER");
 
   private String value;
 

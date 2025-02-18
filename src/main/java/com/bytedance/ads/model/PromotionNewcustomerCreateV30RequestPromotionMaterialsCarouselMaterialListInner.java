@@ -50,7 +50,7 @@ import com.bytedance.ads.JSON;
 /**
  * PromotionNewcustomerCreateV30RequestPromotionMaterialsCarouselMaterialListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class PromotionNewcustomerCreateV30RequestPromotionMaterialsCarouselMaterialListInner {
   public static final String SERIALIZED_NAME_CAROUSEL_ID = "carousel_id";
   @SerializedName(SERIALIZED_NAME_CAROUSEL_ID)

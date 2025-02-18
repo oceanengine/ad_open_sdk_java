@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignGetV2FilteringStatus.Adapter.class)
 public enum CampaignGetV2FilteringStatus {
   
-  DISABLE("CAMPAIGN_STATUS_DISABLE"),
+  DELETE("CAMPAIGN_STATUS_DELETE"),
   
-  ALL("CAMPAIGN_STATUS_ALL"),
+  ENABLE("CAMPAIGN_STATUS_ENABLE"),
   
   NOT_DELETE("CAMPAIGN_STATUS_NOT_DELETE"),
   
-  DELETE("CAMPAIGN_STATUS_DELETE"),
+  DISABLE("CAMPAIGN_STATUS_DISABLE"),
   
-  ENABLE("CAMPAIGN_STATUS_ENABLE");
+  ALL("CAMPAIGN_STATUS_ALL");
 
   private String value;
 

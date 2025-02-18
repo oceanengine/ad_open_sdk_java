@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsPromotionCardRecommendGetV2RecommendType.Adapter.class)
 public enum ToolsPromotionCardRecommendGetV2RecommendType {
   
-  CALL_TO_ACTION("CALL_TO_ACTION"),
-  
   PRODUCT_DESCRIPTION("PRODUCT_DESCRIPTION"),
   
-  SELLING_POINTS("SELLING_POINTS");
+  SELLING_POINTS("SELLING_POINTS"),
+  
+  CALL_TO_ACTION("CALL_TO_ACTION");
 
   private String value;
 

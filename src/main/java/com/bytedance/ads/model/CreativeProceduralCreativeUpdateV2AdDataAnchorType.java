@@ -29,19 +29,19 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CreativeProceduralCreativeUpdateV2AdDataAnchorType.Adapter.class)
 public enum CreativeProceduralCreativeUpdateV2AdDataAnchorType {
   
-  PRIVATE_CHAT("PRIVATE_CHAT"),
-  
-  APP_INTERNET_SERVICE("APP_INTERNET_SERVICE"),
+  INSURANCE("INSURANCE"),
   
   ONLINE_SUBSCRIBE("ONLINE_SUBSCRIBE"),
   
-  INSURANCE("INSURANCE"),
-  
   SHOPPING_CART("SHOPPING_CART"),
+  
+  APP_INTERNET_SERVICE("APP_INTERNET_SERVICE"),
+  
+  APP_GAME("APP_GAME"),
   
   APP_SHOP("APP_SHOP"),
   
-  APP_GAME("APP_GAME");
+  PRIVATE_CHAT("PRIVATE_CHAT");
 
   private String value;
 

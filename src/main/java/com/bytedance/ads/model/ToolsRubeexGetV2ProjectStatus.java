@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsRubeexGetV2ProjectStatus.Adapter.class)
 public enum ToolsRubeexGetV2ProjectStatus {
   
-  ENABLED("ENABLED"),
-  
   INITAL("INITAL"),
+  
+  ENABLED("ENABLED"),
   
   DELETED("DELETED");
 

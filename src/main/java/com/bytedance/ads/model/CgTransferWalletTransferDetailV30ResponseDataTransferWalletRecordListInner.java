@@ -55,7 +55,7 @@ import com.bytedance.ads.JSON;
 /**
  * CgTransferWalletTransferDetailV30ResponseDataTransferWalletRecordListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class CgTransferWalletTransferDetailV30ResponseDataTransferWalletRecordListInner {
   public static final String SERIALIZED_NAME_MAIN_WALLET_ID = "main_wallet_id";
   @SerializedName(SERIALIZED_NAME_MAIN_WALLET_ID)

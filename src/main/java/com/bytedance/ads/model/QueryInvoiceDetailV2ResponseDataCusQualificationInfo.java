@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 开票客户信息
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class QueryInvoiceDetailV2ResponseDataCusQualificationInfo {
   public static final String SERIALIZED_NAME_CUSTOMER_ADDRESS = "customer_address";
   @SerializedName(SERIALIZED_NAME_CUSTOMER_ADDRESS)

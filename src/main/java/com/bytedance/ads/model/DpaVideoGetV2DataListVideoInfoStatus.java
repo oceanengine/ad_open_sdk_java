@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(DpaVideoGetV2DataListVideoInfoStatus.Adapter.class)
 public enum DpaVideoGetV2DataListVideoInfoStatus {
   
-  AVAILABLE("AVAILABLE"),
+  UNAVAILABLE("UNAVAILABLE"),
   
-  UNAVAILABLE("UNAVAILABLE");
+  AVAILABLE("AVAILABLE");
 
   private String value;
 

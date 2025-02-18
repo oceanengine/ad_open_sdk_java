@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2ActivateType.Adapter.class)
 public enum ToolsBidSuggestV2ActivateType {
   
-  WITH_IN_A_MONTH("WITH_IN_A_MONTH"),
+  THREE_MONTH_EAILIER("THREE_MONTH_EAILIER"),
   
   UNLIMITED("UNLIMITED"),
   
-  THREE_MONTH_EAILIER("THREE_MONTH_EAILIER"),
+  ONE_MONTH_2_THREE_MONTH("ONE_MONTH_2_THREE_MONTH"),
   
-  ONE_MONTH_2_THREE_MONTH("ONE_MONTH_2_THREE_MONTH");
+  WITH_IN_A_MONTH("WITH_IN_A_MONTH");
 
   private String value;
 

@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * QianchuanToolsAllowCouponV10ResponseDataProductAllowCouponInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class QianchuanToolsAllowCouponV10ResponseDataProductAllowCouponInner {
   public static final String SERIALIZED_NAME_ALLOW_COUPON = "allow_coupon";
   @SerializedName(SERIALIZED_NAME_ALLOW_COUPON)

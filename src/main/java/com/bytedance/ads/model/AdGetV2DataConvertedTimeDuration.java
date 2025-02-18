@@ -29,19 +29,19 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataConvertedTimeDuration.Adapter.class)
 public enum AdGetV2DataConvertedTimeDuration {
   
-  NONE("NONE"),
-  
-  THREE_MONTH("THREE_MONTH"),
-  
-  ONE_MONTH("ONE_MONTH"),
-  
-  SEVEN_DAY("SEVEN_DAY"),
+  TWELVE_MONTH("TWELVE_MONTH"),
   
   SIX_MONTH("SIX_MONTH"),
   
-  TWELVE_MONTH("TWELVE_MONTH"),
+  THREE_MONTH("THREE_MONTH"),
   
-  TODAY("TODAY");
+  NONE("NONE"),
+  
+  ONE_MONTH("ONE_MONTH"),
+  
+  TODAY("TODAY"),
+  
+  SEVEN_DAY("SEVEN_DAY");
 
   private String value;
 

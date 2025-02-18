@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportCreativeGetV2DataListCreativeMaterialMode.Adapter.class)
 public enum ReportCreativeGetV2DataListCreativeMaterialMode {
   
-  INTERVENE("INTERVENE"),
+  CTR("CTR"),
   
   STATIC_ASSEMBLE("STATIC_ASSEMBLE"),
   
-  CTR("CTR");
+  INTERVENE("INTERVENE");
 
   private String value;
 

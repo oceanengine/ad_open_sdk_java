@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueCouponCodeGetV2Status.Adapter.class)
 public enum ClueCouponCodeGetV2Status {
   
-  VALID("VALID"),
+  ABANDONED("ABANDONED"),
   
-  EXPIRED("EXPIRED"),
+  VALID("VALID"),
   
   USED("USED"),
   
   INVALID("INVALID"),
   
-  ABANDONED("ABANDONED");
+  EXPIRED("EXPIRED");
 
   private String value;
 

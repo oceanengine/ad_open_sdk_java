@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsRubeexGetV2FilteringProjectLifecycle.Adapter.class)
 public enum ToolsRubeexGetV2FilteringProjectLifecycle {
   
+  RELAT_PLAN("RELAT_PLAN"),
+  
   AUDIT_SUCCESS("AUDIT_SUCCESS"),
+  
+  SYNC_AD("SYNC_AD"),
   
   LAUNCHED("LAUNCHED"),
   
-  RELAT_PLAN("RELAT_PLAN"),
-  
-  EDITING("EDITING"),
-  
-  SYNC_AD("SYNC_AD");
+  EDITING("EDITING");
 
   private String value;
 

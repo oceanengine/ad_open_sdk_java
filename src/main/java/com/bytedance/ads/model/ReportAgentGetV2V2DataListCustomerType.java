@@ -29,51 +29,51 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAgentGetV2V2DataListCustomerType.Adapter.class)
 public enum ReportAgentGetV2V2DataListCustomerType {
   
-  GAME("GAME"),
+  VIRTUAL_CUS("VIRTUAL_CUS"),
   
-  INTERNET("INTERNET"),
+  I18N_ADV("I18N_ADV"),
   
   SELF_SERVICE("SELF_SERVICE"),
   
-  VIRTUAL_KA("VIRTUAL_KA"),
-  
   DSP("DSP"),
-  
-  KA("KA"),
-  
-  I18N_AGENT("I18N_AGENT"),
-  
-  LA("LA"),
-  
-  VERTICAL("VERTICAL"),
-  
-  LOCAL("LOCAL"),
   
   REGION("REGION"),
   
-  SMB_AGENT("SMB_AGENT"),
-  
-  KA_AGENT("KA_AGENT"),
-  
-  LA_AGENT("LA_AGENT"),
-  
   OVERSEA_VIRTUAL("OVERSEA_VIRTUAL"),
   
-  VIRTUAL_LA("VIRTUAL_LA"),
+  VIRTUAL_SMB("VIRTUAL_SMB"),
   
-  VIRTUAL_CUS("VIRTUAL_CUS"),
-  
-  SMB("SMB"),
+  LA("LA"),
   
   BRANCH("BRANCH"),
   
   EXCHANGE("EXCHANGE"),
   
-  VIRTUAL_SMB("VIRTUAL_SMB"),
+  GAME("GAME"),
   
-  I18N_ADV("I18N_ADV"),
+  KA("KA"),
   
-  INTERNAL("INTERNAL");
+  INTERNET("INTERNET"),
+  
+  KA_AGENT("KA_AGENT"),
+  
+  I18N_AGENT("I18N_AGENT"),
+  
+  LOCAL("LOCAL"),
+  
+  LA_AGENT("LA_AGENT"),
+  
+  INTERNAL("INTERNAL"),
+  
+  VIRTUAL_LA("VIRTUAL_LA"),
+  
+  VERTICAL("VERTICAL"),
+  
+  SMB_AGENT("SMB_AGENT"),
+  
+  VIRTUAL_KA("VIRTUAL_KA"),
+  
+  SMB("SMB");
 
   private String value;
 

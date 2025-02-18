@@ -29,23 +29,23 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAdGetV2FilteringLandingTypes.Adapter.class)
 public enum ReportAdGetV2FilteringLandingTypes {
   
-  ARTICLE("ARTICLE"),
-  
-  LIVE("LIVE"),
+  APP("APP"),
   
   DPA("DPA"),
   
-  LINK("LINK"),
+  LIVE("LIVE"),
   
   AWEME("AWEME"),
   
-  STORE("STORE"),
+  SHOP("SHOP"),
   
-  APP("APP"),
+  ARTICLE("ARTICLE"),
+  
+  LINK("LINK"),
   
   QUICK_APP("QUICK_APP"),
   
-  SHOP("SHOP"),
+  STORE("STORE"),
   
   GOODS("GOODS");
 

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(FileAutoGenerateSourceGetV2MaterialsMaterialType.Adapter.class)
 public enum FileAutoGenerateSourceGetV2MaterialsMaterialType {
   
-  IMAGE("image"),
+  VIDEO("video"),
   
-  VIDEO("video");
+  IMAGE("image");
 
   private String value;
 

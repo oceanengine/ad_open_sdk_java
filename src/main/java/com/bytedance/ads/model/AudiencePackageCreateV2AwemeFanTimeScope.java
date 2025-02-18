@@ -31,9 +31,9 @@ public enum AudiencePackageCreateV2AwemeFanTimeScope {
   
   SIXTY_DAYS("SIXTY_DAYS"),
   
-  THIRTY_DAYS("THIRTY_DAYS"),
+  FIFTEEN_DAYS("FIFTEEN_DAYS"),
   
-  FIFTEEN_DAYS("FIFTEEN_DAYS");
+  THIRTY_DAYS("THIRTY_DAYS");
 
   private String value;
 

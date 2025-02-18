@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(DpaAssetsDetailReadV2DataListStatus.Adapter.class)
 public enum DpaAssetsDetailReadV2DataListStatus {
   
-  DISABLE("DISABLE"),
+  ENABLE("ENABLE"),
   
-  ENABLE("ENABLE");
+  DISABLE("DISABLE");
 
   private String value;
 

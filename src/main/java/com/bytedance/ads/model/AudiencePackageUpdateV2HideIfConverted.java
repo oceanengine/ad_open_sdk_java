@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageUpdateV2HideIfConverted.Adapter.class)
 public enum AudiencePackageUpdateV2HideIfConverted {
   
-  CAMPAIGN("CAMPAIGN"),
-  
-  ORGANIZATION("ORGANIZATION"),
+  APP("APP"),
   
   CUSTOMER("CUSTOMER"),
   
+  ADVERTISER("ADVERTISER"),
+  
   NO_EXCLUDE("NO_EXCLUDE"),
   
-  APP("APP"),
+  ORGANIZATION("ORGANIZATION"),
   
-  ADVERTISER("ADVERTISER"),
+  CAMPAIGN("CAMPAIGN"),
   
   AD("AD"),
   

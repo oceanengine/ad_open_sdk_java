@@ -50,7 +50,7 @@ import com.bytedance.ads.JSON;
 /**
  * 查询时间范围内创建的任务。 筛选时间时，开始时间必须与结束时间同时传入，开始时间必须小于等于结束时间。 若缺省默认查询全时间范围任务，若出现超时等情况请缩小查询时间范围。
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class StarDemandListV2FilteringQueryTimeRange {
   public static final String SERIALIZED_NAME_END_TIME = "end_time";
   @SerializedName(SERIALIZED_NAME_END_TIME)

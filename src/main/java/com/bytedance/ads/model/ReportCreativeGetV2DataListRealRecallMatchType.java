@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportCreativeGetV2DataListRealRecallMatchType.Adapter.class)
 public enum ReportCreativeGetV2DataListRealRecallMatchType {
   
-  EXTENSIVE("EXTENSIVE"),
+  PHRASE("PHRASE"),
   
   PRECISION("PRECISION"),
   
-  PHRASE("PHRASE");
+  EXTENSIVE("EXTENSIVE");
 
   private String value;
 

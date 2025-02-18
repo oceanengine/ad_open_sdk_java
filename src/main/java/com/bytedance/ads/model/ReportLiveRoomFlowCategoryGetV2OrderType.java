@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportLiveRoomFlowCategoryGetV2OrderType.Adapter.class)
 public enum ReportLiveRoomFlowCategoryGetV2OrderType {
   
-  ASC("ASC"),
+  DESC("DESC"),
   
-  DESC("DESC");
+  ASC("ASC");
 
   private String value;
 

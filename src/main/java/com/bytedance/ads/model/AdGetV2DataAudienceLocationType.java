@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataAudienceLocationType.Adapter.class)
 public enum AdGetV2DataAudienceLocationType {
   
-  TRAVEL("TRAVEL"),
-  
   ALL("ALL"),
+  
+  CURRENT("CURRENT"),
   
   HOME("HOME"),
   
-  CURRENT("CURRENT");
+  TRAVEL("TRAVEL");
 
   private String value;
 

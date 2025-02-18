@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(KeywordUpdateV2V2DataSuccessListMatchType.Adapter.class)
 public enum KeywordUpdateV2V2DataSuccessListMatchType {
   
-  EXTENSIVE("EXTENSIVE"),
+  PHRASE("PHRASE"),
   
   PRECISION("PRECISION"),
   
-  PHRASE("PHRASE");
+  EXTENSIVE("EXTENSIVE");
 
   private String value;
 

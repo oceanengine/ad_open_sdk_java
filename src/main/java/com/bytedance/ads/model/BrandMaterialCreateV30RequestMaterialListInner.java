@@ -52,7 +52,7 @@ import com.bytedance.ads.JSON;
 /**
  * BrandMaterialCreateV30RequestMaterialListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class BrandMaterialCreateV30RequestMaterialListInner {
   public static final String SERIALIZED_NAME_CREATIVE_IS_AIGC = "creative_is_aigc";
   @SerializedName(SERIALIZED_NAME_CREATIVE_IS_AIGC)

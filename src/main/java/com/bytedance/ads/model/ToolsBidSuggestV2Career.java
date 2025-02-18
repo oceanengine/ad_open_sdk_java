@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2Career.Adapter.class)
 public enum ToolsBidSuggestV2Career {
   
-  IT("IT"),
-  
-  TEACHER("TEACHER"),
+  FINANCIAL("FINANCIAL"),
   
   COLLEGE_STUDENT("COLLEGE_STUDENT"),
   
-  CIVIL_SERVANTS("CIVIL_SERVANTS"),
+  IT("IT"),
   
-  FINANCIAL("FINANCIAL"),
+  MEDICAL_STAFF("MEDICAL_STAFF"),
   
-  MEDICAL_STAFF("MEDICAL_STAFF");
+  TEACHER("TEACHER"),
+  
+  CIVIL_SERVANTS("CIVIL_SERVANTS");
 
   private String value;
 

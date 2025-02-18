@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAdGetV2FilteringPricingCategories.Adapter.class)
 public enum ReportAdGetV2FilteringPricingCategories {
   
-  NOC("PRICING_CATEGORY_NOC"),
+  FREE("PRICING_CATEGORY_FREE"),
   
   BRAND("PRICING_CATEGORY_BRAND"),
   
+  NOC("PRICING_CATEGORY_NOC"),
+  
   BRAND_AND_PRICING("PRICING_CATEGORY_BRAND_AND_PRICING"),
   
-  BID("PRICING_CATEGORY_BID"),
-  
-  FREE("PRICING_CATEGORY_FREE");
+  BID("PRICING_CATEGORY_BID");
 
   private String value;
 

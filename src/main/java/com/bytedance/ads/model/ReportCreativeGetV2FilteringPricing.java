@@ -29,19 +29,19 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportCreativeGetV2FilteringPricing.Adapter.class)
 public enum ReportCreativeGetV2FilteringPricing {
   
-  CPA("PRICING_CPA"),
-  
-  CPC_OCPM("PRICING_CPC_OCPM"),
-  
-  OCPM("PRICING_OCPM"),
+  CPM("PRICING_CPM"),
   
   CPC("PRICING_CPC"),
   
+  CPC_OCPM("PRICING_CPC_OCPM"),
+  
+  CPV("PRICING_CPV"),
+  
   OCPC("PRICING_OCPC"),
   
-  CPM("PRICING_CPM"),
+  OCPM("PRICING_OCPM"),
   
-  CPV("PRICING_CPV");
+  CPA("PRICING_CPA");
 
   private String value;
 

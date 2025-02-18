@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataAudienceDeviceType.Adapter.class)
 public enum AdGetV2DataAudienceDeviceType {
   
-  MOBILE("MOBILE"),
+  PAD("PAD"),
   
-  PAD("PAD");
+  MOBILE("MOBILE");
 
   private String value;
 

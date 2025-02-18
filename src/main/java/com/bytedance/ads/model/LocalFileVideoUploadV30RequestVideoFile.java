@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 视频文件 允许格式：mp4、mpeg、3gp、avi（10s超时限制） 
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class LocalFileVideoUploadV30RequestVideoFile {
   public static final String SERIALIZED_NAME_DATA = "data";
   @SerializedName(SERIALIZED_NAME_DATA)

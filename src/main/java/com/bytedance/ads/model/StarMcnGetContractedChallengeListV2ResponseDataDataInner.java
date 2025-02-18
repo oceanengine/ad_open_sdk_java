@@ -54,7 +54,7 @@ import com.bytedance.ads.JSON;
 /**
  * StarMcnGetContractedChallengeListV2ResponseDataDataInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class StarMcnGetContractedChallengeListV2ResponseDataDataInner {
   public static final String SERIALIZED_NAME_ACCOUNT_DIVIDE_DAY = "account_divide_day";
   @SerializedName(SERIALIZED_NAME_ACCOUNT_DIVIDE_DAY)

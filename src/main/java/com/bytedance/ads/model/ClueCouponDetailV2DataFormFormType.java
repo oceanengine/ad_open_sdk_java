@@ -31,9 +31,9 @@ public enum ClueCouponDetailV2DataFormFormType {
   
   ADVANCED_CREATIVE_FORM("ADVANCED_CREATIVE_FORM"),
   
-  NATIVE_FORM("NATIVE_FORM"),
+  NORMAL_FORM("NORMAL_FORM"),
   
-  NORMAL_FORM("NORMAL_FORM");
+  NATIVE_FORM("NATIVE_FORM");
 
   private String value;
 

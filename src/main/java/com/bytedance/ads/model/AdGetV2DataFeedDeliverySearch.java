@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataFeedDeliverySearch.Adapter.class)
 public enum AdGetV2DataFeedDeliverySearch {
   
-  DISABLED("DISABLED"),
+  HAS_OPEN("HAS_OPEN"),
   
-  HAS_OPEN("HAS_OPEN");
+  DISABLED("DISABLED");
 
   private String value;
 

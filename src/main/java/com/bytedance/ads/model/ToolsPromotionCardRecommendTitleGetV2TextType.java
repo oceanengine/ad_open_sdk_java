@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsPromotionCardRecommendTitleGetV2TextType.Adapter.class)
 public enum ToolsPromotionCardRecommendTitleGetV2TextType {
   
+  CARD_TITLE("CARD_TITLE"),
+  
   PROMOTION("PROMOTION"),
   
-  CALL_TO_ACTION("CALL_TO_ACTION"),
-  
-  CARD_TITLE("CARD_TITLE");
+  CALL_TO_ACTION("CALL_TO_ACTION");
 
   private String value;
 

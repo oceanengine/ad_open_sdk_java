@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueCouponDetailV2DataActivityType.Adapter.class)
 public enum ClueCouponDetailV2DataActivityType {
   
-  NOT_NEED_PHONE("DIRECT_NOT_NEED_PHONE"),
+  NEED_PHONE("DIRECT_NEED_PHONE"),
   
-  NEED_PHONE("DIRECT_NEED_PHONE");
+  NOT_NEED_PHONE("DIRECT_NOT_NEED_PHONE");
 
   private String value;
 

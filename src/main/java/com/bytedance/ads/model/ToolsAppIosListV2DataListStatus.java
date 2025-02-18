@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsAppIosListV2DataListStatus.Adapter.class)
 public enum ToolsAppIosListV2DataListStatus {
   
-  AUDIT_ACCEPTED("AUDIT_ACCEPTED"),
-  
   ALL("ALL"),
+  
+  AUDIT_ACCEPTED("AUDIT_ACCEPTED"),
   
   AUDIT_REJECTED("AUDIT_REJECTED"),
   

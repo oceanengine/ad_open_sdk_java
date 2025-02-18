@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CampaignGetV2DataListBudgetMode.Adapter.class)
 public enum CampaignGetV2DataListBudgetMode {
   
-  TOTAL("BUDGET_MODE_TOTAL"),
+  DAY("BUDGET_MODE_DAY"),
   
   INFINITE("BUDGET_MODE_INFINITE"),
   
-  DAY("BUDGET_MODE_DAY");
+  TOTAL("BUDGET_MODE_TOTAL");
 
   private String value;
 

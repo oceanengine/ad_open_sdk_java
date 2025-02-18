@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 指标
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class QianchuanMaterialAdGetV10ResponseDataAdListInnerMetrics {
   public static final String SERIALIZED_NAME_ALL_ORDER_PAY_COUNT7DAYS = "all_order_pay_count_7days";
   @SerializedName(SERIALIZED_NAME_ALL_ORDER_PAY_COUNT7DAYS)

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueFormUpdateV2ExtendInfoSignUpConfigSignType.Adapter.class)
 public enum ClueFormUpdateV2ExtendInfoSignUpConfigSignType {
   
-  BAR("SIGN_TYPE_SCROLL_BAR"),
+  WALL("SIGN_TYPE_SCROLL_WALL"),
   
-  WALL("SIGN_TYPE_SCROLL_WALL");
+  BAR("SIGN_TYPE_SCROLL_BAR");
 
   private String value;
 

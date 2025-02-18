@@ -33,9 +33,9 @@ public enum ReportAdvertiserGetV2DataListGender {
   
   GENDER_MALE("GENDER_MALE"),
   
-  GENDER_FEMALE("GENDER_FEMALE"),
+  GENDER_UNLIMITED("GENDER_UNLIMITED"),
   
-  GENDER_UNLIMITED("GENDER_UNLIMITED");
+  GENDER_FEMALE("GENDER_FEMALE");
 
   private String value;
 

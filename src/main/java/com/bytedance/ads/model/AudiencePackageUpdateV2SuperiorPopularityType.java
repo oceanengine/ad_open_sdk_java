@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AudiencePackageUpdateV2SuperiorPopularityType.Adapter.class)
 public enum AudiencePackageUpdateV2SuperiorPopularityType {
   
-  GAME("GAME"),
+  NONE("NONE"),
   
-  NONE("NONE");
+  GAME("GAME");
 
   private String value;
 

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataAudienceDpaRtaRecommendType.Adapter.class)
 public enum AdGetV2DataAudienceDpaRtaRecommendType {
   
-  MORE("MORE"),
+  ONLY("ONLY"),
   
-  ONLY("ONLY");
+  MORE("MORE");
 
   private String value;
 

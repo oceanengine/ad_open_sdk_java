@@ -29,17 +29,17 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ToolsBidSuggestV2District.Adapter.class)
 public enum ToolsBidSuggestV2District {
   
+  OVERSEA("OVERSEA"),
+  
   NONE("NONE"),
   
-  BUSINESS_DISTRICT("BUSINESS_DISTRICT"),
-  
-  REGION("REGION"),
-  
-  OVERSEA("OVERSEA"),
+  CITY("CITY"),
   
   COUNTY("COUNTY"),
   
-  CITY("CITY");
+  REGION("REGION"),
+  
+  BUSINESS_DISTRICT("BUSINESS_DISTRICT");
 
   private String value;
 

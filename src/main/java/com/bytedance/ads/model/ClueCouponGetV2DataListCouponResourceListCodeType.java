@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueCouponGetV2DataListCouponResourceListCodeType.Adapter.class)
 public enum ClueCouponGetV2DataListCouponResourceListCodeType {
   
-  API("API"),
-  
   PLATFORM("PLATFORM"),
+  
+  COMMON("COMMON"),
   
   MERCHANT("MERCHANT"),
   
-  COMMON("COMMON");
+  API("API");
 
   private String value;
 

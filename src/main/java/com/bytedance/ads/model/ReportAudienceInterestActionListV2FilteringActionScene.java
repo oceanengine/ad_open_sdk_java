@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReportAudienceInterestActionListV2FilteringActionScene.Adapter.class)
 public enum ReportAudienceInterestActionListV2FilteringActionScene {
   
-  NEWS("NEWS"),
+  APP("APP"),
   
   E_COMMERCE("E-COMMERCE"),
   
-  SEARCH("SEARCH"),
+  NEWS("NEWS"),
   
-  APP("APP"),
+  SEARCH("SEARCH"),
   
   AD("AD");
 

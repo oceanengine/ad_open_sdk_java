@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataStoreproUnit.Adapter.class)
 public enum AdGetV2DataStoreproUnit {
   
-  STORE("STORE"),
+  STORE_ACTIVITY("STORE_ACTIVITY"),
   
-  STORE_ACTIVITY("STORE_ACTIVITY");
+  STORE("STORE");
 
   private String value;
 

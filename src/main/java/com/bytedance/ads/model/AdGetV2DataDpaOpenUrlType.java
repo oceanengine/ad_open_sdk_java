@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataDpaOpenUrlType.Adapter.class)
 public enum AdGetV2DataDpaOpenUrlType {
   
+  NONE("NONE"),
+  
   DPA("DPA"),
   
-  CUSTOM("CUSTOM"),
-  
-  NONE("NONE");
+  CUSTOM("CUSTOM");
 
   private String value;
 

@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueFormCreateV2ElementsAllowEmpty.Adapter.class)
 public enum ClueFormCreateV2ElementsAllowEmpty {
   
-  Enum_0("0"),
+  Enum_1("1"),
   
-  Enum_1("1");
+  Enum_0("0");
 
   private String value;
 

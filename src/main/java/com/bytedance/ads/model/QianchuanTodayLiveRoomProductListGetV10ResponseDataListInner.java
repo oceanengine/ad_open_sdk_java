@@ -52,7 +52,7 @@ import com.bytedance.ads.JSON;
 /**
  * QianchuanTodayLiveRoomProductListGetV10ResponseDataListInner
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class QianchuanTodayLiveRoomProductListGetV10ResponseDataListInner {
   public static final String SERIALIZED_NAME_AD_LIVE_ORDER_SETTLE_COST_PER_PRODUCT7D = "ad_live_order_settle_cost_per_product_7d";
   @SerializedName(SERIALIZED_NAME_AD_LIVE_ORDER_SETTLE_COST_PER_PRODUCT7D)

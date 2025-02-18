@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(EnterpriseCommentListGetV10FilterSource.Adapter.class)
 public enum EnterpriseCommentListGetV10FilterSource {
   
-  BRAND("FROM_BRAND"),
-  
   OTHER("FROM_OTHER"),
+  
+  DOUPLUS("FROM_DOUPLUS"),
+  
+  BRAND("FROM_BRAND"),
   
   NATURAL("FROM_NATURAL"),
   
-  PERFORM("FROM_PERFORM"),
-  
-  DOUPLUS("FROM_DOUPLUS");
+  PERFORM("FROM_PERFORM");
 
   private String value;
 

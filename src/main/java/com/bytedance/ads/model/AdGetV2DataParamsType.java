@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataParamsType.Adapter.class)
 public enum AdGetV2DataParamsType {
   
-  CUSTOM("CUSTOM"),
+  DPA("DPA"),
   
-  DPA("DPA");
+  CUSTOM("CUSTOM");
 
   private String value;
 

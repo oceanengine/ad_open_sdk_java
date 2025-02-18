@@ -33,11 +33,11 @@ public enum AudiencePackageCreateV2Platform {
   
   PC("PC"),
   
-  IOS("IOS"),
-  
   IPAD("IPAD"),
   
-  WAP("WAP");
+  WAP("WAP"),
+  
+  IOS("IOS");
 
   private String value;
 

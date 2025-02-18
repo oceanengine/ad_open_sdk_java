@@ -31,9 +31,9 @@ public enum CreativeCustomCreativeUpdateV2CreativeListVideoMaterialDpaVideoTempl
   
   CUSTOM("DPA_VIDEO_TEMPLATE_CUSTOM"),
   
-  SMART("DPA_VIDEO_TEMPLATE_SMART"),
+  DEPRECATED("DPA_VIDEO_TEMPLATE_DEPRECATED"),
   
-  DEPRECATED("DPA_VIDEO_TEMPLATE_DEPRECATED");
+  SMART("DPA_VIDEO_TEMPLATE_SMART");
 
   private String value;
 

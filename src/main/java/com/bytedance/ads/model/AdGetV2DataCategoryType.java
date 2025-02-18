@@ -29,11 +29,11 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataCategoryType.Adapter.class)
 public enum AdGetV2DataCategoryType {
   
-  CATEGORY("CATEGORY"),
+  PRODUCT("PRODUCT"),
   
   NONE("NONE"),
   
-  PRODUCT("PRODUCT");
+  CATEGORY("CATEGORY");
 
   private String value;
 

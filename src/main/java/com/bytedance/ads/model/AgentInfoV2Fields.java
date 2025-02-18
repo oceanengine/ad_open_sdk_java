@@ -29,23 +29,23 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AgentInfoV2Fields.Adapter.class)
 public enum AgentInfoV2Fields {
   
-  ROLE("role"),
-  
-  CUSTOMER_NAME("customer_name"),
-  
-  CREATE_TIME("create_time"),
-  
   AGENT_NAME("agent_name"),
   
   COMPANY_NAME("company_name"),
   
-  COMPANY_ID("company_id"),
-  
   CUSTOMER_ID("customer_id"),
+  
+  AGENT_ID("agent_id"),
   
   ACCOUNT_STATUS("account_status"),
   
-  AGENT_ID("agent_id");
+  CREATE_TIME("create_time"),
+  
+  ROLE("role"),
+  
+  COMPANY_ID("company_id"),
+  
+  CUSTOMER_NAME("customer_name");
 
   private String value;
 

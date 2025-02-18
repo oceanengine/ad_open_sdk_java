@@ -29,15 +29,15 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ClueCouponCreateV2CouponResourceListResourceType.Adapter.class)
 public enum ClueCouponCreateV2CouponResourceListResourceType {
   
-  GAME("GAME"),
-  
-  DISCOUNT("DISCOUNT"),
-  
   COMMON("COMMON"),
+  
+  GAME("GAME"),
   
   PHYSICAL("PHYSICAL"),
   
-  FULL("FULL");
+  FULL("FULL"),
+  
+  DISCOUNT("DISCOUNT");
 
   private String value;
 

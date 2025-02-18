@@ -29,9 +29,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(AdGetV2DataDownloadType.Adapter.class)
 public enum AdGetV2DataDownloadType {
   
-  EXTERNAL_URL("EXTERNAL_URL"),
+  DOWNLOAD_URL("DOWNLOAD_URL"),
   
-  DOWNLOAD_URL("DOWNLOAD_URL");
+  EXTERNAL_URL("EXTERNAL_URL");
 
   private String value;
 

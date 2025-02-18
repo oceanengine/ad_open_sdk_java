@@ -51,7 +51,7 @@ import com.bytedance.ads.JSON;
 /**
  * 可用余额(单位元)
  */
-@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T18:06:44.012191756+08:00[Asia/Shanghai]")
+@javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-02-18T19:20:11.723417109+08:00[Asia/Shanghai]")
 public class SharedWalletMainWalletGetV30ResponseDataMainWalletInfoAllocatedBalanceLocalOnlyAllocatedBalanceAvailableBalance {
   public static final String SERIALIZED_NAME_CREDIT_BIDDING_BALANCE = "credit_bidding_balance";
   @SerializedName(SERIALIZED_NAME_CREDIT_BIDDING_BALANCE)

@@ -29,13 +29,13 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(EnterpriseCommentListGetV10FilterEmotion.Adapter.class)
 public enum EnterpriseCommentListGetV10FilterEmotion {
   
-  POS_EMOTION("POS_EMOTION"),
-  
   ANY_EMOTION("ANY_EMOTION"),
   
-  NEU_EMOTION("NEU_EMOTION"),
+  POS_EMOTION("POS_EMOTION"),
   
-  NEG_EMOTION("NEG_EMOTION");
+  NEG_EMOTION("NEG_EMOTION"),
+  
+  NEU_EMOTION("NEU_EMOTION");
 
   private String value;
 
