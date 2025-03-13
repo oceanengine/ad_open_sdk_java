@@ -5000,6 +5000,7 @@ src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceLocationType.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AudiencePlatform.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceRegionRecommend.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30AudienceSuperiorPopularityType.java
+src/main/java/com/bytedance/ads/model/ProjectCreateV30AutoExtendTraffic.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30BlueFlowPackageBlueFlowPackageSetting.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30Classify.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30DeliveryMode.java
@@ -5050,6 +5051,7 @@ src/main/java/com/bytedance/ads/model/ProjectCreateV30RequestRelatedProductProdu
 src/main/java/com/bytedance/ads/model/ProjectCreateV30RequestTrackUrlSetting.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30Response.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30ResponseData.java
+src/main/java/com/bytedance/ads/model/ProjectCreateV30ResponseDataErrorKeywordsListInner.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30StarAutoMaterialAdditionSwitch.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30TrackUrlSettingSendType.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30TrackUrlSettingTrackUrlType.java
@@ -5092,6 +5094,7 @@ src/main/java/com/bytedance/ads/model/ProjectListV30DataListAudienceIosOsv.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListAudienceLocationType.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListAudiencePlatform.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListAudienceSuperiorPopularityType.java
+src/main/java/com/bytedance/ads/model/ProjectListV30DataListAutoExtendTraffic.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListBlueFlowPackageBlueFlowPackageSetting.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListDeliveryMedium.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListDeliveryMode.java
@@ -5220,6 +5223,7 @@ src/main/java/com/bytedance/ads/model/ProjectUpdateV30AudienceLocationType.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30AudiencePlatform.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30AudienceRegionRecommend.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30AudienceSuperiorPopularityType.java
+src/main/java/com/bytedance/ads/model/ProjectUpdateV30AutoExtendTraffic.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30DataErrorListObjectType.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30DeliverySettingBudgetMode.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30DeliverySettingFilterNightSwitch.java
@@ -5232,6 +5236,7 @@ src/main/java/com/bytedance/ads/model/ProjectUpdateV30KeywordsMatchType.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30Request.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30RequestAudience.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30RequestAudienceGeolocationInner.java
+src/main/java/com/bytedance/ads/model/ProjectUpdateV30RequestBlueFlowPackage.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30RequestDeliverySetting.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30RequestDeliverySettingShopMultiRoiGoalsInner.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30RequestDpaProductTargetInner.java
@@ -7318,6 +7323,8 @@ src/main/java/com/bytedance/ads/model/ReportStardeliveryTaskDataGetV30DataListSt
 src/main/java/com/bytedance/ads/model/ReportStardeliveryTaskDataGetV30DataListStarTaskSource.java
 src/main/java/com/bytedance/ads/model/ReportStardeliveryTaskDataGetV30DataListStarTaskStatus.java
 src/main/java/com/bytedance/ads/model/ReportStardeliveryTaskDataGetV30Filtering.java
+src/main/java/com/bytedance/ads/model/ReportStardeliveryTaskDataGetV30FilteringMetricValueFilterInner.java
+src/main/java/com/bytedance/ads/model/ReportStardeliveryTaskDataGetV30FilteringMetricValueFilterOperator.java
 src/main/java/com/bytedance/ads/model/ReportStardeliveryTaskDataGetV30FilteringStarTaskStatus.java
 src/main/java/com/bytedance/ads/model/ReportStardeliveryTaskDataGetV30OrderType.java
 src/main/java/com/bytedance/ads/model/ReportStardeliveryTaskDataGetV30Response.java
@@ -8481,6 +8488,7 @@ src/main/java/com/bytedance/ads/model/ToolsBlueFlowKeywordListV30FilteringBlueFl
 src/main/java/com/bytedance/ads/model/ToolsBlueFlowKeywordListV30Response.java
 src/main/java/com/bytedance/ads/model/ToolsBlueFlowKeywordListV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsBlueFlowKeywordListV30ResponseDataListInner.java
+src/main/java/com/bytedance/ads/model/ToolsBlueFlowPackageListV30DataBlueFlowPackagesBlueFlowKeywordBlueFlowRecommendType.java
 src/main/java/com/bytedance/ads/model/ToolsBlueFlowPackageListV30Filtering.java
 src/main/java/com/bytedance/ads/model/ToolsBlueFlowPackageListV30Response.java
 src/main/java/com/bytedance/ads/model/ToolsBlueFlowPackageListV30ResponseData.java
