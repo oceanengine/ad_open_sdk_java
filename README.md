@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.41
-  - Build date: 2025-03-13T17:29:36.612655208+08:00[Asia/Shanghai]
+- API version: 1.1.42
+  - Build date: 2025-04-07T17:34:19.910300326+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -146,6 +146,7 @@ public class DouplusOrderReportV30ApiExample {
 Class | Method | HTTP request
 ------------ | ------------- | -------------
 *AccountFundGetV30Api* | **openApiV30AccountFundGetGet** | **GET** /open_api/v3.0/account/fund/get/
+*AccountUpdateV30Api* | **openApiV30AccountUpdatePost** | **POST** /open_api/v3.0/account/update/
 *AdCostProtectStatusGetV2Api* | **openApi2AdCostProtectStatusGetGet** | **GET** /open_api/2/ad/cost_protect_status/get/
 *AdGetV2Api* | **openApi2AdGetGet** | **GET** /open_api/2/ad/get/
 *AdRejectReasonV2Api* | **openApi2AdRejectReasonGet** | **GET** /open_api/2/ad/reject_reason/
@@ -229,6 +230,7 @@ Class | Method | HTTP request
 *BrandAdGetV30Api* | **openApiV30BrandAdGetGet** | **GET** /open_api/v3.0/brand/ad/get/
 *BrandAdUpdateBaseInfoV30Api* | **openApiV30BrandAdUpdateBaseInfoPost** | **POST** /open_api/v3.0/brand/ad/update_base_info/
 *BrandAdUpdateDeliveryInfoV30Api* | **openApiV30BrandAdUpdateDeliveryInfoPost** | **POST** /open_api/v3.0/brand/ad/update_delivery_info/
+*BrandAnchorListV30Api* | **openApiV30BrandAnchorListGet** | **GET** /open_api/v3.0/brand/anchor/list/
 *BrandAwemeListV30Api* | **openApiV30BrandAwemeListGet** | **GET** /open_api/v3.0/brand/aweme_list/
 *BrandCampaignAddV30Api* | **openApiV30BrandCampaignAddPost** | **POST** /open_api/v3.0/brand/campaign/add/
 *BrandCampaignCreateV30Api* | **openApiV30BrandCampaignCreatePost** | **POST** /open_api/v3.0/brand/campaign/create/
@@ -236,16 +238,29 @@ Class | Method | HTTP request
 *BrandCampaignEditV30Api* | **openApiV30BrandCampaignEditPost** | **POST** /open_api/v3.0/brand/campaign/edit/
 *BrandCampaignGetV30Api* | **openApiV30BrandCampaignGetGet** | **GET** /open_api/v3.0/brand/campaign/get/
 *BrandCampaignListV30Api* | **openApiV30BrandCampaignListGet** | **GET** /open_api/v3.0/brand/campaign/list/
+*BrandCampaignModifyV30Api* | **openApiV30BrandCampaignModifyPost** | **POST** /open_api/v3.0/brand/campaign/modify/
 *BrandCampaignOperateV30Api* | **openApiV30BrandCampaignOperatePost** | **POST** /open_api/v3.0/brand/campaign/operate/
+*BrandCampaignRemoveV30Api* | **openApiV30BrandCampaignRemovePost** | **POST** /open_api/v3.0/brand/campaign/remove/
+*BrandCampaignRevokeModifyV30Api* | **openApiV30BrandCampaignRevokeModifyPost** | **POST** /open_api/v3.0/brand/campaign/revoke_modify/
+*BrandCampaignSubmitV30Api* | **openApiV30BrandCampaignSubmitPost** | **POST** /open_api/v3.0/brand/campaign/submit/
+*BrandCampaignUpdateV30Api* | **openApiV30BrandCampaignUpdatePost** | **POST** /open_api/v3.0/brand/campaign/update/
+*BrandContractGetV30Api* | **openApiV30BrandContractGetGet** | **GET** /open_api/v3.0/brand/contract/get/
 *BrandCreativeCreateV30Api* | **openApiV30BrandCreativeCreatePost** | **POST** /open_api/v3.0/brand/creative/create/
 *BrandCreativeDeleteV30Api* | **openApiV30BrandCreativeDeletePost** | **POST** /open_api/v3.0/brand/creative/delete/
 *BrandCreativeGetV30Api* | **openApiV30BrandCreativeGetGet** | **GET** /open_api/v3.0/brand/creative/get/
 *BrandCreativeUpdateV30Api* | **openApiV30BrandCreativeUpdatePost** | **POST** /open_api/v3.0/brand/creative/update/
+*BrandCustomAudienceListV30Api* | **openApiV30BrandCustomAudienceListGet** | **GET** /open_api/v3.0/brand/custom_audience/list/
 *BrandFileVideoUploadV30Api* | **openApiV30BrandFileVideoUploadPost** | **POST** /open_api/v3.0/brand/file/video/upload/
 *BrandMaterialCreateV30Api* | **openApiV30BrandMaterialCreatePost** | **POST** /open_api/v3.0/brand/material/create/
 *BrandMaterialListV30Api* | **openApiV30BrandMaterialListGet** | **GET** /open_api/v3.0/brand/material/list/
+*BrandMaterialUpdateV30Api* | **openApiV30BrandMaterialUpdatePost** | **POST** /open_api/v3.0/brand/material/update/
+*BrandOperationLogQueryV30Api* | **openApiV30BrandOperationLogQueryGet** | **GET** /open_api/v3.0/brand/operation_log/query/
+*BrandOrderCancelDeleteV30Api* | **openApiV30BrandOrderCancelDeletePost** | **POST** /open_api/v3.0/brand/order/cancel_delete/
 *BrandOrderCreateV30Api* | **openApiV30BrandOrderCreatePost** | **POST** /open_api/v3.0/brand/order/create/
+*BrandOrderDeleteV30Api* | **openApiV30BrandOrderDeletePost** | **POST** /open_api/v3.0/brand/order/delete/
 *BrandOrderListV30Api* | **openApiV30BrandOrderListGet** | **GET** /open_api/v3.0/brand/order/list/
+*BrandOrderUpdateV30Api* | **openApiV30BrandOrderUpdatePost** | **POST** /open_api/v3.0/brand/order/update/
+*BrandPolicyListV30Api* | **openApiV30BrandPolicyListGet** | **GET** /open_api/v3.0/brand/policy/list/
 *BrandQueryStockV30Api* | **openApiV30BrandQueryStockGet** | **GET** /open_api/v3.0/brand/query_stock/
 *BrandQueryYuntu5aBrandCategoryV30Api* | **openApiV30BrandQueryYuntu5aBrandCategoryGet** | **GET** /open_api/v3.0/brand/query_yuntu_5a_brand_category/
 *BrandRegionGetV30Api* | **openApiV30BrandRegionGetGet** | **GET** /open_api/v3.0/brand/region/get/
@@ -350,6 +365,8 @@ Class | Method | HTTP request
 *DouplusOrderListV30Api* | **openApiV30DouplusOrderListGet** | **GET** /open_api/v3.0/douplus/order/list/
 *DouplusOrderRenewV30Api* | **openApiV30DouplusOrderRenewPost** | **POST** /open_api/v3.0/douplus/order/renew/
 *DouplusOrderReportV30Api* | **openApiV30DouplusOrderReportGet** | **GET** /open_api/v3.0/douplus/order/report/
+*DouplusRtaGetInfoV30Api* | **openApiV30DouplusRtaGetInfoGet** | **GET** /open_api/v3.0/douplus/rta/get_info/
+*DouplusRtaSetScopeV30Api* | **openApiV30DouplusRtaSetScopePost** | **POST** /open_api/v3.0/douplus/rta/set_scope/
 *DownloadStatementEsignFileV2Api* | **openApi2DownloadStatementEsignFileGet** | **GET** /open_api/2/download/statement/esign_file/
 *DownloadStatementV2Api* | **openApi2DownloadStatementGet** | **GET** /open_api/2/download/statement/
 *DpaAssetV2DetailReadV2Api* | **openApi2DpaAssetV2DetailReadPost** | **POST** /open_api/2/dpa/asset_v2/detail/read/
@@ -654,6 +671,7 @@ Class | Method | HTTP request
 *QianchuanUniAwemeAdCreateV10Api* | **openApiV10QianchuanUniAwemeAdCreatePost** | **POST** /open_api/v1.0/qianchuan/uni_aweme/ad/create/
 *QianchuanUniAwemeAdUpdateV10Api* | **openApiV10QianchuanUniAwemeAdUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_aweme/ad/update/
 *QianchuanUniAwemeAuthorizedGetV10Api* | **openApiV10QianchuanUniAwemeAuthorizedGetGet** | **GET** /open_api/v1.0/qianchuan/uni_aweme/authorized/get/
+*QianchuanUniAwemeSuggestBudgetV10Api* | **openApiV10QianchuanUniAwemeSuggestBudgetGet** | **GET** /open_api/v1.0/qianchuan/uni_aweme/suggest/budget/
 *QianchuanUniPromotionAdControlTaskCreateV10Api* | **openApiV10QianchuanUniPromotionAdControlTaskCreatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/control_task/create/
 *QianchuanUniPromotionAdControlTaskListV10Api* | **openApiV10QianchuanUniPromotionAdControlTaskListGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/ad/control_task/list/
 *QianchuanUniPromotionAdControlTaskStatusUpdateV10Api* | **openApiV10QianchuanUniPromotionAdControlTaskStatusUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/control_task/status/update/
@@ -681,6 +699,10 @@ Class | Method | HTTP request
 *QueryRebateBalanceV2Api* | **openApi2QueryRebateBalanceGet** | **GET** /open_api/2/query/rebate_balance/
 *QueryStatementV2Api* | **openApi2QueryStatementGet** | **GET** /open_api/2/query/statement/
 *RecommendVideoListV30Api* | **openApiV30RecommendVideoListPost** | **POST** /open_api/v3.0/recommend/video/list/
+*RejectMaterialAiRepairAcceptTaskCreateV30Api* | **openApiV30RejectMaterialAiRepairAcceptTaskCreatePost** | **POST** /open_api/v3.0/reject_material/ai_repair_accept_task/create/
+*RejectMaterialAiRepairAcceptTaskListV30Api* | **openApiV30RejectMaterialAiRepairAcceptTaskListGet** | **GET** /open_api/v3.0/reject_material/ai_repair_accept_task/list/
+*RejectMaterialAiRepairCrossAccountGetV30Api* | **openApiV30RejectMaterialAiRepairCrossAccountGetGet** | **GET** /open_api/v3.0/reject_material/ai_repair/cross_account/get/
+*RejectMaterialAiRepairGetV30Api* | **openApiV30RejectMaterialAiRepairGetGet** | **GET** /open_api/v3.0/reject_material/ai_repair/get/
 *ReportAdGetV2Api* | **openApi2ReportAdGetGet** | **GET** /open_api/2/report/ad/get/
 *ReportAdvertiserGetV2Api* | **openApi2ReportAdvertiserGetGet** | **GET** /open_api/2/report/advertiser/get/
 *ReportAgentGetV2V2Api* | **openApi2ReportAgentGetV2Get** | **GET** /open_api/2/report/agent/get_v2/
@@ -739,6 +761,8 @@ Class | Method | HTTP request
 *SharedWalletWalletRelationGetV30Api* | **openApiV30SharedWalletWalletRelationGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_relation/get/
 *SpiTaskGetV2Api* | **openApi2SpiTaskGetGet** | **GET** /open_api/2/spi_task/get/
 *StarAttachmentUploadV2Api* | **openApi2StarAttachmentUploadPost** | **POST** /open_api/2/star/attachment/upload/
+*StarAttributeUserEventFeedbackV2Api* | **openApi2StarAttributeUserEventFeedbackPost** | **POST** /open_api/2/star/attribute/user_event_feedback/
+*StarAttributeUserInfoFeedbackV2Api* | **openApi2StarAttributeUserInfoFeedbackPost** | **POST** /open_api/2/star/attribute/user_info_feedback/
 *StarBillGetPendingV2Api* | **openApi2StarBillGetPendingGet** | **GET** /open_api/2/star/bill/get_pending/
 *StarBillPayV2Api* | **openApi2StarBillPayPost** | **POST** /open_api/2/star/bill/pay/
 *StarBrandCategoryListV2Api* | **openApi2StarBrandCategoryListGet** | **GET** /open_api/2/star/brand_category/list/
@@ -767,6 +791,7 @@ Class | Method | HTTP request
 *StarDataTaskTimelineReportV2Api* | **openApi2StarDataTaskTimelineReportGet** | **GET** /open_api/2/star/data/task_timeline_report/
 *StarDemandCreateAssignV2Api* | **openApi2StarDemandCreateAssignPost** | **POST** /open_api/2/star/demand/create_assign/
 *StarDemandCreateChallengeV2Api* | **openApi2StarDemandCreateChallengePost** | **POST** /open_api/2/star/demand/create_challenge/
+*StarDemandGetResellCodeV2Api* | **openApi2StarDemandGetResellCodeGet** | **GET** /open_api/2/star/demand/get_resell_code/
 *StarDemandListV2Api* | **openApi2StarDemandListGet** | **GET** /open_api/2/star/demand/list/
 *StarDemandOmCreateChallengeV2Api* | **openApi2StarDemandOmCreateChallengePost** | **POST** /open_api/2/star/demand/om_create_challenge/
 *StarDemandOmExpandChallengeProviderV2Api* | **openApi2StarDemandOmExpandChallengeProviderPost** | **POST** /open_api/2/star/demand/om_expand_challenge_provider/
@@ -795,6 +820,7 @@ Class | Method | HTTP request
 *StarMcnProviderGetTaskItemListV2Api* | **openApi2StarMcnProviderGetTaskItemListGet** | **GET** /open_api/2/star/mcn/provider_get_task_item_list/
 *StarMcnProviderGetTaskShareCodeV2Api* | **openApi2StarMcnProviderGetTaskShareCodeGet** | **GET** /open_api/2/star/mcn/provider_get_task_share_code/
 *StarMcnProviderGetUnparticipatedTaskV2Api* | **openApi2StarMcnProviderGetUnparticipatedTaskGet** | **GET** /open_api/2/star/mcn/provider_get_unparticipated_task/
+*StarMcnProviderUploadSearchItemV2Api* | **openApi2StarMcnProviderUploadSearchItemPost** | **POST** /open_api/2/star/mcn/provider_upload_search_item/
 *StarOrderApproveResourceV2Api* | **openApi2StarOrderApproveResourcePost** | **POST** /open_api/2/star/order/approve_resource/
 *StarOrderDemanderCancelV2Api* | **openApi2StarOrderDemanderCancelPost** | **POST** /open_api/2/star/order/demander_cancel/
 *StarOrderDetailV2Api* | **openApi2StarOrderDetailGet** | **GET** /open_api/2/star/order/detail/
@@ -802,6 +828,7 @@ Class | Method | HTTP request
 *StarOrderGetCancelAmountV2Api* | **openApi2StarOrderGetCancelAmountGet** | **GET** /open_api/2/star/order/get_cancel_amount/
 *StarOrderGetComponentV2Api* | **openApi2StarOrderGetComponentGet** | **GET** /open_api/2/star/order/get_component/
 *StarOrderGetInfoV2Api* | **openApi2StarOrderGetInfoGet** | **GET** /open_api/2/star/order/get_info/
+*StarOrderGetLiveV2Api* | **openApi2StarOrderGetLiveGet** | **GET** /open_api/2/star/order/get_live/
 *StarOrderGetScriptV2Api* | **openApi2StarOrderGetScriptGet** | **GET** /open_api/2/star/order/get_script/
 *StarOrderGetVideoV2Api* | **openApi2StarOrderGetVideoGet** | **GET** /open_api/2/star/order/get_video/
 *StarOrderListByCampaignV2Api* | **openApi2StarOrderListByCampaignGet** | **GET** /open_api/2/star/order/list_by_campaign/
@@ -877,6 +904,7 @@ Class | Method | HTTP request
 *ToolsAppManagementExtendPackageListV2V2Api* | **openApi2ToolsAppManagementExtendPackageListV2Get** | **GET** /open_api/2/tools/app_management/extend_package/list_v2/
 *ToolsAppManagementExtendPackageUpdateV2Api* | **openApi2ToolsAppManagementExtendPackageUpdatePost** | **POST** /open_api/2/tools/app_management/extend_package/update/
 *ToolsAppManagementExtendPackageUpdateV2V2Api* | **openApi2ToolsAppManagementExtendPackageUpdateV2Post** | **POST** /open_api/2/tools/app_management/extend_package/update_v2/
+*ToolsAppManagementHarmonyAppListV2Api* | **openApi2ToolsAppManagementHarmonyAppListGet** | **GET** /open_api/2/tools/app_management/harmony_app_list/
 *ToolsAppManagementIndustryInfoListV2Api* | **openApi2ToolsAppManagementIndustryInfoListGet** | **GET** /open_api/2/tools/app_management/industry_info/list/
 *ToolsAppManagementShareAccountListV2Api* | **openApi2ToolsAppManagementShareAccountListGet** | **GET** /open_api/2/tools/app_management/share_account/list/
 *ToolsAppManagementUpdateAuthorizationV2Api* | **openApi2ToolsAppManagementUpdateAuthorizationPost** | **POST** /open_api/2/tools/app_management/update/authorization/
@@ -911,6 +939,7 @@ Class | Method | HTTP request
 *ToolsClueClueOverviewQueryV2Api* | **openApi2ToolsClueClueOverviewQueryGet** | **GET** /open_api/2/tools/clue/clue/overview/query/
 *ToolsClueContactLogListV2Api* | **openApi2ToolsClueContactLogListGet** | **GET** /open_api/2/tools/clue/contact_log/list/
 *ToolsClueContactLogOverviewQueryV2Api* | **openApi2ToolsClueContactLogOverviewQueryGet** | **GET** /open_api/2/tools/clue/contact_log/overview/query/
+*ToolsClueContactLogRecordUrlGetV2Api* | **openApi2ToolsClueContactLogRecordUrlGetGet** | **GET** /open_api/2/tools/clue/contact_log/record_url/get/
 *ToolsClueExtInfoCallbackV2Api* | **openApi2ToolsClueExtInfoCallbackPost** | **POST** /open_api/2/tools/clue/ext_info/callback/
 *ToolsClueFormDetailV2Api* | **openApi2ToolsClueFormDetailGet** | **GET** /open_api/2/tools/clue/form/detail/
 *ToolsClueFormGetV2Api* | **openApi2ToolsClueFormGetGet** | **GET** /open_api/2/tools/clue/form/get/
@@ -976,6 +1005,8 @@ Class | Method | HTTP request
 *ToolsMicroAppCreateV30Api* | **openApiV30ToolsMicroAppCreatePost** | **POST** /open_api/v3.0/tools/micro_app/create/
 *ToolsMicroAppListV30Api* | **openApiV30ToolsMicroAppListGet** | **GET** /open_api/v3.0/tools/micro_app/list/
 *ToolsMicroAppUpdateV30Api* | **openApiV30ToolsMicroAppUpdatePost** | **POST** /open_api/v3.0/tools/micro_app/update/
+*ToolsMicroGameConvertWindowGetV30Api* | **openApiV30ToolsMicroGameConvertWindowGetGet** | **GET** /open_api/v3.0/tools/micro_game/convert_window/get/
+*ToolsMicroGameConvertWindowUpdateV30Api* | **openApiV30ToolsMicroGameConvertWindowUpdatePost** | **POST** /open_api/v3.0/tools/micro_game/convert_window/update/
 *ToolsMicroGameCreateV30Api* | **openApiV30ToolsMicroGameCreatePost** | **POST** /open_api/v3.0/tools/micro_game/create/
 *ToolsMicroGameListV30Api* | **openApiV30ToolsMicroGameListGet** | **GET** /open_api/v3.0/tools/micro_game/list/
 *ToolsMicroGameUpdateV30Api* | **openApiV30ToolsMicroGameUpdatePost** | **POST** /open_api/v3.0/tools/micro_game/update/
@@ -1073,6 +1104,7 @@ Class | Method | HTTP request
 *YuntuAudienceInfoGetV30Api* | **openApiV30YuntuAudienceInfoGetGet** | **GET** /open_api/v3.0/yuntu/audience_info/get/
 *YuntuAudienceLabelCreateV30Api* | **openApiV30YuntuAudienceLabelCreatePost** | **POST** /open_api/v3.0/yuntu/audience_label/create/
 *YuntuAudienceLabelDeleteV30Api* | **openApiV30YuntuAudienceLabelDeletePost** | **POST** /open_api/v3.0/yuntu/audience_label/delete/
+*YuntuAudienceLabelGetV30Api* | **openApiV30YuntuAudienceLabelGetGet** | **GET** /open_api/v3.0/yuntu/audience_label/get/
 *YuntuBrandInfoGetV30Api* | **openApiV30YuntuBrandInfoGetGet** | **GET** /open_api/v3.0/yuntu/brand_info/get/
 
 
