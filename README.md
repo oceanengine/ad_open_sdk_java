@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.42
-  - Build date: 2025-04-07T17:34:19.910300326+08:00[Asia/Shanghai]
+- API version: 1.1.43
+  - Build date: 2025-04-09T19:36:15.594682186+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -391,6 +391,11 @@ Class | Method | HTTP request
 *DpaProductUpdateV2Api* | **openApi2DpaProductUpdatePost** | **POST** /open_api/2/dpa/product/update/
 *DpaTemplateGetV2Api* | **openApi2DpaTemplateGetGet** | **GET** /open_api/2/dpa/template/get/
 *DpaVideoGetV2Api* | **openApi2DpaVideoGetGet** | **GET** /open_api/2/dpa/video/get/
+*EbpAdvertiserListV2Api* | **openApi2EbpAdvertiserListGet** | **GET** /open_api/2/ebp/advertiser/list/
+*EbpAdvertiserTaskCreateV2Api* | **openApi2EbpAdvertiserTaskCreatePost** | **POST** /open_api/2/ebp/advertiser/task/create/
+*EbpAdvertiserTaskDownloadV2Api* | **openApi2EbpAdvertiserTaskDownloadGet** | **GET** /open_api/2/ebp/advertiser/task/download/
+*EbpAdvertiserTaskListV2Api* | **openApi2EbpAdvertiserTaskListGet** | **GET** /open_api/2/ebp/advertiser/task/list/
+*EbpLevelGetV2Api* | **openApi2EbpLevelGetGet** | **GET** /open_api/2/ebp/level/get/
 *EnterpriseBindListGetV10Api* | **openApiV10EnterpriseBindListGetGet** | **GET** /open_api/v1.0/enterprise/bind/list/get/
 *EnterpriseCommentDetailV10Api* | **openApiV10EnterpriseCommentDetailGet** | **GET** /open_api/v1.0/enterprise/comment/detail/
 *EnterpriseCommentListGetV10Api* | **openApiV10EnterpriseCommentListGetGet** | **GET** /open_api/v1.0/enterprise/comment/list/get/
@@ -805,6 +810,7 @@ Class | Method | HTTP request
 *StarDemandSearchWordModifyV2Api* | **openApi2StarDemandSearchWordModifyPost** | **POST** /open_api/2/star/demand/search_word/modify/
 *StarDemanderDemanderGetAuthorBindInfoV2Api* | **openApi2StarDemanderDemanderGetAuthorBindInfoGet** | **GET** /open_api/2/star/demander/demander_get_author_bind_info/
 *StarDemanderDemanderGetBindShareCodeV2Api* | **openApi2StarDemanderDemanderGetBindShareCodeGet** | **GET** /open_api/2/star/demander/demander_get_bind_share_code/
+*StarDemanderUploadCpsTaskSalesV2Api* | **openApi2StarDemanderUploadCpsTaskSalesPost** | **POST** /open_api/2/star/demander_upload_cps_task_sales/
 *StarFeCommonServiceTalentDayGetCheckInCodeV2Api* | **openApi2StarFeCommonServiceTalentDayGetCheckInCodeGet** | **GET** /open_api/2/star/fe_common_service/talent_day/get_check_in_code/
 *StarFeCommonServiceTalentDayJudgeCheckedInV2Api* | **openApi2StarFeCommonServiceTalentDayJudgeCheckedInGet** | **GET** /open_api/2/star/fe_common_service/talent_day/judge_checked_in/
 *StarGetCreateChallengeDataDictV2Api* | **openApi2StarGetCreateChallengeDataDictGet** | **GET** /open_api/2/star/get_create_challenge_data_dict/
