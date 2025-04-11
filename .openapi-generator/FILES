@@ -2244,6 +2244,7 @@ src/main/java/com/bytedance/ads/model/AgentAdvBrandListQueryV2Response.java
 src/main/java/com/bytedance/ads/model/AgentAdvBrandListQueryV2ResponseData.java
 src/main/java/com/bytedance/ads/model/AgentAdvBrandListQueryV2ResponseDataDataInner.java
 src/main/java/com/bytedance/ads/model/AgentAdvBrandListQueryV2ResponseDataPageInfo.java
+src/main/java/com/bytedance/ads/model/AgentAdvCostReportListQueryV2CostAggType.java
 src/main/java/com/bytedance/ads/model/AgentAdvCostReportListQueryV2DataListAppName.java
 src/main/java/com/bytedance/ads/model/AgentAdvCostReportListQueryV2DataListBusinessType.java
 src/main/java/com/bytedance/ads/model/AgentAdvCostReportListQueryV2DataListCashbackType.java
@@ -2828,6 +2829,7 @@ src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestCategoryInfo.
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInner.java
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInnerMaterialComponent.java
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInnerMaterialComponentAwemeAnchor.java
+src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInnerMaterialComponentAwemeShopHomePage.java
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInnerMaterialComponentAwemeVideo.java
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInnerMaterialComponentAwemeVideoVideo.java
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInnerMaterialComponentBusinessUrl.java
@@ -2841,6 +2843,8 @@ src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListI
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInnerMaterialComponentIesCoreUser.java
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInnerMaterialComponentImageCard.java
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInnerMaterialComponentImageCardImage.java
+src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInnerMaterialComponentMallActivityPage.java
+src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInnerMaterialComponentProductDetailPage.java
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestMaterialListInnerMaterialComponentSearch.java
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30RequestTrackUrlInfo.java
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30Response.java
@@ -2850,6 +2854,7 @@ src/main/java/com/bytedance/ads/model/BrandMaterialListV30CampaignFilter.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30CampaignFilterCampaignStatus.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30DataMaterialsCreativeTemplate.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30DataMaterialsMaterialStatus.java
+src/main/java/com/bytedance/ads/model/BrandMaterialListV30DataMaterialsTrackUrlGroupInfosTrackUrlInfoTrackUrlSendType.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30DataMaterialsTrackUrlInfoTrackUrlSendType.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30MaterialStatus.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30OrderFilter.java
@@ -2874,6 +2879,7 @@ src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsI
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentAppDownloadIosApp.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentAvatarIcon.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentAvatarIconImage.java
+src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentAwemeShopHomePage.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentAwemeVideo.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentAwemeVideoVideo.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentBusinessUrl.java
@@ -2895,7 +2901,9 @@ src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsI
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentImageCard.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentImageCardImage.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentLbsExternal.java
+src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentMallActivityPage.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentMusicText.java
+src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentProductDetailPage.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentSearch.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentSemicCircleButton.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentSideSlide.java
@@ -2917,6 +2925,8 @@ src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsI
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentVideoFullScreenVideoListInner.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentVideoTwistEgg.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerMaterialComponentVideoTwistEggNearImage.java
+src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerTrackUrlGroupInfosInner.java
+src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerTrackUrlGroupInfosInnerTrackUrlInfo.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataMaterialsInnerTrackUrlInfo.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30CreativeDisplayMode.java
@@ -2927,6 +2937,7 @@ src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestCategoryInfo.
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInner.java
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInnerMaterialComponent.java
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInnerMaterialComponentAwemeAnchor.java
+src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInnerMaterialComponentAwemeShopHomePage.java
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInnerMaterialComponentAwemeVideo.java
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInnerMaterialComponentAwemeVideoVideo.java
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInnerMaterialComponentBusinessUrl.java
@@ -2940,9 +2951,15 @@ src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListI
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInnerMaterialComponentIesCoreUser.java
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInnerMaterialComponentImageCard.java
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInnerMaterialComponentImageCardImage.java
+src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInnerMaterialComponentMallActivityPage.java
+src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInnerMaterialComponentProductDetailPage.java
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestMaterialListInnerMaterialComponentSearch.java
+src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestTrackUrlGroupInfosInner.java
+src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestTrackUrlGroupInfosInnerTrackUrlInfo.java
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30RequestTrackUrlInfo.java
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30Response.java
+src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30ResponseData.java
+src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30TrackUrlGroupInfosTrackUrlInfoTrackUrlSendType.java
 src/main/java/com/bytedance/ads/model/BrandMaterialUpdateV30TrackUrlInfoTrackUrlSendType.java
 src/main/java/com/bytedance/ads/model/BrandOperationLogQueryV30Fields.java
 src/main/java/com/bytedance/ads/model/BrandOperationLogQueryV30ObjectType.java
@@ -8389,6 +8406,7 @@ src/main/java/com/bytedance/ads/model/ToolsAdminInfoV2ResponseDataDistrictsInner
 src/main/java/com/bytedance/ads/model/ToolsAdminInfoV2ResponseDataDistrictsInnerSubDistrictsInnerSubDistrictsInnerSubDistrictsInner.java
 src/main/java/com/bytedance/ads/model/ToolsAdminInfoV2ResponseDataDistrictsInnerSubDistrictsInnerSubDistrictsInnerSubDistrictsInnerSubDistrictsInner.java
 src/main/java/com/bytedance/ads/model/ToolsAdminInfoV2SubDistrict.java
+src/main/java/com/bytedance/ads/model/ToolsAdminInfoV2Version.java
 src/main/java/com/bytedance/ads/model/ToolsAdvertiserStoreSearchV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsAdvertiserStoreSearchV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsAdvertiserStoreSearchV2ResponseDataListInner.java
@@ -9104,6 +9122,7 @@ src/main/java/com/bytedance/ads/model/ToolsForbiddenLinkGreyGetV30ResponseData.j
 src/main/java/com/bytedance/ads/model/ToolsGrayGetV30Response.java
 src/main/java/com/bytedance/ads/model/ToolsGrayGetV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsGrayGetV30ResponseDataListInner.java
+src/main/java/com/bytedance/ads/model/ToolsGrayGetV30Version.java
 src/main/java/com/bytedance/ads/model/ToolsIndustryGetV2Level.java
 src/main/java/com/bytedance/ads/model/ToolsIndustryGetV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsIndustryGetV2ResponseData.java
