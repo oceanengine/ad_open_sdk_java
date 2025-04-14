@@ -8406,7 +8406,6 @@ src/main/java/com/bytedance/ads/model/ToolsAdminInfoV2ResponseDataDistrictsInner
 src/main/java/com/bytedance/ads/model/ToolsAdminInfoV2ResponseDataDistrictsInnerSubDistrictsInnerSubDistrictsInnerSubDistrictsInner.java
 src/main/java/com/bytedance/ads/model/ToolsAdminInfoV2ResponseDataDistrictsInnerSubDistrictsInnerSubDistrictsInnerSubDistrictsInnerSubDistrictsInner.java
 src/main/java/com/bytedance/ads/model/ToolsAdminInfoV2SubDistrict.java
-src/main/java/com/bytedance/ads/model/ToolsAdminInfoV2Version.java
 src/main/java/com/bytedance/ads/model/ToolsAdvertiserStoreSearchV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsAdvertiserStoreSearchV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsAdvertiserStoreSearchV2ResponseDataListInner.java
@@ -9122,7 +9121,6 @@ src/main/java/com/bytedance/ads/model/ToolsForbiddenLinkGreyGetV30ResponseData.j
 src/main/java/com/bytedance/ads/model/ToolsGrayGetV30Response.java
 src/main/java/com/bytedance/ads/model/ToolsGrayGetV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsGrayGetV30ResponseDataListInner.java
-src/main/java/com/bytedance/ads/model/ToolsGrayGetV30Version.java
 src/main/java/com/bytedance/ads/model/ToolsIndustryGetV2Level.java
 src/main/java/com/bytedance/ads/model/ToolsIndustryGetV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsIndustryGetV2ResponseData.java
