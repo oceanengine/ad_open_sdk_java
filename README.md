@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.48
-  - Build date: 2025-04-14T19:56:12.797843731+08:00[Asia/Shanghai]
+- API version: 1.1.49
+  - Build date: 2025-05-07T10:55:12.210335968+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -267,6 +267,7 @@ Class | Method | HTTP request
 *BrandToolCreativePreviewV30Api* | **openApiV30BrandToolCreativePreviewGet** | **GET** /open_api/v3.0/brand/tool/creative_preview/
 *BrandToolMaterialPreviewV30Api* | **openApiV30BrandToolMaterialPreviewGet** | **GET** /open_api/v3.0/brand/tool/material_preview/
 *BrandToolQueryPublishPriceV30Api* | **openApiV30BrandToolQueryPublishPriceGet** | **GET** /open_api/v3.0/brand/tool/query_publish_price/
+*BrandToolQueryStockBalanceV30Api* | **openApiV30BrandToolQueryStockBalanceGet** | **GET** /open_api/v3.0/brand/tool/query_stock_balance/
 *BrandUploadImageV30Api* | **openApiV30BrandUploadImagePost** | **POST** /open_api/v3.0/brand/upload_image/
 *BudgetGroupCreateV30Api* | **openApiV30BudgetGroupCreatePost** | **POST** /open_api/v3.0/budget_group/create/
 *BudgetGroupDeleteV30Api* | **openApiV30BudgetGroupDeletePost** | **POST** /open_api/v3.0/budget_group/delete/
@@ -507,6 +508,7 @@ Class | Method | HTTP request
 *LocalPromotionStatusUpdateV30Api* | **openApiV30LocalPromotionStatusUpdatePost** | **POST** /open_api/v3.0/local/promotion/status/update/
 *LocalPromotionUpdateV30Api* | **openApiV30LocalPromotionUpdatePost** | **POST** /open_api/v3.0/local/promotion/update/
 *LocalReportAccountGetV30Api* | **openApiV30LocalReportAccountGetGet** | **GET** /open_api/v3.0/local/report/account/get/
+*LocalReportAudienceGetV30Api* | **openApiV30LocalReportAudienceGetGet** | **GET** /open_api/v3.0/local/report/audience/get/
 *LocalReportMaterialGetV30Api* | **openApiV30LocalReportMaterialGetGet** | **GET** /open_api/v3.0/local/report/material/get/
 *LocalReportProjectGetV30Api* | **openApiV30LocalReportProjectGetGet** | **GET** /open_api/v3.0/local/report/project/get/
 *LocalReportPromotionGetV30Api* | **openApiV30LocalReportPromotionGetGet** | **GET** /open_api/v3.0/local/report/promotion/get/
@@ -549,6 +551,7 @@ Class | Method | HTTP request
 *PromotionMaterialDeleteV30Api* | **openApiV30PromotionMaterialDeletePost** | **POST** /open_api/v3.0/promotion/material/delete/
 *PromotionNameUpdateV30Api* | **openApiV30PromotionNameUpdatePost** | **POST** /open_api/v3.0/promotion_name/update/
 *PromotionNewcustomerCreateV30Api* | **openApiV30PromotionNewcustomerCreatePost** | **POST** /open_api/v3.0/promotion_newcustomer/create/
+*PromotionNewcustomerTypeGetV30Api* | **openApiV30PromotionNewcustomerTypeGetGet** | **GET** /open_api/v3.0/promotion_newcustomer_type/get/
 *PromotionRejectReasonGetV30Api* | **openApiV30PromotionRejectReasonGetGet** | **GET** /open_api/v3.0/promotion/reject_reason/get/
 *PromotionScheduleTimeUpdateV30Api* | **openApiV30PromotionScheduleTimeUpdatePost** | **POST** /open_api/v3.0/promotion/schedule_time/update/
 *PromotionShopInfoUpdateV30Api* | **openApiV30PromotionShopInfoUpdatePost** | **POST** /open_api/v3.0/promotion/shop_info/update/
@@ -723,6 +726,7 @@ Class | Method | HTTP request
 *ReportBrandCampaignGetV30Api* | **openApiV30ReportBrandCampaignGetGet** | **GET** /open_api/v3.0/report/brand/campaign/get/
 *ReportBrandCreativeGetV30Api* | **openApiV30ReportBrandCreativeGetGet** | **GET** /open_api/v3.0/report/brand/creative/get/
 *ReportBrandDataV30Api* | **openApiV30ReportBrandDataGet** | **GET** /open_api/v3.0/report/brand/data/
+*ReportBusinessPlatformStardeliveryTaskVideoDataGetV30Api* | **openApiV30ReportBusinessPlatformStardeliveryTaskVideoDataGetGet** | **GET** /open_api/v3.0/report/business_platform/stardelivery/task_video_data/get/
 *ReportCampaignGetV2Api* | **openApi2ReportCampaignGetGet** | **GET** /open_api/2/report/campaign/get/
 *ReportCreativeGetV2Api* | **openApi2ReportCreativeGetGet** | **GET** /open_api/2/report/creative/get/
 *ReportCustomAsyncTaskCreateV30Api* | **openApiV30ReportCustomAsyncTaskCreatePost** | **POST** /open_api/v3.0/report/custom/async_task/create/
@@ -822,6 +826,7 @@ Class | Method | HTTP request
 *StarMcnGetContractedChallengeUrlV2Api* | **openApi2StarMcnGetContractedChallengeUrlGet** | **GET** /open_api/2/star/mcn/get_contracted_challenge_url/
 *StarMcnGetUnparticipatedTaskV2Api* | **openApi2StarMcnGetUnparticipatedTaskGet** | **GET** /open_api/2/star/mcn/get_unparticipated_task/
 *StarMcnProviderGetParticipatedTaskV2Api* | **openApi2StarMcnProviderGetParticipatedTaskGet** | **GET** /open_api/2/star/mcn/provider_get_participated_task/
+*StarMcnProviderGetTagOnTaskV2Api* | **openApi2StarMcnProviderGetTagOnTaskGet** | **GET** /open_api/2/star/mcn/provider_get_tag_on_task/
 *StarMcnProviderGetTaskDetailV2Api* | **openApi2StarMcnProviderGetTaskDetailGet** | **GET** /open_api/2/star/mcn/provider_get_task_detail/
 *StarMcnProviderGetTaskItemListV2Api* | **openApi2StarMcnProviderGetTaskItemListGet** | **GET** /open_api/2/star/mcn/provider_get_task_item_list/
 *StarMcnProviderGetTaskShareCodeV2Api* | **openApi2StarMcnProviderGetTaskShareCodeGet** | **GET** /open_api/2/star/mcn/provider_get_task_share_code/
