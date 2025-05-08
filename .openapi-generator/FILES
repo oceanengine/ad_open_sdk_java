@@ -652,6 +652,7 @@ src/main/java/com/bytedance/ads/api/SharedWalletWalletInfoGetV30Api.java
 src/main/java/com/bytedance/ads/api/SharedWalletWalletRelationGetV30Api.java
 src/main/java/com/bytedance/ads/api/SpiTaskGetV2Api.java
 src/main/java/com/bytedance/ads/api/StarAttachmentUploadV2Api.java
+src/main/java/com/bytedance/ads/api/StarAttributeJdOverflowConvertV2Api.java
 src/main/java/com/bytedance/ads/api/StarAttributeUserEventFeedbackV2Api.java
 src/main/java/com/bytedance/ads/api/StarAttributeUserInfoFeedbackV2Api.java
 src/main/java/com/bytedance/ads/api/StarBillGetPendingV2Api.java
@@ -682,6 +683,7 @@ src/main/java/com/bytedance/ads/api/StarComponentUpdateLinkV2Api.java
 src/main/java/com/bytedance/ads/api/StarDataTaskTimelineReportV2Api.java
 src/main/java/com/bytedance/ads/api/StarDemandCreateAssignV2Api.java
 src/main/java/com/bytedance/ads/api/StarDemandCreateChallengeV2Api.java
+src/main/java/com/bytedance/ads/api/StarDemandGetEpisodeLimitV2Api.java
 src/main/java/com/bytedance/ads/api/StarDemandGetResellCodeV2Api.java
 src/main/java/com/bytedance/ads/api/StarDemandListV2Api.java
 src/main/java/com/bytedance/ads/api/StarDemandOmCreateChallengeV2Api.java
@@ -1629,6 +1631,7 @@ src/main/java/com/bytedance/ads/examples/SharedWalletWalletInfoGetV30ApiExample.
 src/main/java/com/bytedance/ads/examples/SharedWalletWalletRelationGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SpiTaskGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarAttachmentUploadV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/StarAttributeJdOverflowConvertV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarAttributeUserEventFeedbackV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarAttributeUserInfoFeedbackV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarBillGetPendingV2ApiExample.java
@@ -1659,6 +1662,7 @@ src/main/java/com/bytedance/ads/examples/StarComponentUpdateLinkV2ApiExample.jav
 src/main/java/com/bytedance/ads/examples/StarDataTaskTimelineReportV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarDemandCreateAssignV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarDemandCreateChallengeV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/StarDemandGetEpisodeLimitV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarDemandGetResellCodeV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarDemandListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarDemandOmCreateChallengeV2ApiExample.java
@@ -2878,6 +2882,8 @@ src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30ResponseData.java
 src/main/java/com/bytedance/ads/model/BrandMaterialCreateV30TrackUrlInfoTrackUrlSendType.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30CampaignFilter.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30CampaignFilterCampaignStatus.java
+src/main/java/com/bytedance/ads/model/BrandMaterialListV30DataMaterialsCreativeDisplayMode.java
+src/main/java/com/bytedance/ads/model/BrandMaterialListV30DataMaterialsCreativeIsAigc.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30DataMaterialsCreativeTemplate.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30DataMaterialsMaterialStatus.java
 src/main/java/com/bytedance/ads/model/BrandMaterialListV30DataMaterialsTrackUrlGroupInfosTrackUrlInfoTrackUrlSendType.java
@@ -7852,6 +7858,8 @@ src/main/java/com/bytedance/ads/model/SpiTaskGetV2Status.java
 src/main/java/com/bytedance/ads/model/StarAttachmentUploadV2Request.java
 src/main/java/com/bytedance/ads/model/StarAttachmentUploadV2Response.java
 src/main/java/com/bytedance/ads/model/StarAttachmentUploadV2ResponseData.java
+src/main/java/com/bytedance/ads/model/StarAttributeJdOverflowConvertV2Request.java
+src/main/java/com/bytedance/ads/model/StarAttributeJdOverflowConvertV2Response.java
 src/main/java/com/bytedance/ads/model/StarAttributeUserEventFeedbackV2Request.java
 src/main/java/com/bytedance/ads/model/StarAttributeUserEventFeedbackV2Response.java
 src/main/java/com/bytedance/ads/model/StarAttributeUserInfoFeedbackV2Request.java
@@ -8005,6 +8013,8 @@ src/main/java/com/bytedance/ads/model/StarDemandCreateChallengeV2RequestDemandIn
 src/main/java/com/bytedance/ads/model/StarDemandCreateChallengeV2Response.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateChallengeV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateChallengeV2ResponseDataBillInfo.java
+src/main/java/com/bytedance/ads/model/StarDemandGetEpisodeLimitV2Response.java
+src/main/java/com/bytedance/ads/model/StarDemandGetEpisodeLimitV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarDemandGetResellCodeV2Response.java
 src/main/java/com/bytedance/ads/model/StarDemandGetResellCodeV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarDemandListV2DataListComponentType.java

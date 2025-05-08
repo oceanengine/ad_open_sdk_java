@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.49
-  - Build date: 2025-05-07T10:55:12.210335968+08:00[Asia/Shanghai]
+- API version: 1.1.50
+  - Build date: 2025-05-08T21:39:51.416408767+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -770,6 +770,7 @@ Class | Method | HTTP request
 *SharedWalletWalletRelationGetV30Api* | **openApiV30SharedWalletWalletRelationGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_relation/get/
 *SpiTaskGetV2Api* | **openApi2SpiTaskGetGet** | **GET** /open_api/2/spi_task/get/
 *StarAttachmentUploadV2Api* | **openApi2StarAttachmentUploadPost** | **POST** /open_api/2/star/attachment/upload/
+*StarAttributeJdOverflowConvertV2Api* | **openApi2StarAttributeJdOverflowConvertPost** | **POST** /open_api/2/star/attribute/jd_overflow_convert/
 *StarAttributeUserEventFeedbackV2Api* | **openApi2StarAttributeUserEventFeedbackPost** | **POST** /open_api/2/star/attribute/user_event_feedback/
 *StarAttributeUserInfoFeedbackV2Api* | **openApi2StarAttributeUserInfoFeedbackPost** | **POST** /open_api/2/star/attribute/user_info_feedback/
 *StarBillGetPendingV2Api* | **openApi2StarBillGetPendingGet** | **GET** /open_api/2/star/bill/get_pending/
@@ -800,6 +801,7 @@ Class | Method | HTTP request
 *StarDataTaskTimelineReportV2Api* | **openApi2StarDataTaskTimelineReportGet** | **GET** /open_api/2/star/data/task_timeline_report/
 *StarDemandCreateAssignV2Api* | **openApi2StarDemandCreateAssignPost** | **POST** /open_api/2/star/demand/create_assign/
 *StarDemandCreateChallengeV2Api* | **openApi2StarDemandCreateChallengePost** | **POST** /open_api/2/star/demand/create_challenge/
+*StarDemandGetEpisodeLimitV2Api* | **openApi2StarDemandGetEpisodeLimitGet** | **GET** /open_api/2/star/demand/get_episode_limit/
 *StarDemandGetResellCodeV2Api* | **openApi2StarDemandGetResellCodeGet** | **GET** /open_api/2/star/demand/get_resell_code/
 *StarDemandListV2Api* | **openApi2StarDemandListGet** | **GET** /open_api/2/star/demand/list/
 *StarDemandOmCreateChallengeV2Api* | **openApi2StarDemandOmCreateChallengePost** | **POST** /open_api/2/star/demand/om_create_challenge/
