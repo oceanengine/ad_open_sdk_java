@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.50
-  - Build date: 2025-05-08T21:39:51.416408767+08:00[Asia/Shanghai]
+- API version: 1.1.51
+  - Build date: 2025-05-14T20:09:43.986095598+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -181,6 +181,7 @@ Class | Method | HTTP request
 *AdvertiserTransferableFundGetV2Api* | **openApi2AdvertiserTransferableFundGetGet** | **GET** /open_api/2/advertiser/transferable_fund/get/
 *AdvertiserUpdateBudgetV2Api* | **openApi2AdvertiserUpdateBudgetPost** | **POST** /open_api/2/advertiser/update/budget/
 *AdvertiserVerifyInfoGetV30Api* | **openApiV30AdvertiserVerifyInfoGetGet** | **GET** /open_api/v3.0/advertiser/verify_info/get/
+*AgentAdvAdvertiserUpdateSaleV2Api* | **openApi2AgentAdvAdvertiserUpdateSalePost** | **POST** /open_api/2/agent/adv/advertiser/update_sale/
 *AgentAdvBiddingListQueryV2Api* | **openApi2AgentAdvBiddingListQueryGet** | **GET** /open_api/2/agent/adv/bidding/list/query/
 *AgentAdvBrandListQueryV2Api* | **openApi2AgentAdvBrandListQueryGet** | **GET** /open_api/2/agent/adv/brand/list/query/
 *AgentAdvCostReportListQueryV2Api* | **openApi2AgentAdvCostReportListQueryPost** | **POST** /open_api/2/agent/adv/cost_report/list/query/
@@ -299,6 +300,8 @@ Class | Method | HTTP request
 *CgTransferWalletTransferCreateV30Api* | **openApiV30CgTransferWalletTransferCreatePost** | **POST** /open_api/v3.0/cg_transfer/wallet/transfer/create/
 *CgTransferWalletTransferDetailV30Api* | **openApiV30CgTransferWalletTransferDetailGet** | **GET** /open_api/v3.0/cg_transfer/wallet/transfer/detail/
 *CgTransferWalletTransferListV30Api* | **openApiV30CgTransferWalletTransferListGet** | **GET** /open_api/v3.0/cg_transfer/wallet/transfer/list/
+*ChargeListV30Api* | **openApiV30ChargeListGet** | **GET** /open_api/v3.0/charge/list/
+*ChargeResultV30Api* | **openApiV30ChargeResultGet** | **GET** /open_api/v3.0/charge/result/
 *ClueCaCreateV2Api* | **openApi2ClueCaCreatePost** | **POST** /open_api/2/clue/ca/create/
 *ClueCaInterfaceCreateV2Api* | **openApi2ClueCaInterfaceCreatePost** | **POST** /open_api/2/clue/ca/interface/create/
 *ClueCaInterfaceUpdateV2Api* | **openApi2ClueCaInterfaceUpdatePost** | **POST** /open_api/2/clue/ca/interface/update/
@@ -342,6 +345,7 @@ Class | Method | HTTP request
 *CustomerCenterAdvertiserTransferableListV2Api* | **openApi2CustomerCenterAdvertiserTransferableListGet** | **GET** /open_api/2/customer_center/advertiser/transferable/list/
 *CustomerCenterFundTransferSeqCommitV2Api* | **openApi2CustomerCenterFundTransferSeqCommitPost** | **POST** /open_api/2/customer_center/fund/transfer_seq/commit/
 *CustomerCenterFundTransferSeqCreateV2Api* | **openApi2CustomerCenterFundTransferSeqCreatePost** | **POST** /open_api/2/customer_center/fund/transfer_seq/create/
+*DcdChargeSubmitV30Api* | **openApiV30DcdChargeSubmitPost** | **POST** /open_api/v3.0/dcd/charge/submit/
 *DecorationCouponGetV30Api* | **openApiV30DecorationCouponGetGet** | **GET** /open_api/v3.0/decoration/coupon/get/
 *DiagnosisTaskAdvCreateV2Api* | **openApi2DiagnosisTaskAdvCreatePost** | **POST** /open_api/2/diagnosis_task/adv/create/
 *DiagnosisTaskAdvGetV2Api* | **openApi2DiagnosisTaskAdvGetGet** | **GET** /open_api/2/diagnosis_task/adv/get/
@@ -370,6 +374,8 @@ Class | Method | HTTP request
 *DouplusRtaSetScopeV30Api* | **openApiV30DouplusRtaSetScopePost** | **POST** /open_api/v3.0/douplus/rta/set_scope/
 *DownloadStatementEsignFileV2Api* | **openApi2DownloadStatementEsignFileGet** | **GET** /open_api/2/download/statement/esign_file/
 *DownloadStatementV2Api* | **openApi2DownloadStatementGet** | **GET** /open_api/2/download/statement/
+*DpaAlbumCreateV30Api* | **openApiV30DpaAlbumCreatePost** | **POST** /open_api/v3.0/dpa/album/create/
+*DpaAlbumStatusGetV30Api* | **openApiV30DpaAlbumStatusGetGet** | **GET** /open_api/v3.0/dpa/album_status/get/
 *DpaAssetV2DetailReadV2Api* | **openApi2DpaAssetV2DetailReadPost** | **POST** /open_api/2/dpa/asset_v2/detail/read/
 *DpaAssetV2ListV2Api* | **openApi2DpaAssetV2ListPost** | **POST** /open_api/2/dpa/asset_v2/list/
 *DpaAssetsDetailReadV2Api* | **openApi2DpaAssetsDetailReadGet** | **GET** /open_api/2/dpa/assets/detail/read/
@@ -768,6 +774,8 @@ Class | Method | HTTP request
 *SharedWalletWalletBalanceGetV30Api* | **openApiV30SharedWalletWalletBalanceGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_balance/get/
 *SharedWalletWalletInfoGetV30Api* | **openApiV30SharedWalletWalletInfoGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_info/get/
 *SharedWalletWalletRelationGetV30Api* | **openApiV30SharedWalletWalletRelationGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_relation/get/
+*ShopBonusCreateV30Api* | **openApiV30ShopBonusCreatePost** | **POST** /open_api/v3.0/shop_bonus/create/
+*ShopBonusSuccessGetV30Api* | **openApiV30ShopBonusSuccessGetGet** | **GET** /open_api/v3.0/shop_bonus_success/get/
 *SpiTaskGetV2Api* | **openApi2SpiTaskGetGet** | **GET** /open_api/2/spi_task/get/
 *StarAttachmentUploadV2Api* | **openApi2StarAttachmentUploadPost** | **POST** /open_api/2/star/attachment/upload/
 *StarAttributeJdOverflowConvertV2Api* | **openApi2StarAttributeJdOverflowConvertPost** | **POST** /open_api/2/star/attribute/jd_overflow_convert/
@@ -997,6 +1005,10 @@ Class | Method | HTTP request
 *ToolsEventConvertOptimizedGoalGetV30Api* | **openApiV30ToolsEventConvertOptimizedGoalGetGet** | **GET** /open_api/v3.0/tools/event_convert/optimized_goal/get/
 *ToolsForbiddenLinkGreyGetV30Api* | **openApiV30ToolsForbiddenLinkGreyGetGet** | **GET** /open_api/v3.0/tools/forbidden_link/grey/get/
 *ToolsGrayGetV30Api* | **openApiV30ToolsGrayGetGet** | **GET** /open_api/v3.0/tools/gray/get/
+*ToolsHotMaterialDeriveAdoptV30Api* | **openApiV30ToolsHotMaterialDeriveAdoptPost** | **POST** /open_api/v3.0/tools/hot_material_derive/adopt/
+*ToolsHotMaterialDeriveGetV30Api* | **openApiV30ToolsHotMaterialDeriveGetGet** | **GET** /open_api/v3.0/tools/hot_material_derive/get/
+*ToolsHotMaterialDeriveListV30Api* | **openApiV30ToolsHotMaterialDeriveListGet** | **GET** /open_api/v3.0/tools/hot_material_derive/list/
+*ToolsHotMaterialDeriveSubmitV30Api* | **openApiV30ToolsHotMaterialDeriveSubmitPost** | **POST** /open_api/v3.0/tools/hot_material_derive/submit/
 *ToolsIndustryGetV2Api* | **openApi2ToolsIndustryGetGet** | **GET** /open_api/2/tools/industry/get/
 *ToolsInterestActionActionKeywordV2Api* | **openApi2ToolsInterestActionActionKeywordGet** | **GET** /open_api/2/tools/interest_action/action/keyword/
 *ToolsInterestActionId2wordV2Api* | **openApi2ToolsInterestActionId2wordGet** | **GET** /open_api/2/tools/interest_action/id2word/
