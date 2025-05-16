@@ -7222,6 +7222,7 @@ src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10Filte
 src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10FilteringMaterialStatus.java
 src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10FilteringMaterialType.java
 src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10FilteringVideoType.java
+src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10OrderType.java
 src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10PageSize.java
 src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10Response.java
 src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10ResponseData.java
@@ -7233,6 +7234,7 @@ src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10Respo
 src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoVideoMaterial.java
 src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoVideoMaterialCoverImage.java
 src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerProductInfoInner.java
+src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerStatsInfo.java
 src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdMaterialGetV10ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdStatusUpdateV10OptStatus.java
 src/main/java/com/bytedance/ads/model/QianchuanUniPromotionAdStatusUpdateV10Request.java
