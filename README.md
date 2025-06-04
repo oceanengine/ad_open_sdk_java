@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.54
-  - Build date: 2025-05-28T16:24:36.604742520+08:00[Asia/Shanghai]
+- API version: 1.1.55
+  - Build date: 2025-06-04T10:31:21.318619561+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -533,6 +533,8 @@ Class | Method | HTTP request
 *Oauth2AppAccessTokenApi* | **openApiOauth2AppAccessTokenPost** | **POST** /open_api/oauth2/app_access_token/
 *Oauth2RefreshTokenApi* | **openApiOauth2RefreshTokenPost** | **POST** /open_api/oauth2/refresh_token/
 *Oauth2RenewTokenApi* | **openApiOauth2RenewTokenPost** | **POST** /open_api/oauth2/renew_token/
+*OpenMaterialAuditProGetV30Api* | **openApiV30OpenMaterialAuditProGetGet** | **GET** /open_api/v3.0/open_material_audit/pro/get/
+*OpenMaterialAuditProSubmitV30Api* | **openApiV30OpenMaterialAuditProSubmitPost** | **POST** /open_api/v3.0/open_material_audit/pro/submit/
 *ProjectBudgetUpdateV30Api* | **openApiV30ProjectBudgetUpdatePost** | **POST** /open_api/v3.0/project/budget/update/
 *ProjectCostProtectStatusGetV30Api* | **openApiV30ProjectCostProtectStatusGetGet** | **GET** /open_api/v3.0/project/cost_protect_status/get/
 *ProjectCreateV30Api* | **openApiV30ProjectCreatePost** | **POST** /open_api/v3.0/project/create/
@@ -699,6 +701,7 @@ Class | Method | HTTP request
 *QianchuanUniPromotionAdProductDeleteV10Api* | **openApiV10QianchuanUniPromotionAdProductDeletePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/product/delete/
 *QianchuanUniPromotionAdProductGetV10Api* | **openApiV10QianchuanUniPromotionAdProductGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/ad/product/get/
 *QianchuanUniPromotionAdStatusUpdateV10Api* | **openApiV10QianchuanUniPromotionAdStatusUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/status/update/
+*QianchuanUniPromotionAdSuggestionV10Api* | **openApiV10QianchuanUniPromotionAdSuggestionGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/ad/suggestion/
 *QianchuanUniPromotionBlockMaterialGetV10Api* | **openApiV10QianchuanUniPromotionBlockMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/block_material/get/
 *QianchuanUniPromotionListV10Api* | **openApiV10QianchuanUniPromotionListGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/list/
 *QianchuanUniPromotionProductAwemeGetV10Api* | **openApiV10QianchuanUniPromotionProductAwemeGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/product/aweme/get/
