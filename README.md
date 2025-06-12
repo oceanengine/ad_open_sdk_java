@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.55
-  - Build date: 2025-06-04T10:31:21.318619561+08:00[Asia/Shanghai]
+- API version: 1.1.56
+  - Build date: 2025-06-12T12:18:27.508441876+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -200,6 +200,7 @@ Class | Method | HTTP request
 *AgentFundTransferSeqCommitV2Api* | **openApi2AgentFundTransferSeqCommitPost** | **POST** /open_api/2/agent/fund/transfer_seq/commit/
 *AgentFundTransferSeqCreateV2Api* | **openApi2AgentFundTransferSeqCreatePost** | **POST** /open_api/2/agent/fund/transfer_seq/create/
 *AgentInfoV2Api* | **openApi2AgentInfoGet** | **GET** /open_api/2/agent/info/
+*AgentPrepayChargeGenerateRemittanceCodeV2Api* | **openApi2AgentPrepayChargeGenerateRemittanceCodePost** | **POST** /open_api/2/agent/prepay_charge/generate_remittance_code/
 *AgentQueryRiskPromotionListV2Api* | **openApi2AgentQueryRiskPromotionListGet** | **GET** /open_api/2/agent/query/risk_promotion_list/
 *AgentRefundTransferSeqCommitV2Api* | **openApi2AgentRefundTransferSeqCommitPost** | **POST** /open_api/2/agent/refund/transfer_seq/commit/
 *AgentRefundTransferSeqCreateV2Api* | **openApi2AgentRefundTransferSeqCreatePost** | **POST** /open_api/2/agent/refund/transfer_seq/create/
@@ -726,6 +727,7 @@ Class | Method | HTTP request
 *RejectMaterialAiRepairAcceptTaskListV30Api* | **openApiV30RejectMaterialAiRepairAcceptTaskListGet** | **GET** /open_api/v3.0/reject_material/ai_repair_accept_task/list/
 *RejectMaterialAiRepairCrossAccountGetV30Api* | **openApiV30RejectMaterialAiRepairCrossAccountGetGet** | **GET** /open_api/v3.0/reject_material/ai_repair/cross_account/get/
 *RejectMaterialAiRepairGetV30Api* | **openApiV30RejectMaterialAiRepairGetGet** | **GET** /open_api/v3.0/reject_material/ai_repair/get/
+*RemittanceCodeListV30Api* | **openApiV30RemittanceCodeListGet** | **GET** /open_api/v3.0/remittance_code/list/
 *ReportAdGetV2Api* | **openApi2ReportAdGetGet** | **GET** /open_api/2/report/ad/get/
 *ReportAdvertiserGetV2Api* | **openApi2ReportAdvertiserGetGet** | **GET** /open_api/2/report/advertiser/get/
 *ReportAgentGetV2V2Api* | **openApi2ReportAgentGetV2Get** | **GET** /open_api/2/report/agent/get_v2/
@@ -787,6 +789,7 @@ Class | Method | HTTP request
 *ShopBonusSuccessGetV30Api* | **openApiV30ShopBonusSuccessGetGet** | **GET** /open_api/v3.0/shop_bonus_success/get/
 *SpiTaskGetV2Api* | **openApi2SpiTaskGetGet** | **GET** /open_api/2/spi_task/get/
 *StarAttachmentUploadV2Api* | **openApi2StarAttachmentUploadPost** | **POST** /open_api/2/star/attachment/upload/
+*StarAttributeItemEventFeedbackV2Api* | **openApi2StarAttributeItemEventFeedbackPost** | **POST** /open_api/2/star/attribute/item_event_feedback/
 *StarAttributeJdOverflowConvertV2Api* | **openApi2StarAttributeJdOverflowConvertPost** | **POST** /open_api/2/star/attribute/jd_overflow_convert/
 *StarAttributeUserEventFeedbackV2Api* | **openApi2StarAttributeUserEventFeedbackPost** | **POST** /open_api/2/star/attribute/user_event_feedback/
 *StarAttributeUserInfoFeedbackV2Api* | **openApi2StarAttributeUserInfoFeedbackPost** | **POST** /open_api/2/star/attribute/user_info_feedback/
