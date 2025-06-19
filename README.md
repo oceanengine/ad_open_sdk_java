@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.56
-  - Build date: 2025-06-12T12:18:27.508441876+08:00[Asia/Shanghai]
+- API version: 1.1.58
+  - Build date: 2025-06-19T17:37:36.939057952+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -1023,6 +1023,7 @@ Class | Method | HTTP request
 *ToolsHotMaterialDeriveGetV30Api* | **openApiV30ToolsHotMaterialDeriveGetGet** | **GET** /open_api/v3.0/tools/hot_material_derive/get/
 *ToolsHotMaterialDeriveListV30Api* | **openApiV30ToolsHotMaterialDeriveListGet** | **GET** /open_api/v3.0/tools/hot_material_derive/list/
 *ToolsHotMaterialDeriveSubmitV30Api* | **openApiV30ToolsHotMaterialDeriveSubmitPost** | **POST** /open_api/v3.0/tools/hot_material_derive/submit/
+*ToolsInactiveAdvertiserListV30Api* | **openApiV30ToolsInactiveAdvertiserListGet** | **GET** /open_api/v3.0/tools/inactive_advertiser/list/
 *ToolsIndustryGetV2Api* | **openApi2ToolsIndustryGetGet** | **GET** /open_api/2/tools/industry/get/
 *ToolsInterestActionActionKeywordV2Api* | **openApi2ToolsInterestActionActionKeywordGet** | **GET** /open_api/2/tools/interest_action/action/keyword/
 *ToolsInterestActionId2wordV2Api* | **openApi2ToolsInterestActionId2wordGet** | **GET** /open_api/2/tools/interest_action/id2word/

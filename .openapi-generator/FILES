@@ -905,6 +905,7 @@ src/main/java/com/bytedance/ads/api/ToolsHotMaterialDeriveAdoptV30Api.java
 src/main/java/com/bytedance/ads/api/ToolsHotMaterialDeriveGetV30Api.java
 src/main/java/com/bytedance/ads/api/ToolsHotMaterialDeriveListV30Api.java
 src/main/java/com/bytedance/ads/api/ToolsHotMaterialDeriveSubmitV30Api.java
+src/main/java/com/bytedance/ads/api/ToolsInactiveAdvertiserListV30Api.java
 src/main/java/com/bytedance/ads/api/ToolsIndustryGetV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsInterestActionActionKeywordV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsInterestActionId2wordV2Api.java
@@ -1910,6 +1911,7 @@ src/main/java/com/bytedance/ads/examples/ToolsHotMaterialDeriveAdoptV30ApiExampl
 src/main/java/com/bytedance/ads/examples/ToolsHotMaterialDeriveGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsHotMaterialDeriveListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsHotMaterialDeriveSubmitV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/ToolsInactiveAdvertiserListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsIndustryGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsInterestActionActionKeywordV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsInterestActionId2wordV2ApiExample.java
@@ -8751,6 +8753,8 @@ src/main/java/com/bytedance/ads/model/ToolsAppIosListV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsAppIosListV2ResponseDataListInner.java
 src/main/java/com/bytedance/ads/model/ToolsAppIosListV2ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementAndroidAppListV2AccountType.java
+src/main/java/com/bytedance/ads/model/ToolsAppManagementAndroidAppListV2DataListAccountType.java
+src/main/java/com/bytedance/ads/model/ToolsAppManagementAndroidAppListV2DataListHistoryAccountType.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementAndroidAppListV2Filtering.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementAndroidAppListV2FilteringCreateTime.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementAndroidAppListV2FilteringPublishTime.java
@@ -8817,6 +8821,8 @@ src/main/java/com/bytedance/ads/model/ToolsAppManagementAppGetV2ResponseDataPage
 src/main/java/com/bytedance/ads/model/ToolsAppManagementAppGetV2SearchType.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementAppGetV2Status.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementBookingGetV2CreateTime.java
+src/main/java/com/bytedance/ads/model/ToolsAppManagementBookingGetV2DataListAccountType.java
+src/main/java/com/bytedance/ads/model/ToolsAppManagementBookingGetV2DataListHistoryAccountType.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementBookingGetV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementBookingGetV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementBookingGetV2ResponseDataListInner.java
@@ -8957,6 +8963,7 @@ src/main/java/com/bytedance/ads/model/ToolsAppManagementUploadTaskListV2Filterin
 src/main/java/com/bytedance/ads/model/ToolsAppManagementUploadTaskListV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementUploadTaskListV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementUploadTaskListV2ResponseDataListInner.java
+src/main/java/com/bytedance/ads/model/ToolsAssetLinkListV30DataListAccountType.java
 src/main/java/com/bytedance/ads/model/ToolsAssetLinkListV30Filtering.java
 src/main/java/com/bytedance/ads/model/ToolsAssetLinkListV30FilteringCreateTime.java
 src/main/java/com/bytedance/ads/model/ToolsAssetLinkListV30Response.java
@@ -9078,9 +9085,12 @@ src/main/java/com/bytedance/ads/model/ToolsBidSuggestV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsBidSuggestV2RetargetingType.java
 src/main/java/com/bytedance/ads/model/ToolsBidSuggestV2ScheduleType.java
 src/main/java/com/bytedance/ads/model/ToolsBidSuggestV2SuperiorPopularityType.java
+src/main/java/com/bytedance/ads/model/ToolsBidsSuggestV30CampaignType.java
 src/main/java/com/bytedance/ads/model/ToolsBidsSuggestV30DeepBidType.java
 src/main/java/com/bytedance/ads/model/ToolsBidsSuggestV30DeepExternalAction.java
 src/main/java/com/bytedance/ads/model/ToolsBidsSuggestV30ExternalAction.java
+src/main/java/com/bytedance/ads/model/ToolsBidsSuggestV30MarketingGoal.java
+src/main/java/com/bytedance/ads/model/ToolsBidsSuggestV30Platform.java
 src/main/java/com/bytedance/ads/model/ToolsBidsSuggestV30Pricing.java
 src/main/java/com/bytedance/ads/model/ToolsBidsSuggestV30Response.java
 src/main/java/com/bytedance/ads/model/ToolsBidsSuggestV30ResponseData.java
@@ -9477,6 +9487,9 @@ src/main/java/com/bytedance/ads/model/ToolsHotMaterialDeriveSubmitV30Response.ja
 src/main/java/com/bytedance/ads/model/ToolsHotMaterialDeriveSubmitV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsHotMaterialDeriveSubmitV30ResponseDataTasksInner.java
 src/main/java/com/bytedance/ads/model/ToolsHotMaterialDeriveSubmitV30Strategies.java
+src/main/java/com/bytedance/ads/model/ToolsInactiveAdvertiserListV30Response.java
+src/main/java/com/bytedance/ads/model/ToolsInactiveAdvertiserListV30ResponseData.java
+src/main/java/com/bytedance/ads/model/ToolsInactiveAdvertiserListV30ResponseDataListInner.java
 src/main/java/com/bytedance/ads/model/ToolsIndustryGetV2Level.java
 src/main/java/com/bytedance/ads/model/ToolsIndustryGetV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsIndustryGetV2ResponseData.java
@@ -9580,6 +9593,7 @@ src/main/java/com/bytedance/ads/model/ToolsMicroAppCreateV30RequestAppPage.java
 src/main/java/com/bytedance/ads/model/ToolsMicroAppCreateV30Response.java
 src/main/java/com/bytedance/ads/model/ToolsMicroAppCreateV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsMicroAppCreateV30RevenueModel.java
+src/main/java/com/bytedance/ads/model/ToolsMicroAppListV30DataListAccountType.java
 src/main/java/com/bytedance/ads/model/ToolsMicroAppListV30DataListAuditStatus.java
 src/main/java/com/bytedance/ads/model/ToolsMicroAppListV30DataListMaxPaymentTierRange.java
 src/main/java/com/bytedance/ads/model/ToolsMicroAppListV30DataListMaxRechargeTier.java
@@ -9632,6 +9646,7 @@ src/main/java/com/bytedance/ads/model/ToolsMicroGameCreateV30Response.java
 src/main/java/com/bytedance/ads/model/ToolsMicroGameCreateV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsMicroGameCreateV30RevenueModel.java
 src/main/java/com/bytedance/ads/model/ToolsMicroGameCreateV30ScheduleCards.java
+src/main/java/com/bytedance/ads/model/ToolsMicroGameListV30DataListAccountType.java
 src/main/java/com/bytedance/ads/model/ToolsMicroGameListV30DataListAgeLimit.java
 src/main/java/com/bytedance/ads/model/ToolsMicroGameListV30DataListAuditStatus.java
 src/main/java/com/bytedance/ads/model/ToolsMicroGameListV30DataListMaxPaymentTierRange.java
@@ -10248,6 +10263,7 @@ src/main/java/com/bytedance/ads/model/ToolsWechatAppletCreateV30Response.java
 src/main/java/com/bytedance/ads/model/ToolsWechatAppletCreateV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsWechatAppletCreateV30ResponseDataData.java
 src/main/java/com/bytedance/ads/model/ToolsWechatAppletCreateV30RevenueModel.java
+src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30DataListAccountType.java
 src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30DataListAuditStatus.java
 src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30DataListMaxPaymentTierRange.java
 src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30DataListMaxRechargeTier.java
@@ -10296,6 +10312,7 @@ src/main/java/com/bytedance/ads/model/ToolsWechatGameListV30DataListAccountType.
 src/main/java/com/bytedance/ads/model/ToolsWechatGameListV30DataListAgeLimit.java
 src/main/java/com/bytedance/ads/model/ToolsWechatGameListV30DataListAuditStatus.java
 src/main/java/com/bytedance/ads/model/ToolsWechatGameListV30DataListAuthorizationStatus.java
+src/main/java/com/bytedance/ads/model/ToolsWechatGameListV30DataListHistoryAccountType.java
 src/main/java/com/bytedance/ads/model/ToolsWechatGameListV30DataListMaxPaymentTierRange.java
 src/main/java/com/bytedance/ads/model/ToolsWechatGameListV30DataListMidPaymentTierRange.java
 src/main/java/com/bytedance/ads/model/ToolsWechatGameListV30DataListMinPaymentTierRange.java
