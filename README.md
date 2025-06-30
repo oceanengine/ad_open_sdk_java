@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.58
-  - Build date: 2025-06-19T17:37:36.939057952+08:00[Asia/Shanghai]
+- API version: 1.1.59
+  - Build date: 2025-06-30T14:14:06.920929941+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -616,9 +616,18 @@ Class | Method | HTTP request
 *QianchuanAwemeReportOrderGetV10Api* | **openApiV10QianchuanAwemeReportOrderGetGet** | **GET** /open_api/v1.0/qianchuan/aweme/report/order/get/
 *QianchuanAwemeSuggestBidV10Api* | **openApiV10QianchuanAwemeSuggestBidGet** | **GET** /open_api/v1.0/qianchuan/aweme/suggest_bid/
 *QianchuanAwemeSuggestRoiGoalV10Api* | **openApiV10QianchuanAwemeSuggestRoiGoalGet** | **GET** /open_api/v1.0/qianchuan/aweme/suggest/roi/goal/
+*QianchuanAwemeUniPromotionEstimateEffectV10Api* | **openApiV10QianchuanAwemeUniPromotionEstimateEffectGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/estimate/effect/
+*QianchuanAwemeUniPromotionOrderCreateV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderCreatePost** | **POST** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/create/
+*QianchuanAwemeUniPromotionOrderDetailV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderDetailGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/detail/
+*QianchuanAwemeUniPromotionOrderGetV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderGetGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/get/
+*QianchuanAwemeUniPromotionReportV10Api* | **openApiV10QianchuanAwemeUniPromotionReportGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/report/
+*QianchuanAwemeUniPromotionSuggestRoiV10Api* | **openApiV10QianchuanAwemeUniPromotionSuggestRoiGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/suggest/roi/
+*QianchuanAwemeUniPromotionSuggestV10Api* | **openApiV10QianchuanAwemeUniPromotionSuggestGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/suggest/
 *QianchuanAwemeVideoGetV10Api* | **openApiV10QianchuanAwemeVideoGetGet** | **GET** /open_api/v1.0/qianchuan/aweme/video/get/
 *QianchuanBatchCampaignStatusUpdateV10Api* | **openApiV10QianchuanBatchCampaignStatusUpdatePost** | **POST** /open_api/v1.0/qianchuan/batch_campaign_status/update/
 *QianchuanBrandAuthorizedGetV10Api* | **openApiV10QianchuanBrandAuthorizedGetGet** | **GET** /open_api/v1.0/qianchuan/brand/authorized/get/
+*QianchuanBrandReportAdGetV10Api* | **openApiV10QianchuanBrandReportAdGetGet** | **GET** /open_api/v1.0/qianchuan/brand/report/ad/get/
+*QianchuanBrandReportAdvertiserGetV10Api* | **openApiV10QianchuanBrandReportAdvertiserGetGet** | **GET** /open_api/v1.0/qianchuan/brand/report/advertiser/get/
 *QianchuanCampaignCreateV10Api* | **openApiV10QianchuanCampaignCreatePost** | **POST** /open_api/v1.0/qianchuan/campaign/create/
 *QianchuanCampaignListGetV10Api* | **openApiV10QianchuanCampaignListGetGet** | **GET** /open_api/v1.0/qianchuan/campaign_list/get/
 *QianchuanCampaignUpdateV10Api* | **openApiV10QianchuanCampaignUpdatePost** | **POST** /open_api/v1.0/qianchuan/campaign/update/
@@ -836,6 +845,7 @@ Class | Method | HTTP request
 *StarDemandSearchWordModifyV2Api* | **openApi2StarDemandSearchWordModifyPost** | **POST** /open_api/2/star/demand/search_word/modify/
 *StarDemanderDemanderGetAuthorBindInfoV2Api* | **openApi2StarDemanderDemanderGetAuthorBindInfoGet** | **GET** /open_api/2/star/demander/demander_get_author_bind_info/
 *StarDemanderDemanderGetBindShareCodeV2Api* | **openApi2StarDemanderDemanderGetBindShareCodeGet** | **GET** /open_api/2/star/demander/demander_get_bind_share_code/
+*StarDemanderGetRegisteredIpActsV2Api* | **openApi2StarDemanderGetRegisteredIpActsGet** | **GET** /open_api/2/star/demander/get_registered_ip_acts/
 *StarDemanderUploadCpsTaskSalesV2Api* | **openApi2StarDemanderUploadCpsTaskSalesPost** | **POST** /open_api/2/star/demander_upload_cps_task_sales/
 *StarFeCommonServiceTalentDayGetCheckInCodeV2Api* | **openApi2StarFeCommonServiceTalentDayGetCheckInCodeGet** | **GET** /open_api/2/star/fe_common_service/talent_day/get_check_in_code/
 *StarFeCommonServiceTalentDayJudgeCheckedInV2Api* | **openApi2StarFeCommonServiceTalentDayJudgeCheckedInGet** | **GET** /open_api/2/star/fe_common_service/talent_day/judge_checked_in/
@@ -993,7 +1003,9 @@ Class | Method | HTTP request
 *ToolsClueRobotTaskCancelV2Api* | **openApi2ToolsClueRobotTaskCancelPost** | **POST** /open_api/2/tools/clue/robot/task/cancel/
 *ToolsClueRobotTaskCreateV2Api* | **openApi2ToolsClueRobotTaskCreatePost** | **POST** /open_api/2/tools/clue/robot/task/create/
 *ToolsClueSmartPhoneGetV2Api* | **openApi2ToolsClueSmartPhoneGetGet** | **GET** /open_api/2/tools/clue/smart_phone/get/
+*ToolsClueWebrtcCreateV2V30Api* | **openApiV30ToolsClueWebrtcCreateV2Post** | **POST** /open_api/v3.0/tools/clue/webrtc/create/v2/
 *ToolsClueWebrtcTokenGetV2Api* | **openApi2ToolsClueWebrtcTokenGetPost** | **POST** /open_api/2/tools/clue/webrtc/token/get/
+*ToolsClueWebrtcTokenGetV2V30Api* | **openApiV30ToolsClueWebrtcTokenGetV2Post** | **POST** /open_api/v3.0/tools/clue/webrtc/token/get/v2/
 *ToolsCommentGetV30Api* | **openApiV30ToolsCommentGetGet** | **GET** /open_api/v3.0/tools/comment/get/
 *ToolsCommentHideV30Api* | **openApiV30ToolsCommentHidePost** | **POST** /open_api/v3.0/tools/comment/hide/
 *ToolsCommentMetricsGetV30Api* | **openApiV30ToolsCommentMetricsGetGet** | **GET** /open_api/v3.0/tools/comment_metrics/get/
