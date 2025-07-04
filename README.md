@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.59
-  - Build date: 2025-06-30T14:14:06.920929941+08:00[Asia/Shanghai]
+- API version: 1.1.60
+  - Build date: 2025-07-04T11:48:27.261745522+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -186,6 +186,7 @@ Class | Method | HTTP request
 *AgentAdvBrandListQueryV2Api* | **openApi2AgentAdvBrandListQueryGet** | **GET** /open_api/2/agent/adv/brand/list/query/
 *AgentAdvCostReportListQueryV2Api* | **openApi2AgentAdvCostReportListQueryPost** | **POST** /open_api/2/agent/adv/cost_report/list/query/
 *AgentAdvPerenniallyPunishHistoryQueryV2Api* | **openApi2AgentAdvPerenniallyPunishHistoryQueryGet** | **GET** /open_api/2/agent/adv/perennially/punish_history/query/
+*AgentAdvRechargeRechargeRecordV2Api* | **openApi2AgentAdvRechargeRechargeRecordGet** | **GET** /open_api/2/agent/adv/recharge/recharge_record/
 *AgentAdvertiserAssignV2Api* | **openApi2AgentAdvertiserAssignPost** | **POST** /open_api/2/agent/advertiser/assign/
 *AgentAdvertiserCopyV2Api* | **openApi2AgentAdvertiserCopyPost** | **POST** /open_api/2/agent/advertiser/copy/
 *AgentAdvertiserInfoQueryV2Api* | **openApi2AgentAdvertiserInfoQueryGet** | **GET** /open_api/2/agent/advertiser_info/query/
@@ -617,9 +618,11 @@ Class | Method | HTTP request
 *QianchuanAwemeSuggestBidV10Api* | **openApiV10QianchuanAwemeSuggestBidGet** | **GET** /open_api/v1.0/qianchuan/aweme/suggest_bid/
 *QianchuanAwemeSuggestRoiGoalV10Api* | **openApiV10QianchuanAwemeSuggestRoiGoalGet** | **GET** /open_api/v1.0/qianchuan/aweme/suggest/roi/goal/
 *QianchuanAwemeUniPromotionEstimateEffectV10Api* | **openApiV10QianchuanAwemeUniPromotionEstimateEffectGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/estimate/effect/
+*QianchuanAwemeUniPromotionOrderBudgetAddV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderBudgetAddPost** | **POST** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/budget/add/
 *QianchuanAwemeUniPromotionOrderCreateV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderCreatePost** | **POST** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/create/
 *QianchuanAwemeUniPromotionOrderDetailV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderDetailGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/detail/
 *QianchuanAwemeUniPromotionOrderGetV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderGetGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/get/
+*QianchuanAwemeUniPromotionOrderSuggestDeliveryTimeGetV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderSuggestDeliveryTimeGetGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/suggest/delivery_time/get/
 *QianchuanAwemeUniPromotionReportV10Api* | **openApiV10QianchuanAwemeUniPromotionReportGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/report/
 *QianchuanAwemeUniPromotionSuggestRoiV10Api* | **openApiV10QianchuanAwemeUniPromotionSuggestRoiGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/suggest/roi/
 *QianchuanAwemeUniPromotionSuggestV10Api* | **openApiV10QianchuanAwemeUniPromotionSuggestGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/suggest/
@@ -989,6 +992,7 @@ Class | Method | HTTP request
 *ToolsClueFormDetailV2Api* | **openApi2ToolsClueFormDetailGet** | **GET** /open_api/2/tools/clue/form/detail/
 *ToolsClueFormGetV2Api* | **openApi2ToolsClueFormGetGet** | **GET** /open_api/2/tools/clue/form/get/
 *ToolsClueGetV2Api* | **openApi2ToolsClueGetGet** | **GET** /open_api/2/tools/clue/get/
+*ToolsClueInfoGetV2Api* | **openApi2ToolsClueInfoGetGet** | **GET** /open_api/2/tools/clue_info/get/
 *ToolsClueInfoUpdateV2Api* | **openApi2ToolsClueInfoUpdatePost** | **POST** /open_api/2/tools/clue/info/update/
 *ToolsClueLifeCallbackV2Api* | **openApi2ToolsClueLifeCallbackPost** | **POST** /open_api/2/tools/clue/life/callback/
 *ToolsClueLifeGetV2Api* | **openApi2ToolsClueLifeGetPost** | **POST** /open_api/2/tools/clue/life/get/
