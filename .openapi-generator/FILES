@@ -546,6 +546,7 @@ src/main/java/com/bytedance/ads/api/QianchuanReportAdvertiserGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanReportCustomConfigGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanReportCustomGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanReportLiveGetV10Api.java
+src/main/java/com/bytedance/ads/api/QianchuanReportLiveV2GetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanReportLongTransferOrderConfigGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanReportLongTransferOrderDataGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanReportLongTransferOrderGetV10Api.java
@@ -571,6 +572,7 @@ src/main/java/com/bytedance/ads/api/QianchuanTodayLiveRoomFlowPerformanceGetV10A
 src/main/java/com/bytedance/ads/api/QianchuanTodayLiveRoomGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanTodayLiveRoomProductListGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanTodayLiveRoomUserGetV10Api.java
+src/main/java/com/bytedance/ads/api/QianchuanTodayLiveV2RoomUserGetV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanToolsAllowCouponV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanToolsAwemeAuthV10Api.java
 src/main/java/com/bytedance/ads/api/QianchuanToolsEstimateAudienceV10Api.java
@@ -1568,6 +1570,7 @@ src/main/java/com/bytedance/ads/examples/QianchuanReportAdvertiserGetV10ApiExamp
 src/main/java/com/bytedance/ads/examples/QianchuanReportCustomConfigGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanReportCustomGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanReportLiveGetV10ApiExample.java
+src/main/java/com/bytedance/ads/examples/QianchuanReportLiveV2GetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanReportLongTransferOrderConfigGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanReportLongTransferOrderDataGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanReportLongTransferOrderGetV10ApiExample.java
@@ -1593,6 +1596,7 @@ src/main/java/com/bytedance/ads/examples/QianchuanTodayLiveRoomFlowPerformanceGe
 src/main/java/com/bytedance/ads/examples/QianchuanTodayLiveRoomGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanTodayLiveRoomProductListGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanTodayLiveRoomUserGetV10ApiExample.java
+src/main/java/com/bytedance/ads/examples/QianchuanTodayLiveV2RoomUserGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanToolsAllowCouponV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanToolsAwemeAuthV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/QianchuanToolsEstimateAudienceV10ApiExample.java
@@ -7017,6 +7021,9 @@ src/main/java/com/bytedance/ads/model/QianchuanReportCustomGetV10ResponseDataRow
 src/main/java/com/bytedance/ads/model/QianchuanReportLiveGetV10Response.java
 src/main/java/com/bytedance/ads/model/QianchuanReportLiveGetV10ResponseData.java
 src/main/java/com/bytedance/ads/model/QianchuanReportLiveGetV10StatsAuthority.java
+src/main/java/com/bytedance/ads/model/QianchuanReportLiveV2GetV10Response.java
+src/main/java/com/bytedance/ads/model/QianchuanReportLiveV2GetV10ResponseData.java
+src/main/java/com/bytedance/ads/model/QianchuanReportLiveV2GetV10StatsAuthority.java
 src/main/java/com/bytedance/ads/model/QianchuanReportLongTransferOrderConfigGetV10DataTopics.java
 src/main/java/com/bytedance/ads/model/QianchuanReportLongTransferOrderConfigGetV10Response.java
 src/main/java/com/bytedance/ads/model/QianchuanReportLongTransferOrderConfigGetV10ResponseData.java
@@ -7199,6 +7206,14 @@ src/main/java/com/bytedance/ads/model/QianchuanTodayLiveRoomUserGetV10ResponseDa
 src/main/java/com/bytedance/ads/model/QianchuanTodayLiveRoomUserGetV10ResponseDataAgeInner.java
 src/main/java/com/bytedance/ads/model/QianchuanTodayLiveRoomUserGetV10ResponseDataCityInner.java
 src/main/java/com/bytedance/ads/model/QianchuanTodayLiveRoomUserGetV10ResponseDataGenderInner.java
+src/main/java/com/bytedance/ads/model/QianchuanTodayLiveV2RoomUserGetV10ActionEvent.java
+src/main/java/com/bytedance/ads/model/QianchuanTodayLiveV2RoomUserGetV10Dimension.java
+src/main/java/com/bytedance/ads/model/QianchuanTodayLiveV2RoomUserGetV10FlowSource.java
+src/main/java/com/bytedance/ads/model/QianchuanTodayLiveV2RoomUserGetV10Response.java
+src/main/java/com/bytedance/ads/model/QianchuanTodayLiveV2RoomUserGetV10ResponseData.java
+src/main/java/com/bytedance/ads/model/QianchuanTodayLiveV2RoomUserGetV10ResponseDataAgeInner.java
+src/main/java/com/bytedance/ads/model/QianchuanTodayLiveV2RoomUserGetV10ResponseDataCityInner.java
+src/main/java/com/bytedance/ads/model/QianchuanTodayLiveV2RoomUserGetV10ResponseDataGenderInner.java
 src/main/java/com/bytedance/ads/model/QianchuanToolsAllowCouponV10CampaignScene.java
 src/main/java/com/bytedance/ads/model/QianchuanToolsAllowCouponV10MarketingGoal.java
 src/main/java/com/bytedance/ads/model/QianchuanToolsAllowCouponV10MarketingScene.java

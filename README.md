@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.60
-  - Build date: 2025-07-04T11:48:27.261745522+08:00[Asia/Shanghai]
+- API version: 1.1.61
+  - Build date: 2025-07-08T15:34:47.140915476+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -664,6 +664,7 @@ Class | Method | HTTP request
 *QianchuanReportCustomConfigGetV10Api* | **openApiV10QianchuanReportCustomConfigGetGet** | **GET** /open_api/v1.0/qianchuan/report/custom/config/get/
 *QianchuanReportCustomGetV10Api* | **openApiV10QianchuanReportCustomGetGet** | **GET** /open_api/v1.0/qianchuan/report/custom/get/
 *QianchuanReportLiveGetV10Api* | **openApiV10QianchuanReportLiveGetGet** | **GET** /open_api/v1.0/qianchuan/report/live/get/
+*QianchuanReportLiveV2GetV10Api* | **openApiV10QianchuanReportLiveV2GetGet** | **GET** /open_api/v1.0/qianchuan/report/live_v2/get/
 *QianchuanReportLongTransferOrderConfigGetV10Api* | **openApiV10QianchuanReportLongTransferOrderConfigGetGet** | **GET** /open_api/v1.0/qianchuan/report/long_transfer/order/config/get/
 *QianchuanReportLongTransferOrderDataGetV10Api* | **openApiV10QianchuanReportLongTransferOrderDataGetGet** | **GET** /open_api/v1.0/qianchuan/report/long_transfer/order/data/get/
 *QianchuanReportLongTransferOrderGetV10Api* | **openApiV10QianchuanReportLongTransferOrderGetGet** | **GET** /open_api/v1.0/qianchuan/report/long_transfer/order/get/
@@ -689,6 +690,7 @@ Class | Method | HTTP request
 *QianchuanTodayLiveRoomGetV10Api* | **openApiV10QianchuanTodayLiveRoomGetGet** | **GET** /open_api/v1.0/qianchuan/today_live/room/get/
 *QianchuanTodayLiveRoomProductListGetV10Api* | **openApiV10QianchuanTodayLiveRoomProductListGetGet** | **GET** /open_api/v1.0/qianchuan/today_live/room/product_list/get/
 *QianchuanTodayLiveRoomUserGetV10Api* | **openApiV10QianchuanTodayLiveRoomUserGetGet** | **GET** /open_api/v1.0/qianchuan/today_live/room/user/get/
+*QianchuanTodayLiveV2RoomUserGetV10Api* | **openApiV10QianchuanTodayLiveV2RoomUserGetGet** | **GET** /open_api/v1.0/qianchuan/today_live_v2/room/user/get/
 *QianchuanToolsAllowCouponV10Api* | **openApiV10QianchuanToolsAllowCouponGet** | **GET** /open_api/v1.0/qianchuan/tools/allow_coupon/
 *QianchuanToolsAwemeAuthV10Api* | **openApiV10QianchuanToolsAwemeAuthPost** | **POST** /open_api/v1.0/qianchuan/tools/aweme_auth/
 *QianchuanToolsEstimateAudienceV10Api* | **openApiV10QianchuanToolsEstimateAudienceGet** | **GET** /open_api/v1.0/qianchuan/tools/estimate_audience/
