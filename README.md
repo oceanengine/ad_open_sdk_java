@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.61
-  - Build date: 2025-07-08T15:34:47.140915476+08:00[Asia/Shanghai]
+- API version: 1.1.62
+  - Build date: 2025-07-23T16:51:50.198052985+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -169,6 +169,7 @@ Class | Method | HTTP request
 *AdvertiserDeliveryQualificationListV30Api* | **openApiV30AdvertiserDeliveryQualificationListGet** | **GET** /open_api/v3.0/advertiser/delivery_qualification/list/
 *AdvertiserDeliveryQualificationSubmitV30Api* | **openApiV30AdvertiserDeliveryQualificationSubmitPost** | **POST** /open_api/v3.0/advertiser/delivery_qualification/submit/
 *AdvertiserFundDailyStatV2Api* | **openApi2AdvertiserFundDailyStatGet** | **GET** /open_api/2/advertiser/fund/daily_stat/
+*AdvertiserFundDetailGrantV2Api* | **openApi2AdvertiserFundDetailGrantGet** | **GET** /open_api/2/advertiser/fund/detail_grant/
 *AdvertiserFundGetV2Api* | **openApi2AdvertiserFundGetGet** | **GET** /open_api/2/advertiser/fund/get/
 *AdvertiserFundGrantTransactionGetV2Api* | **openApi2AdvertiserFundGrantTransactionGetGet** | **GET** /open_api/2/advertiser/fund/grant_transaction/get/
 *AdvertiserFundTransactionGetV2Api* | **openApi2AdvertiserFundTransactionGetGet** | **GET** /open_api/2/advertiser/fund/transaction/get/
@@ -344,6 +345,8 @@ Class | Method | HTTP request
 *CreativeProceduralCreativeUpdateV2Api* | **openApi2CreativeProceduralCreativeUpdatePost** | **POST** /open_api/2/creative/procedural_creative/update/
 *CreativeRejectReasonV2Api* | **openApi2CreativeRejectReasonGet** | **GET** /open_api/2/creative/reject_reason/
 *CreativeStrategyListV2Api* | **openApi2CreativeStrategyListGet** | **GET** /open_api/2/creative/strategy/list/
+*CustomerCenterAccountListV30Api* | **openApiV30CustomerCenterAccountListGet** | **GET** /open_api/v3.0/customer_center/account/list/
+*CustomerCenterAccountOfflineListV30Api* | **openApiV30CustomerCenterAccountOfflineListGet** | **GET** /open_api/v3.0/customer_center/account/offline_list/
 *CustomerCenterAdvertiserCopyV2Api* | **openApi2CustomerCenterAdvertiserCopyPost** | **POST** /open_api/2/customer_center/advertiser/copy/
 *CustomerCenterAdvertiserListV2Api* | **openApi2CustomerCenterAdvertiserListGet** | **GET** /open_api/2/customer_center/advertiser/list/
 *CustomerCenterAdvertiserTransferableListV2Api* | **openApi2CustomerCenterAdvertiserTransferableListGet** | **GET** /open_api/2/customer_center/advertiser/transferable/list/
@@ -420,6 +423,12 @@ Class | Method | HTTP request
 *EnterpriseVideoInfoGetV10Api* | **openApiV10EnterpriseVideoInfoGetGet** | **GET** /open_api/v1.0/enterprise/video/info/get/
 *EventManagerAbnormalAssetsGetV30Api* | **openApiV30EventManagerAbnormalAssetsGetGet** | **GET** /open_api/v3.0/event_manager/abnormal_assets/get/
 *EventManagerAssetsCreateV2Api* | **openApi2EventManagerAssetsCreatePost** | **POST** /open_api/2/event_manager/assets/create/
+*EventManagerAuthAddPublicKeyV2Api* | **openApi2EventManagerAuthAddPublicKeyPost** | **POST** /open_api/2/event_manager/auth/add_public_key/
+*EventManagerAuthDisableV2Api* | **openApi2EventManagerAuthDisablePost** | **POST** /open_api/2/event_manager/auth/disable/
+*EventManagerAuthEnableV2Api* | **openApi2EventManagerAuthEnablePost** | **POST** /open_api/2/event_manager/auth/enable/
+*EventManagerAuthGetAllPublicKeysV2Api* | **openApi2EventManagerAuthGetAllPublicKeysGet** | **GET** /open_api/2/event_manager/auth/get_all_public_keys/
+*EventManagerAuthGetAuthStatusV2Api* | **openApi2EventManagerAuthGetAuthStatusGet** | **GET** /open_api/2/event_manager/auth/get_auth_status/
+*EventManagerAuthGetPublicKeyV2Api* | **openApi2EventManagerAuthGetPublicKeyGet** | **GET** /open_api/2/event_manager/auth/get_public_key/
 *EventManagerAvailableEventsGetV2Api* | **openApi2EventManagerAvailableEventsGetGet** | **GET** /open_api/2/event_manager/available_events/get/
 *EventManagerDeepBidTypeGetV30Api* | **openApiV30EventManagerDeepBidTypeGetGet** | **GET** /open_api/v3.0/event_manager/deep_bid_type/get/
 *EventManagerEventConfigsGetV2Api* | **openApi2EventManagerEventConfigsGetGet** | **GET** /open_api/2/event_manager/event_configs/get/
@@ -444,6 +453,8 @@ Class | Method | HTTP request
 *FileMaterialBindV2Api* | **openApi2FileMaterialBindPost** | **POST** /open_api/2/file/material/bind/
 *FileMaterialDetailV2Api* | **openApi2FileMaterialDetailGet** | **GET** /open_api/2/file/material/detail/
 *FileMaterialListV2Api* | **openApi2FileMaterialListGet** | **GET** /open_api/2/file/material/list/
+*FilePlayableCreateV30Api* | **openApiV30FilePlayableCreatePost** | **POST** /open_api/v3.0/file/playable/create/
+*FilePlayableListV30Api* | **openApiV30FilePlayableListGet** | **GET** /open_api/v3.0/file/playable/list/
 *FilePreauditGetV30Api* | **openApiV30FilePreauditGetGet** | **GET** /open_api/v3.0/file/preaudit/get/
 *FilePreauditSubmitV30Api* | **openApiV30FilePreauditSubmitPost** | **POST** /open_api/v3.0/file/preaudit/submit/
 *FileQualityGetV30Api* | **openApiV30FileQualityGetGet** | **GET** /open_api/v3.0/file/quality/get/
@@ -832,6 +843,7 @@ Class | Method | HTTP request
 *StarComponentQueryLinkV2Api* | **openApi2StarComponentQueryLinkGet** | **GET** /open_api/2/star/component/query_link/
 *StarComponentUpdateCommonComponentV2Api* | **openApi2StarComponentUpdateCommonComponentPost** | **POST** /open_api/2/star/component/update_common_component/
 *StarComponentUpdateLinkV2Api* | **openApi2StarComponentUpdateLinkPost** | **POST** /open_api/2/star/component/update_link/
+*StarCreateProjectV2Api* | **openApi2StarCreateProjectPost** | **POST** /open_api/2/star/create/project/
 *StarDataTaskTimelineReportV2Api* | **openApi2StarDataTaskTimelineReportGet** | **GET** /open_api/2/star/data/task_timeline_report/
 *StarDemandCreateAssignV2Api* | **openApi2StarDemandCreateAssignPost** | **POST** /open_api/2/star/demand/create_assign/
 *StarDemandCreateChallengeV2Api* | **openApi2StarDemandCreateChallengePost** | **POST** /open_api/2/star/demand/create_challenge/
@@ -850,6 +862,7 @@ Class | Method | HTTP request
 *StarDemandSearchWordModifyV2Api* | **openApi2StarDemandSearchWordModifyPost** | **POST** /open_api/2/star/demand/search_word/modify/
 *StarDemanderDemanderGetAuthorBindInfoV2Api* | **openApi2StarDemanderDemanderGetAuthorBindInfoGet** | **GET** /open_api/2/star/demander/demander_get_author_bind_info/
 *StarDemanderDemanderGetBindShareCodeV2Api* | **openApi2StarDemanderDemanderGetBindShareCodeGet** | **GET** /open_api/2/star/demander/demander_get_bind_share_code/
+*StarDemanderGetCarBrandListV2Api* | **openApi2StarDemanderGetCarBrandListGet** | **GET** /open_api/2/star/demander/get_car_brand_list/
 *StarDemanderGetRegisteredIpActsV2Api* | **openApi2StarDemanderGetRegisteredIpActsGet** | **GET** /open_api/2/star/demander/get_registered_ip_acts/
 *StarDemanderUploadCpsTaskSalesV2Api* | **openApi2StarDemanderUploadCpsTaskSalesPost** | **POST** /open_api/2/star/demander_upload_cps_task_sales/
 *StarFeCommonServiceTalentDayGetCheckInCodeV2Api* | **openApi2StarFeCommonServiceTalentDayGetCheckInCodeGet** | **GET** /open_api/2/star/fe_common_service/talent_day/get_check_in_code/
@@ -899,6 +912,7 @@ Class | Method | HTTP request
 *StarStarAdUniteTaskListV2Api* | **openApi2StarStarAdUniteTaskListGet** | **GET** /open_api/2/star/star_ad_unite_task/list/
 *StarTaskBindProjectV2Api* | **openApi2StarTaskBindProjectPost** | **POST** /open_api/2/star/task/bind_project/
 *StarTaskListByProjectV2Api* | **openApi2StarTaskListByProjectGet** | **GET** /open_api/2/star/task/list_by_project/
+*StarUpdateProjectV2Api* | **openApi2StarUpdateProjectPost** | **POST** /open_api/2/star/update/project/
 *StarUserGetAwemeAuthorIdV2Api* | **openApi2StarUserGetAwemeAuthorIdGet** | **GET** /open_api/2/star/user/get_aweme_author_id/
 *StarUserGetStarIdV2Api* | **openApi2StarUserGetStarIdGet** | **GET** /open_api/2/star/user/get_star_id/
 *StarVasAppendOrderToBoostItemGroupV2Api* | **openApi2StarVasAppendOrderToBoostItemGroupPost** | **POST** /open_api/2/star/vas/append_order_to_boost_item_group/
