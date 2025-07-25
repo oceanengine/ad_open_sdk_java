@@ -306,7 +306,6 @@ src/main/java/com/bytedance/ads/api/EnterpriseVideoInfoGetV10Api.java
 src/main/java/com/bytedance/ads/api/EventManagerAbnormalAssetsGetV30Api.java
 src/main/java/com/bytedance/ads/api/EventManagerAssetsCreateV2Api.java
 src/main/java/com/bytedance/ads/api/EventManagerAuthAddPublicKeyV2Api.java
-src/main/java/com/bytedance/ads/api/EventManagerAuthDisableV2Api.java
 src/main/java/com/bytedance/ads/api/EventManagerAuthEnableV2Api.java
 src/main/java/com/bytedance/ads/api/EventManagerAuthGetAllPublicKeysV2Api.java
 src/main/java/com/bytedance/ads/api/EventManagerAuthGetAuthStatusV2Api.java
@@ -1344,7 +1343,6 @@ src/main/java/com/bytedance/ads/examples/EnterpriseVideoInfoGetV10ApiExample.jav
 src/main/java/com/bytedance/ads/examples/EventManagerAbnormalAssetsGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/EventManagerAssetsCreateV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/EventManagerAuthAddPublicKeyV2ApiExample.java
-src/main/java/com/bytedance/ads/examples/EventManagerAuthDisableV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/EventManagerAuthEnableV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/EventManagerAuthGetAllPublicKeysV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/EventManagerAuthGetAuthStatusV2ApiExample.java
@@ -4620,8 +4618,6 @@ src/main/java/com/bytedance/ads/model/EventManagerAuthAddPublicKeyV2Request.java
 src/main/java/com/bytedance/ads/model/EventManagerAuthAddPublicKeyV2Response.java
 src/main/java/com/bytedance/ads/model/EventManagerAuthAddPublicKeyV2ResponseData.java
 src/main/java/com/bytedance/ads/model/EventManagerAuthAddPublicKeyV2ResponseDataPubkey.java
-src/main/java/com/bytedance/ads/model/EventManagerAuthDisableV2Request.java
-src/main/java/com/bytedance/ads/model/EventManagerAuthDisableV2Response.java
 src/main/java/com/bytedance/ads/model/EventManagerAuthEnableV2Request.java
 src/main/java/com/bytedance/ads/model/EventManagerAuthEnableV2Response.java
 src/main/java/com/bytedance/ads/model/EventManagerAuthEnableV2ResponseData.java

@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.62
-  - Build date: 2025-07-23T16:51:50.198052985+08:00[Asia/Shanghai]
+- API version: 1.1.63
+  - Build date: 2025-07-25T11:24:24.613189650+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -424,7 +424,6 @@ Class | Method | HTTP request
 *EventManagerAbnormalAssetsGetV30Api* | **openApiV30EventManagerAbnormalAssetsGetGet** | **GET** /open_api/v3.0/event_manager/abnormal_assets/get/
 *EventManagerAssetsCreateV2Api* | **openApi2EventManagerAssetsCreatePost** | **POST** /open_api/2/event_manager/assets/create/
 *EventManagerAuthAddPublicKeyV2Api* | **openApi2EventManagerAuthAddPublicKeyPost** | **POST** /open_api/2/event_manager/auth/add_public_key/
-*EventManagerAuthDisableV2Api* | **openApi2EventManagerAuthDisablePost** | **POST** /open_api/2/event_manager/auth/disable/
 *EventManagerAuthEnableV2Api* | **openApi2EventManagerAuthEnablePost** | **POST** /open_api/2/event_manager/auth/enable/
 *EventManagerAuthGetAllPublicKeysV2Api* | **openApi2EventManagerAuthGetAllPublicKeysGet** | **GET** /open_api/2/event_manager/auth/get_all_public_keys/
 *EventManagerAuthGetAuthStatusV2Api* | **openApi2EventManagerAuthGetAuthStatusGet** | **GET** /open_api/2/event_manager/auth/get_auth_status/
