@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.63
-  - Build date: 2025-07-25T11:24:24.613189650+08:00[Asia/Shanghai]
+- API version: 1.1.64
+  - Build date: 2025-08-06T17:05:35.501867963+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -411,22 +411,13 @@ Class | Method | HTTP request
 *EbpAdvertiserTaskListV2Api* | **openApi2EbpAdvertiserTaskListGet** | **GET** /open_api/2/ebp/advertiser/task/list/
 *EbpLevelGetV2Api* | **openApi2EbpLevelGetGet** | **GET** /open_api/2/ebp/level/get/
 *EnterpriseBindListGetV10Api* | **openApiV10EnterpriseBindListGetGet** | **GET** /open_api/v1.0/enterprise/bind/list/get/
-*EnterpriseCommentDetailV10Api* | **openApiV10EnterpriseCommentDetailGet** | **GET** /open_api/v1.0/enterprise/comment/detail/
-*EnterpriseCommentListGetV10Api* | **openApiV10EnterpriseCommentListGetGet** | **GET** /open_api/v1.0/enterprise/comment/list/get/
-*EnterpriseCommentReplyListV10Api* | **openApiV10EnterpriseCommentReplyListGet** | **GET** /open_api/v1.0/enterprise/comment/reply/list/
-*EnterpriseCommentReplyV10Api* | **openApiV10EnterpriseCommentReplyPost** | **POST** /open_api/v1.0/enterprise/comment/reply/
-*EnterpriseFlowCategoryGetV10Api* | **openApiV10EnterpriseFlowCategoryGetGet** | **GET** /open_api/v1.0/enterprise/flow/category/get/
 *EnterpriseInfoV10Api* | **openApiV10EnterpriseInfoGet** | **GET** /open_api/v1.0/enterprise/info/
-*EnterpriseItemListV10Api* | **openApiV10EnterpriseItemListGet** | **GET** /open_api/v1.0/enterprise/item/list/
-*EnterpriseOperationLogGetV10Api* | **openApiV10EnterpriseOperationLogGetGet** | **GET** /open_api/v1.0/enterprise/operation/log/get/
-*EnterpriseOverviewDataGetV10Api* | **openApiV10EnterpriseOverviewDataGetGet** | **GET** /open_api/v1.0/enterprise/overview/data/get/
-*EnterpriseVideoInfoGetV10Api* | **openApiV10EnterpriseVideoInfoGetGet** | **GET** /open_api/v1.0/enterprise/video/info/get/
 *EventManagerAbnormalAssetsGetV30Api* | **openApiV30EventManagerAbnormalAssetsGetGet** | **GET** /open_api/v3.0/event_manager/abnormal_assets/get/
 *EventManagerAssetsCreateV2Api* | **openApi2EventManagerAssetsCreatePost** | **POST** /open_api/2/event_manager/assets/create/
 *EventManagerAuthAddPublicKeyV2Api* | **openApi2EventManagerAuthAddPublicKeyPost** | **POST** /open_api/2/event_manager/auth/add_public_key/
+*EventManagerAuthDelPublicKeyV2Api* | **openApi2EventManagerAuthDelPublicKeyPost** | **POST** /open_api/2/event_manager/auth/del_public_key/
 *EventManagerAuthEnableV2Api* | **openApi2EventManagerAuthEnablePost** | **POST** /open_api/2/event_manager/auth/enable/
 *EventManagerAuthGetAllPublicKeysV2Api* | **openApi2EventManagerAuthGetAllPublicKeysGet** | **GET** /open_api/2/event_manager/auth/get_all_public_keys/
-*EventManagerAuthGetAuthStatusV2Api* | **openApi2EventManagerAuthGetAuthStatusGet** | **GET** /open_api/2/event_manager/auth/get_auth_status/
 *EventManagerAuthGetPublicKeyV2Api* | **openApi2EventManagerAuthGetPublicKeyGet** | **GET** /open_api/2/event_manager/auth/get_public_key/
 *EventManagerAvailableEventsGetV2Api* | **openApi2EventManagerAvailableEventsGetGet** | **GET** /open_api/2/event_manager/available_events/get/
 *EventManagerDeepBidTypeGetV30Api* | **openApiV30EventManagerDeepBidTypeGetGet** | **GET** /open_api/v3.0/event_manager/deep_bid_type/get/
@@ -674,12 +665,12 @@ Class | Method | HTTP request
 *QianchuanReportCustomConfigGetV10Api* | **openApiV10QianchuanReportCustomConfigGetGet** | **GET** /open_api/v1.0/qianchuan/report/custom/config/get/
 *QianchuanReportCustomGetV10Api* | **openApiV10QianchuanReportCustomGetGet** | **GET** /open_api/v1.0/qianchuan/report/custom/get/
 *QianchuanReportLiveGetV10Api* | **openApiV10QianchuanReportLiveGetGet** | **GET** /open_api/v1.0/qianchuan/report/live/get/
-*QianchuanReportLiveV2GetV10Api* | **openApiV10QianchuanReportLiveV2GetGet** | **GET** /open_api/v1.0/qianchuan/report/live_v2/get/
 *QianchuanReportLongTransferOrderConfigGetV10Api* | **openApiV10QianchuanReportLongTransferOrderConfigGetGet** | **GET** /open_api/v1.0/qianchuan/report/long_transfer/order/config/get/
 *QianchuanReportLongTransferOrderDataGetV10Api* | **openApiV10QianchuanReportLongTransferOrderDataGetGet** | **GET** /open_api/v1.0/qianchuan/report/long_transfer/order/data/get/
 *QianchuanReportLongTransferOrderGetV10Api* | **openApiV10QianchuanReportLongTransferOrderGetGet** | **GET** /open_api/v1.0/qianchuan/report/long_transfer/order/get/
 *QianchuanReportMaterialGetV10Api* | **openApiV10QianchuanReportMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/report/material/get/
 *QianchuanReportSearchWordGetV10Api* | **openApiV10QianchuanReportSearchWordGetGet** | **GET** /open_api/v1.0/qianchuan/report/search_word/get/
+*QianchuanReportTodayLiveGetV10Api* | **openApiV10QianchuanReportTodayLiveGetGet** | **GET** /open_api/v1.0/qianchuan/report/today_live/get/
 *QianchuanReportTodayLiveRoomConfigGetV10Api* | **openApiV10QianchuanReportTodayLiveRoomConfigGetGet** | **GET** /open_api/v1.0/qianchuan/report/today_live/room/config/get/
 *QianchuanReportTodayLiveRoomDataGetV10Api* | **openApiV10QianchuanReportTodayLiveRoomDataGetGet** | **GET** /open_api/v1.0/qianchuan/report/today_live/room/data/get/
 *QianchuanReportUniPromotionConfigGetV10Api* | **openApiV10QianchuanReportUniPromotionConfigGetGet** | **GET** /open_api/v1.0/qianchuan/report/uni_promotion/config/get/
