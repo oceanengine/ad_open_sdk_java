@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.64
-  - Build date: 2025-08-06T17:05:35.501867963+08:00[Asia/Shanghai]
+- API version: 1.1.65
+  - Build date: 2025-08-08T17:05:37.008804984+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -502,6 +502,8 @@ Class | Method | HTTP request
 *LocalFileVideoGetV30Api* | **openApiV30LocalFileVideoGetGet** | **GET** /open_api/v3.0/local/file/video/get/
 *LocalFileVideoUploadTaskListV30Api* | **openApiV30LocalFileVideoUploadTaskListGet** | **GET** /open_api/v3.0/local/file/video/upload_task/list/
 *LocalFileVideoUploadV30Api* | **openApiV30LocalFileVideoUploadPost** | **POST** /open_api/v3.0/local/file/video/upload/
+*LocalImQueryMsgV30Api* | **openApiV30LocalImQueryMsgGet** | **GET** /open_api/v3.0/local/im/query/msg/
+*LocalImSendMsgV30Api* | **openApiV30LocalImSendMsgPost** | **POST** /open_api/v3.0/local/im/send/msg/
 *LocalLifeAdvertiserCreateV30Api* | **openApiV30LocalLifeAdvertiserCreatePost** | **POST** /open_api/v3.0/local/life/advertiser/create/
 *LocalLifeAdvertiserListV30Api* | **openApiV30LocalLifeAdvertiserListGet** | **GET** /open_api/v3.0/local/life/advertiser/list/
 *LocalMultiPoiIdPoiIdsGetV30Api* | **openApiV30LocalMultiPoiIdPoiIdsGetGet** | **GET** /open_api/v3.0/local/multi_poi_id/poi_ids/get/
