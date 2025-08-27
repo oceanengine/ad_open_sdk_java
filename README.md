@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.67
-  - Build date: 2025-08-08T18:34:27.167266301+08:00[Asia/Shanghai]
+- API version: 1.1.68
+  - Build date: 2025-08-27T11:42:40.453677826+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -187,7 +187,9 @@ Class | Method | HTTP request
 *AgentAdvBrandListQueryV2Api* | **openApi2AgentAdvBrandListQueryGet** | **GET** /open_api/2/agent/adv/brand/list/query/
 *AgentAdvCostReportListQueryV2Api* | **openApi2AgentAdvCostReportListQueryPost** | **POST** /open_api/2/agent/adv/cost_report/list/query/
 *AgentAdvPerenniallyPunishHistoryQueryV2Api* | **openApi2AgentAdvPerenniallyPunishHistoryQueryGet** | **GET** /open_api/2/agent/adv/perennially/punish_history/query/
+*AgentAdvPerenniallyPunishV2Api* | **openApi2AgentAdvPerenniallyPunishPost** | **POST** /open_api/2/agent/adv/perennially/punish/
 *AgentAdvRechargeRechargeRecordV2Api* | **openApi2AgentAdvRechargeRechargeRecordGet** | **GET** /open_api/2/agent/adv/recharge/recharge_record/
+*AgentAdvTemporaryPunishV2Api* | **openApi2AgentAdvTemporaryPunishPost** | **POST** /open_api/2/agent/adv/temporary/punish/
 *AgentAdvertiserAssignV2Api* | **openApi2AgentAdvertiserAssignPost** | **POST** /open_api/2/agent/advertiser/assign/
 *AgentAdvertiserCopyV2Api* | **openApi2AgentAdvertiserCopyPost** | **POST** /open_api/2/agent/advertiser/copy/
 *AgentAdvertiserInfoQueryV2Api* | **openApi2AgentAdvertiserInfoQueryGet** | **GET** /open_api/2/agent/advertiser_info/query/
@@ -199,13 +201,9 @@ Class | Method | HTTP request
 *AgentCompanyBiddingListQueryV2Api* | **openApi2AgentCompanyBiddingListQueryGet** | **GET** /open_api/2/agent/company/bidding/list/query/
 *AgentCompanyBrandListQueryV2Api* | **openApi2AgentCompanyBrandListQueryGet** | **GET** /open_api/2/agent/company/brand/list/query/
 *AgentCreditChargeSubmitV2Api* | **openApi2AgentCreditChargeSubmitPost** | **POST** /open_api/2/agent/credit_charge/submit/
-*AgentFundTransferSeqCommitV2Api* | **openApi2AgentFundTransferSeqCommitPost** | **POST** /open_api/2/agent/fund/transfer_seq/commit/
-*AgentFundTransferSeqCreateV2Api* | **openApi2AgentFundTransferSeqCreatePost** | **POST** /open_api/2/agent/fund/transfer_seq/create/
 *AgentInfoV2Api* | **openApi2AgentInfoGet** | **GET** /open_api/2/agent/info/
 *AgentPrepayChargeGenerateRemittanceCodeV2Api* | **openApi2AgentPrepayChargeGenerateRemittanceCodePost** | **POST** /open_api/2/agent/prepay_charge/generate_remittance_code/
 *AgentQueryRiskPromotionListV2Api* | **openApi2AgentQueryRiskPromotionListGet** | **GET** /open_api/2/agent/query/risk_promotion_list/
-*AgentRefundTransferSeqCommitV2Api* | **openApi2AgentRefundTransferSeqCommitPost** | **POST** /open_api/2/agent/refund/transfer_seq/commit/
-*AgentRefundTransferSeqCreateV2Api* | **openApi2AgentRefundTransferSeqCreatePost** | **POST** /open_api/2/agent/refund/transfer_seq/create/
 *AgentTransferTransactionRecordV2Api* | **openApi2AgentTransferTransactionRecordGet** | **GET** /open_api/2/agent/transfer/transaction_record/
 *AicElementDeleteV30Api* | **openApiV30AicElementDeletePost** | **POST** /open_api/v3.0/aic/element/delete/
 *AicElementGetV30Api* | **openApiV30AicElementGetGet** | **GET** /open_api/v3.0/aic/element/get/
@@ -366,6 +364,7 @@ Class | Method | HTTP request
 *DmpCustomAudiencePublishV2Api* | **openApi2DmpCustomAudiencePublishPost** | **POST** /open_api/2/dmp/custom_audience/publish/
 *DmpCustomAudiencePushV2V2Api* | **openApi2DmpCustomAudiencePushV2Post** | **POST** /open_api/2/dmp/custom_audience/push_v2/
 *DmpCustomAudienceReadV2Api* | **openApi2DmpCustomAudienceReadGet** | **GET** /open_api/2/dmp/custom_audience/read/
+*DmpCustomAudienceSelectV2Api* | **openApi2DmpCustomAudienceSelectGet** | **GET** /open_api/2/dmp/custom_audience/select/
 *DmpDataSourceCreateV2Api* | **openApi2DmpDataSourceCreatePost** | **POST** /open_api/2/dmp/data_source/create/
 *DmpDataSourceFileUploadV2Api* | **openApi2DmpDataSourceFileUploadPost** | **POST** /open_api/2/dmp/data_source/file/upload/
 *DmpDataSourceReadV2Api* | **openApi2DmpDataSourceReadGet** | **GET** /open_api/2/dmp/data_source/read/
@@ -411,13 +410,14 @@ Class | Method | HTTP request
 *EbpAdvertiserTaskListV2Api* | **openApi2EbpAdvertiserTaskListGet** | **GET** /open_api/2/ebp/advertiser/task/list/
 *EbpLevelGetV2Api* | **openApi2EbpLevelGetGet** | **GET** /open_api/2/ebp/level/get/
 *EnterpriseBindListGetV10Api* | **openApiV10EnterpriseBindListGetGet** | **GET** /open_api/v1.0/enterprise/bind/list/get/
-*EnterpriseInfoV10Api* | **openApiV10EnterpriseInfoGet** | **GET** /open_api/v1.0/enterprise/info/
 *EventManagerAbnormalAssetsGetV30Api* | **openApiV30EventManagerAbnormalAssetsGetGet** | **GET** /open_api/v3.0/event_manager/abnormal_assets/get/
 *EventManagerAssetsCreateV2Api* | **openApi2EventManagerAssetsCreatePost** | **POST** /open_api/2/event_manager/assets/create/
 *EventManagerAuthAddPublicKeyV2Api* | **openApi2EventManagerAuthAddPublicKeyPost** | **POST** /open_api/2/event_manager/auth/add_public_key/
 *EventManagerAuthDelPublicKeyV2Api* | **openApi2EventManagerAuthDelPublicKeyPost** | **POST** /open_api/2/event_manager/auth/del_public_key/
+*EventManagerAuthDisableV2Api* | **openApi2EventManagerAuthDisablePost** | **POST** /open_api/2/event_manager/auth/disable/
 *EventManagerAuthEnableV2Api* | **openApi2EventManagerAuthEnablePost** | **POST** /open_api/2/event_manager/auth/enable/
 *EventManagerAuthGetAllPublicKeysV2Api* | **openApi2EventManagerAuthGetAllPublicKeysGet** | **GET** /open_api/2/event_manager/auth/get_all_public_keys/
+*EventManagerAuthGetAuthStatusV2Api* | **openApi2EventManagerAuthGetAuthStatusGet** | **GET** /open_api/2/event_manager/auth/get_auth_status/
 *EventManagerAuthGetPublicKeyV2Api* | **openApi2EventManagerAuthGetPublicKeyGet** | **GET** /open_api/2/event_manager/auth/get_public_key/
 *EventManagerAvailableEventsGetV2Api* | **openApi2EventManagerAvailableEventsGetGet** | **GET** /open_api/2/event_manager/available_events/get/
 *EventManagerDeepBidTypeGetV30Api* | **openApiV30EventManagerDeepBidTypeGetGet** | **GET** /open_api/v3.0/event_manager/deep_bid_type/get/
@@ -709,6 +709,7 @@ Class | Method | HTTP request
 *QianchuanUniAwemeAdUpdateV10Api* | **openApiV10QianchuanUniAwemeAdUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_aweme/ad/update/
 *QianchuanUniAwemeAuthorizedGetV10Api* | **openApiV10QianchuanUniAwemeAuthorizedGetGet** | **GET** /open_api/v1.0/qianchuan/uni_aweme/authorized/get/
 *QianchuanUniAwemeSuggestBudgetV10Api* | **openApiV10QianchuanUniAwemeSuggestBudgetGet** | **GET** /open_api/v1.0/qianchuan/uni_aweme/suggest/budget/
+*QianchuanUniPromotionAdBudgetUpdateV10Api* | **openApiV10QianchuanUniPromotionAdBudgetUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/budget/update/
 *QianchuanUniPromotionAdControlTaskCreateV10Api* | **openApiV10QianchuanUniPromotionAdControlTaskCreatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/control_task/create/
 *QianchuanUniPromotionAdControlTaskListV10Api* | **openApiV10QianchuanUniPromotionAdControlTaskListGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/ad/control_task/list/
 *QianchuanUniPromotionAdControlTaskStatusUpdateV10Api* | **openApiV10QianchuanUniPromotionAdControlTaskStatusUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/control_task/status/update/
@@ -716,10 +717,14 @@ Class | Method | HTTP request
 *QianchuanUniPromotionAdMaterialAddV10Api* | **openApiV10QianchuanUniPromotionAdMaterialAddPost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/material/add/
 *QianchuanUniPromotionAdMaterialDeleteV10Api* | **openApiV10QianchuanUniPromotionAdMaterialDeletePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/material/delete/
 *QianchuanUniPromotionAdMaterialGetV10Api* | **openApiV10QianchuanUniPromotionAdMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/ad/material/get/
+*QianchuanUniPromotionAdNameUpdateV10Api* | **openApiV10QianchuanUniPromotionAdNameUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/name/update/
 *QianchuanUniPromotionAdProductDeleteV10Api* | **openApiV10QianchuanUniPromotionAdProductDeletePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/product/delete/
 *QianchuanUniPromotionAdProductGetV10Api* | **openApiV10QianchuanUniPromotionAdProductGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/ad/product/get/
+*QianchuanUniPromotionAdRoi2GoalUpdateV10Api* | **openApiV10QianchuanUniPromotionAdRoi2GoalUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/roi2_goal/update/
+*QianchuanUniPromotionAdScheduleDateUpdateV10Api* | **openApiV10QianchuanUniPromotionAdScheduleDateUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/schedule_date/update/
 *QianchuanUniPromotionAdStatusUpdateV10Api* | **openApiV10QianchuanUniPromotionAdStatusUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/status/update/
 *QianchuanUniPromotionAdSuggestionV10Api* | **openApiV10QianchuanUniPromotionAdSuggestionGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/ad/suggestion/
+*QianchuanUniPromotionAuthInitV10Api* | **openApiV10QianchuanUniPromotionAuthInitPost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/auth/init/
 *QianchuanUniPromotionBlockMaterialGetV10Api* | **openApiV10QianchuanUniPromotionBlockMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/block_material/get/
 *QianchuanUniPromotionListV10Api* | **openApiV10QianchuanUniPromotionListGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/list/
 *QianchuanUniPromotionProductAwemeGetV10Api* | **openApiV10QianchuanUniPromotionProductAwemeGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/product/aweme/get/
@@ -796,12 +801,16 @@ Class | Method | HTTP request
 *ServeMarketCidVerifyTokenV10Api* | **openApiV10ServeMarketCidVerifyTokenGet** | **GET** /open_api/v1.0/serve_market/cid/verify_token/
 *ServeMarketOrderGetV10Api* | **openApiV10ServeMarketOrderGetGet** | **GET** /open_api/v1.0/serve_market/order/get/
 *SharedWalletAccountRelationGetV30Api* | **openApiV30SharedWalletAccountRelationGetGet** | **GET** /open_api/v3.0/shared_wallet/account_relation/get/
+*SharedWalletBudgetGetV30Api* | **openApiV30SharedWalletBudgetGetGet** | **GET** /open_api/v3.0/shared_wallet/budget/get/
+*SharedWalletBudgetSubmitV30Api* | **openApiV30SharedWalletBudgetSubmitPost** | **POST** /open_api/v3.0/shared_wallet/budget/submit/
 *SharedWalletDailyStatGetV30Api* | **openApiV30SharedWalletDailyStatGetGet** | **GET** /open_api/v3.0/shared_wallet/daily_stat/get/
 *SharedWalletMainWalletGetV30Api* | **openApiV30SharedWalletMainWalletGetGet** | **GET** /open_api/v3.0/shared_wallet/main_wallet/get/
 *SharedWalletTransactionDetailGetV30Api* | **openApiV30SharedWalletTransactionDetailGetGet** | **GET** /open_api/v3.0/shared_wallet/transaction_detail/get/
 *SharedWalletWalletBalanceGetV30Api* | **openApiV30SharedWalletWalletBalanceGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_balance/get/
 *SharedWalletWalletInfoGetV30Api* | **openApiV30SharedWalletWalletInfoGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_info/get/
 *SharedWalletWalletRelationGetV30Api* | **openApiV30SharedWalletWalletRelationGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_relation/get/
+*SharedWalletWatchRuleGetV30Api* | **openApiV30SharedWalletWatchRuleGetGet** | **GET** /open_api/v3.0/shared_wallet/watch_rule/get/
+*SharedWalletWatchRuleSubmitV30Api* | **openApiV30SharedWalletWatchRuleSubmitPost** | **POST** /open_api/v3.0/shared_wallet/watch_rule/submit/
 *ShopBonusCreateV30Api* | **openApiV30ShopBonusCreatePost** | **POST** /open_api/v3.0/shop_bonus/create/
 *ShopBonusSuccessGetV30Api* | **openApiV30ShopBonusSuccessGetGet** | **GET** /open_api/v3.0/shop_bonus_success/get/
 *SpiTaskGetV2Api* | **openApi2SpiTaskGetGet** | **GET** /open_api/2/spi_task/get/
@@ -932,10 +941,8 @@ Class | Method | HTTP request
 *SubscribeAccountsRemoveV30Api* | **openApiV30SubscribeAccountsRemovePost** | **POST** /open_api/v3.0/subscribe/accounts/remove/
 *SuggWordsV30Api* | **openApiV30SuggWordsPost** | **POST** /open_api/v3.0/sugg_words/
 *ToolQuickAppManagementQuickAppGetV2Api* | **openApi2ToolQuickAppManagementQuickAppGetGet** | **GET** /open_api/2/tool/quick_app_management/quick_app/get/
-*ToolsAbTestCreateV2Api* | **openApi2ToolsAbTestCreatePost** | **POST** /open_api/2/tools/ab_test/create/
 *ToolsAbTestInfoGetV2Api* | **openApi2ToolsAbTestInfoGetGet** | **GET** /open_api/2/tools/ab_test_info/get/
 *ToolsAbTestListGetV2Api* | **openApi2ToolsAbTestListGetGet** | **GET** /open_api/2/tools/ab_test_list/get/
-*ToolsAbTestUpdateV2Api* | **openApi2ToolsAbTestUpdatePost** | **POST** /open_api/2/tools/ab_test/update/
 *ToolsAdPreviewQrcodeGetV30Api* | **openApiV30ToolsAdPreviewQrcodeGetGet** | **GET** /open_api/v3.0/tools/ad_preview/qrcode_get/
 *ToolsAdRaiseStatusGetV2Api* | **openApi2ToolsAdRaiseStatusGetGet** | **GET** /open_api/2/tools/ad_raise_status/get/
 *ToolsAdRaiseVersionGetV2Api* | **openApi2ToolsAdRaiseVersionGetGet** | **GET** /open_api/2/tools/ad_raise_version/get/
