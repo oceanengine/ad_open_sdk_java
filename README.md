@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.68
-  - Build date: 2025-08-27T11:42:40.453677826+08:00[Asia/Shanghai]
+- API version: 1.1.69
+  - Build date: 2025-09-04T16:19:08.314742336+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -1141,7 +1141,6 @@ Class | Method | HTTP request
 *ToolsSiteTemplateSiteCreateV2Api* | **openApi2ToolsSiteTemplateSiteCreatePost** | **POST** /open_api/2/tools/site_template/site/create/
 *ToolsSiteUpdateStatusV2Api* | **openApi2ToolsSiteUpdateStatusPost** | **POST** /open_api/2/tools/site/update_status/
 *ToolsSiteUpdateV2Api* | **openApi2ToolsSiteUpdatePost** | **POST** /open_api/2/tools/site/update/
-*ToolsStarTaskMaterialTypeV2Api* | **openApi2ToolsStarTaskMaterialTypeGet** | **GET** /open_api/2/tools/star_task/material_type/
 *ToolsStarTaskSettlementConfigV2Api* | **openApi2ToolsStarTaskSettlementConfigGet** | **GET** /open_api/2/tools/star_task/settlement_config/
 *ToolsStarTaskTitleTopicGetV2Api* | **openApi2ToolsStarTaskTitleTopicGetGet** | **GET** /open_api/2/tools/star_task/title_topic/get/
 *ToolsSuggestBudgetGetV30Api* | **openApiV30ToolsSuggestBudgetGetGet** | **GET** /open_api/v3.0/tools/suggest_budget/get/

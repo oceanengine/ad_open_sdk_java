@@ -1023,7 +1023,6 @@ src/main/java/com/bytedance/ads/api/ToolsSiteTemplatePreviewV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsSiteTemplateSiteCreateV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsSiteUpdateStatusV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsSiteUpdateV2Api.java
-src/main/java/com/bytedance/ads/api/ToolsStarTaskMaterialTypeV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsStarTaskSettlementConfigV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsStarTaskTitleTopicGetV2Api.java
 src/main/java/com/bytedance/ads/api/ToolsSuggestBudgetGetV30Api.java
@@ -2060,7 +2059,6 @@ src/main/java/com/bytedance/ads/examples/ToolsSiteTemplatePreviewV2ApiExample.ja
 src/main/java/com/bytedance/ads/examples/ToolsSiteTemplateSiteCreateV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsSiteUpdateStatusV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsSiteUpdateV2ApiExample.java
-src/main/java/com/bytedance/ads/examples/ToolsStarTaskMaterialTypeV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsStarTaskSettlementConfigV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsStarTaskTitleTopicGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/ToolsSuggestBudgetGetV30ApiExample.java
@@ -10460,10 +10458,6 @@ src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerSetting
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerSuccessLink.java
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2ResponseData.java
-src/main/java/com/bytedance/ads/model/ToolsStarTaskMaterialTypeV2Response.java
-src/main/java/com/bytedance/ads/model/ToolsStarTaskMaterialTypeV2ResponseData.java
-src/main/java/com/bytedance/ads/model/ToolsStarTaskMaterialTypeV2ResponseDataMaterialListInner.java
-src/main/java/com/bytedance/ads/model/ToolsStarTaskMaterialTypeV2ResponseDataMaterialListInnerChildrenInner.java
 src/main/java/com/bytedance/ads/model/ToolsStarTaskSettlementConfigV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsStarTaskSettlementConfigV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsStarTaskSettlementConfigV2StarTaskExternalAction.java
