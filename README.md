@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.69
-  - Build date: 2025-09-04T16:19:08.314742336+08:00[Asia/Shanghai]
+- API version: 1.1.70
+  - Build date: 2025-09-12T16:46:10.284244671+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -865,6 +865,7 @@ Class | Method | HTTP request
 *StarDemanderDemanderGetBindShareCodeV2Api* | **openApi2StarDemanderDemanderGetBindShareCodeGet** | **GET** /open_api/2/star/demander/demander_get_bind_share_code/
 *StarDemanderGetCarBrandListV2Api* | **openApi2StarDemanderGetCarBrandListGet** | **GET** /open_api/2/star/demander/get_car_brand_list/
 *StarDemanderGetRegisteredIpActsV2Api* | **openApi2StarDemanderGetRegisteredIpActsGet** | **GET** /open_api/2/star/demander/get_registered_ip_acts/
+*StarDemanderQueryCpsTaskSalesV2Api* | **openApi2StarDemanderQueryCpsTaskSalesGet** | **GET** /open_api/2/star/demander_query_cps_task_sales/
 *StarDemanderUploadCpsTaskSalesV2Api* | **openApi2StarDemanderUploadCpsTaskSalesPost** | **POST** /open_api/2/star/demander_upload_cps_task_sales/
 *StarFeCommonServiceTalentDayGetCheckInCodeV2Api* | **openApi2StarFeCommonServiceTalentDayGetCheckInCodeGet** | **GET** /open_api/2/star/fe_common_service/talent_day/get_check_in_code/
 *StarFeCommonServiceTalentDayJudgeCheckedInV2Api* | **openApi2StarFeCommonServiceTalentDayJudgeCheckedInGet** | **GET** /open_api/2/star/fe_common_service/talent_day/judge_checked_in/

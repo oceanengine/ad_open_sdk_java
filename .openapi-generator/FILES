@@ -747,6 +747,7 @@ src/main/java/com/bytedance/ads/api/StarDemanderDemanderGetAuthorBindInfoV2Api.j
 src/main/java/com/bytedance/ads/api/StarDemanderDemanderGetBindShareCodeV2Api.java
 src/main/java/com/bytedance/ads/api/StarDemanderGetCarBrandListV2Api.java
 src/main/java/com/bytedance/ads/api/StarDemanderGetRegisteredIpActsV2Api.java
+src/main/java/com/bytedance/ads/api/StarDemanderQueryCpsTaskSalesV2Api.java
 src/main/java/com/bytedance/ads/api/StarDemanderUploadCpsTaskSalesV2Api.java
 src/main/java/com/bytedance/ads/api/StarFeCommonServiceTalentDayGetCheckInCodeV2Api.java
 src/main/java/com/bytedance/ads/api/StarFeCommonServiceTalentDayJudgeCheckedInV2Api.java
@@ -1783,6 +1784,7 @@ src/main/java/com/bytedance/ads/examples/StarDemanderDemanderGetAuthorBindInfoV2
 src/main/java/com/bytedance/ads/examples/StarDemanderDemanderGetBindShareCodeV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarDemanderGetCarBrandListV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarDemanderGetRegisteredIpActsV2ApiExample.java
+src/main/java/com/bytedance/ads/examples/StarDemanderQueryCpsTaskSalesV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarDemanderUploadCpsTaskSalesV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarFeCommonServiceTalentDayGetCheckInCodeV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/StarFeCommonServiceTalentDayJudgeCheckedInV2ApiExample.java
@@ -4467,6 +4469,7 @@ src/main/java/com/bytedance/ads/model/DpaDetailGetV2FilteringStatus.java
 src/main/java/com/bytedance/ads/model/DpaDetailGetV2Response.java
 src/main/java/com/bytedance/ads/model/DpaDetailGetV2ResponseData.java
 src/main/java/com/bytedance/ads/model/DpaDetailGetV2ResponseDataListInner.java
+src/main/java/com/bytedance/ads/model/DpaDetailGetV2ResponseDataListInnerAuditReasonsInner.java
 src/main/java/com/bytedance/ads/model/DpaDetailGetV2ResponseDataListInnerBrandInfo.java
 src/main/java/com/bytedance/ads/model/DpaDetailGetV2ResponseDataListInnerImageUrlsInner.java
 src/main/java/com/bytedance/ads/model/DpaDetailGetV2ResponseDataListInnerLandingInfo.java
@@ -5798,6 +5801,7 @@ src/main/java/com/bytedance/ads/model/ProjectUpdateV30Response.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30ResponseDataErrorListInner.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30StarAutoDeliverySwitch.java
+src/main/java/com/bytedance/ads/model/ProjectUpdateV30StarAutoMaterialAdditionSwitch.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30TrackUrlSettingSendType.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30TrackUrlSettingTrackUrlType.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30UlinkUrlType.java
@@ -8562,6 +8566,9 @@ src/main/java/com/bytedance/ads/model/StarDemanderGetCarBrandListV2ResponseDataC
 src/main/java/com/bytedance/ads/model/StarDemanderGetRegisteredIpActsV2Response.java
 src/main/java/com/bytedance/ads/model/StarDemanderGetRegisteredIpActsV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarDemanderGetRegisteredIpActsV2ResponseDataIpActivityListInner.java
+src/main/java/com/bytedance/ads/model/StarDemanderQueryCpsTaskSalesV2Response.java
+src/main/java/com/bytedance/ads/model/StarDemanderQueryCpsTaskSalesV2ResponseData.java
+src/main/java/com/bytedance/ads/model/StarDemanderQueryCpsTaskSalesV2ResponseDataSalesInner.java
 src/main/java/com/bytedance/ads/model/StarDemanderUploadCpsTaskSalesV2Request.java
 src/main/java/com/bytedance/ads/model/StarDemanderUploadCpsTaskSalesV2RequestSalesInner.java
 src/main/java/com/bytedance/ads/model/StarDemanderUploadCpsTaskSalesV2Response.java
@@ -10576,6 +10583,9 @@ src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30Filtering.java
 src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30FilteringAuditStatus.java
 src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30FilteringCreateTime.java
 src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30FilteringSearchType.java
+src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30FilteringUpdateTime.java
+src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30OrderField.java
+src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30OrderType.java
 src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30Response.java
 src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsWechatAppletListV30ResponseDataListInner.java
