@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.70
-  - Build date: 2025-09-12T16:46:10.284244671+08:00[Asia/Shanghai]
+- API version: 1.1.71
+  - Build date: 2025-09-26T11:43:14.561505336+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -487,16 +487,6 @@ Class | Method | HTTP request
 *LocalChargeResultV30Api* | **openApiV30LocalChargeResultGet** | **GET** /open_api/v3.0/local/charge/result/
 *LocalChargeSubmitV30Api* | **openApiV30LocalChargeSubmitPost** | **POST** /open_api/v3.0/local/charge/submit/
 *LocalCustomAudienceGetV30Api* | **openApiV30LocalCustomAudienceGetGet** | **GET** /open_api/v3.0/local/custom_audience/get/
-*LocalCxtAudienceUpdateV30Api* | **openApiV30LocalCxtAudienceUpdatePost** | **POST** /open_api/v3.0/local/cxt/audience/update/
-*LocalCxtBudgetUpdateV30Api* | **openApiV30LocalCxtBudgetUpdatePost** | **POST** /open_api/v3.0/local/cxt/budget/update/
-*LocalCxtCreateV30Api* | **openApiV30LocalCxtCreatePost** | **POST** /open_api/v3.0/local/cxt/create/
-*LocalCxtDetailV30Api* | **openApiV30LocalCxtDetailGet** | **GET** /open_api/v3.0/local/cxt/detail/
-*LocalCxtExternalActionUpdateV30Api* | **openApiV30LocalCxtExternalActionUpdatePost** | **POST** /open_api/v3.0/local/cxt/external_action/update/
-*LocalCxtPoiUpdateV30Api* | **openApiV30LocalCxtPoiUpdatePost** | **POST** /open_api/v3.0/local/cxt/poi/update/
-*LocalCxtReportAudienceGetV30Api* | **openApiV30LocalCxtReportAudienceGetGet** | **GET** /open_api/v3.0/local/cxt/report/audience/get/
-*LocalCxtReportBasicGetV30Api* | **openApiV30LocalCxtReportBasicGetGet** | **GET** /open_api/v3.0/local/cxt/report/basic/get/
-*LocalCxtReportConvertGetV30Api* | **openApiV30LocalCxtReportConvertGetGet** | **GET** /open_api/v3.0/local/cxt/report/convert/get/
-*LocalCxtStatusUpdateV30Api* | **openApiV30LocalCxtStatusUpdatePost** | **POST** /open_api/v3.0/local/cxt/status/update/
 *LocalFileUploadTaskCreateV30Api* | **openApiV30LocalFileUploadTaskCreatePost** | **POST** /open_api/v3.0/local/file/upload_task/create/
 *LocalFileVideoAwemeGetV30Api* | **openApiV30LocalFileVideoAwemeGetGet** | **GET** /open_api/v3.0/local/file/video/aweme/get/
 *LocalFileVideoGetV30Api* | **openApiV30LocalFileVideoGetGet** | **GET** /open_api/v3.0/local/file/video/get/
@@ -540,6 +530,7 @@ Class | Method | HTTP request
 *Oauth2RenewTokenApi* | **openApiOauth2RenewTokenPost** | **POST** /open_api/oauth2/renew_token/
 *OpenMaterialAuditProGetV30Api* | **openApiV30OpenMaterialAuditProGetGet** | **GET** /open_api/v3.0/open_material_audit/pro/get/
 *OpenMaterialAuditProSubmitV30Api* | **openApiV30OpenMaterialAuditProSubmitPost** | **POST** /open_api/v3.0/open_material_audit/pro/submit/
+*PenaltyTaskGetV30Api* | **openApiV30PenaltyTaskGetGet** | **GET** /open_api/v3.0/penalty_task/get/
 *ProjectBudgetUpdateV30Api* | **openApiV30ProjectBudgetUpdatePost** | **POST** /open_api/v3.0/project/budget/update/
 *ProjectCostProtectStatusGetV30Api* | **openApiV30ProjectCostProtectStatusGetGet** | **GET** /open_api/v3.0/project/cost_protect_status/get/
 *ProjectCreateV30Api* | **openApiV30ProjectCreatePost** | **POST** /open_api/v3.0/project/create/
@@ -620,11 +611,13 @@ Class | Method | HTTP request
 *QianchuanAwemeReportOrderGetV10Api* | **openApiV10QianchuanAwemeReportOrderGetGet** | **GET** /open_api/v1.0/qianchuan/aweme/report/order/get/
 *QianchuanAwemeSuggestBidV10Api* | **openApiV10QianchuanAwemeSuggestBidGet** | **GET** /open_api/v1.0/qianchuan/aweme/suggest_bid/
 *QianchuanAwemeSuggestRoiGoalV10Api* | **openApiV10QianchuanAwemeSuggestRoiGoalGet** | **GET** /open_api/v1.0/qianchuan/aweme/suggest/roi/goal/
+*QianchuanAwemeUniPromotionAdMaterialGetV10Api* | **openApiV10QianchuanAwemeUniPromotionAdMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/ad/material/get/
 *QianchuanAwemeUniPromotionEstimateEffectV10Api* | **openApiV10QianchuanAwemeUniPromotionEstimateEffectGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/estimate/effect/
 *QianchuanAwemeUniPromotionOrderBudgetAddV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderBudgetAddPost** | **POST** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/budget/add/
 *QianchuanAwemeUniPromotionOrderCreateV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderCreatePost** | **POST** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/create/
 *QianchuanAwemeUniPromotionOrderDetailV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderDetailGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/detail/
 *QianchuanAwemeUniPromotionOrderGetV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderGetGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/get/
+*QianchuanAwemeUniPromotionOrderReportGetV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderReportGetGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/report/get/
 *QianchuanAwemeUniPromotionOrderSuggestDeliveryTimeGetV10Api* | **openApiV10QianchuanAwemeUniPromotionOrderSuggestDeliveryTimeGetGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/order/suggest/delivery_time/get/
 *QianchuanAwemeUniPromotionReportV10Api* | **openApiV10QianchuanAwemeUniPromotionReportGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/report/
 *QianchuanAwemeUniPromotionSuggestRoiV10Api* | **openApiV10QianchuanAwemeUniPromotionSuggestRoiGet** | **GET** /open_api/v1.0/qianchuan/aweme/uni_promotion/suggest/roi/
@@ -1074,6 +1067,12 @@ Class | Method | HTTP request
 *ToolsLandingGroupUpdateV2Api* | **openApi2ToolsLandingGroupUpdatePost** | **POST** /open_api/2/tools/landing_group/update/
 *ToolsLiveAuthorizeListV2Api* | **openApi2ToolsLiveAuthorizeListGet** | **GET** /open_api/2/tools/live_authorize/list/
 *ToolsLogSearchV2Api* | **openApi2ToolsLogSearchGet** | **GET** /open_api/2/tools/log_search/
+*ToolsMaterialRaiseCreateV30Api* | **openApiV30ToolsMaterialRaiseCreatePost** | **POST** /open_api/v3.0/tools/material_raise/create/
+*ToolsMaterialRaiseGetV30Api* | **openApiV30ToolsMaterialRaiseGetGet** | **GET** /open_api/v3.0/tools/material_raise/get/
+*ToolsMaterialRaiseMaterialIdsGetV30Api* | **openApiV30ToolsMaterialRaiseMaterialIdsGetGet** | **GET** /open_api/v3.0/tools/material_raise/material_ids/get/
+*ToolsMaterialRaiseRecordsGetV30Api* | **openApiV30ToolsMaterialRaiseRecordsGetGet** | **GET** /open_api/v3.0/tools/material_raise_records/get/
+*ToolsMaterialRaiseStatusGetV30Api* | **openApiV30ToolsMaterialRaiseStatusGetGet** | **GET** /open_api/v3.0/tools/material_raise_status/get/
+*ToolsMaterialRaiseStopV30Api* | **openApiV30ToolsMaterialRaiseStopPost** | **POST** /open_api/v3.0/tools/material_raise/stop/
 *ToolsMicroAppCreateV30Api* | **openApiV30ToolsMicroAppCreatePost** | **POST** /open_api/v3.0/tools/micro_app/create/
 *ToolsMicroAppListV30Api* | **openApiV30ToolsMicroAppListGet** | **GET** /open_api/v3.0/tools/micro_app/list/
 *ToolsMicroAppUpdateV30Api* | **openApiV30ToolsMicroAppUpdatePost** | **POST** /open_api/v3.0/tools/micro_app/update/
