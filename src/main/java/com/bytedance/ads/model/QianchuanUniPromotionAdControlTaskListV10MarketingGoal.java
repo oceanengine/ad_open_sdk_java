@@ -28,8 +28,9 @@ import com.google.gson.stream.JsonWriter;
  */
 @JsonAdapter(QianchuanUniPromotionAdControlTaskListV10MarketingGoal.Adapter.class)
 public enum QianchuanUniPromotionAdControlTaskListV10MarketingGoal {
-  
-  VIDEO_PROM_GOODS("VIDEO_PROM_GOODS");
+
+  VIDEO_PROM_GOODS("VIDEO_PROM_GOODS"),
+  LIVE_PROM_GOODS("LIVE_PROM_GOODS");
 
   private String value;
 

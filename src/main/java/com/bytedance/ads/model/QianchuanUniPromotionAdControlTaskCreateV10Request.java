@@ -83,19 +83,51 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
   @SerializedName(SERIALIZED_NAME_SCENE)
   private QianchuanUniPromotionAdControlTaskCreateV10Scene scene = null;
 
+  public static final String SERIALIZED_NAME_EXTERNAL_ACTION = "external_action";
+  @SerializedName(SERIALIZED_NAME_EXTERNAL_ACTION)
+  private String externalAction = null;
+
+  public static final String SERIALIZED_NAME_DEEP_EXTERNAL_ACTION = "deep_external_action";
+  @SerializedName(SERIALIZED_NAME_DEEP_EXTERNAL_ACTION)
+  private String deepExternalAction = null;
+
+  public static final String SERIALIZED_NAME_SMART_BID_TYPE = "smart_bid_type";
+  @SerializedName(SERIALIZED_NAME_SMART_BID_TYPE)
+  private String smartBidType = null;
+
+  public static final String SERIALIZED_NAME_ROI2_GOAL = "roi2_goal";
+  @SerializedName(SERIALIZED_NAME_ROI2_GOAL)
+  private Double roi2Goal = null;
+
+  public static final String SERIALIZED_NAME_BID = "bid";
+  @SerializedName(SERIALIZED_NAME_BID)
+  private Double bid = null;
+
+  public static final String SERIALIZED_NAME_ROOM_MATERIAL_ID = "room_material_id";
+  @SerializedName(SERIALIZED_NAME_ROOM_MATERIAL_ID)
+  private Long roomMaterialId = null;
+
+  public static final String SERIALIZED_NAME_AUDIENCE = "audience";
+  @SerializedName(SERIALIZED_NAME_AUDIENCE)
+  private Audience audience = null;
+
+  public static final String SERIALIZED_NAME_MATERIAL_TYPE = "material_type";
+  @SerializedName(SERIALIZED_NAME_MATERIAL_TYPE)
+  private String materialType = null;
+
   public QianchuanUniPromotionAdControlTaskCreateV10Request() {
   }
 
   public QianchuanUniPromotionAdControlTaskCreateV10Request adId(Long adId) {
-    
+
     this.adId = adId;
     return this;
   }
 
-   /**
+  /**
    * 调控的目标全域控计划ID
    * @return adId
-  **/
+   **/
   @javax.annotation.Nonnull
   public Long getAdId() {
     return adId;
@@ -108,15 +140,15 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
 
 
   public QianchuanUniPromotionAdControlTaskCreateV10Request advertiserId(Long advertiserId) {
-    
+
     this.advertiserId = advertiserId;
     return this;
   }
 
-   /**
+  /**
    * 千川广告主账户ID
    * @return advertiserId
-  **/
+   **/
   @javax.annotation.Nonnull
   public Long getAdvertiserId() {
     return advertiserId;
@@ -129,15 +161,15 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
 
 
   public QianchuanUniPromotionAdControlTaskCreateV10Request budget(Double budget) {
-    
+
     this.budget = budget;
     return this;
   }
 
-   /**
+  /**
    * 调控预算，单位元，小数点后两位，注意：不得超过全域计划预算，注意：调控类型为SMART_BOOST时必填
    * @return budget
-  **/
+   **/
   @javax.annotation.Nullable
   public Double getBudget() {
     return budget;
@@ -150,17 +182,17 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
 
 
   public QianchuanUniPromotionAdControlTaskCreateV10Request duration(Double duration) {
-    
+
     this.duration = duration;
     return this;
   }
 
-   /**
+  /**
    * 调控时长，0.5h～24.0h，步进0.5h，注意：调控类型为SMART_BOOST时必填
    * minimum: 0.5
    * maximum: 24.0
    * @return duration
-  **/
+   **/
   @javax.annotation.Nullable
   public Double getDuration() {
     return duration;
@@ -173,7 +205,7 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
 
 
   public QianchuanUniPromotionAdControlTaskCreateV10Request materialIds(List<Long> materialIds) {
-    
+
     this.materialIds = materialIds;
     return this;
   }
@@ -186,10 +218,10 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
     return this;
   }
 
-   /**
+  /**
    * 素材列表，需要追投的素材ids 注意：最多支持20个素材
    * @return materialIds
-  **/
+   **/
   @javax.annotation.Nullable
   public List<Long> getMaterialIds() {
     return materialIds;
@@ -202,16 +234,16 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
 
 
   public QianchuanUniPromotionAdControlTaskCreateV10Request name(String name) {
-    
+
     this.name = name;
     return this;
   }
 
-   /**
+  /**
    * 任务名称，1-50个字
    * @return name
-  **/
-  @javax.annotation.Nonnull
+   **/
+  @javax.annotation.Nullable
   public String getName() {
     return name;
   }
@@ -223,15 +255,15 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
 
 
   public QianchuanUniPromotionAdControlTaskCreateV10Request scene(QianchuanUniPromotionAdControlTaskCreateV10Scene scene) {
-    
+
     this.scene = scene;
     return this;
   }
 
-   /**
+  /**
    * Get scene
    * @return scene
-  **/
+   **/
   @javax.annotation.Nonnull
   public QianchuanUniPromotionAdControlTaskCreateV10Scene getScene() {
     return scene;
@@ -242,6 +274,173 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
     this.scene = scene;
   }
 
+
+  public QianchuanUniPromotionAdControlTaskCreateV10Request externalAction(String externalAction) {
+
+    this.externalAction = externalAction;
+    return this;
+  }
+
+  /**
+   * 直播全域一键起量探索目标或直播全域-素材追投-控成本投放-优化目标
+   * @return externalAction
+   **/
+  @javax.annotation.Nullable
+  public String getExternalAction() {
+    return externalAction;
+  }
+
+
+  public void setExternalAction(String externalAction) {
+    this.externalAction = externalAction;
+  }
+
+
+  public QianchuanUniPromotionAdControlTaskCreateV10Request deepExternalAction(String deepExternalAction) {
+
+    this.deepExternalAction = deepExternalAction;
+    return this;
+  }
+
+  /**
+   * 深度转化目标
+   * @return deepExternalAction
+   **/
+  @javax.annotation.Nullable
+  public String getDeepExternalAction() {
+    return deepExternalAction;
+  }
+
+
+  public void setDeepExternalAction(String deepExternalAction) {
+    this.deepExternalAction = deepExternalAction;
+  }
+
+
+  public QianchuanUniPromotionAdControlTaskCreateV10Request smartBidType(String smartBidType) {
+
+    this.smartBidType = smartBidType;
+    return this;
+  }
+
+  /**
+   * 直播全域素材追投方式
+   * @return smartBidType
+   **/
+  @javax.annotation.Nullable
+  public String getSmartBidType() {
+    return smartBidType;
+  }
+
+
+  public void setSmartBidType(String smartBidType) {
+    this.smartBidType = smartBidType;
+  }
+
+
+  public QianchuanUniPromotionAdControlTaskCreateV10Request roi2Goal(Double roi2Goal) {
+
+    this.roi2Goal = roi2Goal;
+    return this;
+  }
+
+  /**
+   * 直播全域-素材追投-控成本追投-支付ROI目标，单位元，最多支持两位小数
+   * @return roi2Goal
+   **/
+  @javax.annotation.Nullable
+  public Double getRoi2Goal() {
+    return roi2Goal;
+  }
+
+
+  public void setRoi2Goal(Double roi2Goal) {
+    this.roi2Goal = roi2Goal;
+  }
+
+
+  public QianchuanUniPromotionAdControlTaskCreateV10Request bid(Double bid) {
+
+    this.bid = bid;
+    return this;
+  }
+
+  /**
+   * 直播全域-素材追投-控成本追投-直播间成交的转化出价，出价不能大于预算
+   * @return bid
+   **/
+  @javax.annotation.Nullable
+  public Double getBid() {
+    return bid;
+  }
+
+
+  public void setBid(Double bid) {
+    this.bid = bid;
+  }
+
+
+  public QianchuanUniPromotionAdControlTaskCreateV10Request roomMaterialId(Long roomMaterialId) {
+
+    this.roomMaterialId = roomMaterialId;
+    return this;
+  }
+
+  /**
+   * 直播全域-素材追投-直播间画面素材id
+   * @return roomMaterialId
+   **/
+  @javax.annotation.Nullable
+  public Long getRoomMaterialId() {
+    return roomMaterialId;
+  }
+
+
+  public void setRoomMaterialId(Long roomMaterialId) {
+    this.roomMaterialId = roomMaterialId;
+  }
+
+
+  public QianchuanUniPromotionAdControlTaskCreateV10Request audience(Audience audience) {
+
+    this.audience = audience;
+    return this;
+  }
+
+  /**
+   * 定向人群设置
+   * @return audience
+   **/
+  @javax.annotation.Nullable
+  public Audience getAudience() {
+    return audience;
+  }
+
+
+  public void setAudience(Audience audience) {
+    this.audience = audience;
+  }
+
+
+  public QianchuanUniPromotionAdControlTaskCreateV10Request materialType(String materialType) {
+
+    this.materialType = materialType;
+    return this;
+  }
+
+  /**
+   * 素材类型：视频/直播间画面
+   * @return materialType
+   **/
+  @javax.annotation.Nullable
+  public String getMaterialType() {
+    return materialType;
+  }
+
+
+  public void setMaterialType(String materialType) {
+    this.materialType = materialType;
+  }
 
 
   @Override
@@ -254,17 +453,25 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
     }
     QianchuanUniPromotionAdControlTaskCreateV10Request qianchuanUniPromotionAdControlTaskCreateV10Request = (QianchuanUniPromotionAdControlTaskCreateV10Request) o;
     return Objects.equals(this.adId, qianchuanUniPromotionAdControlTaskCreateV10Request.adId) &&
-        Objects.equals(this.advertiserId, qianchuanUniPromotionAdControlTaskCreateV10Request.advertiserId) &&
-        Objects.equals(this.budget, qianchuanUniPromotionAdControlTaskCreateV10Request.budget) &&
-        Objects.equals(this.duration, qianchuanUniPromotionAdControlTaskCreateV10Request.duration) &&
-        Objects.equals(this.materialIds, qianchuanUniPromotionAdControlTaskCreateV10Request.materialIds) &&
-        Objects.equals(this.name, qianchuanUniPromotionAdControlTaskCreateV10Request.name) &&
-        Objects.equals(this.scene, qianchuanUniPromotionAdControlTaskCreateV10Request.scene);
+            Objects.equals(this.advertiserId, qianchuanUniPromotionAdControlTaskCreateV10Request.advertiserId) &&
+            Objects.equals(this.budget, qianchuanUniPromotionAdControlTaskCreateV10Request.budget) &&
+            Objects.equals(this.duration, qianchuanUniPromotionAdControlTaskCreateV10Request.duration) &&
+            Objects.equals(this.materialIds, qianchuanUniPromotionAdControlTaskCreateV10Request.materialIds) &&
+            Objects.equals(this.name, qianchuanUniPromotionAdControlTaskCreateV10Request.name) &&
+            Objects.equals(this.scene, qianchuanUniPromotionAdControlTaskCreateV10Request.scene) &&
+            Objects.equals(this.externalAction, qianchuanUniPromotionAdControlTaskCreateV10Request.externalAction) &&
+            Objects.equals(this.deepExternalAction, qianchuanUniPromotionAdControlTaskCreateV10Request.deepExternalAction) &&
+            Objects.equals(this.smartBidType, qianchuanUniPromotionAdControlTaskCreateV10Request.smartBidType) &&
+            Objects.equals(this.roi2Goal, qianchuanUniPromotionAdControlTaskCreateV10Request.roi2Goal) &&
+            Objects.equals(this.bid, qianchuanUniPromotionAdControlTaskCreateV10Request.bid) &&
+            Objects.equals(this.roomMaterialId, qianchuanUniPromotionAdControlTaskCreateV10Request.roomMaterialId) &&
+            Objects.equals(this.audience, qianchuanUniPromotionAdControlTaskCreateV10Request.audience) &&
+            Objects.equals(this.materialType, qianchuanUniPromotionAdControlTaskCreateV10Request.materialType);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(adId, advertiserId, budget, duration, materialIds, name, scene);
+    return Objects.hash(adId, advertiserId, budget, duration, materialIds, name, scene, externalAction, deepExternalAction, smartBidType, roi2Goal, bid, roomMaterialId, audience, materialType);
   }
 
   @Override
@@ -278,6 +485,14 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
     sb.append("    materialIds: ").append(toIndentedString(materialIds)).append("\n");
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    scene: ").append(toIndentedString(scene)).append("\n");
+    sb.append("    externalAction: ").append(toIndentedString(externalAction)).append("\n");
+    sb.append("    deepExternalAction: ").append(toIndentedString(deepExternalAction)).append("\n");
+    sb.append("    smartBidType: ").append(toIndentedString(smartBidType)).append("\n");
+    sb.append("    roi2Goal: ").append(toIndentedString(roi2Goal)).append("\n");
+    sb.append("    bid: ").append(toIndentedString(bid)).append("\n");
+    sb.append("    roomMaterialId: ").append(toIndentedString(roomMaterialId)).append("\n");
+    sb.append("    audience: ").append(toIndentedString(audience)).append("\n");
+    sb.append("    materialType: ").append(toIndentedString(materialType)).append("\n");
     sb.append("}");
     return sb.toString();
   }
@@ -307,6 +522,14 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
     openapiFields.add("material_ids");
     openapiFields.add("name");
     openapiFields.add("scene");
+    openapiFields.add("external_action");
+    openapiFields.add("deep_external_action");
+    openapiFields.add("smart_bid_type");
+    openapiFields.add("roi2_goal");
+    openapiFields.add("bid");
+    openapiFields.add("room_material_id");
+    openapiFields.add("audience");
+    openapiFields.add("material_type");
 
     // a set of required properties/fields (JSON key names)
     openapiRequiredFields = new HashSet<String>();
@@ -321,48 +544,370 @@ public class QianchuanUniPromotionAdControlTaskCreateV10Request {
     @SuppressWarnings("unchecked")
     @Override
     public <T> TypeAdapter<T> create(Gson gson, TypeToken<T> type) {
-       if (!QianchuanUniPromotionAdControlTaskCreateV10Request.class.isAssignableFrom(type.getRawType())) {
-         return null; // this class only serializes 'QianchuanUniPromotionAdControlTaskCreateV10Request' and its subtypes
-       }
-       final TypeAdapter<JsonElement> elementAdapter = gson.getAdapter(JsonElement.class);
-       final TypeAdapter<QianchuanUniPromotionAdControlTaskCreateV10Request> thisAdapter
-                        = gson.getDelegateAdapter(this, TypeToken.get(QianchuanUniPromotionAdControlTaskCreateV10Request.class));
+      if (!QianchuanUniPromotionAdControlTaskCreateV10Request.class.isAssignableFrom(type.getRawType())) {
+        return null; // this class only serializes 'QianchuanUniPromotionAdControlTaskCreateV10Request' and its subtypes
+      }
+      final TypeAdapter<JsonElement> elementAdapter = gson.getAdapter(JsonElement.class);
+      final TypeAdapter<QianchuanUniPromotionAdControlTaskCreateV10Request> thisAdapter
+              = gson.getDelegateAdapter(this, TypeToken.get(QianchuanUniPromotionAdControlTaskCreateV10Request.class));
 
-       return (TypeAdapter<T>) new TypeAdapter<QianchuanUniPromotionAdControlTaskCreateV10Request>() {
-           @Override
-           public void write(JsonWriter out, QianchuanUniPromotionAdControlTaskCreateV10Request value) throws IOException {
-             JsonObject obj = thisAdapter.toJsonTree(value).getAsJsonObject();
-             elementAdapter.write(out, obj);
-           }
+      return (TypeAdapter<T>) new TypeAdapter<QianchuanUniPromotionAdControlTaskCreateV10Request>() {
+        @Override
+        public void write(JsonWriter out, QianchuanUniPromotionAdControlTaskCreateV10Request value) throws IOException {
+          JsonObject obj = thisAdapter.toJsonTree(value).getAsJsonObject();
+          elementAdapter.write(out, obj);
+        }
 
-           @Override
-           public QianchuanUniPromotionAdControlTaskCreateV10Request read(JsonReader in) throws IOException {
-             JsonElement jsonElement = elementAdapter.read(in);
-             return thisAdapter.fromJsonTree(jsonElement);
-           }
+        @Override
+        public QianchuanUniPromotionAdControlTaskCreateV10Request read(JsonReader in) throws IOException {
+          JsonElement jsonElement = elementAdapter.read(in);
+          return thisAdapter.fromJsonTree(jsonElement);
+        }
 
-       }.nullSafe();
+      }.nullSafe();
     }
   }
 
- /**
-  * Create an instance of QianchuanUniPromotionAdControlTaskCreateV10Request given an JSON string
-  *
-  * @param jsonString JSON string
-  * @return An instance of QianchuanUniPromotionAdControlTaskCreateV10Request
-  * @throws IOException if the JSON string is invalid with respect to QianchuanUniPromotionAdControlTaskCreateV10Request
-  */
+  /**
+   * Create an instance of QianchuanUniPromotionAdControlTaskCreateV10Request given an JSON string
+   *
+   * @param jsonString JSON string
+   * @return An instance of QianchuanUniPromotionAdControlTaskCreateV10Request
+   * @throws IOException if the JSON string is invalid with respect to QianchuanUniPromotionAdControlTaskCreateV10Request
+   */
   public static QianchuanUniPromotionAdControlTaskCreateV10Request fromJson(String jsonString) throws IOException {
     return JSON.getGson().fromJson(jsonString, QianchuanUniPromotionAdControlTaskCreateV10Request.class);
   }
 
- /**
-  * Convert an instance of QianchuanUniPromotionAdControlTaskCreateV10Request to an JSON string
-  *
-  * @return JSON string
-  */
+  /**
+   * Convert an instance of QianchuanUniPromotionAdControlTaskCreateV10Request to an JSON string
+   *
+   * @return JSON string
+   */
   public String toJson() {
     return JSON.getGson().toJson(this);
   }
-}
 
+  /**
+   * Audience
+   */
+  public static class Audience {
+    public static final String SERIALIZED_NAME_GENDER = "gender";
+    @SerializedName(SERIALIZED_NAME_GENDER)
+    private String gender = null;
+
+    public static final String SERIALIZED_NAME_AGE = "age";
+    @SerializedName(SERIALIZED_NAME_AGE)
+    private List<String> age = null;
+
+    public static final String SERIALIZED_NAME_AWEME_FAN_BEHAVIORS = "aweme_fan_behaviors";
+    @SerializedName(SERIALIZED_NAME_AWEME_FAN_BEHAVIORS)
+    private List<String> awemeFanBehaviors = null;
+
+    public static final String SERIALIZED_NAME_AWEME_FAN_BEHAVIORS_DAYS = "aweme_fan_behaviors_days";
+    @SerializedName(SERIALIZED_NAME_AWEME_FAN_BEHAVIORS_DAYS)
+    private String awemeFanBehaviorsDays = null;
+
+    public static final String SERIALIZED_NAME_AWEME_FAN_CATEGORIES = "aweme_fan_categories";
+    @SerializedName(SERIALIZED_NAME_AWEME_FAN_CATEGORIES)
+    private List<Long> awemeFanCategories = null;
+
+    public static final String SERIALIZED_NAME_AWEME_FAN_ACCOUNTS = "aweme_fan_accounts";
+    @SerializedName(SERIALIZED_NAME_AWEME_FAN_ACCOUNTS)
+    private List<Long> awemeFanAccounts = null;
+
+    public static final String SERIALIZED_NAME_LOCATION_TYPE = "location_type";
+    @SerializedName(SERIALIZED_NAME_LOCATION_TYPE)
+    private String locationType = null;
+
+    public static final String SERIALIZED_NAME_DISTRICT = "district";
+    @SerializedName(SERIALIZED_NAME_DISTRICT)
+    private String district = null;
+
+    public static final String SERIALIZED_NAME_CITY = "city";
+    @SerializedName(SERIALIZED_NAME_CITY)
+    private List<Long> city = null;
+
+    public static final String SERIALIZED_NAME_DISTRICT_TYPE = "district_type";
+    @SerializedName(SERIALIZED_NAME_DISTRICT_TYPE)
+    private Boolean districtType = null;
+
+    public Audience() {
+    }
+
+    public Audience gender(String gender) {
+      this.gender = gender;
+      return this;
+    }
+
+    /**
+     * 性别
+     * @return gender
+     **/
+    @javax.annotation.Nullable
+    public String getGender() {
+      return gender;
+    }
+
+    public void setGender(String gender) {
+      this.gender = gender;
+    }
+
+    public Audience age(List<String> age) {
+      this.age = age;
+      return this;
+    }
+
+    public Audience addAgeItem(String ageItem) {
+      if (this.age == null) {
+        this.age = new ArrayList<>();
+      }
+      this.age.add(ageItem);
+      return this;
+    }
+
+    /**
+     * 年龄
+     * @return age
+     **/
+    @javax.annotation.Nullable
+    public List<String> getAge() {
+      return age;
+    }
+
+    public void setAge(List<String> age) {
+      this.age = age;
+    }
+
+    public Audience awemeFanBehaviors(List<String> awemeFanBehaviors) {
+      this.awemeFanBehaviors = awemeFanBehaviors;
+      return this;
+    }
+
+    public Audience addAwemeFanBehaviorsItem(String awemeFanBehaviorsItem) {
+      if (this.awemeFanBehaviors == null) {
+        this.awemeFanBehaviors = new ArrayList<>();
+      }
+      this.awemeFanBehaviors.add(awemeFanBehaviorsItem);
+      return this;
+    }
+
+    /**
+     * 抖音用户行为类型
+     * @return awemeFanBehaviors
+     **/
+    @javax.annotation.Nullable
+    public List<String> getAwemeFanBehaviors() {
+      return awemeFanBehaviors;
+    }
+
+    public void setAwemeFanBehaviors(List<String> awemeFanBehaviors) {
+      this.awemeFanBehaviors = awemeFanBehaviors;
+    }
+
+    public Audience awemeFanBehaviorsDays(String awemeFanBehaviorsDays) {
+      this.awemeFanBehaviorsDays = awemeFanBehaviorsDays;
+      return this;
+    }
+
+    /**
+     * 抖音达人互动用户行为天数
+     * @return awemeFanBehaviorsDays
+     **/
+    @javax.annotation.Nullable
+    public String getAwemeFanBehaviorsDays() {
+      return awemeFanBehaviorsDays;
+    }
+
+    public void setAwemeFanBehaviorsDays(String awemeFanBehaviorsDays) {
+      this.awemeFanBehaviorsDays = awemeFanBehaviorsDays;
+    }
+
+    public Audience awemeFanCategories(List<Long> awemeFanCategories) {
+      this.awemeFanCategories = awemeFanCategories;
+      return this;
+    }
+
+    public Audience addAwemeFanCategoriesItem(Long awemeFanCategoriesItem) {
+      if (this.awemeFanCategories == null) {
+        this.awemeFanCategories = new ArrayList<>();
+      }
+      this.awemeFanCategories.add(awemeFanCategoriesItem);
+      return this;
+    }
+
+    /**
+     * 抖音达人分类ID列表
+     * @return awemeFanCategories
+     **/
+    @javax.annotation.Nullable
+    public List<Long> getAwemeFanCategories() {
+      return awemeFanCategories;
+    }
+
+    public void setAwemeFanCategories(List<Long> awemeFanCategories) {
+      this.awemeFanCategories = awemeFanCategories;
+    }
+
+    public Audience awemeFanAccounts(List<Long> awemeFanAccounts) {
+      this.awemeFanAccounts = awemeFanAccounts;
+      return this;
+    }
+
+    public Audience addAwemeFanAccountsItem(Long awemeFanAccountsItem) {
+      if (this.awemeFanAccounts == null) {
+        this.awemeFanAccounts = new ArrayList<>();
+      }
+      this.awemeFanAccounts.add(awemeFanAccountsItem);
+      return this;
+    }
+
+    /**
+     * 抖音达人ID列表
+     * @return awemeFanAccounts
+     **/
+    @javax.annotation.Nullable
+    public List<Long> getAwemeFanAccounts() {
+      return awemeFanAccounts;
+    }
+
+    public void setAwemeFanAccounts(List<Long> awemeFanAccounts) {
+      this.awemeFanAccounts = awemeFanAccounts;
+    }
+
+    public Audience locationType(String locationType) {
+      this.locationType = locationType;
+      return this;
+    }
+
+    /**
+     * 地域定向的用户状态类型
+     * @return locationType
+     **/
+    @javax.annotation.Nullable
+    public String getLocationType() {
+      return locationType;
+    }
+
+    public void setLocationType(String locationType) {
+      this.locationType = locationType;
+    }
+
+    public Audience district(String district) {
+      this.district = district;
+      return this;
+    }
+
+    /**
+     * 地域类型，配合 city 字段使用
+     * @return district
+     **/
+    @javax.annotation.Nullable
+    public String getDistrict() {
+      return district;
+    }
+
+    public void setDistrict(String district) {
+      this.district = district;
+    }
+
+    public Audience city(List<Long> city) {
+      this.city = city;
+      return this;
+    }
+
+    public Audience addCityItem(Long cityItem) {
+      if (this.city == null) {
+        this.city = new ArrayList<>();
+      }
+      this.city.add(cityItem);
+      return this;
+    }
+
+    /**
+     * 具体定向的城市列表
+     * @return city
+     **/
+    @javax.annotation.Nullable
+    public List<Long> getCity() {
+      return city;
+    }
+
+    public void setCity(List<Long> city) {
+      this.city = city;
+    }
+
+    public Audience districtType(Boolean districtType) {
+      this.districtType = districtType;
+      return this;
+    }
+
+    /**
+     * 定向or排除地域
+     * @return districtType
+     **/
+    @javax.annotation.Nullable
+    public Boolean getDistrictType() {
+      return districtType;
+    }
+
+    public void setDistrictType(Boolean districtType) {
+      this.districtType = districtType;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+      if (this == o) {
+        return true;
+      }
+      if (o == null || getClass() != o.getClass()) {
+        return false;
+      }
+      Audience audience = (Audience) o;
+      return Objects.equals(this.gender, audience.gender) &&
+              Objects.equals(this.age, audience.age) &&
+              Objects.equals(this.awemeFanBehaviors, audience.awemeFanBehaviors) &&
+              Objects.equals(this.awemeFanBehaviorsDays, audience.awemeFanBehaviorsDays) &&
+              Objects.equals(this.awemeFanCategories, audience.awemeFanCategories) &&
+              Objects.equals(this.awemeFanAccounts, audience.awemeFanAccounts) &&
+              Objects.equals(this.locationType, audience.locationType) &&
+              Objects.equals(this.district, audience.district) &&
+              Objects.equals(this.city, audience.city) &&
+              Objects.equals(this.districtType, audience.districtType);
+    }
+
+    @Override
+    public int hashCode() {
+      return Objects.hash(gender, age, awemeFanBehaviors, awemeFanBehaviorsDays, awemeFanCategories, awemeFanAccounts, locationType, district, city, districtType);
+    }
+
+    @Override
+    public String toString() {
+      StringBuilder sb = new StringBuilder();
+      sb.append("class Audience {\n");
+      sb.append("    gender: ").append(toIndentedString(gender)).append("\n");
+      sb.append("    age: ").append(toIndentedString(age)).append("\n");
+      sb.append("    awemeFanBehaviors: ").append(toIndentedString(awemeFanBehaviors)).append("\n");
+      sb.append("    awemeFanBehaviorsDays: ").append(toIndentedString(awemeFanBehaviorsDays)).append("\n");
+      sb.append("    awemeFanCategories: ").append(toIndentedString(awemeFanCategories)).append("\n");
+      sb.append("    awemeFanAccounts: ").append(toIndentedString(awemeFanAccounts)).append("\n");
+      sb.append("    locationType: ").append(toIndentedString(locationType)).append("\n");
+      sb.append("    district: ").append(toIndentedString(district)).append("\n");
+      sb.append("    city: ").append(toIndentedString(city)).append("\n");
+      sb.append("    districtType: ").append(toIndentedString(districtType)).append("\n");
+      sb.append("}");
+      return sb.toString();
+    }
+
+    /**
+     * Convert the given object to string with each line indented by 4 spaces
+     * (except the first line).
+     */
+    private String toIndentedString(Object o) {
+      if (o == null) {
+        return "null";
+      }
+      return o.toString().replace("\n", "\n    ");
+    }
+  }
+}

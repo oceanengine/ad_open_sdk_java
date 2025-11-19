@@ -1,0 +1,208 @@
+package com.bytedance.ads.api;
+
+import com.bytedance.ads.ApiCallback;
+import com.bytedance.ads.ApiClient;
+import com.bytedance.ads.ApiException;
+import com.bytedance.ads.ApiResponse;
+import com.bytedance.ads.Configuration;
+import com.bytedance.ads.Pair;
+import com.google.gson.reflect.TypeToken;
+
+import com.bytedance.ads.model.QianchuanUniPromotionAdControlTaskDurationUpdateV10Request;
+import com.bytedance.ads.model.QianchuanUniPromotionAdControlTaskDurationUpdateV10Response;
+
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class QianchuanUniPromotionAdControlTaskDurationUpdateV10Api {
+    private ApiClient localVarApiClient;
+    private int localHostIndex;
+    private String localCustomBaseUrl;
+
+    public QianchuanUniPromotionAdControlTaskDurationUpdateV10Api() {
+        this(Configuration.getDefaultApiClient());
+    }
+
+    public QianchuanUniPromotionAdControlTaskDurationUpdateV10Api(ApiClient apiClient) {
+        this.localVarApiClient = apiClient;
+    }
+
+    public ApiClient getApiClient() {
+        return localVarApiClient;
+    }
+
+    public void setApiClient(ApiClient apiClient) {
+        this.localVarApiClient = apiClient;
+    }
+
+    public int getHostIndex() {
+        return localHostIndex;
+    }
+
+    public void setHostIndex(int hostIndex) {
+        this.localHostIndex = hostIndex;
+    }
+
+    public String getCustomBaseUrl() {
+        return localCustomBaseUrl;
+    }
+
+    public void setCustomBaseUrl(String customBaseUrl) {
+        this.localCustomBaseUrl = customBaseUrl;
+    }
+
+    /**
+     * Build call for openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePost
+     * @param qianchuanUniPromotionAdControlTaskDurationUpdateV10Request  (optional)
+     * @param _callback Callback for upload/download progress
+     * @return Call to execute
+     * @throws ApiException If fail to serialize the request body object
+     * @http.response.details
+    <table summary="Response Details" border="1">
+    <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+    <tr><td> 200 </td><td> OK </td><td>  -  </td></tr>
+    </table>
+     */
+    public okhttp3.Call openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePostCall(QianchuanUniPromotionAdControlTaskDurationUpdateV10Request qianchuanUniPromotionAdControlTaskDurationUpdateV10Request, final ApiCallback _callback) throws ApiException {
+        String basePath = null;
+        // Operation Servers
+        String[] localBasePaths = new String[] {  };
+
+        // Determine Base Path to Use
+        if (localCustomBaseUrl != null){
+            basePath = localCustomBaseUrl;
+        } else if ( localBasePaths.length > 0 ) {
+            basePath = localBasePaths[localHostIndex];
+        } else {
+            basePath = null;
+        }
+
+        Object localVarPostBody = qianchuanUniPromotionAdControlTaskDurationUpdateV10Request;
+
+        // create path and map variables
+        String localVarPath = "/open_api/v1.0/qianchuan/uni_promotion/ad/control_task/duration/update/";
+
+        List<Pair> localVarQueryParams = new ArrayList<Pair>();
+        List<Pair> localVarCollectionQueryParams = new ArrayList<Pair>();
+        Map<String, String> localVarHeaderParams = new HashMap<String, String>();
+        Map<String, String> localVarCookieParams = new HashMap<String, String>();
+        Map<String, Object> localVarFormParams = new HashMap<String, Object>();
+
+        final String[] localVarAccepts = {
+                "application/json"
+        };
+        final String localVarAccept = localVarApiClient.selectHeaderAccept(localVarAccepts);
+        if (localVarAccept != null) {
+            localVarHeaderParams.put("Accept", localVarAccept);
+        }
+
+        final String[] localVarContentTypes = {
+                "application/json"
+        };
+        final String localVarContentType = localVarApiClient.selectHeaderContentType(localVarContentTypes);
+        if (localVarContentType != null) {
+            localVarHeaderParams.put("Content-Type", localVarContentType);
+        }
+
+        String[] localVarAuthNames = new String[] { "ApiKeyAuth" };
+        return localVarApiClient.buildCall(basePath, localVarPath, "POST", localVarQueryParams, localVarCollectionQueryParams, localVarPostBody, localVarHeaderParams, localVarCookieParams, localVarFormParams, localVarAuthNames, _callback);
+    }
+
+    @SuppressWarnings("rawtypes")
+    private okhttp3.Call openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePostValidateBeforeCall(QianchuanUniPromotionAdControlTaskDurationUpdateV10Request qianchuanUniPromotionAdControlTaskDurationUpdateV10Request, final ApiCallback _callback) throws ApiException {
+        // 添加参数校验
+        if (qianchuanUniPromotionAdControlTaskDurationUpdateV10Request == null) {
+            throw new ApiException("Missing the required parameter 'qianchuanUniPromotionAdControlTaskDurationUpdateV10Request' when calling openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePost");
+        }
+
+        if (qianchuanUniPromotionAdControlTaskDurationUpdateV10Request.getAdvertiserId() == null) {
+            throw new ApiException("Missing the required parameter 'advertiserId' when calling openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePost");
+        }
+
+        if (qianchuanUniPromotionAdControlTaskDurationUpdateV10Request.getUpdateDurationInfos() == null ||
+                qianchuanUniPromotionAdControlTaskDurationUpdateV10Request.getUpdateDurationInfos().isEmpty()) {
+            throw new ApiException("Missing the required parameter 'updateDurationInfos' when calling openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePost");
+        }
+
+        // 校验每个updateDurationInfo对象
+        for (int i = 0; i < qianchuanUniPromotionAdControlTaskDurationUpdateV10Request.getUpdateDurationInfos().size(); i++) {
+            QianchuanUniPromotionAdControlTaskDurationUpdateV10Request.UpdateDurationInfo info =
+                    qianchuanUniPromotionAdControlTaskDurationUpdateV10Request.getUpdateDurationInfos().get(i);
+
+            if (info.getTaskId() == null) {
+                throw new ApiException("Missing the required parameter 'taskId' in updateDurationInfos[" + i + "] when calling openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePost");
+            }
+
+            if (info.getDuration() == null) {
+                throw new ApiException("Missing the required parameter 'duration' in updateDurationInfos[" + i + "] when calling openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePost");
+            }
+
+            // 校验duration范围: 1.5h-24.0h的0.5h倍数
+            float duration = info.getDuration();
+            if (duration < 1.5f || duration > 24.0f || Math.round(duration * 2) != duration * 2) {
+                throw new ApiException("Invalid duration value '" + duration + "' in updateDurationInfos[" + i + "]. Duration must be between 1.5h-24.0h and multiple of 0.5h when calling openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePost");
+            }
+        }
+
+        return openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePostCall(qianchuanUniPromotionAdControlTaskDurationUpdateV10Request, _callback);
+    }
+
+    /**
+     *
+     * 修改调控任务投放时长
+     * @param qianchuanUniPromotionAdControlTaskDurationUpdateV10Request  (optional)
+     * @return QianchuanUniPromotionAdControlTaskDurationUpdateV10Response
+     * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
+     * @http.response.details
+    <table summary="Response Details" border="1">
+    <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+    <tr><td> 200 </td><td> OK </td><td>  -  </td></tr>
+    </table>
+     */
+    public QianchuanUniPromotionAdControlTaskDurationUpdateV10Response openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePost(QianchuanUniPromotionAdControlTaskDurationUpdateV10Request qianchuanUniPromotionAdControlTaskDurationUpdateV10Request) throws ApiException {
+        ApiResponse<QianchuanUniPromotionAdControlTaskDurationUpdateV10Response> localVarResp = openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePostWithHttpInfo(qianchuanUniPromotionAdControlTaskDurationUpdateV10Request);
+        return localVarResp.getData();
+    }
+
+    /**
+     *
+     * 修改调控任务投放时长
+     * @param qianchuanUniPromotionAdControlTaskDurationUpdateV10Request  (optional)
+     * @return ApiResponse&lt;QianchuanUniPromotionAdControlTaskDurationUpdateV10Response&gt;
+     * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
+     * @http.response.details
+    <table summary="Response Details" border="1">
+    <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+    <tr><td> 200 </td><td> OK </td><td>  -  </td></tr>
+    </table>
+     */
+    public ApiResponse<QianchuanUniPromotionAdControlTaskDurationUpdateV10Response> openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePostWithHttpInfo(QianchuanUniPromotionAdControlTaskDurationUpdateV10Request qianchuanUniPromotionAdControlTaskDurationUpdateV10Request) throws ApiException {
+        okhttp3.Call localVarCall = openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePostValidateBeforeCall(qianchuanUniPromotionAdControlTaskDurationUpdateV10Request, null);
+        Type localVarReturnType = new TypeToken<QianchuanUniPromotionAdControlTaskDurationUpdateV10Response>(){}.getType();
+        return localVarApiClient.execute(localVarCall, localVarReturnType);
+    }
+
+    /**
+     *  (asynchronously)
+     * 修改调控任务投放时长
+     * @param qianchuanUniPromotionAdControlTaskDurationUpdateV10Request  (optional)
+     * @param _callback The callback to be executed when the API call finishes
+     * @return The request call
+     * @throws ApiException If fail to process the API call, e.g. serializing the request body object
+     * @http.response.details
+    <table summary="Response Details" border="1">
+    <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+    <tr><td> 200 </td><td> OK </td><td>  -  </td></tr>
+    </table>
+     */
+    public okhttp3.Call openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePostAsync(QianchuanUniPromotionAdControlTaskDurationUpdateV10Request qianchuanUniPromotionAdControlTaskDurationUpdateV10Request, final ApiCallback<QianchuanUniPromotionAdControlTaskDurationUpdateV10Response> _callback) throws ApiException {
+
+        okhttp3.Call localVarCall = openApiV10QianchuanUniPromotionAdControlTaskDurationUpdatePostValidateBeforeCall(qianchuanUniPromotionAdControlTaskDurationUpdateV10Request, _callback);
+        Type localVarReturnType = new TypeToken<QianchuanUniPromotionAdControlTaskDurationUpdateV10Response>(){}.getType();
+        localVarApiClient.executeAsync(localVarCall, localVarReturnType, _callback);
+        return localVarCall;
+    }
+}

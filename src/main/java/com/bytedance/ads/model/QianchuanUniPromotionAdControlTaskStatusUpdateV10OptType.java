@@ -29,7 +29,10 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(QianchuanUniPromotionAdControlTaskStatusUpdateV10OptType.Adapter.class)
 public enum QianchuanUniPromotionAdControlTaskStatusUpdateV10OptType {
   
-  DISABLE("DISABLE");
+  DISABLE("DISABLE"),
+  PAUSE("PAUSE"),
+  ENABLE("ENABLE"),
+  DELETE("DELETE");
 
   private String value;
 
