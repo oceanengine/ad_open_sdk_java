@@ -16,6 +16,7 @@ package com.bytedance.ads.examples;
 import com.bytedance.ads.ApiException;
 import com.bytedance.ads.api.QianchuanUniPromotionAdControlTaskCreateV10Api;
 import com.bytedance.ads.ApiClient;
+import com.bytedance.ads.model.QianchuanUniPromotionAdControlTaskCreateV10MaterialType;
 import com.bytedance.ads.model.QianchuanUniPromotionAdControlTaskCreateV10Request;
 import com.bytedance.ads.model.QianchuanUniPromotionAdControlTaskCreateV10Response;
 
