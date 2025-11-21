@@ -16,7 +16,6 @@ package com.bytedance.ads.model;
 import java.util.Objects;
 import java.util.Arrays;
 import com.google.gson.TypeAdapter;
-import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
@@ -26,27 +25,13 @@ import java.util.List;
 import org.openapitools.jackson.nullable.JsonNullable;
 
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonDeserializationContext;
-import com.google.gson.JsonDeserializer;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.google.gson.JsonParseException;
 import com.google.gson.TypeAdapterFactory;
 import com.google.gson.reflect.TypeToken;
-import com.google.gson.TypeAdapter;
-import com.google.gson.stream.JsonReader;
-import com.google.gson.stream.JsonWriter;
-import java.io.IOException;
 
-import java.lang.reflect.Type;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
+
 
 import com.bytedance.ads.JSON;
 
@@ -55,6 +40,7 @@ import com.bytedance.ads.JSON;
  */
 @javax.annotation.Generated(value = "com.org.bytedance.ad_open_sdk.JavacusGenerator", date = "2025-09-26T11:43:14.561505336+08:00[Asia/Shanghai]")
 public class QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoRoomMaterial {
+
   public static final String SERIALIZED_NAME_AWEME_AVATAR = "aweme_avatar";
   @SerializedName(SERIALIZED_NAME_AWEME_AVATAR)
   private List<String> awemeAvatar = null;
@@ -66,6 +52,10 @@ public class QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInn
   public static final String SERIALIZED_NAME_AWEME_NAME = "aweme_name";
   @SerializedName(SERIALIZED_NAME_AWEME_NAME)
   private String awemeName = null;
+
+  public static final String SERIALIZED_MATERIAL_ID = "material_id";
+  @SerializedName(SERIALIZED_MATERIAL_ID)
+  private Long materialId = null;
 
   public QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoRoomMaterial() {
   }
@@ -119,6 +109,20 @@ public class QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInn
     this.awemeId = awemeId;
   }
 
+  public QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoRoomMaterial materialId(Long materialId) {
+
+    this.materialId = materialId;
+    return this;
+  }
+
+  @javax.annotation.Nullable
+  public Long getMaterialId() {
+    return materialId;
+  }
+
+  public void setMaterialId(Long materialId) {
+    this.materialId = materialId;
+  }
 
   public QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoRoomMaterial awemeName(String awemeName) {
     
@@ -153,6 +157,7 @@ public class QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInn
     QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoRoomMaterial qianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoRoomMaterial = (QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoRoomMaterial) o;
     return Objects.equals(this.awemeAvatar, qianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoRoomMaterial.awemeAvatar) &&
         Objects.equals(this.awemeId, qianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoRoomMaterial.awemeId) &&
+        Objects.equals(this.materialId, qianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoRoomMaterial.materialId) &&
         Objects.equals(this.awemeName, qianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoRoomMaterial.awemeName);
   }
 
@@ -162,7 +167,7 @@ public class QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInn
 
   @Override
   public int hashCode() {
-    return Objects.hash(awemeAvatar, awemeId, awemeName);
+    return Objects.hash(awemeAvatar, awemeId, materialId, awemeName);
   }
 
   private static <T> int hashCodeNullable(JsonNullable<T> a) {
@@ -178,6 +183,7 @@ public class QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInn
     sb.append("class QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInnerMaterialInfoRoomMaterial {\n");
     sb.append("    awemeAvatar: ").append(toIndentedString(awemeAvatar)).append("\n");
     sb.append("    awemeId: ").append(toIndentedString(awemeId)).append("\n");
+    sb.append("    materialId: ").append(toIndentedString(materialId)).append("\n");
     sb.append("    awemeName: ").append(toIndentedString(awemeName)).append("\n");
     sb.append("}");
     return sb.toString();
@@ -204,6 +210,7 @@ public class QianchuanUniPromotionAdMaterialGetV10ResponseDataAdMaterialInfosInn
     openapiFields.add("aweme_avatar");
     openapiFields.add("aweme_id");
     openapiFields.add("aweme_name");
+    openapiFields.add("material_id");
 
     // a set of required properties/fields (JSON key names)
     openapiRequiredFields = new HashSet<String>();
