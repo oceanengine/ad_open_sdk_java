@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.71
-  - Build date: 2025-09-26T11:43:14.561505336+08:00[Asia/Shanghai]
+- API version: 1.1.72
+  - Build date: 2025-11-24T17:42:03.907666715+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -434,6 +434,7 @@ Class | Method | HTTP request
 *FileAudioGetV2Api* | **openApi2FileAudioGetGet** | **GET** /open_api/2/file/audio/get/
 *FileAutoGenerateSourceGetV2Api* | **openApi2FileAutoGenerateSourceGetGet** | **GET** /open_api/2/file/auto_generate_source/get/
 *FileCarouselAwemeGetV30Api* | **openApiV30FileCarouselAwemeGetGet** | **GET** /open_api/v3.0/file/carousel/aweme/get/
+*FileEbpVideoGetV30Api* | **openApiV30FileEbpVideoGetGet** | **GET** /open_api/v3.0/file/ebp_video/get/
 *FileImageAdGetV2Api* | **openApi2FileImageAdGetGet** | **GET** /open_api/2/file/image/ad/get/
 *FileImageAdV2Api* | **openApi2FileImageAdPost** | **POST** /open_api/2/file/image/ad/
 *FileImageAdvertiserV2Api* | **openApi2FileImageAdvertiserPost** | **POST** /open_api/2/file/image/advertiser/
@@ -492,6 +493,7 @@ Class | Method | HTTP request
 *LocalFileVideoGetV30Api* | **openApiV30LocalFileVideoGetGet** | **GET** /open_api/v3.0/local/file/video/get/
 *LocalFileVideoUploadTaskListV30Api* | **openApiV30LocalFileVideoUploadTaskListGet** | **GET** /open_api/v3.0/local/file/video/upload_task/list/
 *LocalFileVideoUploadV30Api* | **openApiV30LocalFileVideoUploadPost** | **POST** /open_api/v3.0/local/file/video/upload/
+*LocalImAccountGetV30Api* | **openApiV30LocalImAccountGetGet** | **GET** /open_api/v3.0/local/im/account/get/
 *LocalImQueryMsgV30Api* | **openApiV30LocalImQueryMsgGet** | **GET** /open_api/v3.0/local/im/query/msg/
 *LocalImSendMsgV30Api* | **openApiV30LocalImSendMsgPost** | **POST** /open_api/v3.0/local/im/send/msg/
 *LocalLifeAdvertiserCreateV30Api* | **openApiV30LocalLifeAdvertiserCreatePost** | **POST** /open_api/v3.0/local/life/advertiser/create/
@@ -648,9 +650,6 @@ Class | Method | HTTP request
 *QianchuanMaterialAdGetV10Api* | **openApiV10QianchuanMaterialAdGetGet** | **GET** /open_api/v1.0/qianchuan/material/ad/get/
 *QianchuanMaterialGetV10Api* | **openApiV10QianchuanMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/material/get/
 *QianchuanOrientationPackageGetV10Api* | **openApiV10QianchuanOrientationPackageGetGet** | **GET** /open_api/v1.0/qianchuan/orientation_package/get/
-*QianchuanProductAnalyseCompareCreativeV10Api* | **openApiV10QianchuanProductAnalyseCompareCreativeGet** | **GET** /open_api/v1.0/qianchuan/product/analyse/compare_creative/
-*QianchuanProductAnalyseCompareStatsDataV10Api* | **openApiV10QianchuanProductAnalyseCompareStatsDataGet** | **GET** /open_api/v1.0/qianchuan/product/analyse/compare_stats_data/
-*QianchuanProductAnalyseListV10Api* | **openApiV10QianchuanProductAnalyseListGet** | **GET** /open_api/v1.0/qianchuan/product/analyse/list/
 *QianchuanProductAvailableGetV10Api* | **openApiV10QianchuanProductAvailableGetGet** | **GET** /open_api/v1.0/qianchuan/product/available/get/
 *QianchuanQianchuanReportTodayLiveRoomConfigGetV10Api* | **openApiV10QianchuanQianchuanReportTodayLiveRoomConfigGetGet** | **GET** /open_api/v1.0/qianchuan/qianchuan/report/today_live/room/config/get/
 *QianchuanQianchuanVideoStarGetV10Api* | **openApiV10QianchuanQianchuanVideoStarGetGet** | **GET** /open_api/v1.0/qianchuan/qianchuan/video/star/get/
@@ -718,6 +717,8 @@ Class | Method | HTTP request
 *QianchuanUniPromotionAdStatusUpdateV10Api* | **openApiV10QianchuanUniPromotionAdStatusUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/status/update/
 *QianchuanUniPromotionAdSuggestionV10Api* | **openApiV10QianchuanUniPromotionAdSuggestionGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/ad/suggestion/
 *QianchuanUniPromotionAuthInitV10Api* | **openApiV10QianchuanUniPromotionAuthInitPost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/auth/init/
+*QianchuanUniPromotionAuthorizableShopListV10Api* | **openApiV10QianchuanUniPromotionAuthorizableShopListGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/authorizable_shop/list/
+*QianchuanUniPromotionAuthorizationApplyV10Api* | **openApiV10QianchuanUniPromotionAuthorizationApplyPost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/authorization/apply/
 *QianchuanUniPromotionBlockMaterialGetV10Api* | **openApiV10QianchuanUniPromotionBlockMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/block_material/get/
 *QianchuanUniPromotionListV10Api* | **openApiV10QianchuanUniPromotionListGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/list/
 *QianchuanUniPromotionProductAwemeGetV10Api* | **openApiV10QianchuanUniPromotionProductAwemeGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/product/aweme/get/
@@ -767,7 +768,10 @@ Class | Method | HTTP request
 *ReportCustomConfigGetV30Api* | **openApiV30ReportCustomConfigGetGet** | **GET** /open_api/v3.0/report/custom/config/get/
 *ReportCustomCreativeGetV30Api* | **openApiV30ReportCustomCreativeGetGet** | **GET** /open_api/v3.0/report/custom/creative/get/
 *ReportCustomGetV30Api* | **openApiV30ReportCustomGetGet** | **GET** /open_api/v3.0/report/custom/get/
+*ReportJointGrowthCusGetV30Api* | **openApiV30ReportJointGrowthCusGetGet** | **GET** /open_api/v3.0/report/joint_growth_cus/get/
+*ReportJointGrowthGetV30Api* | **openApiV30ReportJointGrowthGetGet** | **GET** /open_api/v3.0/report/joint_growth/get/
 *ReportLiveRoomAnalysisGetV2Api* | **openApi2ReportLiveRoomAnalysisGetGet** | **GET** /open_api/2/report/live_room/analysis/get/
+*ReportLiveRoomAnalysisGetV30Api* | **openApiV30ReportLiveRoomAnalysisGetGet** | **GET** /open_api/v3.0/report/live_room/analysis/get/
 *ReportLiveRoomAttributeGetV2Api* | **openApi2ReportLiveRoomAttributeGetGet** | **GET** /open_api/2/report/live_room/attribute/get/
 *ReportLiveRoomAudiencePortraitGetV2Api* | **openApi2ReportLiveRoomAudiencePortraitGetGet** | **GET** /open_api/2/report/live_room/audience/portrait/get/
 *ReportLiveRoomFlowCategoryGetV2Api* | **openApi2ReportLiveRoomFlowCategoryGetGet** | **GET** /open_api/2/report/live_room/flow_category/get/
@@ -775,6 +779,7 @@ Class | Method | HTTP request
 *ReportProductAsyncTaskGetV30Api* | **openApiV30ReportProductAsyncTaskGetPost** | **POST** /open_api/v3.0/report/product/async_task/get/
 *ReportProductDailyAsyncTaskCreateV30Api* | **openApiV30ReportProductDailyAsyncTaskCreatePost** | **POST** /open_api/v3.0/report/product_daily/async_task/create/
 *ReportProductHourlyAsyncTaskCreateV30Api* | **openApiV30ReportProductHourlyAsyncTaskCreatePost** | **POST** /open_api/v3.0/report/product_hourly/async_task/create/
+*ReportReportLiveRoomAudiencePortraitGetV30Api* | **openApiV30ReportReportLiveRoomAudiencePortraitGetGet** | **GET** /open_api/v3.0/report/report/live_room/audience/portrait/get/
 *ReportRtaCusExpGetV2Api* | **openApi2ReportRtaCusExpGetGet** | **GET** /open_api/2/report/rta_cus_exp/get/
 *ReportRtaExpGetV2Api* | **openApi2ReportRtaExpGetGet** | **GET** /open_api/2/report/rta_exp/get/
 *ReportRtaExpLocalDailyGetV30Api* | **openApiV30ReportRtaExpLocalDailyGetGet** | **GET** /open_api/v3.0/report/rta_exp_local_daily/get/
@@ -786,6 +791,8 @@ Class | Method | HTTP request
 *ReportStardeliveryTaskVideoDataGetV30Api* | **openApiV30ReportStardeliveryTaskVideoDataGetGet** | **GET** /open_api/v3.0/report/stardelivery/task_video_data/get/
 *ReportVideoFrameGetV2Api* | **openApi2ReportVideoFrameGetGet** | **GET** /open_api/2/report/video/frame/get/
 *SecurityAuditResultsV30Api* | **openApiV30SecurityAuditResultsGet** | **GET** /open_api/v3.0/security/audit_results/
+*SecurityCreateAppealV30Api* | **openApiV30SecurityCreateAppealPost** | **POST** /open_api/v3.0/security/create_appeal/
+*SecurityGetConsultResultV30Api* | **openApiV30SecurityGetConsultResultGet** | **GET** /open_api/v3.0/security/get_consult_result/
 *SecurityOpenMaterialAuditV30Api* | **openApiV30SecurityOpenMaterialAuditPost** | **POST** /open_api/v3.0/security/open_material_audit/
 *SecurityScoreDisposalInfoGetV30Api* | **openApiV30SecurityScoreDisposalInfoGetGet** | **GET** /open_api/v3.0/security/score_disposal_info/get/
 *SecurityScoreTotalGetV30Api* | **openApiV30SecurityScoreTotalGetGet** | **GET** /open_api/v3.0/security/score_total/get/
@@ -864,6 +871,7 @@ Class | Method | HTTP request
 *StarFeCommonServiceTalentDayJudgeCheckedInV2Api* | **openApi2StarFeCommonServiceTalentDayJudgeCheckedInGet** | **GET** /open_api/2/star/fe_common_service/talent_day/judge_checked_in/
 *StarGetCreateChallengeDataDictV2Api* | **openApi2StarGetCreateChallengeDataDictGet** | **GET** /open_api/2/star/get_create_challenge_data_dict/
 *StarInfoV2Api* | **openApi2StarInfoGet** | **GET** /open_api/2/star/info/
+*StarItemAuthorGetV2Api* | **openApi2StarItemAuthorGetGet** | **GET** /open_api/2/star/item/author/get/
 *StarMcnContractChallengeV2Api* | **openApi2StarMcnContractChallengePost** | **POST** /open_api/2/star/mcn/contract_challenge/
 *StarMcnGetAuthorListV2Api* | **openApi2StarMcnGetAuthorListGet** | **GET** /open_api/2/star/mcn/get_author_list/
 *StarMcnGetContractChallengeAuthorItemListV2V2Api* | **openApi2StarMcnGetContractChallengeAuthorItemListV2Get** | **GET** /open_api/2/star/mcn/get_contract_challenge_author_item_list_v2/
@@ -1034,8 +1042,16 @@ Class | Method | HTTP request
 *ToolsCreativeWordSelectV2Api* | **openApi2ToolsCreativeWordSelectGet** | **GET** /open_api/2/tools/creative_word/select/
 *ToolsDiagnosisAdGetV2V2Api* | **openApi2ToolsDiagnosisAdGetV2Get** | **GET** /open_api/2/tools/diagnosis/ad/get_v2/
 *ToolsDiagnosisSuggestionGetV2Api* | **openApi2ToolsDiagnosisSuggestionGetGet** | **GET** /open_api/2/tools/diagnosis/suggestion/get/
+*ToolsDiagnosisSuggestionGetV30Api* | **openApiV30ToolsDiagnosisSuggestionGetGet** | **GET** /open_api/v3.0/tools/diagnosis/suggestion/get/
 *ToolsDownloadPackageGetV2Api* | **openApi2ToolsDownloadPackageGetGet** | **GET** /open_api/2/tools/download/package/get/
 *ToolsDownloadPackageParseV2Api* | **openApi2ToolsDownloadPackageParsePost** | **POST** /open_api/2/tools/download/package/parse/
+*ToolsEbpAppDetailV30Api* | **openApiV30ToolsEbpAppDetailGet** | **GET** /open_api/v3.0/tools/ebp/app/detail/
+*ToolsEbpAppExtendCreateV30Api* | **openApiV30ToolsEbpAppExtendCreatePost** | **POST** /open_api/v3.0/tools/ebp/app_extend/create/
+*ToolsEbpAppExtendListV30Api* | **openApiV30ToolsEbpAppExtendListGet** | **GET** /open_api/v3.0/tools/ebp/app_extend/list/
+*ToolsEbpAppExtendUpdateV30Api* | **openApiV30ToolsEbpAppExtendUpdatePost** | **POST** /open_api/v3.0/tools/ebp/app_extend/update/
+*ToolsEbpAppGameBookListV30Api* | **openApiV30ToolsEbpAppGameBookListGet** | **GET** /open_api/v3.0/tools/ebp/app_game_book/list/
+*ToolsEbpAppListV30Api* | **openApiV30ToolsEbpAppListGet** | **GET** /open_api/v3.0/tools/ebp/app/list/
+*ToolsEbpAppPublishV30Api* | **openApiV30ToolsEbpAppPublishPost** | **POST** /open_api/v3.0/tools/ebp/app/publish/
 *ToolsEstimateAudienceV2Api* | **openApi2ToolsEstimateAudienceGet** | **GET** /open_api/2/tools/estimate_audience/
 *ToolsEstimatedPriceGetV2Api* | **openApi2ToolsEstimatedPriceGetGet** | **GET** /open_api/2/tools/estimated_price/get/
 *ToolsEventAllAssetsDetailV2Api* | **openApi2ToolsEventAllAssetsDetailGet** | **GET** /open_api/2/tools/event/all_assets/detail/
@@ -1055,6 +1071,9 @@ Class | Method | HTTP request
 *ToolsInterestActionInterestKeywordV2Api* | **openApi2ToolsInterestActionInterestKeywordGet** | **GET** /open_api/2/tools/interest_action/interest/keyword/
 *ToolsInterestActionKeywordSuggestV2Api* | **openApi2ToolsInterestActionKeywordSuggestGet** | **GET** /open_api/2/tools/interest_action/keyword/suggest/
 *ToolsIsSupportUniversalGetV2Api* | **openApi2ToolsIsSupportUniversalGetGet** | **GET** /open_api/2/tools/is_support_universal/get/
+*ToolsJointBidCreateV30Api* | **openApiV30ToolsJointBidCreatePost** | **POST** /open_api/v3.0/tools/joint_bid/create/
+*ToolsJointBidGetV30Api* | **openApiV30ToolsJointBidGetGet** | **GET** /open_api/v3.0/tools/joint_bid/get/
+*ToolsJointBidUpdateV30Api* | **openApiV30ToolsJointBidUpdatePost** | **POST** /open_api/v3.0/tools/joint_bid/update/
 *ToolsKeyActionGetV2Api* | **openApi2ToolsKeyActionGetGet** | **GET** /open_api/2/tools/key_action/get/
 *ToolsKeywordsBidRatioCreateV30Api* | **openApiV30ToolsKeywordsBidRatioCreatePost** | **POST** /open_api/v3.0/tools/keywords_bid_ratio/create/
 *ToolsKeywordsBidRatioDeleteV30Api* | **openApiV30ToolsKeywordsBidRatioDeletePost** | **POST** /open_api/v3.0/tools/keywords_bid_ratio/delete/
