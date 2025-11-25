@@ -4885,6 +4885,7 @@ src/main/java/com/bytedance/ads/model/EventManagerDeepBidTypeGetV30ExternalActio
 src/main/java/com/bytedance/ads/model/EventManagerDeepBidTypeGetV30LandingType.java
 src/main/java/com/bytedance/ads/model/EventManagerDeepBidTypeGetV30MarketingGoal.java
 src/main/java/com/bytedance/ads/model/EventManagerDeepBidTypeGetV30MicroPromotionType.java
+src/main/java/com/bytedance/ads/model/EventManagerDeepBidTypeGetV30ProductSetting.java
 src/main/java/com/bytedance/ads/model/EventManagerDeepBidTypeGetV30Response.java
 src/main/java/com/bytedance/ads/model/EventManagerDeepBidTypeGetV30ResponseData.java
 src/main/java/com/bytedance/ads/model/EventManagerDeepBidTypeGetV30ResponseDataDeepBidTypeDetailInner.java
@@ -9912,6 +9913,7 @@ src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListGender.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListIsPrivateClue.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListLeadsPage.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListProductType.java
+src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2DataListQcpxTicketStatus.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2Request.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2Response.java
 src/main/java/com/bytedance/ads/model/ToolsClueLifeGetV2ResponseData.java
