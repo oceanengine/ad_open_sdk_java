@@ -2744,6 +2744,8 @@ src/main/java/com/bytedance/ads/model/AssetsCreativeComponentCreateV2Request.jav
 src/main/java/com/bytedance/ads/model/AssetsCreativeComponentCreateV2RequestComponentInfo.java
 src/main/java/com/bytedance/ads/model/AssetsCreativeComponentCreateV2Response.java
 src/main/java/com/bytedance/ads/model/AssetsCreativeComponentCreateV2ResponseData.java
+src/main/java/com/bytedance/ads/model/AssetsCreativeComponentGetV2DataListComponentType.java
+src/main/java/com/bytedance/ads/model/AssetsCreativeComponentGetV2DataListStatus.java
 src/main/java/com/bytedance/ads/model/AssetsCreativeComponentGetV2Filtering.java
 src/main/java/com/bytedance/ads/model/AssetsCreativeComponentGetV2FilteringComponentTypes.java
 src/main/java/com/bytedance/ads/model/AssetsCreativeComponentGetV2FilteringStatus.java

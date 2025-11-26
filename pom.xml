@@ -5,7 +5,7 @@
     <artifactId>oceanengine-mapi-java-client</artifactId>
     <packaging>jar</packaging>
     <name>oceanengine-mapi-java-client</name>
-    <version>1.1.75</version>
+    <version>1.1.76</version>
     <url>https://github.com/openapitools/openapi-generator</url>
     <description>OpenAPI Java</description>
     <scm>
@@ -225,7 +225,7 @@
         <dependency>
             <groupId>org.reflections</groupId>
             <artifactId>reflections</artifactId>
-            <version>0.9.10</version>
+            <version>0.10.2</version>
         </dependency>
     </dependencies>
     <properties>
