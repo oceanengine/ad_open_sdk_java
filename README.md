@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.76
-  - Build date: 2025-11-26T19:25:10.604073832+08:00[Asia/Shanghai]
+- API version: 1.1.77
+  - Build date: 2025-12-18T17:24:21.268199366+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -148,6 +148,7 @@ Class | Method | HTTP request
 *AccountFundGetV30Api* | **openApiV30AccountFundGetGet** | **GET** /open_api/v3.0/account/fund/get/
 *AccountUpdateV30Api* | **openApiV30AccountUpdatePost** | **POST** /open_api/v3.0/account/update/
 *AdBillingUniqueIdGetV30Api* | **openApiV30AdBillingUniqueIdGetGet** | **GET** /open_api/v3.0/ad_billing/unique_id/get/
+*AdConvertSignalV2Api* | **openApi2AdConvertSignalPost** | **POST** /open_api/2/ad_convert/signal/
 *AdCostProtectStatusGetV2Api* | **openApi2AdCostProtectStatusGetGet** | **GET** /open_api/2/ad/cost_protect_status/get/
 *AdGetV2Api* | **openApi2AdGetGet** | **GET** /open_api/2/ad/get/
 *AdRejectReasonV2Api* | **openApi2AdRejectReasonGet** | **GET** /open_api/2/ad/reject_reason/
@@ -155,7 +156,6 @@ Class | Method | HTTP request
 *AdUdUpdateV2Api* | **openApi2AdUdUpdatePost** | **POST** /open_api/2/ad/ud/update/
 *AdUpdateBidV2Api* | **openApi2AdUpdateBidPost** | **POST** /open_api/2/ad/update/bid/
 *AdUpdateBudgetV2Api* | **openApi2AdUpdateBudgetPost** | **POST** /open_api/2/ad/update/budget/
-*AdUpdateStatusV2Api* | **openApi2AdUpdateStatusPost** | **POST** /open_api/2/ad/update/status/
 *AdvConvertOleConvertV2Api* | **openApi2AdvConvertOleConvertPost** | **POST** /open_api/2/adv_convert/ole/convert/
 *AdvertiserAttachmentUploadV30Api* | **openApiV30AdvertiserAttachmentUploadPost** | **POST** /open_api/v3.0/advertiser/attachment/upload/
 *AdvertiserAvatarGetV2Api* | **openApi2AdvertiserAvatarGetGet** | **GET** /open_api/2/advertiser/avatar/get/
@@ -490,6 +490,7 @@ Class | Method | HTTP request
 *FileVideoUploadTaskListV2Api* | **openApi2FileVideoUploadTaskListGet** | **GET** /open_api/2/file/video/upload_task/list/
 *FundSharedWalletBalanceGetV2Api* | **openApi2FundSharedWalletBalanceGetGet** | **GET** /open_api/2/fund/shared_wallet_balance/get/
 *GameAddictionIdGetV30Api* | **openApiV30GameAddictionIdGetGet** | **GET** /open_api/v3.0/game_addiction_id/get/
+*GameplayListV30Api* | **openApiV30GameplayListGet** | **GET** /open_api/v3.0/gameplay/list/
 *KeywordCreateV2V2Api* | **openApi2KeywordCreateV2Post** | **POST** /open_api/2/keyword/create_v2/
 *KeywordCreateV30Api* | **openApiV30KeywordCreatePost** | **POST** /open_api/v3.0/keyword/create/
 *KeywordDeleteV2V2Api* | **openApi2KeywordDeleteV2Post** | **POST** /open_api/2/keyword/delete_v2/
@@ -499,11 +500,17 @@ Class | Method | HTTP request
 *KeywordListV30Api* | **openApiV30KeywordListGet** | **GET** /open_api/v3.0/keyword/list/
 *KeywordUpdateV2V2Api* | **openApi2KeywordUpdateV2Post** | **POST** /open_api/2/keyword/update_v2/
 *KeywordUpdateV30Api* | **openApiV30KeywordUpdatePost** | **POST** /open_api/v3.0/keyword/update/
+*LocalActionCategoryV30Api* | **openApiV30LocalActionCategoryGet** | **GET** /open_api/v3.0/local/action/category/
+*LocalActionKeywordV30Api* | **openApiV30LocalActionKeywordGet** | **GET** /open_api/v3.0/local/action/keyword/
+*LocalAdvertiserBudgetGetV30Api* | **openApiV30LocalAdvertiserBudgetGetGet** | **GET** /open_api/v3.0/local/advertiser/budget/get/
 *LocalAwemeAuthorizedGetV30Api* | **openApiV30LocalAwemeAuthorizedGetGet** | **GET** /open_api/v3.0/local/aweme/authorized/get/
 *LocalChargeListV30Api* | **openApiV30LocalChargeListGet** | **GET** /open_api/v3.0/local/charge/list/
 *LocalChargeResultV30Api* | **openApiV30LocalChargeResultGet** | **GET** /open_api/v3.0/local/charge/result/
 *LocalChargeSubmitV30Api* | **openApiV30LocalChargeSubmitPost** | **POST** /open_api/v3.0/local/charge/submit/
+*LocalConsultAwameListGetV30Api* | **openApiV30LocalConsultAwameListGetGet** | **GET** /open_api/v3.0/local/consult_awame_list/get/
 *LocalCustomAudienceGetV30Api* | **openApiV30LocalCustomAudienceGetGet** | **GET** /open_api/v3.0/local/custom_audience/get/
+*LocalDeliveryQualificationListV30Api* | **openApiV30LocalDeliveryQualificationListGet** | **GET** /open_api/v3.0/local/delivery_qualification/list/
+*LocalFileCarouselListV30Api* | **openApiV30LocalFileCarouselListGet** | **GET** /open_api/v3.0/local/file/carousel/list/
 *LocalFileUploadTaskCreateV30Api* | **openApiV30LocalFileUploadTaskCreatePost** | **POST** /open_api/v3.0/local/file/upload_task/create/
 *LocalFileVideoAwemeGetV30Api* | **openApiV30LocalFileVideoAwemeGetGet** | **GET** /open_api/v3.0/local/file/video/aweme/get/
 *LocalFileVideoGetV30Api* | **openApiV30LocalFileVideoGetGet** | **GET** /open_api/v3.0/local/file/video/get/
@@ -513,8 +520,13 @@ Class | Method | HTTP request
 *LocalImQueryMsgV30Api* | **openApiV30LocalImQueryMsgGet** | **GET** /open_api/v3.0/local/im/query/msg/
 *LocalImSendMsgV30Api* | **openApiV30LocalImSendMsgPost** | **POST** /open_api/v3.0/local/im/send/msg/
 *LocalImUploadImageV30Api* | **openApiV30LocalImUploadImagePost** | **POST** /open_api/v3.0/local/im/upload/image/
+*LocalImageUploadV30Api* | **openApiV30LocalImageUploadPost** | **POST** /open_api/v3.0/local/image/upload/
+*LocalInterestCategoryV30Api* | **openApiV30LocalInterestCategoryGet** | **GET** /open_api/v3.0/local/interest/category/
+*LocalInterestKeywordV30Api* | **openApiV30LocalInterestKeywordGet** | **GET** /open_api/v3.0/local/interest/keyword/
 *LocalLifeAdvertiserCreateV30Api* | **openApiV30LocalLifeAdvertiserCreatePost** | **POST** /open_api/v3.0/local/life/advertiser/create/
 *LocalLifeAdvertiserListV30Api* | **openApiV30LocalLifeAdvertiserListGet** | **GET** /open_api/v3.0/local/life/advertiser/list/
+*LocalMarketPageGetV30Api* | **openApiV30LocalMarketPageGetGet** | **GET** /open_api/v3.0/local/market_page/get/
+*LocalMarketPageListGetV30Api* | **openApiV30LocalMarketPageListGetGet** | **GET** /open_api/v3.0/local/market_page_list/get/
 *LocalMultiPoiIdPoiIdsGetV30Api* | **openApiV30LocalMultiPoiIdPoiIdsGetGet** | **GET** /open_api/v3.0/local/multi_poi_id/poi_ids/get/
 *LocalPoiGetV30Api* | **openApiV30LocalPoiGetGet** | **GET** /open_api/v3.0/local/poi/get/
 *LocalProductGetByPoiidsV30Api* | **openApiV30LocalProductGetByPoiidsGet** | **GET** /open_api/v3.0/local/product/get_by_poiids/
@@ -524,16 +536,21 @@ Class | Method | HTTP request
 *LocalProjectListV30Api* | **openApiV30LocalProjectListGet** | **GET** /open_api/v3.0/local/project/list/
 *LocalProjectStatusUpdateV30Api* | **openApiV30LocalProjectStatusUpdatePost** | **POST** /open_api/v3.0/local/project/status/update/
 *LocalProjectUpdateV30Api* | **openApiV30LocalProjectUpdatePost** | **POST** /open_api/v3.0/local/project/update/
+*LocalProjectWeekScheduleUpdateV30Api* | **openApiV30LocalProjectWeekScheduleUpdatePost** | **POST** /open_api/v3.0/local/project/week_schedule/update/
 *LocalPromotionCreateV30Api* | **openApiV30LocalPromotionCreatePost** | **POST** /open_api/v3.0/local/promotion/create/
 *LocalPromotionDetailV30Api* | **openApiV30LocalPromotionDetailGet** | **GET** /open_api/v3.0/local/promotion/detail/
 *LocalPromotionListV30Api* | **openApiV30LocalPromotionListGet** | **GET** /open_api/v3.0/local/promotion/list/
+*LocalPromotionRejectReasonGetV30Api* | **openApiV30LocalPromotionRejectReasonGetGet** | **GET** /open_api/v3.0/local/promotion/reject_reason/get/
 *LocalPromotionStatusUpdateV30Api* | **openApiV30LocalPromotionStatusUpdatePost** | **POST** /open_api/v3.0/local/promotion/status/update/
 *LocalPromotionUpdateV30Api* | **openApiV30LocalPromotionUpdatePost** | **POST** /open_api/v3.0/local/promotion/update/
+*LocalQualificationGetV30Api* | **openApiV30LocalQualificationGetGet** | **GET** /open_api/v3.0/local/qualification/get/
 *LocalReportAccountGetV30Api* | **openApiV30LocalReportAccountGetGet** | **GET** /open_api/v3.0/local/report/account/get/
 *LocalReportAudienceGetV30Api* | **openApiV30LocalReportAudienceGetGet** | **GET** /open_api/v3.0/local/report/audience/get/
 *LocalReportMaterialGetV30Api* | **openApiV30LocalReportMaterialGetGet** | **GET** /open_api/v3.0/local/report/material/get/
 *LocalReportProjectGetV30Api* | **openApiV30LocalReportProjectGetGet** | **GET** /open_api/v3.0/local/report/project/get/
 *LocalReportPromotionGetV30Api* | **openApiV30LocalReportPromotionGetGet** | **GET** /open_api/v3.0/local/report/promotion/get/
+*LocalToolPackDetailV30Api* | **openApiV30LocalToolPackDetailGet** | **GET** /open_api/v3.0/local/tool_pack/detail/
+*LocalToolPackListGetV30Api* | **openApiV30LocalToolPackListGetGet** | **GET** /open_api/v3.0/local/tool_pack_list/get/
 *MajordomoAdvertiserSelectV2Api* | **openApi2MajordomoAdvertiserSelectGet** | **GET** /open_api/2/majordomo/advertiser/select/
 *MaterialStatusUpdateV30Api* | **openApiV30MaterialStatusUpdatePost** | **POST** /open_api/v3.0/material/status/update/
 *NativeAnchorCreateV30Api* | **openApiV30NativeAnchorCreatePost** | **POST** /open_api/v3.0/native_anchor/create/
@@ -592,13 +609,10 @@ Class | Method | HTTP request
 *QianchuanAdDetailGetV10Api* | **openApiV10QianchuanAdDetailGetGet** | **GET** /open_api/v1.0/qianchuan/ad/detail/get/
 *QianchuanAdGetV10Api* | **openApiV10QianchuanAdGetGet** | **GET** /open_api/v1.0/qianchuan/ad/get/
 *QianchuanAdKeywordsGetV10Api* | **openApiV10QianchuanAdKeywordsGetGet** | **GET** /open_api/v1.0/qianchuan/ad/keywords/get/
-*QianchuanAdKeywordsUpdateV10Api* | **openApiV10QianchuanAdKeywordsUpdatePost** | **POST** /open_api/v1.0/qianchuan/ad/keywords/update/
 *QianchuanAdLearingStatusGetV10Api* | **openApiV10QianchuanAdLearingStatusGetGet** | **GET** /open_api/v1.0/qianchuan/ad/learing_status/get/
 *QianchuanAdMaterialDeleteV10Api* | **openApiV10QianchuanAdMaterialDeletePost** | **POST** /open_api/v1.0/qianchuan/ad/material/delete/
 *QianchuanAdMaterialGetV10Api* | **openApiV10QianchuanAdMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/ad/material/get/
 *QianchuanAdMaterialSuggestionV10Api* | **openApiV10QianchuanAdMaterialSuggestionGet** | **GET** /open_api/v1.0/qianchuan/ad/material/suggestion/
-*QianchuanAdPivativewordsGetV10Api* | **openApiV10QianchuanAdPivativewordsGetGet** | **GET** /open_api/v1.0/qianchuan/ad/pivativewords/get/
-*QianchuanAdPivativewordsUpdateV10Api* | **openApiV10QianchuanAdPivativewordsUpdatePost** | **POST** /open_api/v1.0/qianchuan/ad/pivativewords/update/
 *QianchuanAdQuotaGetV10Api* | **openApiV10QianchuanAdQuotaGetGet** | **GET** /open_api/v1.0/qianchuan/ad/quota/get/
 *QianchuanAdRecommendKeywordsGetV10Api* | **openApiV10QianchuanAdRecommendKeywordsGetGet** | **GET** /open_api/v1.0/qianchuan/ad/recommend_keywords/get/
 *QianchuanAdRegionUpdateV10Api* | **openApiV10QianchuanAdRegionUpdatePost** | **POST** /open_api/v1.0/qianchuan/ad/region/update/
@@ -718,6 +732,7 @@ Class | Method | HTTP request
 *QianchuanUniAwemeAdUpdateV10Api* | **openApiV10QianchuanUniAwemeAdUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_aweme/ad/update/
 *QianchuanUniAwemeAuthorizedGetV10Api* | **openApiV10QianchuanUniAwemeAuthorizedGetGet** | **GET** /open_api/v1.0/qianchuan/uni_aweme/authorized/get/
 *QianchuanUniAwemeSuggestBudgetV10Api* | **openApiV10QianchuanUniAwemeSuggestBudgetGet** | **GET** /open_api/v1.0/qianchuan/uni_aweme/suggest/budget/
+*QianchuanUniAwemeSuggestRoiV10Api* | **openApiV10QianchuanUniAwemeSuggestRoiGet** | **GET** /open_api/v1.0/qianchuan/uni_aweme/suggest/roi/
 *QianchuanUniPromotionAdBudgetUpdateV10Api* | **openApiV10QianchuanUniPromotionAdBudgetUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/budget/update/
 *QianchuanUniPromotionAdControlTaskBudgetUpdateV10Api* | **openApiV10QianchuanUniPromotionAdControlTaskBudgetUpdatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/control_task/budget/update/
 *QianchuanUniPromotionAdControlTaskCreateV10Api* | **openApiV10QianchuanUniPromotionAdControlTaskCreatePost** | **POST** /open_api/v1.0/qianchuan/uni_promotion/ad/control_task/create/
@@ -947,6 +962,7 @@ Class | Method | HTTP request
 *StarVasCancelBoostItemGroupV2Api* | **openApi2StarVasCancelBoostItemGroupPost** | **POST** /open_api/2/star/vas/cancel_boost_item_group/
 *StarVasCreateBoostItemGroupV2Api* | **openApi2StarVasCreateBoostItemGroupPost** | **POST** /open_api/2/star/vas/create_boost_item_group/
 *StarVasGetBoostGroupListV2Api* | **openApi2StarVasGetBoostGroupListGet** | **GET** /open_api/2/star/vas/get_boost_group_list/
+*StarVasGetBoostGroupOptionsV2Api* | **openApi2StarVasGetBoostGroupOptionsGet** | **GET** /open_api/2/star/vas/get_boost_group_options/
 *StarVasGetBoostItemGroupDetailV2Api* | **openApi2StarVasGetBoostItemGroupDetailGet** | **GET** /open_api/2/star/vas/get_boost_item_group_detail/
 *StarVasGetCommonAuthorPackageListV2Api* | **openApi2StarVasGetCommonAuthorPackageListGet** | **GET** /open_api/2/star/vas/get_common_author_package_list/
 *StarVasGetExportBoostItemGroupResultV2Api* | **openApi2StarVasGetExportBoostItemGroupResultGet** | **GET** /open_api/2/star/vas/get_export_boost_item_group_result/
@@ -969,10 +985,8 @@ Class | Method | HTTP request
 *SuggWordsV30Api* | **openApiV30SuggWordsPost** | **POST** /open_api/v3.0/sugg_words/
 *ToolQuickAppManagementQuickAppGetV2Api* | **openApi2ToolQuickAppManagementQuickAppGetGet** | **GET** /open_api/2/tool/quick_app_management/quick_app/get/
 *ToolsAbTestInfoGetV2Api* | **openApi2ToolsAbTestInfoGetGet** | **GET** /open_api/2/tools/ab_test_info/get/
-*ToolsAbTestListGetV2Api* | **openApi2ToolsAbTestListGetGet** | **GET** /open_api/2/tools/ab_test_list/get/
 *ToolsAdPreviewQrcodeGetV30Api* | **openApiV30ToolsAdPreviewQrcodeGetGet** | **GET** /open_api/v3.0/tools/ad_preview/qrcode_get/
 *ToolsAdRaiseStatusGetV2Api* | **openApi2ToolsAdRaiseStatusGetGet** | **GET** /open_api/2/tools/ad_raise_status/get/
-*ToolsAdRaiseVersionGetV2Api* | **openApi2ToolsAdRaiseVersionGetGet** | **GET** /open_api/2/tools/ad_raise_version/get/
 *ToolsAdminInfoV2Api* | **openApi2ToolsAdminInfoGet** | **GET** /open_api/2/tools/admin/info/
 *ToolsAdvertiserStoreSearchV2Api* | **openApi2ToolsAdvertiserStoreSearchGet** | **GET** /open_api/2/tools/advertiser_store/search/
 *ToolsAipThirdSiteCreateV2Api* | **openApi2ToolsAipThirdSiteCreatePost** | **POST** /open_api/2/tools/aip_third_site/create/
@@ -1065,8 +1079,6 @@ Class | Method | HTTP request
 *ToolsCommentTermsBannedUpdateV30Api* | **openApiV30ToolsCommentTermsBannedUpdatePost** | **POST** /open_api/v3.0/tools/comment/terms_banned/update/
 *ToolsCountryInfoV2Api* | **openApi2ToolsCountryInfoGet** | **GET** /open_api/2/tools/country/info/
 *ToolsCreativeWordSelectV2Api* | **openApi2ToolsCreativeWordSelectGet** | **GET** /open_api/2/tools/creative_word/select/
-*ToolsDiagnosisAdGetV2V2Api* | **openApi2ToolsDiagnosisAdGetV2Get** | **GET** /open_api/2/tools/diagnosis/ad/get_v2/
-*ToolsDiagnosisSuggestionGetV2Api* | **openApi2ToolsDiagnosisSuggestionGetGet** | **GET** /open_api/2/tools/diagnosis/suggestion/get/
 *ToolsDiagnosisSuggestionGetV30Api* | **openApiV30ToolsDiagnosisSuggestionGetGet** | **GET** /open_api/v3.0/tools/diagnosis/suggestion/get/
 *ToolsDownloadPackageGetV2Api* | **openApi2ToolsDownloadPackageGetGet** | **GET** /open_api/2/tools/download/package/get/
 *ToolsDownloadPackageParseV2Api* | **openApi2ToolsDownloadPackageParsePost** | **POST** /open_api/2/tools/download/package/parse/
@@ -1114,7 +1126,6 @@ Class | Method | HTTP request
 *ToolsJointBidCreateV30Api* | **openApiV30ToolsJointBidCreatePost** | **POST** /open_api/v3.0/tools/joint_bid/create/
 *ToolsJointBidGetV30Api* | **openApiV30ToolsJointBidGetGet** | **GET** /open_api/v3.0/tools/joint_bid/get/
 *ToolsJointBidUpdateV30Api* | **openApiV30ToolsJointBidUpdatePost** | **POST** /open_api/v3.0/tools/joint_bid/update/
-*ToolsKeyActionGetV2Api* | **openApi2ToolsKeyActionGetGet** | **GET** /open_api/2/tools/key_action/get/
 *ToolsKeywordsBidRatioCreateV30Api* | **openApiV30ToolsKeywordsBidRatioCreatePost** | **POST** /open_api/v3.0/tools/keywords_bid_ratio/create/
 *ToolsKeywordsBidRatioDeleteV30Api* | **openApiV30ToolsKeywordsBidRatioDeletePost** | **POST** /open_api/v3.0/tools/keywords_bid_ratio/delete/
 *ToolsKeywordsBidRatioGetV30Api* | **openApiV30ToolsKeywordsBidRatioGetGet** | **GET** /open_api/v3.0/tools/keywords_bid_ratio/get/
@@ -1180,7 +1191,6 @@ Class | Method | HTTP request
 *ToolsRtaScopeGetV30Api* | **openApiV30ToolsRtaScopeGetGet** | **GET** /open_api/v3.0/tools/rta/scope/get/
 *ToolsRtaSetScopeV2Api* | **openApi2ToolsRtaSetScopePost** | **POST** /open_api/2/tools/rta/set_scope/
 *ToolsRtaStatusUpdateV2Api* | **openApi2ToolsRtaStatusUpdatePost** | **POST** /open_api/2/tools/rta/status_update/
-*ToolsRubeexGetV2Api* | **openApi2ToolsRubeexGetGet** | **GET** /open_api/2/tools/rubeex/get/
 *ToolsRubeexPlayableAdListV2Api* | **openApi2ToolsRubeexPlayableAdListGet** | **GET** /open_api/2/tools/rubeex_playable/ad_list/
 *ToolsRubeexPlayableListV2Api* | **openApi2ToolsRubeexPlayableListGet** | **GET** /open_api/2/tools/rubeex_playable/list/
 *ToolsRubeexRemarkV2Api* | **openApi2ToolsRubeexRemarkGet** | **GET** /open_api/2/tools/rubeex/remark/
