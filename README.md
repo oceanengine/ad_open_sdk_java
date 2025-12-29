@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.79
-  - Build date: 2025-12-23T14:17:43.061643537+08:00[Asia/Shanghai]
+- API version: 1.1.80
+  - Build date: 2025-12-29T18:02:33.505468970+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -807,11 +807,7 @@ Class | Method | HTTP request
 *ReportCustomGetV30Api* | **openApiV30ReportCustomGetGet** | **GET** /open_api/v3.0/report/custom/get/
 *ReportJointGrowthCusGetV30Api* | **openApiV30ReportJointGrowthCusGetGet** | **GET** /open_api/v3.0/report/joint_growth_cus/get/
 *ReportJointGrowthGetV30Api* | **openApiV30ReportJointGrowthGetGet** | **GET** /open_api/v3.0/report/joint_growth/get/
-*ReportLiveRoomAnalysisGetV2Api* | **openApi2ReportLiveRoomAnalysisGetGet** | **GET** /open_api/2/report/live_room/analysis/get/
 *ReportLiveRoomAnalysisGetV30Api* | **openApiV30ReportLiveRoomAnalysisGetGet** | **GET** /open_api/v3.0/report/live_room/analysis/get/
-*ReportLiveRoomAttributeGetV2Api* | **openApi2ReportLiveRoomAttributeGetGet** | **GET** /open_api/2/report/live_room/attribute/get/
-*ReportLiveRoomAudiencePortraitGetV2Api* | **openApi2ReportLiveRoomAudiencePortraitGetGet** | **GET** /open_api/2/report/live_room/audience/portrait/get/
-*ReportLiveRoomFlowCategoryGetV2Api* | **openApi2ReportLiveRoomFlowCategoryGetGet** | **GET** /open_api/2/report/live_room/flow_category/get/
 *ReportProductAsyncTaskDownloadV30Api* | **openApiV30ReportProductAsyncTaskDownloadGet** | **GET** /open_api/v3.0/report/product/async_task/download/
 *ReportProductAsyncTaskGetV30Api* | **openApiV30ReportProductAsyncTaskGetPost** | **POST** /open_api/v3.0/report/product/async_task/get/
 *ReportProductDailyAsyncTaskCreateV30Api* | **openApiV30ReportProductDailyAsyncTaskCreatePost** | **POST** /open_api/v3.0/report/product_daily/async_task/create/
@@ -1090,6 +1086,9 @@ Class | Method | HTTP request
 *ToolsEbpAppListV30Api* | **openApiV30ToolsEbpAppListGet** | **GET** /open_api/v3.0/tools/ebp/app/list/
 *ToolsEbpAppPublishV30Api* | **openApiV30ToolsEbpAppPublishPost** | **POST** /open_api/v3.0/tools/ebp/app/publish/
 *ToolsEbpAppUpdateV30Api* | **openApiV30ToolsEbpAppUpdatePost** | **POST** /open_api/v3.0/tools/ebp/app/update/
+*ToolsEbpAssetAuthCancelV30Api* | **openApiV30ToolsEbpAssetAuthCancelPost** | **POST** /open_api/v3.0/tools/ebp/asset/auth/cancel/
+*ToolsEbpAssetAuthListV30Api* | **openApiV30ToolsEbpAssetAuthListGet** | **GET** /open_api/v3.0/tools/ebp/asset/auth/list/
+*ToolsEbpAssetAuthV30Api* | **openApiV30ToolsEbpAssetAuthPost** | **POST** /open_api/v3.0/tools/ebp/asset/auth/
 *ToolsEbpMicroAppletCreateV30Api* | **openApiV30ToolsEbpMicroAppletCreatePost** | **POST** /open_api/v3.0/tools/ebp/micro_applet/create/
 *ToolsEbpMicroAppletLinkListV30Api* | **openApiV30ToolsEbpMicroAppletLinkListGet** | **GET** /open_api/v3.0/tools/ebp/micro_applet/link/list/
 *ToolsEbpMicroAppletListV30Api* | **openApiV30ToolsEbpMicroAppletListGet** | **GET** /open_api/v3.0/tools/ebp/micro_applet/list/
