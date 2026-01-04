@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.80
-  - Build date: 2025-12-29T18:02:33.505468970+08:00[Asia/Shanghai]
+- API version: 1.1.81
+  - Build date: 2026-01-04T17:46:59.440189234+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -980,7 +980,6 @@ Class | Method | HTTP request
 *SubscribeAccountsRemoveV30Api* | **openApiV30SubscribeAccountsRemovePost** | **POST** /open_api/v3.0/subscribe/accounts/remove/
 *SuggWordsV30Api* | **openApiV30SuggWordsPost** | **POST** /open_api/v3.0/sugg_words/
 *ToolQuickAppManagementQuickAppGetV2Api* | **openApi2ToolQuickAppManagementQuickAppGetGet** | **GET** /open_api/2/tool/quick_app_management/quick_app/get/
-*ToolsAbTestInfoGetV2Api* | **openApi2ToolsAbTestInfoGetGet** | **GET** /open_api/2/tools/ab_test_info/get/
 *ToolsAdPreviewQrcodeGetV30Api* | **openApiV30ToolsAdPreviewQrcodeGetGet** | **GET** /open_api/v3.0/tools/ad_preview/qrcode_get/
 *ToolsAdRaiseStatusGetV2Api* | **openApi2ToolsAdRaiseStatusGetGet** | **GET** /open_api/2/tools/ad_raise_status/get/
 *ToolsAdminInfoV2Api* | **openApi2ToolsAdminInfoGet** | **GET** /open_api/2/tools/admin/info/
