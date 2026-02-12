@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.81
-  - Build date: 2026-01-04T17:46:59.440189234+08:00[Asia/Shanghai]
+- API version: 1.1.82
+  - Build date: 2026-02-12T11:18:50.087149067+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -230,7 +230,6 @@ Class | Method | HTTP request
 *AudiencePackageUpdateV2Api* | **openApi2AudiencePackageUpdatePost** | **POST** /open_api/2/audience_package/update/
 *BrandActionCategoryV30Api* | **openApiV30BrandActionCategoryGet** | **GET** /open_api/v3.0/brand/action_category/
 *BrandAdCancelDeleteV30Api* | **openApiV30BrandAdCancelDeletePost** | **POST** /open_api/v3.0/brand/ad/cancel_delete/
-*BrandAdCreateV30Api* | **openApiV30BrandAdCreatePost** | **POST** /open_api/v3.0/brand/ad/create/
 *BrandAdDeleteV30Api* | **openApiV30BrandAdDeletePost** | **POST** /open_api/v3.0/brand/ad/delete/
 *BrandAdGetV30Api* | **openApiV30BrandAdGetGet** | **GET** /open_api/v3.0/brand/ad/get/
 *BrandAdUpdateBaseInfoV30Api* | **openApiV30BrandAdUpdateBaseInfoPost** | **POST** /open_api/v3.0/brand/ad/update_base_info/
@@ -238,7 +237,6 @@ Class | Method | HTTP request
 *BrandAnchorListV30Api* | **openApiV30BrandAnchorListGet** | **GET** /open_api/v3.0/brand/anchor/list/
 *BrandAwemeListV30Api* | **openApiV30BrandAwemeListGet** | **GET** /open_api/v3.0/brand/aweme_list/
 *BrandCampaignAddV30Api* | **openApiV30BrandCampaignAddPost** | **POST** /open_api/v3.0/brand/campaign/add/
-*BrandCampaignCreateV30Api* | **openApiV30BrandCampaignCreatePost** | **POST** /open_api/v3.0/brand/campaign/create/
 *BrandCampaignDeleteV30Api* | **openApiV30BrandCampaignDeletePost** | **POST** /open_api/v3.0/brand/campaign/delete/
 *BrandCampaignEditV30Api* | **openApiV30BrandCampaignEditPost** | **POST** /open_api/v3.0/brand/campaign/edit/
 *BrandCampaignGetV30Api* | **openApiV30BrandCampaignGetGet** | **GET** /open_api/v3.0/brand/campaign/get/
@@ -306,6 +304,7 @@ Class | Method | HTTP request
 *CgTransferWalletTransferListV30Api* | **openApiV30CgTransferWalletTransferListGet** | **GET** /open_api/v3.0/cg_transfer/wallet/transfer/list/
 *ChargeListV30Api* | **openApiV30ChargeListGet** | **GET** /open_api/v3.0/charge/list/
 *ChargeResultV30Api* | **openApiV30ChargeResultGet** | **GET** /open_api/v3.0/charge/result/
+*ChargeVerifyGetV30Api* | **openApiV30ChargeVerifyGetGet** | **GET** /open_api/v3.0/charge/verify/get/
 *ClueCaCreateV2Api* | **openApi2ClueCaCreatePost** | **POST** /open_api/2/clue/ca/create/
 *ClueCaInterfaceCreateV2Api* | **openApi2ClueCaInterfaceCreatePost** | **POST** /open_api/2/clue/ca/interface/create/
 *ClueCaInterfaceUpdateV2Api* | **openApi2ClueCaInterfaceUpdatePost** | **POST** /open_api/2/clue/ca/interface/update/
@@ -386,7 +385,7 @@ Class | Method | HTTP request
 *DpaAssetV2DetailReadV2Api* | **openApi2DpaAssetV2DetailReadPost** | **POST** /open_api/2/dpa/asset_v2/detail/read/
 *DpaAssetV2ListV2Api* | **openApi2DpaAssetV2ListPost** | **POST** /open_api/2/dpa/asset_v2/list/
 *DpaAssetsDetailReadV2Api* | **openApi2DpaAssetsDetailReadGet** | **GET** /open_api/2/dpa/assets/detail/read/
-*DpaAssetsListV2Api* | **openApi2DpaAssetsListGet** | **GET** /open_api/2/dpa/assets/list/
+*DpaBrandFuzzyGetV30Api* | **openApiV30DpaBrandFuzzyGetGet** | **GET** /open_api/v3.0/dpa/brand/fuzzy/get/
 *DpaCategoryGetV2Api* | **openApi2DpaCategoryGetGet** | **GET** /open_api/2/dpa/category/get/
 *DpaCheckIndexEntryProgressV2Api* | **openApi2DpaCheckIndexEntryProgressPost** | **POST** /open_api/2/dpa/check_index_entry_progress/
 *DpaClueProductDeleteV2Api* | **openApi2DpaClueProductDeletePost** | **POST** /open_api/2/dpa/clue_product/delete/
@@ -488,6 +487,7 @@ Class | Method | HTTP request
 *FileVideoPauseV2Api* | **openApi2FileVideoPausePost** | **POST** /open_api/2/file/video/pause/
 *FileVideoUpdateV2Api* | **openApi2FileVideoUpdatePost** | **POST** /open_api/2/file/video/update/
 *FileVideoUploadTaskListV2Api* | **openApi2FileVideoUploadTaskListGet** | **GET** /open_api/2/file/video/upload_task/list/
+*FixRemittanceCodeListGetV30Api* | **openApiV30FixRemittanceCodeListGetGet** | **GET** /open_api/v3.0/fix_remittance_code/list/get/
 *FundSharedWalletBalanceGetV2Api* | **openApi2FundSharedWalletBalanceGetGet** | **GET** /open_api/2/fund/shared_wallet_balance/get/
 *GameAddictionIdGetV30Api* | **openApiV30GameAddictionIdGetGet** | **GET** /open_api/v3.0/game_addiction_id/get/
 *GameplayListV30Api* | **openApiV30GameplayListGet** | **GET** /open_api/v3.0/gameplay/list/
@@ -567,6 +567,8 @@ Class | Method | HTTP request
 *OpenMaterialAuditProGetV30Api* | **openApiV30OpenMaterialAuditProGetGet** | **GET** /open_api/v3.0/open_material_audit/pro/get/
 *OpenMaterialAuditProSubmitV30Api* | **openApiV30OpenMaterialAuditProSubmitPost** | **POST** /open_api/v3.0/open_material_audit/pro/submit/
 *PenaltyTaskGetV30Api* | **openApiV30PenaltyTaskGetGet** | **GET** /open_api/v3.0/penalty_task/get/
+*PrepayChargeGenerateFixRemiattanceCodeCreateV30Api* | **openApiV30PrepayChargeGenerateFixRemiattanceCodeCreatePost** | **POST** /open_api/v3.0/prepay_charge/generate_fix_remiattance_code/create/
+*PrepayChargeGenerateRemittanceCodeCreateV30Api* | **openApiV30PrepayChargeGenerateRemittanceCodeCreatePost** | **POST** /open_api/v3.0/prepay_charge/generate_remittance_code/create/
 *ProjectBudgetUpdateV30Api* | **openApiV30ProjectBudgetUpdatePost** | **POST** /open_api/v3.0/project/budget/update/
 *ProjectCostProtectStatusGetV30Api* | **openApiV30ProjectCostProtectStatusGetGet** | **GET** /open_api/v3.0/project/cost_protect_status/get/
 *ProjectCreateV30Api* | **openApiV30ProjectCreatePost** | **POST** /open_api/v3.0/project/create/
@@ -780,6 +782,7 @@ Class | Method | HTTP request
 *RejectMaterialAiRepairAcceptTaskListV30Api* | **openApiV30RejectMaterialAiRepairAcceptTaskListGet** | **GET** /open_api/v3.0/reject_material/ai_repair_accept_task/list/
 *RejectMaterialAiRepairCrossAccountGetV30Api* | **openApiV30RejectMaterialAiRepairCrossAccountGetGet** | **GET** /open_api/v3.0/reject_material/ai_repair/cross_account/get/
 *RejectMaterialAiRepairGetV30Api* | **openApiV30RejectMaterialAiRepairGetGet** | **GET** /open_api/v3.0/reject_material/ai_repair/get/
+*RemittanceCodeListGetV30Api* | **openApiV30RemittanceCodeListGetGet** | **GET** /open_api/v3.0/remittance_code/list/get/
 *RemittanceCodeListV30Api* | **openApiV30RemittanceCodeListGet** | **GET** /open_api/v3.0/remittance_code/list/
 *ReportAdGetV2Api* | **openApi2ReportAdGetGet** | **GET** /open_api/2/report/ad/get/
 *ReportAdvertiserGetV2Api* | **openApi2ReportAdvertiserGetGet** | **GET** /open_api/2/report/advertiser/get/
@@ -880,6 +883,8 @@ Class | Method | HTTP request
 *StarComponentQueryLinkV2Api* | **openApi2StarComponentQueryLinkGet** | **GET** /open_api/2/star/component/query_link/
 *StarComponentUpdateCommonComponentV2Api* | **openApi2StarComponentUpdateCommonComponentPost** | **POST** /open_api/2/star/component/update_common_component/
 *StarComponentUpdateLinkV2Api* | **openApi2StarComponentUpdateLinkPost** | **POST** /open_api/2/star/component/update_link/
+*StarCopyrightCreateV2Api* | **openApi2StarCopyrightCreatePost** | **POST** /open_api/2/star/copyright/create/
+*StarCopyrightGetV2Api* | **openApi2StarCopyrightGetGet** | **GET** /open_api/2/star/copyright/get/
 *StarCreateProjectV2Api* | **openApi2StarCreateProjectPost** | **POST** /open_api/2/star/create/project/
 *StarDataTaskTimelineReportV2Api* | **openApi2StarDataTaskTimelineReportGet** | **GET** /open_api/2/star/data/task_timeline_report/
 *StarDemandCreateAssignV2Api* | **openApi2StarDemandCreateAssignPost** | **POST** /open_api/2/star/demand/create_assign/
@@ -979,10 +984,13 @@ Class | Method | HTTP request
 *SubscribeAccountsListV30Api* | **openApiV30SubscribeAccountsListGet** | **GET** /open_api/v3.0/subscribe/accounts/list/
 *SubscribeAccountsRemoveV30Api* | **openApiV30SubscribeAccountsRemovePost** | **POST** /open_api/v3.0/subscribe/accounts/remove/
 *SuggWordsV30Api* | **openApiV30SuggWordsPost** | **POST** /open_api/v3.0/sugg_words/
+*SvipChargeVerifyGetV30Api* | **openApiV30SvipChargeVerifyGetGet** | **GET** /open_api/v3.0/svip/charge/verify/get/
 *ToolQuickAppManagementQuickAppGetV2Api* | **openApi2ToolQuickAppManagementQuickAppGetGet** | **GET** /open_api/2/tool/quick_app_management/quick_app/get/
 *ToolsAdPreviewQrcodeGetV30Api* | **openApiV30ToolsAdPreviewQrcodeGetGet** | **GET** /open_api/v3.0/tools/ad_preview/qrcode_get/
 *ToolsAdRaiseStatusGetV2Api* | **openApi2ToolsAdRaiseStatusGetGet** | **GET** /open_api/2/tools/ad_raise_status/get/
 *ToolsAdminInfoV2Api* | **openApi2ToolsAdminInfoGet** | **GET** /open_api/2/tools/admin/info/
+*ToolsAdvertiserDiagnosisSuggestionAcceptUpdateV30Api* | **openApiV30ToolsAdvertiserDiagnosisSuggestionAcceptUpdatePost** | **POST** /open_api/v3.0/tools/advertiser_diagnosis/suggestion/accept/update/
+*ToolsAdvertiserDiagnosisSuggestionGetV30Api* | **openApiV30ToolsAdvertiserDiagnosisSuggestionGetGet** | **GET** /open_api/v3.0/tools/advertiser_diagnosis/suggestion/get/
 *ToolsAdvertiserStoreSearchV2Api* | **openApi2ToolsAdvertiserStoreSearchGet** | **GET** /open_api/2/tools/advertiser_store/search/
 *ToolsAipThirdSiteCreateV2Api* | **openApi2ToolsAipThirdSiteCreatePost** | **POST** /open_api/2/tools/aip_third_site/create/
 *ToolsAipThirdSiteGetV2Api* | **openApi2ToolsAipThirdSiteGetGet** | **GET** /open_api/2/tools/aip_third_site/get/
@@ -1088,6 +1096,9 @@ Class | Method | HTTP request
 *ToolsEbpAssetAuthCancelV30Api* | **openApiV30ToolsEbpAssetAuthCancelPost** | **POST** /open_api/v3.0/tools/ebp/asset/auth/cancel/
 *ToolsEbpAssetAuthListV30Api* | **openApiV30ToolsEbpAssetAuthListGet** | **GET** /open_api/v3.0/tools/ebp/asset/auth/list/
 *ToolsEbpAssetAuthV30Api* | **openApiV30ToolsEbpAssetAuthPost** | **POST** /open_api/v3.0/tools/ebp/asset/auth/
+*ToolsEbpMaterialAuthCreateV30Api* | **openApiV30ToolsEbpMaterialAuthCreatePost** | **POST** /open_api/v3.0/tools/ebp/material/auth/create/
+*ToolsEbpMaterialAuthDeleteV30Api* | **openApiV30ToolsEbpMaterialAuthDeletePost** | **POST** /open_api/v3.0/tools/ebp/material/auth/delete/
+*ToolsEbpMaterialAuthListV30Api* | **openApiV30ToolsEbpMaterialAuthListGet** | **GET** /open_api/v3.0/tools/ebp/material/auth/list/
 *ToolsEbpMicroAppletCreateV30Api* | **openApiV30ToolsEbpMicroAppletCreatePost** | **POST** /open_api/v3.0/tools/ebp/micro_applet/create/
 *ToolsEbpMicroAppletLinkListV30Api* | **openApiV30ToolsEbpMicroAppletLinkListGet** | **GET** /open_api/v3.0/tools/ebp/micro_applet/link/list/
 *ToolsEbpMicroAppletListV30Api* | **openApiV30ToolsEbpMicroAppletListGet** | **GET** /open_api/v3.0/tools/ebp/micro_applet/list/
@@ -1096,6 +1107,11 @@ Class | Method | HTTP request
 *ToolsEbpMicroGameLinkListV30Api* | **openApiV30ToolsEbpMicroGameLinkListGet** | **GET** /open_api/v3.0/tools/ebp/micro_game/link/list/
 *ToolsEbpMicroGameListV30Api* | **openApiV30ToolsEbpMicroGameListGet** | **GET** /open_api/v3.0/tools/ebp/micro_game/list/
 *ToolsEbpMicroGameUpdateV30Api* | **openApiV30ToolsEbpMicroGameUpdatePost** | **POST** /open_api/v3.0/tools/ebp/micro_game/update/
+*ToolsEbpSubjectListV30Api* | **openApiV30ToolsEbpSubjectListGet** | **GET** /open_api/v3.0/tools/ebp/subject/list/
+*ToolsEbpVideoAttributesListV30Api* | **openApiV30ToolsEbpVideoAttributesListGet** | **GET** /open_api/v3.0/tools/ebp/video_attributes/list/
+*ToolsEbpVideoDeleteV30Api* | **openApiV30ToolsEbpVideoDeletePost** | **POST** /open_api/v3.0/tools/ebp/video/delete/
+*ToolsEbpVideoUpdateV30Api* | **openApiV30ToolsEbpVideoUpdatePost** | **POST** /open_api/v3.0/tools/ebp/video/update/
+*ToolsEbpVideoUploadV30Api* | **openApiV30ToolsEbpVideoUploadPost** | **POST** /open_api/v3.0/tools/ebp/video/upload/
 *ToolsEbpWechatAppletCreateV30Api* | **openApiV30ToolsEbpWechatAppletCreatePost** | **POST** /open_api/v3.0/tools/ebp/wechat_applet/create/
 *ToolsEbpWechatAppletListV30Api* | **openApiV30ToolsEbpWechatAppletListGet** | **GET** /open_api/v3.0/tools/ebp/wechat_applet/list/
 *ToolsEbpWechatAppletUpdateV30Api* | **openApiV30ToolsEbpWechatAppletUpdatePost** | **POST** /open_api/v3.0/tools/ebp/wechat_applet/update/
@@ -1216,7 +1232,6 @@ Class | Method | HTTP request
 *ToolsTaskRaiseGetV2Api* | **openApi2ToolsTaskRaiseGetGet** | **GET** /open_api/2/tools/task_raise/get/
 *ToolsTaskRaiseOptimizationIdsGetV2Api* | **openApi2ToolsTaskRaiseOptimizationIdsGetGet** | **GET** /open_api/2/tools/task_raise/optimization_ids/get/
 *ToolsTaskRaiseStatusStopV2Api* | **openApi2ToolsTaskRaiseStatusStopPost** | **POST** /open_api/2/tools/task_raise/status/stop/
-*ToolsThirdSiteCreateV2Api* | **openApi2ToolsThirdSiteCreatePost** | **POST** /open_api/2/tools/third_site/create/
 *ToolsThirdSiteDeleteV2Api* | **openApi2ToolsThirdSiteDeletePost** | **POST** /open_api/2/tools/third_site/delete/
 *ToolsThirdSiteGetV2Api* | **openApi2ToolsThirdSiteGetGet** | **GET** /open_api/2/tools/third_site/get/
 *ToolsThirdSitePreviewV2Api* | **openApi2ToolsThirdSitePreviewGet** | **GET** /open_api/2/tools/third_site/preview/
