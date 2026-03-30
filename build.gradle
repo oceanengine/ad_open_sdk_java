@@ -2,7 +2,7 @@ apply plugin: 'idea'
 apply plugin: 'eclipse'
 
 group = 'org.openapitools'
-version = '1.1.83'
+version = '1.1.84'
 
 buildscript {
 repositories {

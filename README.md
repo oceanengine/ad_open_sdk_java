@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.83
-  - Build date: 2026-03-13T21:39:37.171503709+08:00[Asia/Shanghai]
+- API version: 1.1.84
+  - Build date: 2026-03-30T19:37:39.621871933+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -899,6 +899,7 @@ Class | Method | HTTP request
 *StarDemandGetEpisodeLimitV2Api* | **openApi2StarDemandGetEpisodeLimitGet** | **GET** /open_api/2/star/demand/get_episode_limit/
 *StarDemandGetResellCodeV2Api* | **openApi2StarDemandGetResellCodeGet** | **GET** /open_api/2/star/demand/get_resell_code/
 *StarDemandListV2Api* | **openApi2StarDemandListGet** | **GET** /open_api/2/star/demand/list/
+*StarDemandMixListGetV2Api* | **openApi2StarDemandMixListGetGet** | **GET** /open_api/2/star/demand/mix/list/get/
 *StarDemandOmCreateChallengeV2Api* | **openApi2StarDemandOmCreateChallengePost** | **POST** /open_api/2/star/demand/om_create_challenge/
 *StarDemandOmExpandChallengeProviderV2Api* | **openApi2StarDemandOmExpandChallengeProviderPost** | **POST** /open_api/2/star/demand/om_expand_challenge_provider/
 *StarDemandOmExpandChallengeV2Api* | **openApi2StarDemandOmExpandChallengePost** | **POST** /open_api/2/star/demand/om_expand_challenge/
@@ -926,6 +927,7 @@ Class | Method | HTTP request
 *StarMcnGetContractedChallengeListV2Api* | **openApi2StarMcnGetContractedChallengeListGet** | **GET** /open_api/2/star/mcn/get_contracted_challenge_list/
 *StarMcnGetContractedChallengeUrlV2Api* | **openApi2StarMcnGetContractedChallengeUrlGet** | **GET** /open_api/2/star/mcn/get_contracted_challenge_url/
 *StarMcnGetUnparticipatedTaskV2Api* | **openApi2StarMcnGetUnparticipatedTaskGet** | **GET** /open_api/2/star/mcn/get_unparticipated_task/
+*StarMcnMixListGetV2Api* | **openApi2StarMcnMixListGetGet** | **GET** /open_api/2/star/mcn/mix/list/get/
 *StarMcnProviderGetParticipatedTaskV2Api* | **openApi2StarMcnProviderGetParticipatedTaskGet** | **GET** /open_api/2/star/mcn/provider_get_participated_task/
 *StarMcnProviderGetRecruitInfoGetV2Api* | **openApi2StarMcnProviderGetRecruitInfoGetGet** | **GET** /open_api/2/star/mcn/provider_get_recruit_info/get/
 *StarMcnProviderGetTagOnTaskV2Api* | **openApi2StarMcnProviderGetTagOnTaskGet** | **GET** /open_api/2/star/mcn/provider_get_tag_on_task/
@@ -1094,6 +1096,7 @@ Class | Method | HTTP request
 *ToolsDiagnosisSuggestionGetV30Api* | **openApiV30ToolsDiagnosisSuggestionGetGet** | **GET** /open_api/v3.0/tools/diagnosis/suggestion/get/
 *ToolsDownloadPackageGetV2Api* | **openApi2ToolsDownloadPackageGetGet** | **GET** /open_api/2/tools/download/package/get/
 *ToolsDownloadPackageParseV2Api* | **openApi2ToolsDownloadPackageParsePost** | **POST** /open_api/2/tools/download/package/parse/
+*ToolsEbpAppDetailV30Api* | **openApiV30ToolsEbpAppDetailGet** | **GET** /open_api/v3.0/tools/ebp/app/detail/
 *ToolsEbpAppExtendCreateV30Api* | **openApiV30ToolsEbpAppExtendCreatePost** | **POST** /open_api/v3.0/tools/ebp/app_extend/create/
 *ToolsEbpAppExtendListV30Api* | **openApiV30ToolsEbpAppExtendListGet** | **GET** /open_api/v3.0/tools/ebp/app_extend/list/
 *ToolsEbpAppExtendUpdateV30Api* | **openApiV30ToolsEbpAppExtendUpdatePost** | **POST** /open_api/v3.0/tools/ebp/app_extend/update/
@@ -1103,6 +1106,7 @@ Class | Method | HTTP request
 *ToolsEbpAppUpdateV30Api* | **openApiV30ToolsEbpAppUpdatePost** | **POST** /open_api/v3.0/tools/ebp/app/update/
 *ToolsEbpAssetAuthCancelV30Api* | **openApiV30ToolsEbpAssetAuthCancelPost** | **POST** /open_api/v3.0/tools/ebp/asset/auth/cancel/
 *ToolsEbpAssetAuthListV30Api* | **openApiV30ToolsEbpAssetAuthListGet** | **GET** /open_api/v3.0/tools/ebp/asset/auth/list/
+*ToolsEbpAssetAuthV30Api* | **openApiV30ToolsEbpAssetAuthPost** | **POST** /open_api/v3.0/tools/ebp/asset/auth/
 *ToolsEbpMaterialAuthCreateV30Api* | **openApiV30ToolsEbpMaterialAuthCreatePost** | **POST** /open_api/v3.0/tools/ebp/material/auth/create/
 *ToolsEbpMaterialAuthDeleteV30Api* | **openApiV30ToolsEbpMaterialAuthDeletePost** | **POST** /open_api/v3.0/tools/ebp/material/auth/delete/
 *ToolsEbpMaterialAuthListV30Api* | **openApiV30ToolsEbpMaterialAuthListGet** | **GET** /open_api/v3.0/tools/ebp/material/auth/list/
