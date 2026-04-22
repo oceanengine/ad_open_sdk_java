@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.84
-  - Build date: 2026-03-30T19:37:39.621871933+08:00[Asia/Shanghai]
+- API version: 1.1.85
+  - Build date: 2026-04-22T11:30:04.288421659+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -835,6 +835,7 @@ Class | Method | HTTP request
 *SecurityAuditResultsV30Api* | **openApiV30SecurityAuditResultsGet** | **GET** /open_api/v3.0/security/audit_results/
 *SecurityCreateAppealV30Api* | **openApiV30SecurityCreateAppealPost** | **POST** /open_api/v3.0/security/create_appeal/
 *SecurityGetConsultResultV30Api* | **openApiV30SecurityGetConsultResultGet** | **GET** /open_api/v3.0/security/get_consult_result/
+*SecurityNonScoreDisposalInfoGetV30Api* | **openApiV30SecurityNonScoreDisposalInfoGetGet** | **GET** /open_api/v3.0/security/non_score_disposal_info/get/
 *SecurityOpenMaterialAuditV30Api* | **openApiV30SecurityOpenMaterialAuditPost** | **POST** /open_api/v3.0/security/open_material_audit/
 *SecurityScoreDisposalInfoGetV30Api* | **openApiV30SecurityScoreDisposalInfoGetGet** | **GET** /open_api/v3.0/security/score_disposal_info/get/
 *SecurityScoreTotalGetV30Api* | **openApiV30SecurityScoreTotalGetGet** | **GET** /open_api/v3.0/security/score_total/get/

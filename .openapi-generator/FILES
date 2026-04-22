@@ -717,6 +717,7 @@ src/main/java/com/bytedance/ads/api/ReportVideoFrameGetV2Api.java
 src/main/java/com/bytedance/ads/api/SecurityAuditResultsV30Api.java
 src/main/java/com/bytedance/ads/api/SecurityCreateAppealV30Api.java
 src/main/java/com/bytedance/ads/api/SecurityGetConsultResultV30Api.java
+src/main/java/com/bytedance/ads/api/SecurityNonScoreDisposalInfoGetV30Api.java
 src/main/java/com/bytedance/ads/api/SecurityOpenMaterialAuditV30Api.java
 src/main/java/com/bytedance/ads/api/SecurityScoreDisposalInfoGetV30Api.java
 src/main/java/com/bytedance/ads/api/SecurityScoreTotalGetV30Api.java
@@ -1855,6 +1856,7 @@ src/main/java/com/bytedance/ads/examples/ReportVideoFrameGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/SecurityAuditResultsV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SecurityCreateAppealV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SecurityGetConsultResultV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/SecurityNonScoreDisposalInfoGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SecurityOpenMaterialAuditV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SecurityScoreDisposalInfoGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SecurityScoreTotalGetV30ApiExample.java
@@ -6106,6 +6108,7 @@ src/main/java/com/bytedance/ads/model/ProjectCreateV30DeliverySettingBudgetMode.
 src/main/java/com/bytedance/ads/model/ProjectCreateV30DeliverySettingBudgetOptimizeSwitch.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30DeliverySettingDeepBidType.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30DeliverySettingFilterNightSwitch.java
+src/main/java/com/bytedance/ads/model/ProjectCreateV30DeliverySettingLayerRoiSwitch.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30DeliverySettingPricing.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30DeliverySettingProjectCustom.java
 src/main/java/com/bytedance/ads/model/ProjectCreateV30DeliverySettingScheduleType.java
@@ -6207,6 +6210,7 @@ src/main/java/com/bytedance/ads/model/ProjectListV30DataListDeliverySettingBidSp
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListDeliverySettingBudgetMode.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListDeliverySettingBudgetOptimizeSwitch.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListDeliverySettingDeepBidType.java
+src/main/java/com/bytedance/ads/model/ProjectListV30DataListDeliverySettingLayerRoiSwitch.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListDeliverySettingProjectCustom.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListDeliverySettingScheduleType.java
 src/main/java/com/bytedance/ads/model/ProjectListV30DataListDeliverySettingSearchContinueDelivery.java
@@ -8763,6 +8767,11 @@ src/main/java/com/bytedance/ads/model/SecurityGetConsultResultV30DataResultsResu
 src/main/java/com/bytedance/ads/model/SecurityGetConsultResultV30Response.java
 src/main/java/com/bytedance/ads/model/SecurityGetConsultResultV30ResponseData.java
 src/main/java/com/bytedance/ads/model/SecurityGetConsultResultV30ResponseDataResultsInner.java
+src/main/java/com/bytedance/ads/model/SecurityNonScoreDisposalInfoGetV30BusinessLine.java
+src/main/java/com/bytedance/ads/model/SecurityNonScoreDisposalInfoGetV30Response.java
+src/main/java/com/bytedance/ads/model/SecurityNonScoreDisposalInfoGetV30ResponseData.java
+src/main/java/com/bytedance/ads/model/SecurityNonScoreDisposalInfoGetV30ResponseDataDisposalRecordInfoInner.java
+src/main/java/com/bytedance/ads/model/SecurityNonScoreDisposalInfoGetV30TimeRange.java
 src/main/java/com/bytedance/ads/model/SecurityOpenMaterialAuditV30BusinessType.java
 src/main/java/com/bytedance/ads/model/SecurityOpenMaterialAuditV30MsgType.java
 src/main/java/com/bytedance/ads/model/SecurityOpenMaterialAuditV30Request.java
@@ -9997,6 +10006,7 @@ src/main/java/com/bytedance/ads/model/ToolsAppManagementUploadTaskListV2Response
 src/main/java/com/bytedance/ads/model/ToolsAppManagementUploadTaskListV2ResponseData.java
 src/main/java/com/bytedance/ads/model/ToolsAppManagementUploadTaskListV2ResponseDataListInner.java
 src/main/java/com/bytedance/ads/model/ToolsAssetLinkListV30DataListAccountType.java
+src/main/java/com/bytedance/ads/model/ToolsAssetLinkListV30DataListActiveStatus.java
 src/main/java/com/bytedance/ads/model/ToolsAssetLinkListV30Filtering.java
 src/main/java/com/bytedance/ads/model/ToolsAssetLinkListV30FilteringCreateTime.java
 src/main/java/com/bytedance/ads/model/ToolsAssetLinkListV30Response.java
@@ -10551,6 +10561,7 @@ src/main/java/com/bytedance/ads/model/ToolsEbpMicroAppletCreateV30ResponseData.j
 src/main/java/com/bytedance/ads/model/ToolsEbpMicroAppletCreateV30SchemaInfoOperateType.java
 src/main/java/com/bytedance/ads/model/ToolsEbpMicroAppletLinkListV30AccountType.java
 src/main/java/com/bytedance/ads/model/ToolsEbpMicroAppletLinkListV30CreateTime.java
+src/main/java/com/bytedance/ads/model/ToolsEbpMicroAppletLinkListV30DataLinksActiveStatus.java
 src/main/java/com/bytedance/ads/model/ToolsEbpMicroAppletLinkListV30DataLinksAuditStatus.java
 src/main/java/com/bytedance/ads/model/ToolsEbpMicroAppletLinkListV30DataLinksOwnerAccountType.java
 src/main/java/com/bytedance/ads/model/ToolsEbpMicroAppletLinkListV30Response.java
@@ -10581,6 +10592,7 @@ src/main/java/com/bytedance/ads/model/ToolsEbpMicroGameCreateV30ResponseData.jav
 src/main/java/com/bytedance/ads/model/ToolsEbpMicroGameCreateV30SchemaInfoOperateType.java
 src/main/java/com/bytedance/ads/model/ToolsEbpMicroGameLinkListV30AccountType.java
 src/main/java/com/bytedance/ads/model/ToolsEbpMicroGameLinkListV30CreateTime.java
+src/main/java/com/bytedance/ads/model/ToolsEbpMicroGameLinkListV30DataLinksActiveStatus.java
 src/main/java/com/bytedance/ads/model/ToolsEbpMicroGameLinkListV30DataLinksAuditStatus.java
 src/main/java/com/bytedance/ads/model/ToolsEbpMicroGameLinkListV30DataLinksOwnerAccountType.java
 src/main/java/com/bytedance/ads/model/ToolsEbpMicroGameLinkListV30Response.java
@@ -11345,6 +11357,7 @@ src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerFailure
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerFormData.java
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerGroupContentInner.java
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerLink.java
+src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerLinkMicroApp.java
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerLocalSource.java
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerMarquee.java
 src/main/java/com/bytedance/ads/model/ToolsSiteCreateV2RequestBricksInnerOnlineSource.java
@@ -11519,6 +11532,7 @@ src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerFailure
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerFormData.java
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerGroupContentInner.java
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerLink.java
+src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerLinkMicroApp.java
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerLocalSource.java
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerMarquee.java
 src/main/java/com/bytedance/ads/model/ToolsSiteUpdateV2RequestBricksInnerOnlineSource.java
@@ -11742,6 +11756,7 @@ src/main/java/com/bytedance/ads/model/UniProjectListGetV30DataListAudienceHideIf
 src/main/java/com/bytedance/ads/model/UniProjectListGetV30DataListAudienceLocationType.java
 src/main/java/com/bytedance/ads/model/UniProjectListGetV30DataListAudiencePlatform.java
 src/main/java/com/bytedance/ads/model/UniProjectListGetV30DataListMonetizationMode.java
+src/main/java/com/bytedance/ads/model/UniProjectListGetV30DataListPricing.java
 src/main/java/com/bytedance/ads/model/UniProjectListGetV30DataListScheduleType.java
 src/main/java/com/bytedance/ads/model/UniProjectListGetV30DataListStatusFirst.java
 src/main/java/com/bytedance/ads/model/UniProjectListGetV30DataListStatusSecond.java
