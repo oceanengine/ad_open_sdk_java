@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.86
-  - Build date: 2026-05-06T21:23:10.002715239+08:00[Asia/Shanghai]
+- API version: 1.1.87
+  - Build date: 2026-05-14T14:04:07.544989881+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -992,6 +992,8 @@ Class | Method | HTTP request
 *StardeliveryTaskShareableListV30Api* | **openApiV30StardeliveryTaskShareableListGet** | **GET** /open_api/v3.0/stardelivery/task/shareable/list/
 *StardeliveryTaskSharingListV30Api* | **openApiV30StardeliveryTaskSharingListGet** | **GET** /open_api/v3.0/stardelivery/task/sharing/list/
 *StardeliveryTaskUnshareV30Api* | **openApiV30StardeliveryTaskUnsharePost** | **POST** /open_api/v3.0/stardelivery/task/unshare/
+*StdProjectCreateV30Api* | **openApiV30StdProjectCreatePost** | **POST** /open_api/v3.0/std_project/create/
+*StdProjectUpdateV30Api* | **openApiV30StdProjectUpdatePost** | **POST** /open_api/v3.0/std_project/update/
 *SubscribeAccountsAddV30Api* | **openApiV30SubscribeAccountsAddPost** | **POST** /open_api/v3.0/subscribe/accounts/add/
 *SubscribeAccountsListV30Api* | **openApiV30SubscribeAccountsListGet** | **GET** /open_api/v3.0/subscribe/accounts/list/
 *SubscribeAccountsRemoveV30Api* | **openApiV30SubscribeAccountsRemovePost** | **POST** /open_api/v3.0/subscribe/accounts/remove/
