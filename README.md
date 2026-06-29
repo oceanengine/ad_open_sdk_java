@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.89
-  - Build date: 2026-06-26T12:00:26.411390910+08:00[Asia/Shanghai]
+- API version: 1.1.90
+  - Build date: 2026-06-29T20:58:33.335542223+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -1158,6 +1158,11 @@ Class | Method | HTTP request
 *ToolsEbpMicroGameLinkListV30Api* | **openApiV30ToolsEbpMicroGameLinkListGet** | **GET** /open_api/v3.0/tools/ebp/micro_game/link/list/
 *ToolsEbpMicroGameListV30Api* | **openApiV30ToolsEbpMicroGameListGet** | **GET** /open_api/v3.0/tools/ebp/micro_game/list/
 *ToolsEbpMicroGameUpdateV30Api* | **openApiV30ToolsEbpMicroGameUpdatePost** | **POST** /open_api/v3.0/tools/ebp/micro_game/update/
+*ToolsEbpStarTaskGetV30Api* | **openApiV30ToolsEbpStarTaskGetGet** | **GET** /open_api/v3.0/tools/ebp/star_task/get/
+*ToolsEbpStarTaskListV30Api* | **openApiV30ToolsEbpStarTaskListGet** | **GET** /open_api/v3.0/tools/ebp/star_task/list/
+*ToolsEbpStarTaskTaskAuthorGetV30Api* | **openApiV30ToolsEbpStarTaskTaskAuthorGetGet** | **GET** /open_api/v3.0/tools/ebp/star_task/task_author/get/
+*ToolsEbpStarTaskTaskAuthorVedioGetV30Api* | **openApiV30ToolsEbpStarTaskTaskAuthorVedioGetGet** | **GET** /open_api/v3.0/tools/ebp/star_task/task_author_vedio/get/
+*ToolsEbpStarTaskTaskVideoDataGetV30Api* | **openApiV30ToolsEbpStarTaskTaskVideoDataGetGet** | **GET** /open_api/v3.0/tools/ebp/star_task/task_video_data/get/
 *ToolsEbpSubjectListV30Api* | **openApiV30ToolsEbpSubjectListGet** | **GET** /open_api/v3.0/tools/ebp/subject/list/
 *ToolsEbpVideoAttributesListV30Api* | **openApiV30ToolsEbpVideoAttributesListGet** | **GET** /open_api/v3.0/tools/ebp/video_attributes/list/
 *ToolsEbpVideoDeleteV30Api* | **openApiV30ToolsEbpVideoDeletePost** | **POST** /open_api/v3.0/tools/ebp/video/delete/
