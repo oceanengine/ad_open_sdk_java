@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.90
-  - Build date: 2026-06-29T20:58:33.335542223+08:00[Asia/Shanghai]
+- API version: 1.1.91
+  - Build date: 2026-07-01T12:00:04.862997971+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -459,6 +459,7 @@ Class | Method | HTTP request
 *FileImageAdvertiserV2Api* | **openApi2FileImageAdvertiserPost** | **POST** /open_api/2/file/image/advertiser/
 *FileImageDeleteV30Api* | **openApiV30FileImageDeletePost** | **POST** /open_api/v3.0/file/image/delete/
 *FileImageGetV2Api* | **openApi2FileImageGetGet** | **GET** /open_api/2/file/image/get/
+*FileIncentivePolicyBaseInfoGetV2Api* | **openApi2FileIncentivePolicyBaseInfoGetGet** | **GET** /open_api/2/file/incentive_policy_base_info/get/
 *FileMaterialAttributesListV2Api* | **openApi2FileMaterialAttributesListGet** | **GET** /open_api/2/file/material_attributes/list/
 *FileMaterialBindV2Api* | **openApi2FileMaterialBindPost** | **POST** /open_api/2/file/material/bind/
 *FileMaterialDetailV2Api* | **openApi2FileMaterialDetailGet** | **GET** /open_api/2/file/material/detail/
@@ -472,9 +473,6 @@ Class | Method | HTTP request
 *FileRebateCommonDownloadCreateTaskV2Api* | **openApi2FileRebateCommonDownloadCreateTaskPost** | **POST** /open_api/2/file/rebate/common_download/create_task/
 *FileRebateCommonDownloadDownloadFileV2Api* | **openApi2FileRebateCommonDownloadDownloadFileGet** | **GET** /open_api/2/file/rebate/common_download/download_file/
 *FileRebateCommonDownloadGetDownloadTaskListV2Api* | **openApi2FileRebateCommonDownloadGetDownloadTaskListGet** | **GET** /open_api/2/file/rebate/common_download/get_download_task_list/
-*FileRebateMaterialDownloadCreateTaskV2Api* | **openApi2FileRebateMaterialDownloadCreateTaskPost** | **POST** /open_api/2/file/rebate/material_download/create_task/
-*FileRebateMaterialDownloadDownloadFileV2Api* | **openApi2FileRebateMaterialDownloadDownloadFileGet** | **GET** /open_api/2/file/rebate/material_download/download_file/
-*FileRebateMaterialDownloadGetDownloadTaskListV2Api* | **openApi2FileRebateMaterialDownloadGetDownloadTaskListGet** | **GET** /open_api/2/file/rebate/material_download/get_download_task_list/
 *FileRebateRebateDownloadCreateTaskV2Api* | **openApi2FileRebateRebateDownloadCreateTaskPost** | **POST** /open_api/2/file/rebate/rebate_download/create_task/
 *FileUploadTaskCreateV2Api* | **openApi2FileUploadTaskCreatePost** | **POST** /open_api/2/file/upload_task/create/
 *FileVideoAdGetV2Api* | **openApi2FileVideoAdGetGet** | **GET** /open_api/2/file/video/ad/get/
@@ -515,6 +513,10 @@ Class | Method | HTTP request
 *LocalAdvertiserBudgetGetV30Api* | **openApiV30LocalAdvertiserBudgetGetGet** | **GET** /open_api/v3.0/local/advertiser/budget/get/
 *LocalAudiencePackageGetV30Api* | **openApiV30LocalAudiencePackageGetGet** | **GET** /open_api/v3.0/local/audience_package/get/
 *LocalAudiencePackageUpdateV30Api* | **openApiV30LocalAudiencePackageUpdatePost** | **POST** /open_api/v3.0/local/audience_package/update/
+*LocalAwemeAuthCancelUpdateV30Api* | **openApiV30LocalAwemeAuthCancelUpdatePost** | **POST** /open_api/v3.0/local/aweme_auth_cancel/update/
+*LocalAwemeAuthCreateV30Api* | **openApiV30LocalAwemeAuthCreatePost** | **POST** /open_api/v3.0/local/aweme_auth/create/
+*LocalAwemeAuthListV30Api* | **openApiV30LocalAwemeAuthListGet** | **GET** /open_api/v3.0/local/aweme_auth/list/
+*LocalAwemeAuthRenewCreateV30Api* | **openApiV30LocalAwemeAuthRenewCreatePost** | **POST** /open_api/v3.0/local/aweme_auth_renew/create/
 *LocalAwemeAuthorizedGetV30Api* | **openApiV30LocalAwemeAuthorizedGetGet** | **GET** /open_api/v3.0/local/aweme/authorized/get/
 *LocalBudgetUpdateV30Api* | **openApiV30LocalBudgetUpdatePost** | **POST** /open_api/v3.0/local/budget/update/
 *LocalChargeListV30Api* | **openApiV30LocalChargeListGet** | **GET** /open_api/v3.0/local/charge/list/
