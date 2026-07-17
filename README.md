@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.91
-  - Build date: 2026-07-01T12:00:04.862997971+08:00[Asia/Shanghai]
+- API version: 1.1.92
+  - Build date: 2026-07-17T14:27:09.635412770+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -995,6 +995,8 @@ Class | Method | HTTP request
 *StarOrderReplyAuthorCancelV2Api* | **openApi2StarOrderReplyAuthorCancelPost** | **POST** /open_api/2/star/order/reply_author_cancel/
 *StarOrderUpdateV2Api* | **openApi2StarOrderUpdatePost** | **POST** /open_api/2/star/order/update/
 *StarProjectListV2Api* | **openApi2StarProjectListGet** | **GET** /open_api/2/star/project/list/
+*StarProviderTaskItemListV2Api* | **openApi2StarProviderTaskItemListGet** | **GET** /open_api/2/star/provider/task/item/list/
+*StarProviderTaskListV2Api* | **openApi2StarProviderTaskListGet** | **GET** /open_api/2/star/provider/task/list/
 *StarReportCustomDataTopicDailyReportV2Api* | **openApi2StarReportCustomDataTopicDailyReportGet** | **GET** /open_api/2/star/report/custom_data_topic_daily_report/
 *StarReportCustomDataTopicReportV2Api* | **openApi2StarReportCustomDataTopicReportGet** | **GET** /open_api/2/star/report/custom_data_topic_report/
 *StarReportDataTopicConfigV2Api* | **openApi2StarReportDataTopicConfigGet** | **GET** /open_api/2/star/report/data_topic_config/
@@ -1045,6 +1047,8 @@ Class | Method | HTTP request
 *ToolsAdvertiserDiagnosisSuggestionAcceptUpdateV30Api* | **openApiV30ToolsAdvertiserDiagnosisSuggestionAcceptUpdatePost** | **POST** /open_api/v3.0/tools/advertiser_diagnosis/suggestion/accept/update/
 *ToolsAdvertiserDiagnosisSuggestionGetV30Api* | **openApiV30ToolsAdvertiserDiagnosisSuggestionGetGet** | **GET** /open_api/v3.0/tools/advertiser_diagnosis/suggestion/get/
 *ToolsAdvertiserStoreSearchV2Api* | **openApi2ToolsAdvertiserStoreSearchGet** | **GET** /open_api/2/tools/advertiser_store/search/
+*ToolsAgreementCreateV30Api* | **openApiV30ToolsAgreementCreatePost** | **POST** /open_api/v3.0/tools/agreement/create/
+*ToolsAgreementListV30Api* | **openApiV30ToolsAgreementListGet** | **GET** /open_api/v3.0/tools/agreement/list/
 *ToolsAipThirdSiteCreateV2Api* | **openApi2ToolsAipThirdSiteCreatePost** | **POST** /open_api/2/tools/aip_third_site/create/
 *ToolsAipThirdSiteGetV2Api* | **openApi2ToolsAipThirdSiteGetGet** | **GET** /open_api/2/tools/aip_third_site/get/
 *ToolsAipThirdSiteUpdateV2Api* | **openApi2ToolsAipThirdSiteUpdatePost** | **POST** /open_api/2/tools/aip_third_site/update/
@@ -1247,6 +1251,7 @@ Class | Method | HTTP request
 *ToolsPrivativeWordProjectUpdateV30Api* | **openApiV30ToolsPrivativeWordProjectUpdatePost** | **POST** /open_api/v3.0/tools/privative_word/project/update/
 *ToolsPrivativeWordPromotionAddV30Api* | **openApiV30ToolsPrivativeWordPromotionAddPost** | **POST** /open_api/v3.0/tools/privative_word/promotion/add/
 *ToolsPrivativeWordPromotionUpdateV30Api* | **openApiV30ToolsPrivativeWordPromotionUpdatePost** | **POST** /open_api/v3.0/tools/privative_word/promotion/update/
+*ToolsProjectMaterialTypeUpdateV30Api* | **openApiV30ToolsProjectMaterialTypeUpdatePost** | **POST** /open_api/v3.0/tools/project_material_type/update/
 *ToolsPromotionCardRecommendGetV2Api* | **openApi2ToolsPromotionCardRecommendGetGet** | **GET** /open_api/2/tools/promotion_card/recommend/get/
 *ToolsPromotionCardRecommendTitleGetV2Api* | **openApi2ToolsPromotionCardRecommendTitleGetGet** | **GET** /open_api/2/tools/promotion_card/recommend_title/get/
 *ToolsPromotionDiagnosisSuggestionAcceptV30Api* | **openApiV30ToolsPromotionDiagnosisSuggestionAcceptPost** | **POST** /open_api/v3.0/tools/promotion_diagnosis/suggestion/accept/
