@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.92
-  - Build date: 2026-07-17T14:27:09.635412770+08:00[Asia/Shanghai]
+- API version: 1.1.93
+  - Build date: 2026-08-12T12:06:17.447982105+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -427,6 +427,7 @@ Class | Method | HTTP request
 *EbpAdvertiserTaskDownloadV2Api* | **openApi2EbpAdvertiserTaskDownloadGet** | **GET** /open_api/2/ebp/advertiser/task/download/
 *EbpAdvertiserTaskListV2Api* | **openApi2EbpAdvertiserTaskListGet** | **GET** /open_api/2/ebp/advertiser/task/list/
 *EbpLevelGetV2Api* | **openApi2EbpLevelGetGet** | **GET** /open_api/2/ebp/level/get/
+*EbpRolePermissionGetV2Api* | **openApi2EbpRolePermissionGetGet** | **GET** /open_api/2/ebp/role_permission/get/
 *EventManagerAbnormalAssetsGetV30Api* | **openApiV30EventManagerAbnormalAssetsGetGet** | **GET** /open_api/v3.0/event_manager/abnormal_assets/get/
 *EventManagerAssetsCreateV2Api* | **openApi2EventManagerAssetsCreatePost** | **POST** /open_api/2/event_manager/assets/create/
 *EventManagerAuthAddPublicKeyV2Api* | **openApi2EventManagerAuthAddPublicKeyPost** | **POST** /open_api/2/event_manager/auth/add_public_key/
@@ -532,6 +533,9 @@ Class | Method | HTTP request
 *LocalFileVideoUploadTaskListV30Api* | **openApiV30LocalFileVideoUploadTaskListGet** | **GET** /open_api/v3.0/local/file/video/upload_task/list/
 *LocalFileVideoUploadV30Api* | **openApiV30LocalFileVideoUploadPost** | **POST** /open_api/v3.0/local/file/video/upload/
 *LocalImAccountGetV30Api* | **openApiV30LocalImAccountGetGet** | **GET** /open_api/v3.0/local/im/account/get/
+*LocalImAutoSettingGetV30Api* | **openApiV30LocalImAutoSettingGetGet** | **GET** /open_api/v3.0/local/im_auto_setting/get/
+*LocalImAutoSettingUpdateV30Api* | **openApiV30LocalImAutoSettingUpdatePost** | **POST** /open_api/v3.0/local/im_auto_setting/update/
+*LocalImCardGetV30Api* | **openApiV30LocalImCardGetGet** | **GET** /open_api/v3.0/local/im_card/get/
 *LocalImQueryMsgV30Api* | **openApiV30LocalImQueryMsgGet** | **GET** /open_api/v3.0/local/im/query/msg/
 *LocalImSendMsgV30Api* | **openApiV30LocalImSendMsgPost** | **POST** /open_api/v3.0/local/im/send/msg/
 *LocalImUploadImageV30Api* | **openApiV30LocalImUploadImagePost** | **POST** /open_api/v3.0/local/im/upload/image/
@@ -543,6 +547,9 @@ Class | Method | HTTP request
 *LocalMarketPageGetV30Api* | **openApiV30LocalMarketPageGetGet** | **GET** /open_api/v3.0/local/market_page/get/
 *LocalMarketPageListGetV30Api* | **openApiV30LocalMarketPageListGetGet** | **GET** /open_api/v3.0/local/market_page_list/get/
 *LocalMultiPoiIdPoiIdsGetV30Api* | **openApiV30LocalMultiPoiIdPoiIdsGetGet** | **GET** /open_api/v3.0/local/multi_poi_id/poi_ids/get/
+*LocalOcMaterialGetV30Api* | **openApiV30LocalOcMaterialGetGet** | **GET** /open_api/v3.0/local/oc_material/get/
+*LocalOcProjectGetV30Api* | **openApiV30LocalOcProjectGetGet** | **GET** /open_api/v3.0/local/oc_project/get/
+*LocalOcProjectListV30Api* | **openApiV30LocalOcProjectListGet** | **GET** /open_api/v3.0/local/oc_project/list/
 *LocalPoiGetV30Api* | **openApiV30LocalPoiGetGet** | **GET** /open_api/v3.0/local/poi/get/
 *LocalProductGetByPoiidsV30Api* | **openApiV30LocalProductGetByPoiidsGet** | **GET** /open_api/v3.0/local/product/get_by_poiids/
 *LocalProductGetV30Api* | **openApiV30LocalProductGetGet** | **GET** /open_api/v3.0/local/product/get/
@@ -593,6 +600,7 @@ Class | Method | HTTP request
 *OcProjectToolsAudienceListV30Api* | **openApiV30OcProjectToolsAudienceListGet** | **GET** /open_api/v3.0/oc_project/tools_audience/list/
 *OcProjectToolsAudienceStatusUpdateV30Api* | **openApiV30OcProjectToolsAudienceStatusUpdatePost** | **POST** /open_api/v3.0/oc_project/tools_audience/status/update/
 *OcProjectToolsAudienceUpdateV30Api* | **openApiV30OcProjectToolsAudienceUpdatePost** | **POST** /open_api/v3.0/oc_project/tools_audience/update/
+*OcProjectToolsCompensateHistoryListGetV30Api* | **openApiV30OcProjectToolsCompensateHistoryListGetGet** | **GET** /open_api/v3.0/oc_project/tools/compensate_history_list/get/
 *OcProjectToolsCostProtectStatusGetV30Api* | **openApiV30OcProjectToolsCostProtectStatusGetGet** | **GET** /open_api/v3.0/oc_project/tools/cost_protect_status/get/
 *OcProjectToolsKeywordCreateV30Api* | **openApiV30OcProjectToolsKeywordCreatePost** | **POST** /open_api/v3.0/oc_project/tools_keyword/create/
 *OcProjectToolsKeywordDeleteV30Api* | **openApiV30OcProjectToolsKeywordDeletePost** | **POST** /open_api/v3.0/oc_project/tools_keyword/delete/
@@ -725,6 +733,13 @@ Class | Method | HTTP request
 *QianchuanMaterialGetV10Api* | **openApiV10QianchuanMaterialGetGet** | **GET** /open_api/v1.0/qianchuan/material/get/
 *QianchuanOrientationPackageGetV10Api* | **openApiV10QianchuanOrientationPackageGetGet** | **GET** /open_api/v1.0/qianchuan/orientation_package/get/
 *QianchuanOverallAwemeAwemeDeleteV10Api* | **openApiV10QianchuanOverallAwemeAwemeDeletePost** | **POST** /open_api/v1.0/qianchuan/overall_aweme/aweme/delete/
+*QianchuanOverallAwemeListV10Api* | **openApiV10QianchuanOverallAwemeListGet** | **GET** /open_api/v1.0/qianchuan/overall_aweme/list/
+*QianchuanOverallLiveCreateV10Api* | **openApiV10QianchuanOverallLiveCreatePost** | **POST** /open_api/v1.0/qianchuan/overall_live/create/
+*QianchuanOverallLiveUpdateV10Api* | **openApiV10QianchuanOverallLiveUpdatePost** | **POST** /open_api/v1.0/qianchuan/overall_live/update/
+*QianchuanOverallStarProductGetV10Api* | **openApiV10QianchuanOverallStarProductGetGet** | **GET** /open_api/v1.0/qianchuan/overall_star_product/get/
+*QianchuanOverallSuggestRoiGetV10Api* | **openApiV10QianchuanOverallSuggestRoiGetGet** | **GET** /open_api/v1.0/qianchuan/overall/suggest/roi/get/
+*QianchuanOverallVideoCreateV10Api* | **openApiV10QianchuanOverallVideoCreatePost** | **POST** /open_api/v1.0/qianchuan/overall_video/create/
+*QianchuanOverallVideoUpdateV10Api* | **openApiV10QianchuanOverallVideoUpdatePost** | **POST** /open_api/v1.0/qianchuan/overall_video/update/
 *QianchuanProductAvailableGetV10Api* | **openApiV10QianchuanProductAvailableGetGet** | **GET** /open_api/v1.0/qianchuan/product/available/get/
 *QianchuanQianchuanReportTodayLiveRoomConfigGetV10Api* | **openApiV10QianchuanQianchuanReportTodayLiveRoomConfigGetGet** | **GET** /open_api/v1.0/qianchuan/qianchuan/report/today_live/room/config/get/
 *QianchuanQianchuanVideoStarGetV10Api* | **openApiV10QianchuanQianchuanVideoStarGetGet** | **GET** /open_api/v1.0/qianchuan/qianchuan/video/star/get/
@@ -805,6 +820,7 @@ Class | Method | HTTP request
 *QianchuanUniPromotionListV10Api* | **openApiV10QianchuanUniPromotionListGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/list/
 *QianchuanUniPromotionProductAwemeGetV10Api* | **openApiV10QianchuanUniPromotionProductAwemeGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/product/aweme/get/
 *QianchuanUniPromotionProductGetV10Api* | **openApiV10QianchuanUniPromotionProductGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/product/get/
+*QianchuanUniPromotionPromshopProductGetV10Api* | **openApiV10QianchuanUniPromotionPromshopProductGetGet** | **GET** /open_api/v1.0/qianchuan/uni_promotion/promshop/product/get/
 *QianchuanVideoByAwemeGetV10Api* | **openApiV10QianchuanVideoByAwemeGetGet** | **GET** /open_api/v1.0/qianchuan/video/by_aweme/get/
 *QianchuanVideoGetV10Api* | **openApiV10QianchuanVideoGetGet** | **GET** /open_api/v1.0/qianchuan/video/get/
 *QueryBookingBusinessEntityIdGetV2Api* | **openApi2QueryBookingBusinessEntityIdGetGet** | **GET** /open_api/2/query/booking/business_entity_id/get/
@@ -891,6 +907,7 @@ Class | Method | HTTP request
 *SharedWalletTransactionDetailGetV30Api* | **openApiV30SharedWalletTransactionDetailGetGet** | **GET** /open_api/v3.0/shared_wallet/transaction_detail/get/
 *SharedWalletWalletAdvOperationLogGetV30Api* | **openApiV30SharedWalletWalletAdvOperationLogGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_adv_operation_log/get/
 *SharedWalletWalletBalanceGetV30Api* | **openApiV30SharedWalletWalletBalanceGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_balance/get/
+*SharedWalletWalletEbpRelationGetV30Api* | **openApiV30SharedWalletWalletEbpRelationGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_ebp_relation/get/
 *SharedWalletWalletInfoGetV30Api* | **openApiV30SharedWalletWalletInfoGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_info/get/
 *SharedWalletWalletOperationLogGetV30Api* | **openApiV30SharedWalletWalletOperationLogGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_operation_log/get/
 *SharedWalletWalletRelationGetV30Api* | **openApiV30SharedWalletWalletRelationGetGet** | **GET** /open_api/v3.0/shared_wallet/wallet_relation/get/
@@ -1049,6 +1066,7 @@ Class | Method | HTTP request
 *ToolsAdvertiserStoreSearchV2Api* | **openApi2ToolsAdvertiserStoreSearchGet** | **GET** /open_api/2/tools/advertiser_store/search/
 *ToolsAgreementCreateV30Api* | **openApiV30ToolsAgreementCreatePost** | **POST** /open_api/v3.0/tools/agreement/create/
 *ToolsAgreementListV30Api* | **openApiV30ToolsAgreementListGet** | **GET** /open_api/v3.0/tools/agreement/list/
+*ToolsAigcMaterialGetV2Api* | **openApi2ToolsAigcMaterialGetGet** | **GET** /open_api/2/tools/aigc_material/get/
 *ToolsAipThirdSiteCreateV2Api* | **openApi2ToolsAipThirdSiteCreatePost** | **POST** /open_api/2/tools/aip_third_site/create/
 *ToolsAipThirdSiteGetV2Api* | **openApi2ToolsAipThirdSiteGetGet** | **GET** /open_api/2/tools/aip_third_site/get/
 *ToolsAipThirdSiteUpdateV2Api* | **openApi2ToolsAipThirdSiteUpdatePost** | **POST** /open_api/2/tools/aip_third_site/update/
@@ -1156,6 +1174,7 @@ Class | Method | HTTP request
 *ToolsEbpMaterialAuthCreateV30Api* | **openApiV30ToolsEbpMaterialAuthCreatePost** | **POST** /open_api/v3.0/tools/ebp/material/auth/create/
 *ToolsEbpMaterialAuthDeleteV30Api* | **openApiV30ToolsEbpMaterialAuthDeletePost** | **POST** /open_api/v3.0/tools/ebp/material/auth/delete/
 *ToolsEbpMaterialAuthListV30Api* | **openApiV30ToolsEbpMaterialAuthListGet** | **GET** /open_api/v3.0/tools/ebp/material/auth/list/
+*ToolsEbpMaterialListV30Api* | **openApiV30ToolsEbpMaterialListGet** | **GET** /open_api/v3.0/tools/ebp/material/list/
 *ToolsEbpMicroAppletCreateV30Api* | **openApiV30ToolsEbpMicroAppletCreatePost** | **POST** /open_api/v3.0/tools/ebp/micro_applet/create/
 *ToolsEbpMicroAppletLinkListV30Api* | **openApiV30ToolsEbpMicroAppletLinkListGet** | **GET** /open_api/v3.0/tools/ebp/micro_applet/link/list/
 *ToolsEbpMicroAppletListV30Api* | **openApiV30ToolsEbpMicroAppletListGet** | **GET** /open_api/v3.0/tools/ebp/micro_applet/list/
@@ -1164,6 +1183,9 @@ Class | Method | HTTP request
 *ToolsEbpMicroGameLinkListV30Api* | **openApiV30ToolsEbpMicroGameLinkListGet** | **GET** /open_api/v3.0/tools/ebp/micro_game/link/list/
 *ToolsEbpMicroGameListV30Api* | **openApiV30ToolsEbpMicroGameListGet** | **GET** /open_api/v3.0/tools/ebp/micro_game/list/
 *ToolsEbpMicroGameUpdateV30Api* | **openApiV30ToolsEbpMicroGameUpdatePost** | **POST** /open_api/v3.0/tools/ebp/micro_game/update/
+*ToolsEbpPlayableDeleteV30Api* | **openApiV30ToolsEbpPlayableDeletePost** | **POST** /open_api/v3.0/tools/ebp/playable/delete/
+*ToolsEbpPlayableListV30Api* | **openApiV30ToolsEbpPlayableListGet** | **GET** /open_api/v3.0/tools/ebp/playable/list/
+*ToolsEbpPlayableUploadV30Api* | **openApiV30ToolsEbpPlayableUploadPost** | **POST** /open_api/v3.0/tools/ebp/playable/upload/
 *ToolsEbpStarTaskGetV30Api* | **openApiV30ToolsEbpStarTaskGetGet** | **GET** /open_api/v3.0/tools/ebp/star_task/get/
 *ToolsEbpStarTaskListV30Api* | **openApiV30ToolsEbpStarTaskListGet** | **GET** /open_api/v3.0/tools/ebp/star_task/list/
 *ToolsEbpStarTaskTaskAuthorGetV30Api* | **openApiV30ToolsEbpStarTaskTaskAuthorGetGet** | **GET** /open_api/v3.0/tools/ebp/star_task/task_author/get/
