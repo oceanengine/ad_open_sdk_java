@@ -2,8 +2,8 @@
 
 ## 概述
 巨量引擎开放平台 Marketing API(以下简称API) SDK 提供了Token获取、请求封装、响应解释等功能，以本地化方式轻松完成API的调用和结果的获取，旨在帮助开发者快速搭建投放管理系统。
-- API version: 1.1.95
-  - Build date: 2026-09-08T20:00:09.202109772+08:00[Asia/Shanghai]
+- API version: 1.1.96
+  - Build date: 2026-09-29T16:08:10.021292120+08:00[Asia/Shanghai]
 
 ## 使用条件
 1. 使用SDK需要首先注册成为巨量引擎开发者，请参考[开发者快速入门文档](https://open.oceanengine.com/labels/7/docs/1696710498372623)
@@ -545,6 +545,7 @@ Class | Method | HTTP request
 *LocalConsultAwameListGetV30Api* | **openApiV30LocalConsultAwameListGetGet** | **GET** /open_api/v3.0/local/consult_awame_list/get/
 *LocalCustomAudienceGetV30Api* | **openApiV30LocalCustomAudienceGetGet** | **GET** /open_api/v3.0/local/custom_audience/get/
 *LocalDeliveryQualificationListV30Api* | **openApiV30LocalDeliveryQualificationListGet** | **GET** /open_api/v3.0/local/delivery_qualification/list/
+*LocalDiagnosisResultGetV30Api* | **openApiV30LocalDiagnosisResultGetGet** | **GET** /open_api/v3.0/local/diagnosis_result/get/
 *LocalFileCarouselListV30Api* | **openApiV30LocalFileCarouselListGet** | **GET** /open_api/v3.0/local/file/carousel/list/
 *LocalFileUploadTaskCreateV30Api* | **openApiV30LocalFileUploadTaskCreatePost** | **POST** /open_api/v3.0/local/file/upload_task/create/
 *LocalFileVideoAwemeGetV30Api* | **openApiV30LocalFileVideoAwemeGetGet** | **GET** /open_api/v3.0/local/file/video/aweme/get/
@@ -633,15 +634,20 @@ Class | Method | HTTP request
 *OcProjectToolsMaterialRaiseGetV30Api* | **openApiV30OcProjectToolsMaterialRaiseGetGet** | **GET** /open_api/v3.0/oc_project/tools_material_raise/get/
 *OpenMaterialAuditProGetV30Api* | **openApiV30OpenMaterialAuditProGetGet** | **GET** /open_api/v3.0/open_material_audit/pro/get/
 *OpenMaterialAuditProSubmitV30Api* | **openApiV30OpenMaterialAuditProSubmitPost** | **POST** /open_api/v3.0/open_material_audit/pro/submit/
+*Paycnt7rStopDecisionGetV10Api* | **openApiV10Paycnt7rStopDecisionGetGet** | **GET** /open_api/v1.0/paycnt_7r_stop_decision/get/
+*PaycntStopDecisionGetV10Api* | **openApiV10PaycntStopDecisionGetGet** | **GET** /open_api/v1.0/paycnt_stop_decision/get/
 *PenaltyTaskGetV30Api* | **openApiV30PenaltyTaskGetGet** | **GET** /open_api/v3.0/penalty_task/get/
 *PrepayChargeGenerateFixRemiattanceCodeCreateV30Api* | **openApiV30PrepayChargeGenerateFixRemiattanceCodeCreatePost** | **POST** /open_api/v3.0/prepay_charge/generate_fix_remiattance_code/create/
 *PrepayChargeGenerateRemittanceCodeCreateV30Api* | **openApiV30PrepayChargeGenerateRemittanceCodeCreatePost** | **POST** /open_api/v3.0/prepay_charge/generate_remittance_code/create/
+*ProjectAdsListV10Api* | **openApiV10ProjectAdsListGet** | **GET** /open_api/v1.0/project_ads/list/
 *ProjectBudgetUpdateV30Api* | **openApiV30ProjectBudgetUpdatePost** | **POST** /open_api/v3.0/project/budget/update/
+*ProjectColdStartDecisionGetV10Api* | **openApiV10ProjectColdStartDecisionGetGet** | **GET** /open_api/v1.0/project_cold_start_decision/get/
 *ProjectCostProtectStatusGetV30Api* | **openApiV30ProjectCostProtectStatusGetGet** | **GET** /open_api/v3.0/project/cost_protect_status/get/
 *ProjectCpaBidUpdateV30Api* | **openApiV30ProjectCpaBidUpdatePost** | **POST** /open_api/v3.0/project/cpa_bid/update/
 *ProjectCreateV30Api* | **openApiV30ProjectCreatePost** | **POST** /open_api/v3.0/project/create/
 *ProjectDeepCpaBidUpdateV30Api* | **openApiV30ProjectDeepCpaBidUpdatePost** | **POST** /open_api/v3.0/project/deep_cpa_bid/update/
 *ProjectDeleteV30Api* | **openApiV30ProjectDeletePost** | **POST** /open_api/v3.0/project/delete/
+*ProjectDeliveryUpdateV10Api* | **openApiV10ProjectDeliveryUpdatePost** | **POST** /open_api/v1.0/project_delivery/update/
 *ProjectListV30Api* | **openApiV30ProjectListGet** | **GET** /open_api/v3.0/project/list/
 *ProjectNameUpdateV30Api* | **openApiV30ProjectNameUpdatePost** | **POST** /open_api/v3.0/project_name/update/
 *ProjectRoigoalUpdateV30Api* | **openApiV30ProjectRoigoalUpdatePost** | **POST** /open_api/v3.0/project/roigoal/update/
@@ -739,9 +745,6 @@ Class | Method | HTTP request
 *QianchuanCarouselAwemeGetV10Api* | **openApiV10QianchuanCarouselAwemeGetGet** | **GET** /open_api/v1.0/qianchuan/carousel/aweme/get/
 *QianchuanCarouselGetV10Api* | **openApiV10QianchuanCarouselGetGet** | **GET** /open_api/v1.0/qianchuan/carousel/get/
 *QianchuanDmpAudiencesGetV10Api* | **openApiV10QianchuanDmpAudiencesGetGet** | **GET** /open_api/v1.0/qianchuan/dmp/audiences/get/
-*QianchuanEntityCenterCreateV10Api* | **openApiV10QianchuanEntityCenterCreatePost** | **POST** /open_api/v1.0/qianchuan_entity_center/create/
-*QianchuanEntityCenterGetV10Api* | **openApiV10QianchuanEntityCenterGetGet** | **GET** /open_api/v1.0/qianchuan_entity_center/get/
-*QianchuanEntityIdGetV10Api* | **openApiV10QianchuanEntityIdGetGet** | **GET** /open_api/v1.0/qianchuan_entity_id/get/
 *QianchuanEstimateEffectV10Api* | **openApiV10QianchuanEstimateEffectGet** | **GET** /open_api/v1.0/qianchuan/estimate/effect/
 *QianchuanFileImageDeleteV10Api* | **openApiV10QianchuanFileImageDeletePost** | **POST** /open_api/v1.0/qianchuan/file/image/delete/
 *QianchuanFileVideoAwemeGetV10Api* | **openApiV10QianchuanFileVideoAwemeGetGet** | **GET** /open_api/v1.0/qianchuan/file/video/aweme/get/
