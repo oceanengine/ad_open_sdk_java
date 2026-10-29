@@ -52,6 +52,7 @@ src/main/java/com/bytedance/ads/api/AdvertiserDeliveryPkgSubmitV30Api.java
 src/main/java/com/bytedance/ads/api/AdvertiserDeliveryQualificationDeleteV30Api.java
 src/main/java/com/bytedance/ads/api/AdvertiserDeliveryQualificationListV30Api.java
 src/main/java/com/bytedance/ads/api/AdvertiserDeliveryQualificationSubmitV30Api.java
+src/main/java/com/bytedance/ads/api/AdvertiserDisableCheckGetV2Api.java
 src/main/java/com/bytedance/ads/api/AdvertiserFundDailyStatV2Api.java
 src/main/java/com/bytedance/ads/api/AdvertiserFundDetailGrantV2Api.java
 src/main/java/com/bytedance/ads/api/AdvertiserFundGetV2Api.java
@@ -142,6 +143,8 @@ src/main/java/com/bytedance/ads/api/BrandCustomAudienceListV30Api.java
 src/main/java/com/bytedance/ads/api/BrandFileVideoUploadV30Api.java
 src/main/java/com/bytedance/ads/api/BrandKnowledgeQaGetV30Api.java
 src/main/java/com/bytedance/ads/api/BrandMaAccountListV30Api.java
+src/main/java/com/bytedance/ads/api/BrandMaHalfSelfAdInfoGetV30Api.java
+src/main/java/com/bytedance/ads/api/BrandMaHalfSelfCreativeInfoGetV30Api.java
 src/main/java/com/bytedance/ads/api/BrandMaMaterialListV30Api.java
 src/main/java/com/bytedance/ads/api/BrandMaOrderListV30Api.java
 src/main/java/com/bytedance/ads/api/BrandMaWarningOrderListV30Api.java
@@ -202,9 +205,11 @@ src/main/java/com/bytedance/ads/api/CgTransferWalletTransferCanTransferBalanceV3
 src/main/java/com/bytedance/ads/api/CgTransferWalletTransferCreateV30Api.java
 src/main/java/com/bytedance/ads/api/CgTransferWalletTransferDetailV30Api.java
 src/main/java/com/bytedance/ads/api/CgTransferWalletTransferListV30Api.java
+src/main/java/com/bytedance/ads/api/ChargeContractListV30Api.java
 src/main/java/com/bytedance/ads/api/ChargeInfoOrderNoGetV30Api.java
 src/main/java/com/bytedance/ads/api/ChargeInfoPaymentVoucherGetV30Api.java
 src/main/java/com/bytedance/ads/api/ChargeListV30Api.java
+src/main/java/com/bytedance/ads/api/ChargeOrderInfoGetV30Api.java
 src/main/java/com/bytedance/ads/api/ChargeResultV30Api.java
 src/main/java/com/bytedance/ads/api/ChargeTagGetV30Api.java
 src/main/java/com/bytedance/ads/api/ChargeVerifyGetV30Api.java
@@ -539,6 +544,7 @@ src/main/java/com/bytedance/ads/api/PrepayChargeGenerateRemittanceCodeCreateV30A
 src/main/java/com/bytedance/ads/api/ProjectAdsListV10Api.java
 src/main/java/com/bytedance/ads/api/ProjectBudgetUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/ProjectColdStartDecisionGetV10Api.java
+src/main/java/com/bytedance/ads/api/ProjectCostIssueDiagnosisGetV10Api.java
 src/main/java/com/bytedance/ads/api/ProjectCostProtectStatusGetV30Api.java
 src/main/java/com/bytedance/ads/api/ProjectCpaBidUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/ProjectCreateV30Api.java
@@ -551,6 +557,7 @@ src/main/java/com/bytedance/ads/api/ProjectRoigoalUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/ProjectScheduleTimeUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/ProjectStatusUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/ProjectUpdateV30Api.java
+src/main/java/com/bytedance/ads/api/ProjectVolumeDropDiagnosisGetV10Api.java
 src/main/java/com/bytedance/ads/api/ProjectWeekScheduleUpdateV30Api.java
 src/main/java/com/bytedance/ads/api/PromotionAidGetV30Api.java
 src/main/java/com/bytedance/ads/api/PromotionAutoGenerateConfigCreateV30Api.java
@@ -978,6 +985,7 @@ src/main/java/com/bytedance/ads/api/StardeliveryTaskUnshareV30Api.java
 src/main/java/com/bytedance/ads/api/StdProjectCreateV30Api.java
 src/main/java/com/bytedance/ads/api/StdProjectListV30Api.java
 src/main/java/com/bytedance/ads/api/StdProjectUpdateV30Api.java
+src/main/java/com/bytedance/ads/api/SubjectBankInfoGetV30Api.java
 src/main/java/com/bytedance/ads/api/SubscribeAccountsAddV30Api.java
 src/main/java/com/bytedance/ads/api/SubscribeAccountsListV30Api.java
 src/main/java/com/bytedance/ads/api/SubscribeAccountsRemoveV30Api.java
@@ -1317,6 +1325,7 @@ src/main/java/com/bytedance/ads/examples/AdvertiserDeliveryPkgSubmitV30ApiExampl
 src/main/java/com/bytedance/ads/examples/AdvertiserDeliveryQualificationDeleteV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/AdvertiserDeliveryQualificationListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/AdvertiserDeliveryQualificationSubmitV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/AdvertiserDisableCheckGetV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/AdvertiserFundDailyStatV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/AdvertiserFundDetailGrantV2ApiExample.java
 src/main/java/com/bytedance/ads/examples/AdvertiserFundGetV2ApiExample.java
@@ -1407,6 +1416,8 @@ src/main/java/com/bytedance/ads/examples/BrandCustomAudienceListV30ApiExample.ja
 src/main/java/com/bytedance/ads/examples/BrandFileVideoUploadV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/BrandKnowledgeQaGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/BrandMaAccountListV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/BrandMaHalfSelfAdInfoGetV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/BrandMaHalfSelfCreativeInfoGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/BrandMaMaterialListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/BrandMaOrderListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/BrandMaWarningOrderListV30ApiExample.java
@@ -1467,9 +1478,11 @@ src/main/java/com/bytedance/ads/examples/CgTransferWalletTransferCanTransferBala
 src/main/java/com/bytedance/ads/examples/CgTransferWalletTransferCreateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/CgTransferWalletTransferDetailV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/CgTransferWalletTransferListV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/ChargeContractListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ChargeInfoOrderNoGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ChargeInfoPaymentVoucherGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ChargeListV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/ChargeOrderInfoGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ChargeResultV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ChargeTagGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ChargeVerifyGetV30ApiExample.java
@@ -1804,6 +1817,7 @@ src/main/java/com/bytedance/ads/examples/PrepayChargeGenerateRemittanceCodeCreat
 src/main/java/com/bytedance/ads/examples/ProjectAdsListV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectBudgetUpdateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectColdStartDecisionGetV10ApiExample.java
+src/main/java/com/bytedance/ads/examples/ProjectCostIssueDiagnosisGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectCostProtectStatusGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectCpaBidUpdateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectCreateV30ApiExample.java
@@ -1816,6 +1830,7 @@ src/main/java/com/bytedance/ads/examples/ProjectRoigoalUpdateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectScheduleTimeUpdateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectStatusUpdateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectUpdateV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/ProjectVolumeDropDiagnosisGetV10ApiExample.java
 src/main/java/com/bytedance/ads/examples/ProjectWeekScheduleUpdateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/PromotionAidGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/PromotionAutoGenerateConfigCreateV30ApiExample.java
@@ -2243,6 +2258,7 @@ src/main/java/com/bytedance/ads/examples/StardeliveryTaskUnshareV30ApiExample.ja
 src/main/java/com/bytedance/ads/examples/StdProjectCreateV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/StdProjectListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/StdProjectUpdateV30ApiExample.java
+src/main/java/com/bytedance/ads/examples/SubjectBankInfoGetV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SubscribeAccountsAddV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SubscribeAccountsListV30ApiExample.java
 src/main/java/com/bytedance/ads/examples/SubscribeAccountsRemoveV30ApiExample.java
@@ -2754,6 +2770,9 @@ src/main/java/com/bytedance/ads/model/AdvertiserDeliveryQualificationSubmitV30Re
 src/main/java/com/bytedance/ads/model/AdvertiserDeliveryQualificationSubmitV30RequestQualificationsInner.java
 src/main/java/com/bytedance/ads/model/AdvertiserDeliveryQualificationSubmitV30Response.java
 src/main/java/com/bytedance/ads/model/AdvertiserDeliveryQualificationSubmitV30ResponseData.java
+src/main/java/com/bytedance/ads/model/AdvertiserDisableCheckGetV2Response.java
+src/main/java/com/bytedance/ads/model/AdvertiserDisableCheckGetV2ResponseData.java
+src/main/java/com/bytedance/ads/model/AdvertiserDisableCheckGetV2ResponseDataCheckpointsInner.java
 src/main/java/com/bytedance/ads/model/AdvertiserFundDailyStatV2AccountType.java
 src/main/java/com/bytedance/ads/model/AdvertiserFundDailyStatV2Response.java
 src/main/java/com/bytedance/ads/model/AdvertiserFundDailyStatV2ResponseData.java
@@ -3452,6 +3471,23 @@ src/main/java/com/bytedance/ads/model/BrandMaAccountListV30Response.java
 src/main/java/com/bytedance/ads/model/BrandMaAccountListV30ResponseData.java
 src/main/java/com/bytedance/ads/model/BrandMaAccountListV30ResponseDataAccountsInner.java
 src/main/java/com/bytedance/ads/model/BrandMaAccountListV30ResponseDataAccountsInnerDeliveryInfo.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfAdInfoGetV30AdTimeRange.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfAdInfoGetV30Page.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfAdInfoGetV30Response.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfAdInfoGetV30ResponseData.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfAdInfoGetV30ResponseDataAdInfosInner.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfAdInfoGetV30ResponseDataAdInfosInnerAuditResultListInner.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfCreativeInfoGetV30AdTimeRange.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfCreativeInfoGetV30Page.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfCreativeInfoGetV30Response.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfCreativeInfoGetV30ResponseData.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfCreativeInfoGetV30ResponseDataCreativeInfosInner.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfCreativeInfoGetV30ResponseDataCreativeInfosInnerDisplayValue.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfCreativeInfoGetV30ResponseDataCreativeInfosInnerImageInfosInner.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfCreativeInfoGetV30ResponseDataCreativeInfosInnerImageInfosInnerAutoColor.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfCreativeInfoGetV30ResponseDataCreativeInfosInnerVideoInfosInner.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfCreativeInfoGetV30ResponseDataCreativeInfosInnerVideoInfosInnerAutoColor.java
+src/main/java/com/bytedance/ads/model/BrandMaHalfSelfCreativeInfoGetV30ResponseDataPageInfo.java
 src/main/java/com/bytedance/ads/model/BrandMaMaterialListV30OrderFilter.java
 src/main/java/com/bytedance/ads/model/BrandMaMaterialListV30Page.java
 src/main/java/com/bytedance/ads/model/BrandMaMaterialListV30Response.java
@@ -4292,6 +4328,9 @@ src/main/java/com/bytedance/ads/model/CgTransferWalletTransferListV30ResponseDat
 src/main/java/com/bytedance/ads/model/CgTransferWalletTransferListV30ResponseDataRecordListInner.java
 src/main/java/com/bytedance/ads/model/CgTransferWalletTransferListV30ResponseDataRecordListInnerTransferCapitalRecordListInner.java
 src/main/java/com/bytedance/ads/model/CgTransferWalletTransferListV30ResponseDataRecordListInnerTransferCapitalRecordListInnerCapitalSubDetailListInner.java
+src/main/java/com/bytedance/ads/model/ChargeContractListV30Response.java
+src/main/java/com/bytedance/ads/model/ChargeContractListV30ResponseData.java
+src/main/java/com/bytedance/ads/model/ChargeContractListV30ResponseDataChargeContractListInner.java
 src/main/java/com/bytedance/ads/model/ChargeInfoOrderNoGetV30Response.java
 src/main/java/com/bytedance/ads/model/ChargeInfoOrderNoGetV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ChargeInfoOrderNoGetV30ResponseDataResultInner.java
@@ -4307,6 +4346,8 @@ src/main/java/com/bytedance/ads/model/ChargeListV30Response.java
 src/main/java/com/bytedance/ads/model/ChargeListV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ChargeListV30ResponseDataChargeListInner.java
 src/main/java/com/bytedance/ads/model/ChargeListV30ResponseDataPageInfo.java
+src/main/java/com/bytedance/ads/model/ChargeOrderInfoGetV30Response.java
+src/main/java/com/bytedance/ads/model/ChargeOrderInfoGetV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ChargeResultV30DataChargeStatus.java
 src/main/java/com/bytedance/ads/model/ChargeResultV30Response.java
 src/main/java/com/bytedance/ads/model/ChargeResultV30ResponseData.java
@@ -4883,7 +4924,6 @@ src/main/java/com/bytedance/ads/model/DiagnosisTaskAdvGetV2ResponseDataTaskListI
 src/main/java/com/bytedance/ads/model/DiagnosisTaskAdvListV2DataTaskListIsAdHighQualityMaterial.java
 src/main/java/com/bytedance/ads/model/DiagnosisTaskAdvListV2DataTaskListIsEcpHighQualityMaterial.java
 src/main/java/com/bytedance/ads/model/DiagnosisTaskAdvListV2DataTaskListIsFirstPublishMaterial.java
-src/main/java/com/bytedance/ads/model/DiagnosisTaskAdvListV2DataTaskListIsInefficientMaterial.java
 src/main/java/com/bytedance/ads/model/DiagnosisTaskAdvListV2DataTaskListIsLocalHighQualityMaterial.java
 src/main/java/com/bytedance/ads/model/DiagnosisTaskAdvListV2DataTaskListStatus.java
 src/main/java/com/bytedance/ads/model/DiagnosisTaskAdvListV2Response.java
@@ -5385,6 +5425,7 @@ src/main/java/com/bytedance/ads/model/EbpAccountCreateV30RequestOwnerUser.java
 src/main/java/com/bytedance/ads/model/EbpAccountCreateV30Response.java
 src/main/java/com/bytedance/ads/model/EbpAccountCreateV30ResponseData.java
 src/main/java/com/bytedance/ads/model/EbpAccountCreateV30ResponseDataResultsInner.java
+src/main/java/com/bytedance/ads/model/EbpAdvBindGroupGetV30GroupType.java
 src/main/java/com/bytedance/ads/model/EbpAdvBindGroupGetV30QueryType.java
 src/main/java/com/bytedance/ads/model/EbpAdvBindGroupGetV30Response.java
 src/main/java/com/bytedance/ads/model/EbpAdvBindGroupGetV30ResponseData.java
@@ -6808,6 +6849,8 @@ src/main/java/com/bytedance/ads/model/OcProjectMaterialCreateV30RequestTitleMate
 src/main/java/com/bytedance/ads/model/OcProjectMaterialCreateV30RequestTrialPlayMaterialListInner.java
 src/main/java/com/bytedance/ads/model/OcProjectMaterialCreateV30RequestVideoMaterialListInner.java
 src/main/java/com/bytedance/ads/model/OcProjectMaterialCreateV30Response.java
+src/main/java/com/bytedance/ads/model/OcProjectMaterialCreateV30ResponseData.java
+src/main/java/com/bytedance/ads/model/OcProjectMaterialCreateV30ResponseDataErrorListInner.java
 src/main/java/com/bytedance/ads/model/OcProjectMaterialCreateV30VideoMaterialListImageMode.java
 src/main/java/com/bytedance/ads/model/OcProjectMaterialCreateV30VideoMaterialListVideoHpVisibility.java
 src/main/java/com/bytedance/ads/model/OcProjectMaterialDeleteV30Request.java
@@ -7046,6 +7089,8 @@ src/main/java/com/bytedance/ads/model/ProjectBudgetUpdateV30ResponseData.java
 src/main/java/com/bytedance/ads/model/ProjectBudgetUpdateV30ResponseDataErrorsInner.java
 src/main/java/com/bytedance/ads/model/ProjectColdStartDecisionGetV10Response.java
 src/main/java/com/bytedance/ads/model/ProjectColdStartDecisionGetV10ResponseData.java
+src/main/java/com/bytedance/ads/model/ProjectCostIssueDiagnosisGetV10Response.java
+src/main/java/com/bytedance/ads/model/ProjectCostIssueDiagnosisGetV10ResponseData.java
 src/main/java/com/bytedance/ads/model/ProjectCostProtectStatusGetV30DataCompensateStatusInfoListCompensateEndReasons.java
 src/main/java/com/bytedance/ads/model/ProjectCostProtectStatusGetV30DataCompensateStatusInfoListCompensateInvalidReasons.java
 src/main/java/com/bytedance/ads/model/ProjectCostProtectStatusGetV30DataCompensateStatusInfoListCompensateStatus.java
@@ -7361,6 +7406,8 @@ src/main/java/com/bytedance/ads/model/ProjectUpdateV30StarAutoMaterialAdditionSw
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30TrackUrlSettingSendType.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30TrackUrlSettingTrackUrlType.java
 src/main/java/com/bytedance/ads/model/ProjectUpdateV30UlinkUrlType.java
+src/main/java/com/bytedance/ads/model/ProjectVolumeDropDiagnosisGetV10Response.java
+src/main/java/com/bytedance/ads/model/ProjectVolumeDropDiagnosisGetV10ResponseData.java
 src/main/java/com/bytedance/ads/model/ProjectWeekScheduleUpdateV30DataScheduleScene.java
 src/main/java/com/bytedance/ads/model/ProjectWeekScheduleUpdateV30Request.java
 src/main/java/com/bytedance/ads/model/ProjectWeekScheduleUpdateV30RequestDataInner.java
@@ -10308,6 +10355,7 @@ src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestDemandInfoC
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestDemandInfoDemandRequirement.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestOrderItemInfo.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestOrderItemInfoAuthorListInner.java
+src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2RequestOrderItemInfoAuthorListInnerMktApiAuthorOrderCustomizedItem.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2Response.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarDemandCreateAssignV2ResponseDataBillInfo.java
@@ -10590,6 +10638,7 @@ src/main/java/com/bytedance/ads/model/StarOrderGetInfoV2ResponseDataOrderListInn
 src/main/java/com/bytedance/ads/model/StarOrderGetInfoV2ResponseDataOrderListInnerDemandInfoDemandRequirement.java
 src/main/java/com/bytedance/ads/model/StarOrderGetInfoV2ResponseDataOrderListInnerOrderItemInfo.java
 src/main/java/com/bytedance/ads/model/StarOrderGetInfoV2ResponseDataOrderListInnerOrderItemInfoAuthorListInner.java
+src/main/java/com/bytedance/ads/model/StarOrderGetInfoV2ResponseDataOrderListInnerOrderItemInfoAuthorListInnerMktApiAuthorOrderCustomizedItem.java
 src/main/java/com/bytedance/ads/model/StarOrderGetInfoV2ResponseDataOrderListInnerPaymentInfo.java
 src/main/java/com/bytedance/ads/model/StarOrderGetLiveV2Response.java
 src/main/java/com/bytedance/ads/model/StarOrderGetLiveV2ResponseData.java
@@ -10627,6 +10676,7 @@ src/main/java/com/bytedance/ads/model/StarProjectListV2ResponseDataProjectsInner
 src/main/java/com/bytedance/ads/model/StarProviderTaskItemListV2Response.java
 src/main/java/com/bytedance/ads/model/StarProviderTaskItemListV2ResponseData.java
 src/main/java/com/bytedance/ads/model/StarProviderTaskItemListV2ResponseDataItemListInner.java
+src/main/java/com/bytedance/ads/model/StarProviderTaskItemListV2ResponseDataItemListInnerPlatformAuditDetailInner.java
 src/main/java/com/bytedance/ads/model/StarProviderTaskItemListV2ResponseDataPagination.java
 src/main/java/com/bytedance/ads/model/StarProviderTaskListV2Response.java
 src/main/java/com/bytedance/ads/model/StarProviderTaskListV2ResponseData.java
@@ -11093,6 +11143,8 @@ src/main/java/com/bytedance/ads/model/StdProjectUpdateV30ScheduleType.java
 src/main/java/com/bytedance/ads/model/StdProjectUpdateV30SearchContinueDelivery.java
 src/main/java/com/bytedance/ads/model/StdProjectUpdateV30TrackUrlSettingSendType.java
 src/main/java/com/bytedance/ads/model/StdProjectUpdateV30TrackUrlSettingTrackUrlType.java
+src/main/java/com/bytedance/ads/model/SubjectBankInfoGetV30Response.java
+src/main/java/com/bytedance/ads/model/SubjectBankInfoGetV30ResponseData.java
 src/main/java/com/bytedance/ads/model/SubscribeAccountsAddV30AccountType.java
 src/main/java/com/bytedance/ads/model/SubscribeAccountsAddV30Request.java
 src/main/java/com/bytedance/ads/model/SubscribeAccountsAddV30Response.java
